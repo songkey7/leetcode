@@ -9,4 +9,5 @@ add_executable(leetcode main.cpp Base.h
         647.palindromic_substrings/PalindromicSubstrings.cpp 647.palindromic_substrings/PalindromicSubstrings.h
         621.task_scheduler/TaskScheduler.cpp 621.task_scheduler/TaskScheduler.h
         560.subarray_sum_equals_k/SubarraySumEqualsK.cpp 560.subarray_sum_equals_k/SubarraySumEqualsK.h
-        547.friend_circles/FriendCircles.cpp 547.friend_circles/FriendCircles.h)
+        547.friend_circles/FriendCircles.cpp 547.friend_circles/FriendCircles.h
+        494.target_sum/TargetSum.cpp 494.target_sum/TargetSum.h 416.partition_equal_subset_sum/PartitionEqualSubsetSum.cpp 416.partition_equal_subset_sum/PartitionEqualSubsetSum.h)

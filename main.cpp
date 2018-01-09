@@ -8,9 +8,13 @@
 #include "621.task_scheduler/TaskScheduler.h"
 #include "560.subarray_sum_equals_k/SubarraySumEqualsK.h"
 #include "547.friend_circles/FriendCircles.h"
+#include "494.target_sum/TargetSum.h"
+#include "416.partition_equal_subset_sum/PartitionEqualSubsetSum.h"
 
 Base* init(){
-    return new FriendCircles();
+    //return new PartitionEqualSubsetSum();
+    return new TargetSum();
+    //return new FriendCircles();
     //return new SubarraySumEqualsK();
     //return new TaskScheduler();
     //return new PalindromicSubstrings();
