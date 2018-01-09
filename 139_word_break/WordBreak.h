@@ -9,7 +9,7 @@
 
 class WordBreak: public Base{
 public:
-    int run();
+    void run();
 
 private:
     bool word_break(const string &s, vector<string> &wordDict);

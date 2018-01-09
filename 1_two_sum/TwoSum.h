@@ -9,7 +9,7 @@
 
 class TwoSum: public Base{
 public:
-    int run();
+    void run();
 
 private:
     vector<int> twoSum(vector<int>& nums, int target);

@@ -9,7 +9,10 @@
 #include "../Base.h"
 
 class TaskScheduler: public Base{
-    int run();
+public:
+    void run();
+
+private:
     int least_interval(vector<char>& tasks, int n);
     int least_interval2(vector<char>& tasks, int n);
 };

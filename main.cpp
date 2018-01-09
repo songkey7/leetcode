@@ -6,14 +6,17 @@
 #include "1_two_sum/TwoSum.h"
 #include "647_palindromic_substrings/PalindromicSubstrings.h"
 #include "621_task_scheduler/TaskScheduler.h"
+#include "560_subarray_sum_equals_k/SubarraySumEqualsK.h"
 
 Base* init(){
+    return new SubarraySumEqualsK();
     //return new TaskScheduler();
-    return new PalindromicSubstrings();
+    //return new PalindromicSubstrings();
     //return new TwoSum();
     //return new WordBreak();
 }
 
 int main(){
-    return init()->run();
+    init()->run();
+    return 0;
 }

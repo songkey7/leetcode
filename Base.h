@@ -17,7 +17,7 @@ using namespace std;
 
 class Base{
 public:
-    virtual int run() = 0;
+    virtual void run() = 0;
 };
 
 

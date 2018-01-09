@@ -18,7 +18,7 @@ vector<int> TwoSum::twoSum(vector<int>& nums, int target) {
     }
 }
 
-int TwoSum::run(){
+void TwoSum::run(){
     vector<int> nums = {2, 7, 11, 15};
     int target = 18;
     vector<int> ret = twoSum(nums, target);
@@ -26,6 +26,5 @@ int TwoSum::run(){
         cout << x << " ";
     }
     cout << endl;
-    return 0;
 }
 

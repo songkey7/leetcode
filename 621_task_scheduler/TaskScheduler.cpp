@@ -44,11 +44,10 @@ int TaskScheduler::least_interval2(vector<char> &tasks, int n) {
     return max(ret, (int)tasks.size());
 }
 
-int TaskScheduler::run() {
+void TaskScheduler::run() {
     vector<char> tasks = {'A','A','A','B','B','B'};
     int n = 2;
     assert(least_interval(tasks, n) == 8);
     assert(least_interval2(tasks, n) == 8);
-    return 0;
 }
 

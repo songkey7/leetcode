@@ -20,8 +20,7 @@ int PalindromicSubstrings::count_substrings(string s){
     return cnt;
 }
 
-int PalindromicSubstrings::run() {
+void PalindromicSubstrings::run() {
     assert(count_substrings("abc") == 3);
     assert(count_substrings("aaa") == 6);
-    return 0;
 }

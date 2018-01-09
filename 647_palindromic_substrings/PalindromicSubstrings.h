@@ -10,7 +10,7 @@
 
 class PalindromicSubstrings: public Base{
 public:
-    int run();
+    void run();
 
 private:
     int count_substrings(string s);

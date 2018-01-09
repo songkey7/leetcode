@@ -25,10 +25,9 @@ bool WordBreak::word_break(const string &s, vector<string> &wordDict) {
     return flag[n];
 }
 
-int WordBreak::run(){
+void WordBreak::run(){
     string s = "freewheel";
     vector<string> dict = {"free", "wheel"};
     assert(word_break(s, dict));
-    return 0;
 }
 
