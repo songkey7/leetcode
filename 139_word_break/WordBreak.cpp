@@ -28,11 +28,7 @@ bool WordBreak::word_break(const string &s, vector<string> &wordDict) {
 int WordBreak::run(){
     string s = "freewheel";
     vector<string> dict = {"free", "wheel"};
-
-    if(word_break(s, dict))
-        cout << "true" << endl;
-    else
-        cout << "false" << endl;
+    assert(word_break(s, dict));
     return 0;
 }
 

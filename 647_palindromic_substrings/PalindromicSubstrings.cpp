@@ -21,6 +21,7 @@ int PalindromicSubstrings::count_substrings(string s){
 }
 
 int PalindromicSubstrings::run() {
-    cout << count_substrings("abc") << endl;
-    cout << count_substrings("aaa") << endl;
+    assert(count_substrings("abc") == 3);
+    assert(count_substrings("aaa") == 6);
+    return 0;
 }
