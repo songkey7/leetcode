@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.9)
+project(leetcode)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(leetcode main.cpp Base.h
+        139.word_break/WordBreak.cpp 139.word_break/WordBreak.h
+        1.two_sum/TwoSum.cpp 1.two_sum/TwoSum.h
+        647.palindromic_substrings/PalindromicSubstrings.cpp 647.palindromic_substrings/PalindromicSubstrings.h
+        621.task_scheduler/TaskScheduler.cpp 621.task_scheduler/TaskScheduler.h
+        560.subarray_sum_equals_k/SubarraySumEqualsK.cpp 560.subarray_sum_equals_k/SubarraySumEqualsK.h
+        547.friend_circles/FriendCircles.cpp 547.friend_circles/FriendCircles.h)

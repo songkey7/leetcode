@@ -2,14 +2,16 @@
 // Created by Qi Song on 1/8/18.
 //
 
-#include "139_word_break/WordBreak.h"
-#include "1_two_sum/TwoSum.h"
-#include "647_palindromic_substrings/PalindromicSubstrings.h"
-#include "621_task_scheduler/TaskScheduler.h"
-#include "560_subarray_sum_equals_k/SubarraySumEqualsK.h"
+#include "1.two_sum/TwoSum.h"
+#include "139.word_break/WordBreak.h"
+#include "647.palindromic_substrings/PalindromicSubstrings.h"
+#include "621.task_scheduler/TaskScheduler.h"
+#include "560.subarray_sum_equals_k/SubarraySumEqualsK.h"
+#include "547.friend_circles/FriendCircles.h"
 
 Base* init(){
-    return new SubarraySumEqualsK();
+    return new FriendCircles();
+    //return new SubarraySumEqualsK();
     //return new TaskScheduler();
     //return new PalindromicSubstrings();
     //return new TwoSum();
