@@ -10,10 +10,12 @@
 #include "547.friend_circles/FriendCircles.h"
 #include "494.target_sum/TargetSum.h"
 #include "416.partition_equal_subset_sum/PartitionEqualSubsetSum.h"
+#include "617.merge_two_binary_trees/MergeTwoBinaryTrees.h"
 
 Base* init(){
+    return new MergeTwoBinaryTrees();
     //return new PartitionEqualSubsetSum();
-    return new TargetSum();
+    //return new TargetSum();
     //return new FriendCircles();
     //return new SubarraySumEqualsK();
     //return new TaskScheduler();
