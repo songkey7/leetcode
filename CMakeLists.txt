@@ -14,4 +14,6 @@ add_executable(leetcode main.cpp Base.h
         416.partition_equal_subset_sum/PartitionEqualSubsetSum.cpp 416.partition_equal_subset_sum/PartitionEqualSubsetSum.h
         617.merge_two_binary_trees/MergeTwoBinaryTrees.cpp 617.merge_two_binary_trees/MergeTwoBinaryTrees.h
         141.linked_list_cycle/LinkedListCycle.cpp 141.linked_list_cycle/LinkedListCycle.h
-        142.linked_list_cycle_2/LinkedListCycle2.cpp 142.linked_list_cycle_2/LinkedListCycle2.h)
+        142.linked_list_cycle_2/LinkedListCycle2.cpp 142.linked_list_cycle_2/LinkedListCycle2.h
+        148.sort_list/SortList.cpp 148.sort_list/SortList.h
+        )

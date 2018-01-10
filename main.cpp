@@ -13,9 +13,11 @@
 #include "617.merge_two_binary_trees/MergeTwoBinaryTrees.h"
 #include "141.linked_list_cycle/LinkedListCycle.h"
 #include "142.linked_list_cycle_2/LinkedListCycle2.h"
+#include "148.sort_list/SortList.h"
 
 Base* init(){
-    return new LinkedListCycle2();
+    return new SortList();
+    //return new LinkedListCycle2();
     //return new LinkedListCycle();
     //return new MergeTwoBinaryTrees();
     //return new PartitionEqualSubsetSum();
