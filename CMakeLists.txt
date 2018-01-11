@@ -16,4 +16,5 @@ add_executable(leetcode main.cpp Base.h
         141.linked_list_cycle/LinkedListCycle.cpp 141.linked_list_cycle/LinkedListCycle.h
         142.linked_list_cycle_2/LinkedListCycle2.cpp 142.linked_list_cycle_2/LinkedListCycle2.h
         148.sort_list/SortList.cpp 148.sort_list/SortList.h
-        )
+        152.maximum_product_subarray/MaximumProductSubarray.cpp 152.maximum_product_subarray/MaximumProductSubarray.h
+        53.maximum_subarray/MaximumSubarray.cpp 53.maximum_subarray/MaximumSubarray.h)

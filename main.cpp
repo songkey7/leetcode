@@ -14,9 +14,13 @@
 #include "141.linked_list_cycle/LinkedListCycle.h"
 #include "142.linked_list_cycle_2/LinkedListCycle2.h"
 #include "148.sort_list/SortList.h"
+#include "152.maximum_product_subarray/MaximumProductSubarray.h"
+#include "53.maximum_subarray/MaximumSubarray.h"
 
 Base* init(){
-    return new SortList();
+    return new MaximumProductSubarray();
+    //return new MaximumSubarray();
+    //return new SortList();
     //return new LinkedListCycle2();
     //return new LinkedListCycle();
     //return new MergeTwoBinaryTrees();
