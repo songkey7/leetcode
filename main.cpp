@@ -16,9 +16,11 @@
 #include "148.sort_list/SortList.h"
 #include "152.maximum_product_subarray/MaximumProductSubarray.h"
 #include "53.maximum_subarray/MaximumSubarray.h"
+#include "394.decode_string/DecodeString.h"
 
 Base* init(){
-    return new MaximumProductSubarray();
+    return new DecodeString();
+    //return new MaximumProductSubarray();
     //return new MaximumSubarray();
     //return new SortList();
     //return new LinkedListCycle2();
