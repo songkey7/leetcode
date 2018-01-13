@@ -21,9 +21,11 @@
 #include "581.shortest_unsorted_continuous_subarray/ShortestUnsortedContinuousSubarray.h"
 #include "461.hamming_distance/HammingDistance.h"
 #include "338.counting_bits/CountingBits.h"
+#include "448.find_disappeared_numbers/FindDisappearedNumbers.h"
 
 Base* init(){
-    return new CountingBits();
+    return new FindDisappearedNumbers();
+    //return new CountingBits();
     //return new HammingDistance();
     //return new ShortestUnsortedContinuousSubarray();
     //return new TopKFrequentElements();

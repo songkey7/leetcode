@@ -24,4 +24,5 @@ add_executable(leetcode main.cpp Base.h
         581.shortest_unsorted_continuous_subarray/ShortestUnsortedContinuousSubarray.h
         461.hamming_distance/HammingDistance.cpp 461.hamming_distance/HammingDistance.h
         338.counting_bits/CountingBits.cpp 338.counting_bits/CountingBits.h
+        448.find_disappeared_numbers/FindDisappearedNumbers.cpp 448.find_disappeared_numbers/FindDisappearedNumbers.h
         )
