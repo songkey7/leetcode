@@ -20,9 +20,11 @@
 #include "347.top_k_frequent_elements/TopKFrequentElements.h"
 #include "581.shortest_unsorted_continuous_subarray/ShortestUnsortedContinuousSubarray.h"
 #include "461.hamming_distance/HammingDistance.h"
+#include "338.counting_bits/CountingBits.h"
 
 Base* init(){
-    return new HammingDistance();
+    return new CountingBits();
+    //return new HammingDistance();
     //return new ShortestUnsortedContinuousSubarray();
     //return new TopKFrequentElements();
     //return new DecodeString();
