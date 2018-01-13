@@ -22,9 +22,11 @@
 #include "461.hamming_distance/HammingDistance.h"
 #include "338.counting_bits/CountingBits.h"
 #include "448.find_disappeared_numbers/FindDisappearedNumbers.h"
+#include "438.find_anagrams/FindAnagrams.h"
 
 Base* init(){
-    return new FindDisappearedNumbers();
+    return new FindAnagrams();
+    //return new FindDisappearedNumbers();
     //return new CountingBits();
     //return new HammingDistance();
     //return new ShortestUnsortedContinuousSubarray();
