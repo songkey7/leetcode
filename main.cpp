@@ -19,9 +19,11 @@
 #include "394.decode_string/DecodeString.h"
 #include "347.top_k_frequent_elements/TopKFrequentElements.h"
 #include "581.shortest_unsorted_continuous_subarray/ShortestUnsortedContinuousSubarray.h"
+#include "461.hamming_distance/HammingDistance.h"
 
 Base* init(){
-    return new ShortestUnsortedContinuousSubarray();
+    return new HammingDistance();
+    //return new ShortestUnsortedContinuousSubarray();
     //return new TopKFrequentElements();
     //return new DecodeString();
     //return new MaximumProductSubarray();

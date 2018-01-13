@@ -22,4 +22,4 @@ add_executable(leetcode main.cpp Base.h
         347.top_k_frequent_elements/TopKFrequentElements.cpp 347.top_k_frequent_elements/TopKFrequentElements.h
         581.shortest_unsorted_continuous_subarray/ShortestUnsortedContinuousSubarray.cpp
         581.shortest_unsorted_continuous_subarray/ShortestUnsortedContinuousSubarray.h
-        )
+        461.hamming_distance/HammingDistance.cpp 461.hamming_distance/HammingDistance.h)
