@@ -20,4 +20,6 @@ add_executable(leetcode main.cpp Base.h
         53.maximum_subarray/MaximumSubarray.cpp 53.maximum_subarray/MaximumSubarray.h
         394.decode_string/DecodeString.cpp 394.decode_string/DecodeString.h
         347.top_k_frequent_elements/TopKFrequentElements.cpp 347.top_k_frequent_elements/TopKFrequentElements.h
+        581.shortest_unsorted_continuous_subarray/ShortestUnsortedContinuousSubarray.cpp
+        581.shortest_unsorted_continuous_subarray/ShortestUnsortedContinuousSubarray.h
         )
