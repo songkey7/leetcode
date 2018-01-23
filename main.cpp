@@ -26,9 +26,11 @@
 #include "112.path_sum/PathSum.h"
 #include "113.path_sum_2/PathSum2.h"
 #include "437.path_sum_3/PathSum3.h"
+#include "21.merge_2_sorted_lists/Merge2SortedLists.h"
 
 Base* init(){
-    return new PathSum3();
+    return new Merge2SortedLists();
+    //return new PathSum3();
     //return new PathSum2();
     //return new PathSum();
     //return new FindAnagrams();
