@@ -28,4 +28,5 @@ add_executable(leetcode main.cpp Base.h
         438.find_anagrams/FindAnagrams.cpp 438.find_anagrams/FindAnagrams.h
         112.path_sum/PathSum.cpp 112.path_sum/PathSum.h
         113.path_sum_2/PathSum2.cpp 113.path_sum_2/PathSum2.h
+        437.path_sum_3/PathSum3.cpp 437.path_sum_3/PathSum3.h
         )

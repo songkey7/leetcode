@@ -25,9 +25,11 @@
 #include "438.find_anagrams/FindAnagrams.h"
 #include "112.path_sum/PathSum.h"
 #include "113.path_sum_2/PathSum2.h"
+#include "437.path_sum_3/PathSum3.h"
 
 Base* init(){
-    return new PathSum2();
+    return new PathSum3();
+    //return new PathSum2();
     //return new PathSum();
     //return new FindAnagrams();
     //return new FindDisappearedNumbers();
