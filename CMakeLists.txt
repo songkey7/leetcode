@@ -25,4 +25,7 @@ add_executable(leetcode main.cpp Base.h
         461.hamming_distance/HammingDistance.cpp 461.hamming_distance/HammingDistance.h
         338.counting_bits/CountingBits.cpp 338.counting_bits/CountingBits.h
         448.find_disappeared_numbers/FindDisappearedNumbers.cpp 448.find_disappeared_numbers/FindDisappearedNumbers.h
-        438.find_anagrams/FindAnagrams.cpp 438.find_anagrams/FindAnagrams.h)
+        438.find_anagrams/FindAnagrams.cpp 438.find_anagrams/FindAnagrams.h
+        112.path_sum/PathSum.cpp 112.path_sum/PathSum.h
+        113.path_sum_2/PathSum2.cpp 113.path_sum_2/PathSum2.h
+        )

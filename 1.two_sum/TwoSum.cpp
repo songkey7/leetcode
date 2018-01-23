@@ -16,6 +16,7 @@ vector<int> TwoSum::twoSum(vector<int>& nums, int target) {
             mp[target - nums[i]] = i;
         }
     }
+    return {};
 }
 
 void TwoSum::run(){
