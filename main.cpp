@@ -30,9 +30,11 @@
 #include "23.merge_k_sorted_lists/MergeKSortedLists.h"
 #include "155.min_stack/MinStack.h"
 #include "225.implement_stack_using_queues/ImplementStackUsingQueues.h"
+#include "232.implement_queue_using_stacks/ImplementQueueUsingStacks.h"
 
 Base* init(){
-    return new ImplementStackUsingQueues();
+    return new ImplementQueueUsingStacks();
+    //return new ImplementStackUsingQueues();
     //return new MinStack();
     //return new MergeKSortedLists();
     //return new Merge2SortedLists();

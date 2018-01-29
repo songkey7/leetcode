@@ -9,7 +9,6 @@
 #include "../Base.h"
 
 class ImplementStackUsingQueues: public Base {
-public:
     queue<int> q;
     void push(int x);
     int pop();
