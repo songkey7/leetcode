@@ -31,9 +31,11 @@
 #include "155.min_stack/MinStack.h"
 #include "225.implement_stack_using_queues/ImplementStackUsingQueues.h"
 #include "232.implement_queue_using_stacks/ImplementQueueUsingStacks.h"
+#include "198.house_robber/HouseRobber.h"
 
 Base* init(){
-    return new ImplementQueueUsingStacks();
+    return new HouseRobber();
+    //return new ImplementQueueUsingStacks();
     //return new ImplementStackUsingQueues();
     //return new MinStack();
     //return new MergeKSortedLists();
