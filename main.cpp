@@ -29,9 +29,11 @@
 #include "21.merge_2_sorted_lists/Merge2SortedLists.h"
 #include "23.merge_k_sorted_lists/MergeKSortedLists.h"
 #include "155.min_stack/MinStack.h"
+#include "225.implement_stack_using_queues/ImplementStackUsingQueues.h"
 
 Base* init(){
-    return new MinStack();
+    return new ImplementStackUsingQueues();
+    //return new MinStack();
     //return new MergeKSortedLists();
     //return new Merge2SortedLists();
     //return new PathSum3();

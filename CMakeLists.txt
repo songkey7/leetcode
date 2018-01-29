@@ -32,4 +32,5 @@ add_executable(leetcode main.cpp Base.h
         21.merge_2_sorted_lists/Merge2SortedLists.cpp 21.merge_2_sorted_lists/Merge2SortedLists.h
         23.merge_k_sorted_lists/MergeKSortedLists.cpp 23.merge_k_sorted_lists/MergeKSortedLists.h
         155.min_stack/MinStack.cpp 155.min_stack/MinStack.h
+        225.implement_stack_using_queues/ImplementStackUsingQueues.cpp 225.implement_stack_using_queues/ImplementStackUsingQueues.h
         )
