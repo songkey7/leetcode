@@ -2,8 +2,8 @@
 // Created by Qi Song on 1/23/18.
 //
 
-#ifndef LEETCODE_MERGE2SORTEDLISTS_H
-#define LEETCODE_MERGE2SORTEDLISTS_H
+#ifndef LEETCODE_MERGE_2_SORTEDLISTS_H
+#define LEETCODE_MERGE_2_SORTEDLISTS_H
 
 
 #include "../Base.h"
@@ -21,4 +21,4 @@ public:
 };
 
 
-#endif //LEETCODE_MERGE2SORTEDLISTS_H
+#endif //LEETCODE_MERGE_2_SORTEDLISTS_H

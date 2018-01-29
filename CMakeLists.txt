@@ -30,4 +30,5 @@ add_executable(leetcode main.cpp Base.h
         113.path_sum_2/PathSum2.cpp 113.path_sum_2/PathSum2.h
         437.path_sum_3/PathSum3.cpp 437.path_sum_3/PathSum3.h
         21.merge_2_sorted_lists/Merge2SortedLists.cpp 21.merge_2_sorted_lists/Merge2SortedLists.h
+        23.merge_k_sorted_lists/MergeKSortedLists.cpp 23.merge_k_sorted_lists/MergeKSortedLists.h
         )
