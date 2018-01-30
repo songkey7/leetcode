@@ -34,9 +34,11 @@
 #include "198.house_robber/HouseRobber.h"
 #include "213.house_robber_2/HouseRobber2.h"
 #include "337.house_robber_3/HouseRobber3.h"
+#include "572.subtree_of_another_tree/SubtreeOfAnotherTree.h"
 
 Base* init(){
-    return new HouseRobber3();
+    return new SubtreeOfAnotherTree();
+    //return new HouseRobber3();
     //return new HouseRobber2();
     //return new HouseRobber();
     //return new ImplementQueueUsingStacks();
