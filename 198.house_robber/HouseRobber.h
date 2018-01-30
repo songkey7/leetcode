@@ -10,7 +10,6 @@
 
 class HouseRobber: public Base {
     int rob(vector<int>& nums);
-    int rob(vector<int>& nums, size_t i);
 public:
     void run();
 };

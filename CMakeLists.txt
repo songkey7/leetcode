@@ -36,4 +36,5 @@ add_executable(leetcode main.cpp Base.h
         232.implement_queue_using_stacks/ImplementQueueUsingStacks.cpp 232.implement_queue_using_stacks/ImplementQueueUsingStacks.h
         198.house_robber/HouseRobber.cpp 198.house_robber/HouseRobber.h
         213.house_robber_2/HouseRobber2.cpp 213.house_robber_2/HouseRobber2.h
+        337.house_robber_3/HouseRobber3.cpp 337.house_robber_3/HouseRobber3.h
         )
