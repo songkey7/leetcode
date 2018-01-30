@@ -32,9 +32,11 @@
 #include "225.implement_stack_using_queues/ImplementStackUsingQueues.h"
 #include "232.implement_queue_using_stacks/ImplementQueueUsingStacks.h"
 #include "198.house_robber/HouseRobber.h"
+#include "213.house_robber_2/HouseRobber2.h"
 
 Base* init(){
-    return new HouseRobber();
+    return new HouseRobber2();
+    //return new HouseRobber();
     //return new ImplementQueueUsingStacks();
     //return new ImplementStackUsingQueues();
     //return new MinStack();
