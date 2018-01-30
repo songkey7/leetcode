@@ -38,4 +38,5 @@ add_executable(leetcode main.cpp Base.h
         213.house_robber_2/HouseRobber2.cpp 213.house_robber_2/HouseRobber2.h
         337.house_robber_3/HouseRobber3.cpp 337.house_robber_3/HouseRobber3.h
         572.subtree_of_another_tree/SubtreeOfAnotherTree.cpp 572.subtree_of_another_tree/SubtreeOfAnotherTree.h
+        406.queue_reconstruction_by_height/QueueReconstructionByHeight.cpp 406.queue_reconstruction_by_height/QueueReconstructionByHeight.h
         )
