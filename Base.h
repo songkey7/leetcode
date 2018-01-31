@@ -12,6 +12,8 @@
 #include <set>
 #include <stack>
 #include <queue>
+#include <list>
+#include <deque>
 #include <unordered_map>
 #include <unordered_set>
 #include <assert.h>

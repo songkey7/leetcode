@@ -38,9 +38,11 @@
 #include "406.queue_reconstruction_by_height/QueueReconstructionByHeight.h"
 #include "2.add_two_numbers/AddTwoNumbers.h"
 #include "3.longest_substring_without_repeating_characters/LongestSubstringWithoutRepeatingCharacters.h"
+#include "146.LRU_cache/LRUCache.h"
 
 Base* init(){
-    return new LongestSubstringWithoutRepeatingCharacters();
+    return new LRUCache();
+    //return new LongestSubstringWithoutRepeatingCharacters();
     //return new AddTwoNumbers();
     //return new QueueReconstructionByHeight();
     //return new SubtreeOfAnotherTree();

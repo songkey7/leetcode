@@ -41,4 +41,5 @@ add_executable(leetcode main.cpp Base.h
         406.queue_reconstruction_by_height/QueueReconstructionByHeight.cpp 406.queue_reconstruction_by_height/QueueReconstructionByHeight.h
         2.add_two_numbers/AddTwoNumbers.cpp 2.add_two_numbers/AddTwoNumbers.h
         3.longest_substring_without_repeating_characters/LongestSubstringWithoutRepeatingCharacters.cpp 3.longest_substring_without_repeating_characters/LongestSubstringWithoutRepeatingCharacters.h
+        146.LRU_cache/LRUCache.cpp 146.LRU_cache/LRUCache.h
         )
