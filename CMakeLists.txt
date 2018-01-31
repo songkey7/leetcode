@@ -42,4 +42,5 @@ add_executable(leetcode main.cpp Base.h
         2.add_two_numbers/AddTwoNumbers.cpp 2.add_two_numbers/AddTwoNumbers.h
         3.longest_substring_without_repeating_characters/LongestSubstringWithoutRepeatingCharacters.cpp 3.longest_substring_without_repeating_characters/LongestSubstringWithoutRepeatingCharacters.h
         146.LRU_cache/LRUCache.cpp 146.LRU_cache/LRUCache.h
+        160.intersection_of_two_linked_lists/IntersectionOfTwoLinkedLists.cpp 160.intersection_of_two_linked_lists/IntersectionOfTwoLinkedLists.h
         )

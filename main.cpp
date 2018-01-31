@@ -39,9 +39,11 @@
 #include "2.add_two_numbers/AddTwoNumbers.h"
 #include "3.longest_substring_without_repeating_characters/LongestSubstringWithoutRepeatingCharacters.h"
 #include "146.LRU_cache/LRUCache.h"
+#include "160.intersection_of_two_linked_lists/IntersectionOfTwoLinkedLists.h"
 
 Base* init(){
-    return new LRUCache();
+    return new IntersectionOfTwoLinkedLists();
+    //return new LRUCache();
     //return new LongestSubstringWithoutRepeatingCharacters();
     //return new AddTwoNumbers();
     //return new QueueReconstructionByHeight();
