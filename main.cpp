@@ -40,9 +40,11 @@
 #include "3.longest_substring_without_repeating_characters/LongestSubstringWithoutRepeatingCharacters.h"
 #include "146.LRU_cache/LRUCache.h"
 #include "160.intersection_of_two_linked_lists/IntersectionOfTwoLinkedLists.h"
+#include "169.majority_element/MajorityElement.h"
 
 Base* init(){
-    return new IntersectionOfTwoLinkedLists();
+    return new MajorityElement();
+    //return new IntersectionOfTwoLinkedLists();
     //return new LRUCache();
     //return new LongestSubstringWithoutRepeatingCharacters();
     //return new AddTwoNumbers();

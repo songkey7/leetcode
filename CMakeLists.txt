@@ -43,4 +43,5 @@ add_executable(leetcode main.cpp Base.h
         3.longest_substring_without_repeating_characters/LongestSubstringWithoutRepeatingCharacters.cpp 3.longest_substring_without_repeating_characters/LongestSubstringWithoutRepeatingCharacters.h
         146.LRU_cache/LRUCache.cpp 146.LRU_cache/LRUCache.h
         160.intersection_of_two_linked_lists/IntersectionOfTwoLinkedLists.cpp 160.intersection_of_two_linked_lists/IntersectionOfTwoLinkedLists.h
+        169.majority_element/MajorityElement.cpp 169.majority_element/MajorityElement.h
         )
