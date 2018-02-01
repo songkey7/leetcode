@@ -41,9 +41,11 @@
 #include "146.LRU_cache/LRUCache.h"
 #include "160.intersection_of_two_linked_lists/IntersectionOfTwoLinkedLists.h"
 #include "169.majority_element/MajorityElement.h"
+#include "200.number_of_islands/NumberOfIslands.h"
 
 Base* init(){
-    return new MajorityElement();
+    return new NumberOfIslands();
+    //return new MajorityElement();
     //return new IntersectionOfTwoLinkedLists();
     //return new LRUCache();
     //return new LongestSubstringWithoutRepeatingCharacters();
