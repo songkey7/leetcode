@@ -45,4 +45,5 @@ add_executable(leetcode main.cpp Base.h
         160.intersection_of_two_linked_lists/IntersectionOfTwoLinkedLists.cpp 160.intersection_of_two_linked_lists/IntersectionOfTwoLinkedLists.h
         169.majority_element/MajorityElement.cpp 169.majority_element/MajorityElement.h
         200.number_of_islands/NumberOfIslands.cpp 200.number_of_islands/NumberOfIslands.h
+        207.course_schedule/CourseSchedule.cpp 207.course_schedule/CourseSchedule.h
         )
