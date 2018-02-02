@@ -48,4 +48,4 @@ add_executable(leetcode main.cpp Base.h
         207.course_schedule/CourseSchedule.cpp 207.course_schedule/CourseSchedule.h
         208.implement_trie/ImplementTrie.cpp 208.implement_trie/ImplementTrie.h
         215.kth_largest_element_in_an_array/KthLargestElementInAnArray.cpp 215.kth_largest_element_in_an_array/KthLargestElementInAnArray.h
-        )
+        322.coin_change/CoinChange.cpp 322.coin_change/CoinChange.h)

@@ -45,9 +45,11 @@
 #include "207.course_schedule/CourseSchedule.h"
 #include "208.implement_trie/ImplementTrie.h"
 #include "215.kth_largest_element_in_an_array/KthLargestElementInAnArray.h"
+#include "322.coin_change/CoinChange.h"
 
 Base* init(){
-    return new KthLargestElementInAnArray();
+    return new CoinChange();
+    //return new KthLargestElementInAnArray();
     //return new ImplementTrie();
     //return new CourseSchedule();
     //return new NumberOfIslands();
