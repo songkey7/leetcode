@@ -46,4 +46,5 @@ add_executable(leetcode main.cpp Base.h
         169.majority_element/MajorityElement.cpp 169.majority_element/MajorityElement.h
         200.number_of_islands/NumberOfIslands.cpp 200.number_of_islands/NumberOfIslands.h
         207.course_schedule/CourseSchedule.cpp 207.course_schedule/CourseSchedule.h
+        208.implement_trie/ImplementTrie.cpp 208.implement_trie/ImplementTrie.h
         )

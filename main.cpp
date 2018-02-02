@@ -43,9 +43,11 @@
 #include "169.majority_element/MajorityElement.h"
 #include "200.number_of_islands/NumberOfIslands.h"
 #include "207.course_schedule/CourseSchedule.h"
+#include "208.implement_trie/ImplementTrie.h"
 
 Base* init(){
-    return new CourseSchedule();
+    return new ImplementTrie();
+    //return new CourseSchedule();
     //return new NumberOfIslands();
     //return new MajorityElement();
     //return new IntersectionOfTwoLinkedLists();
