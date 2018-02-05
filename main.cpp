@@ -50,9 +50,11 @@
 #include "20.valid_arentheses/ValidParentheses.h"
 #include "32.longest_valid_parentheses/LongestValidParentheses.h"
 #include "22.generate_parentheses/GenerateParentheses.h"
+#include "9.palindrome_number/PalindromeNumber.h"
 
 Base* init(){
-    return new GenerateParentheses();
+    return new PalindromeNumber();
+    //return new GenerateParentheses();
     //return new LongestValidParentheses();
     //return new ValidParentheses();
     //return new Permutations();
