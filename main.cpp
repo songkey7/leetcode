@@ -47,9 +47,11 @@
 #include "215.kth_largest_element_in_an_array/KthLargestElementInAnArray.h"
 #include "322.coin_change/CoinChange.h"
 #include "46.permutations/Permutations.h"
+#include "20.valid_arentheses/ValidParentheses.h"
 
 Base* init(){
-    return new Permutations();
+    return new ValidParentheses();
+    //return new Permutations();
     //return new CoinChange();
     //return new KthLargestElementInAnArray();
     //return new ImplementTrie();
