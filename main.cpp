@@ -52,9 +52,11 @@
 #include "22.generate_parentheses/GenerateParentheses.h"
 #include "9.palindrome_number/PalindromeNumber.h"
 #include "234.palindrome_linked_list/PalindromeLinkedList.h"
+#include "5.longest_palindromic_substring/LongestPalindromicSubstring.h"
 
 Base* init(){
-    return new PalindromeLinkedList();
+    return new LongestPalindromicSubstring();
+    //return new PalindromeLinkedList();
     //return new PalindromeNumber();
     //return new GenerateParentheses();
     //return new LongestValidParentheses();
