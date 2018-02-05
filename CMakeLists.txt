@@ -51,4 +51,5 @@ add_executable(leetcode main.cpp Base.h
         322.coin_change/CoinChange.cpp 322.coin_change/CoinChange.h 46.permutations/Permutations.cpp 46.permutations/Permutations.h
         20.valid_arentheses/ValidParentheses.cpp 20.valid_arentheses/ValidParentheses.h
         32.longest_valid_parentheses/LongestValidParentheses.cpp 32.longest_valid_parentheses/LongestValidParentheses.h
+        22.generate_parentheses/GenerateParentheses.cpp 22.generate_parentheses/GenerateParentheses.h
         )
