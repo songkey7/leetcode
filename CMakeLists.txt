@@ -50,4 +50,5 @@ add_executable(leetcode main.cpp Base.h
         215.kth_largest_element_in_an_array/KthLargestElementInAnArray.cpp 215.kth_largest_element_in_an_array/KthLargestElementInAnArray.h
         322.coin_change/CoinChange.cpp 322.coin_change/CoinChange.h 46.permutations/Permutations.cpp 46.permutations/Permutations.h
         20.valid_arentheses/ValidParentheses.cpp 20.valid_arentheses/ValidParentheses.h
+        32.longest_valid_parentheses/LongestValidParentheses.cpp 32.longest_valid_parentheses/LongestValidParentheses.h
         )

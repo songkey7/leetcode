@@ -48,9 +48,11 @@
 #include "322.coin_change/CoinChange.h"
 #include "46.permutations/Permutations.h"
 #include "20.valid_arentheses/ValidParentheses.h"
+#include "32.longest_valid_parentheses/LongestValidParentheses.h"
 
 Base* init(){
-    return new ValidParentheses();
+    return new LongestValidParentheses();
+    //return new ValidParentheses();
     //return new Permutations();
     //return new CoinChange();
     //return new KthLargestElementInAnArray();
