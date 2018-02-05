@@ -53,4 +53,5 @@ add_executable(leetcode main.cpp Base.h
         32.longest_valid_parentheses/LongestValidParentheses.cpp 32.longest_valid_parentheses/LongestValidParentheses.h
         22.generate_parentheses/GenerateParentheses.cpp 22.generate_parentheses/GenerateParentheses.h
         9.palindrome_number/PalindromeNumber.cpp 9.palindrome_number/PalindromeNumber.h
+        234.palindrome_linked_list/PalindromeLinkedList.cpp 234.palindrome_linked_list/PalindromeLinkedList.h
         )
