@@ -59,4 +59,5 @@ add_executable(leetcode main.cpp Base.h
         153.find_minimum_in_rotated_sorted_array/FindMinimumInRotatedSortedArray.cpp 153.find_minimum_in_rotated_sorted_array/FindMinimumInRotatedSortedArray.h
         154.find_minimum_in_rotated_sorted_array_2/FindMinimumInRotatedSortedArray2.cpp 154.find_minimum_in_rotated_sorted_array_2/FindMinimumInRotatedSortedArray2.h
         33.search_in_rotated_sorted_array/SearchInRotatedSortedArray.cpp 33.search_in_rotated_sorted_array/SearchInRotatedSortedArray.h
+        81.search_in_rotated_sorted_array_2/SearchInRotatedSortedArray2.cpp 81.search_in_rotated_sorted_array_2/SearchInRotatedSortedArray2.h
         )
