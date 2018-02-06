@@ -57,4 +57,6 @@ add_executable(leetcode main.cpp Base.h
         5.longest_palindromic_substring/LongestPalindromicSubstring.cpp 5.longest_palindromic_substring/LongestPalindromicSubstring.h
         409.longest_palindrome/LongestPalindrome.cpp 409.longest_palindrome/LongestPalindrome.h
         153.find_minimum_in_rotated_sorted_array/FindMinimumInRotatedSortedArray.cpp 153.find_minimum_in_rotated_sorted_array/FindMinimumInRotatedSortedArray.h
-        33.search_in_rotated_sorted_array/SearchInRotatedSortedArray.cpp 33.search_in_rotated_sorted_array/SearchInRotatedSortedArray.h)
+        154.find_minimum_in_rotated_sorted_array_2/FindMinimumInRotatedSortedArray2.cpp 154.find_minimum_in_rotated_sorted_array_2/FindMinimumInRotatedSortedArray2.h
+        33.search_in_rotated_sorted_array/SearchInRotatedSortedArray.cpp 33.search_in_rotated_sorted_array/SearchInRotatedSortedArray.h
+        )

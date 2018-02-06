@@ -56,10 +56,12 @@
 #include "409.longest_palindrome/LongestPalindrome.h"
 #include "153.find_minimum_in_rotated_sorted_array/FindMinimumInRotatedSortedArray.h"
 #include "33.search_in_rotated_sorted_array/SearchInRotatedSortedArray.h"
+#include "154.find_minimum_in_rotated_sorted_array_2/FindMinimumInRotatedSortedArray2.h"
 
 Base* init(){
-    return new SearchInRotatedSortedArray();
-    //return new FindMinimumInRotatedSortedArray();
+    //return new FindMinimumInRotatedSortedArray2();
+    //return new SearchInRotatedSortedArray();
+    return new FindMinimumInRotatedSortedArray();
     //return new LongestPalindrome();
     //return new LongestPalindromicSubstring();
     //return new PalindromeLinkedList();

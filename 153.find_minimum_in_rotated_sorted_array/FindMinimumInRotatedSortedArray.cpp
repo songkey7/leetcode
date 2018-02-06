@@ -7,13 +7,12 @@
 int FindMinimumInRotatedSortedArray::find_min(vector<int> &nums) {
     int n = nums.size();
     int l = 0, r = n - 1;
-    if(nums[l] <= nums[r]) return nums[l];
-    while(l + 1 < r){
+    while(l < r){
         int m = (l + r) / 2;
-        if(nums[l] < nums[m]) l = m;
+        if(nums[r] < nums[m]) l = m + 1;
         else r = m;
     }
-    return nums[r];
+    return nums[l];
 }
 
 void FindMinimumInRotatedSortedArray::run() {
