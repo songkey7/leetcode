@@ -55,4 +55,6 @@ add_executable(leetcode main.cpp Base.h
         9.palindrome_number/PalindromeNumber.cpp 9.palindrome_number/PalindromeNumber.h
         234.palindrome_linked_list/PalindromeLinkedList.cpp 234.palindrome_linked_list/PalindromeLinkedList.h
         5.longest_palindromic_substring/LongestPalindromicSubstring.cpp 5.longest_palindromic_substring/LongestPalindromicSubstring.h
-        409.longest_palindrome/LongestPalindrome.cpp 409.longest_palindrome/LongestPalindrome.h)
+        409.longest_palindrome/LongestPalindrome.cpp 409.longest_palindrome/LongestPalindrome.h
+        153.find_minimum_in_rotated_sorted_array/FindMinimumInRotatedSortedArray.cpp 153.find_minimum_in_rotated_sorted_array/FindMinimumInRotatedSortedArray.h
+        )

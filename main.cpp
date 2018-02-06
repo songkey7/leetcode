@@ -54,9 +54,11 @@
 #include "234.palindrome_linked_list/PalindromeLinkedList.h"
 #include "5.longest_palindromic_substring/LongestPalindromicSubstring.h"
 #include "409.longest_palindrome/LongestPalindrome.h"
+#include "153.find_minimum_in_rotated_sorted_array/FindMinimumInRotatedSortedArray.h"
 
 Base* init(){
-    return new LongestPalindrome();
+    return new FindMinimumInRotatedSortedArray();
+    //return new LongestPalindrome();
     //return new LongestPalindromicSubstring();
     //return new PalindromeLinkedList();
     //return new PalindromeNumber();
