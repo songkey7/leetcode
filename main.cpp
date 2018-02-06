@@ -58,10 +58,12 @@
 #include "33.search_in_rotated_sorted_array/SearchInRotatedSortedArray.h"
 #include "154.find_minimum_in_rotated_sorted_array_2/FindMinimumInRotatedSortedArray2.h"
 #include "81.search_in_rotated_sorted_array_2/SearchInRotatedSortedArray2.h"
+#include "128.longest_consecutive_sequence/LongestConsecutiveSequence.h"
 
 Base* init(){
+    return new LongestConsecutiveSequence();
     //return new SearchInRotatedSortedArray2();
-    return new SearchInRotatedSortedArray();
+    //return new SearchInRotatedSortedArray();
     //return new FindMinimumInRotatedSortedArray2();
     //return new FindMinimumInRotatedSortedArray();
     //return new LongestPalindrome();
