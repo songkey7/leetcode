@@ -61,9 +61,11 @@
 #include "128.longest_consecutive_sequence/LongestConsecutiveSequence.h"
 #include "287.find_the_duplicate_number/FindTheDuplicateNumber.h"
 #include "283.move_zeroes/MoveZeroes.h"
+#include "238.product_of_array_except_self/ProductOfArrayExceptSelf.h"
 
 Base* init(){
-    return new MoveZeroes();
+    return new ProductOfArrayExceptSelf();
+    //return new MoveZeroes();
     //return new FindTheDuplicateNumber();
     //return new LongestConsecutiveSequence();
     //return new SearchInRotatedSortedArray2();
