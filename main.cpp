@@ -59,9 +59,11 @@
 #include "154.find_minimum_in_rotated_sorted_array_2/FindMinimumInRotatedSortedArray2.h"
 #include "81.search_in_rotated_sorted_array_2/SearchInRotatedSortedArray2.h"
 #include "128.longest_consecutive_sequence/LongestConsecutiveSequence.h"
+#include "287.find_the_duplicate_number/FindTheDuplicateNumber.h"
 
 Base* init(){
-    return new LongestConsecutiveSequence();
+    return new FindTheDuplicateNumber();
+    //return new LongestConsecutiveSequence();
     //return new SearchInRotatedSortedArray2();
     //return new SearchInRotatedSortedArray();
     //return new FindMinimumInRotatedSortedArray2();

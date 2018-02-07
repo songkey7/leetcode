@@ -61,4 +61,4 @@ add_executable(leetcode main.cpp Base.h
         33.search_in_rotated_sorted_array/SearchInRotatedSortedArray.cpp 33.search_in_rotated_sorted_array/SearchInRotatedSortedArray.h
         81.search_in_rotated_sorted_array_2/SearchInRotatedSortedArray2.cpp 81.search_in_rotated_sorted_array_2/SearchInRotatedSortedArray2.h
         128.longest_consecutive_sequence/LongestConsecutiveSequence.cpp 128.longest_consecutive_sequence/LongestConsecutiveSequence.h
-        )
+        287.find_the_duplicate_number/FindTheDuplicateNumber.cpp 287.find_the_duplicate_number/FindTheDuplicateNumber.h)
