@@ -63,72 +63,74 @@
 #include "283.move_zeroes/MoveZeroes.h"
 #include "238.product_of_array_except_self/ProductOfArrayExceptSelf.h"
 #include "121.best_time_to_buy_and_sell_stock/BestTimeToBuyAndSellStock.h"
+#include "105.construct_binary_tree_from_preorder_and_inorder_traversal/ConstructBinaryTreeFromPreorderAndInorderTraversal.h"
 
-Base* init(){
-    return new BestTimeToBuyAndSellStock();
-    //return new ProductOfArrayExceptSelf();
-    //return new MoveZeroes();
-    //return new FindTheDuplicateNumber();
-    //return new LongestConsecutiveSequence();
-    //return new SearchInRotatedSortedArray2();
-    //return new SearchInRotatedSortedArray();
-    //return new FindMinimumInRotatedSortedArray2();
-    //return new FindMinimumInRotatedSortedArray();
-    //return new LongestPalindrome();
-    //return new LongestPalindromicSubstring();
-    //return new PalindromeLinkedList();
-    //return new PalindromeNumber();
-    //return new GenerateParentheses();
-    //return new LongestValidParentheses();
-    //return new ValidParentheses();
-    //return new Permutations();
-    //return new CoinChange();
-    //return new KthLargestElementInAnArray();
-    //return new ImplementTrie();
-    //return new CourseSchedule();
-    //return new NumberOfIslands();
-    //return new MajorityElement();
-    //return new IntersectionOfTwoLinkedLists();
-    //return new LRUCache();
-    //return new LongestSubstringWithoutRepeatingCharacters();
-    //return new AddTwoNumbers();
-    //return new QueueReconstructionByHeight();
-    //return new SubtreeOfAnotherTree();
-    //return new HouseRobber3();
-    //return new HouseRobber2();
-    //return new HouseRobber();
-    //return new ImplementQueueUsingStacks();
-    //return new ImplementStackUsingQueues();
-    //return new MinStack();
-    //return new MergeKSortedLists();
-    //return new Merge2SortedLists();
-    //return new PathSum3();
-    //return new PathSum2();
-    //return new PathSum();
-    //return new FindAnagrams();
-    //return new FindDisappearedNumbers();
-    //return new CountingBits();
-    //return new HammingDistance();
-    //return new ShortestUnsortedContinuousSubarray();
-    //return new TopKFrequentElements();
-    //return new DecodeString();
-    //return new MaximumProductSubarray();
-    //return new MaximumSubarray();
-    //return new SortList();
-    //return new LinkedListCycle2();
-    //return new LinkedListCycle();
-    //return new MergeTwoBinaryTrees();
-    //return new PartitionEqualSubsetSum();
-    //return new TargetSum();
-    //return new FriendCircles();
-    //return new SubarraySumEqualsK();
-    //return new TaskScheduler();
-    //return new PalindromicSubstrings();
+Base *init() {
     //return new TwoSum();
     //return new WordBreak();
+    //return new PalindromicSubstrings();
+    //return new TaskScheduler();
+    //return new SubarraySumEqualsK();
+    //return new FriendCircles();
+    //return new TargetSum();
+    //return new PartitionEqualSubsetSum();
+    //return new MergeTwoBinaryTrees();
+    //return new LinkedListCycle();
+    //return new LinkedListCycle2();
+    //return new SortList();
+    //return new MaximumSubarray();
+    //return new MaximumProductSubarray();
+    //return new DecodeString();
+    //return new TopKFrequentElements();
+    //return new ShortestUnsortedContinuousSubarray();
+    //return new HammingDistance();
+    //return new CountingBits();
+    //return new FindDisappearedNumbers();
+    //return new FindAnagrams();
+    //return new PathSum();
+    //return new PathSum2();
+    //return new PathSum3();
+    //return new Merge2SortedLists();
+    //return new MergeKSortedLists();
+    //return new MinStack();
+    //return new ImplementStackUsingQueues();
+    //return new ImplementQueueUsingStacks();
+    //return new HouseRobber();
+    //return new HouseRobber2();
+    //return new HouseRobber3();
+    //return new SubtreeOfAnotherTree();
+    //return new QueueReconstructionByHeight();
+    //return new AddTwoNumbers();
+    //return new LongestSubstringWithoutRepeatingCharacters();
+    //return new LRUCache();
+    //return new IntersectionOfTwoLinkedLists();
+    //return new MajorityElement();
+    //return new NumberOfIslands();
+    //return new CourseSchedule();
+    //return new ImplementTrie();
+    //return new KthLargestElementInAnArray();
+    //return new CoinChange();
+    //return new Permutations();
+    //return new ValidParentheses();
+    //return new LongestValidParentheses();
+    //return new GenerateParentheses();
+    //return new PalindromeNumber();
+    //return new PalindromeLinkedList();
+    //return new LongestPalindromicSubstring();
+    //return new LongestPalindrome();
+    //return new FindMinimumInRotatedSortedArray();
+    //return new FindMinimumInRotatedSortedArray2();
+    //return new SearchInRotatedSortedArray();
+    //return new SearchInRotatedSortedArray2();
+    //return new LongestConsecutiveSequence();
+    //return new FindTheDuplicateNumber();
+    //return new MoveZeroes();
+    //return new ProductOfArrayExceptSelf();
+    //return new BestTimeToBuyAndSellStock();
+    return new ConstructBinaryTreeFromPreorderAndInorderTraversal();
 }
 
-int main(){
+int main() {
     init()->run();
     return 0;
 }
