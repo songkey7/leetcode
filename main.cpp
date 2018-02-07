@@ -62,9 +62,11 @@
 #include "287.find_the_duplicate_number/FindTheDuplicateNumber.h"
 #include "283.move_zeroes/MoveZeroes.h"
 #include "238.product_of_array_except_self/ProductOfArrayExceptSelf.h"
+#include "121.best_time_to_buy_and_sell_stock/BestTimeToBuyAndSellStock.h"
 
 Base* init(){
-    return new ProductOfArrayExceptSelf();
+    return new BestTimeToBuyAndSellStock();
+    //return new ProductOfArrayExceptSelf();
     //return new MoveZeroes();
     //return new FindTheDuplicateNumber();
     //return new LongestConsecutiveSequence();
