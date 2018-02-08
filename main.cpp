@@ -67,6 +67,7 @@
 #include "79.word_search/WordSearch.h"
 #include "42.trapping_rain_water/TrappingRainWater.h"
 #include "48.rotate_image/RotateImage.h"
+#include "55.jump_game/JumpGame.h"
 
 Base *init() {
     //return new TwoSum();
@@ -133,7 +134,8 @@ Base *init() {
     //return new ConstructBinaryTreeFromPreorderAndInorderTraversal();
     //return new WordSearch();
     //return new TrappingRainWater();
-    return new RotateImage();
+    //return new RotateImage();
+    return new JumpGame();
 }
 
 int main() {
