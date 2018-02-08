@@ -68,4 +68,5 @@ add_executable(leetcode main.cpp Base.h
         105.construct_binary_tree_from_preorder_and_inorder_traversal/ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp 105.construct_binary_tree_from_preorder_and_inorder_traversal/ConstructBinaryTreeFromPreorderAndInorderTraversal.h
         79.word_search/WordSearch.cpp 79.word_search/WordSearch.h
         42.trapping_rain_water/TrappingRainWater.cpp 42.trapping_rain_water/TrappingRainWater.h
+        48.rotate_image/RotateImage.cpp 48.rotate_image/RotateImage.h
         )

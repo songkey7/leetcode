@@ -66,6 +66,7 @@
 #include "105.construct_binary_tree_from_preorder_and_inorder_traversal/ConstructBinaryTreeFromPreorderAndInorderTraversal.h"
 #include "79.word_search/WordSearch.h"
 #include "42.trapping_rain_water/TrappingRainWater.h"
+#include "48.rotate_image/RotateImage.h"
 
 Base *init() {
     //return new TwoSum();
@@ -131,7 +132,8 @@ Base *init() {
     //return new BestTimeToBuyAndSellStock();
     //return new ConstructBinaryTreeFromPreorderAndInorderTraversal();
     //return new WordSearch();
-    return new TrappingRainWater();
+    //return new TrappingRainWater();
+    return new RotateImage();
 }
 
 int main() {
