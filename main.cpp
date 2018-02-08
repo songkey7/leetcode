@@ -65,6 +65,7 @@
 #include "121.best_time_to_buy_and_sell_stock/BestTimeToBuyAndSellStock.h"
 #include "105.construct_binary_tree_from_preorder_and_inorder_traversal/ConstructBinaryTreeFromPreorderAndInorderTraversal.h"
 #include "79.word_search/WordSearch.h"
+#include "42.trapping_rain_water/TrappingRainWater.h"
 
 Base *init() {
     //return new TwoSum();
@@ -129,7 +130,8 @@ Base *init() {
     //return new ProductOfArrayExceptSelf();
     //return new BestTimeToBuyAndSellStock();
     //return new ConstructBinaryTreeFromPreorderAndInorderTraversal();
-    return new WordSearch();
+    //return new WordSearch();
+    return new TrappingRainWater();
 }
 
 int main() {
