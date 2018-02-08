@@ -64,4 +64,7 @@ add_executable(leetcode main.cpp Base.h
         287.find_the_duplicate_number/FindTheDuplicateNumber.cpp 287.find_the_duplicate_number/FindTheDuplicateNumber.h
         283.move_zeroes/MoveZeroes.cpp 283.move_zeroes/MoveZeroes.h
         238.product_of_array_except_self/ProductOfArrayExceptSelf.cpp 238.product_of_array_except_self/ProductOfArrayExceptSelf.h
-        121.best_time_to_buy_and_sell_stock/BestTimeToBuyAndSellStock.cpp 121.best_time_to_buy_and_sell_stock/BestTimeToBuyAndSellStock.h 105.construct_binary_tree_from_preorder_and_inorder_traversal/ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp 105.construct_binary_tree_from_preorder_and_inorder_traversal/ConstructBinaryTreeFromPreorderAndInorderTraversal.h)
+        121.best_time_to_buy_and_sell_stock/BestTimeToBuyAndSellStock.cpp 121.best_time_to_buy_and_sell_stock/BestTimeToBuyAndSellStock.h
+        105.construct_binary_tree_from_preorder_and_inorder_traversal/ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp 105.construct_binary_tree_from_preorder_and_inorder_traversal/ConstructBinaryTreeFromPreorderAndInorderTraversal.h
+        79.word_search/WordSearch.cpp 79.word_search/WordSearch.h
+        )

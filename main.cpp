@@ -64,6 +64,7 @@
 #include "238.product_of_array_except_self/ProductOfArrayExceptSelf.h"
 #include "121.best_time_to_buy_and_sell_stock/BestTimeToBuyAndSellStock.h"
 #include "105.construct_binary_tree_from_preorder_and_inorder_traversal/ConstructBinaryTreeFromPreorderAndInorderTraversal.h"
+#include "79.word_search/WordSearch.h"
 
 Base *init() {
     //return new TwoSum();
@@ -127,7 +128,8 @@ Base *init() {
     //return new MoveZeroes();
     //return new ProductOfArrayExceptSelf();
     //return new BestTimeToBuyAndSellStock();
-    return new ConstructBinaryTreeFromPreorderAndInorderTraversal();
+    //return new ConstructBinaryTreeFromPreorderAndInorderTraversal();
+    return new WordSearch();
 }
 
 int main() {
