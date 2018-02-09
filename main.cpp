@@ -70,6 +70,7 @@
 #include "55.jump_game/JumpGame.h"
 #include "62.unique_paths/UniquePaths.h"
 #include "56.merge_intervals/MergeIntervals.h"
+#include "75.sort_colors/SortColors.h"
 
 Base *init() {
     //return new TwoSum();
@@ -139,7 +140,8 @@ Base *init() {
     //return new RotateImage();
     //return new JumpGame();
     //return new MergeIntervals();
-    return new UniquePaths();
+    //return new UniquePaths();
+    return new SortColors();
 }
 
 int main() {

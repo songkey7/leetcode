@@ -17,12 +17,12 @@ public:
         Interval() : start(0), end(0) {}
         Interval(int s, int e) : start(s), end(e) {}
         bool operator == (const Interval & other) const{
-            return this->start == other.start;
+            return this->start == other.start && this->end == other.end;
         }
     };
 
     static bool comp(const Interval &a, const Interval &b){
-        return a.start < b.start;
+        return a.start < b.start || (a.start == b.start && a.end < b.end);
     }
 
     vector<Interval> merge(vector<Interval>& intervals);
