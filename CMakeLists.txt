@@ -70,4 +70,6 @@ add_executable(leetcode main.cpp Base.h
         42.trapping_rain_water/TrappingRainWater.cpp 42.trapping_rain_water/TrappingRainWater.h
         48.rotate_image/RotateImage.cpp 48.rotate_image/RotateImage.h
         55.jump_game/JumpGame.cpp 55.jump_game/JumpGame.h
-        56.merge_intervals/MergeIntervals.cpp 56.merge_intervals/MergeIntervals.h)
+        56.merge_intervals/MergeIntervals.cpp 56.merge_intervals/MergeIntervals.h
+        62.unique_paths/UniquePaths.cpp 62.unique_paths/UniquePaths.h
+        )

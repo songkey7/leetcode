@@ -68,6 +68,8 @@
 #include "42.trapping_rain_water/TrappingRainWater.h"
 #include "48.rotate_image/RotateImage.h"
 #include "55.jump_game/JumpGame.h"
+#include "62.unique_paths/UniquePaths.h"
+#include "56.merge_intervals/MergeIntervals.h"
 
 Base *init() {
     //return new TwoSum();
@@ -135,7 +137,9 @@ Base *init() {
     //return new WordSearch();
     //return new TrappingRainWater();
     //return new RotateImage();
-    return new JumpGame();
+    //return new JumpGame();
+    //return new MergeIntervals();
+    return new UniquePaths();
 }
 
 int main() {
