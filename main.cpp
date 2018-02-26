@@ -72,6 +72,7 @@
 #include "56.merge_intervals/MergeIntervals.h"
 #include "75.sort_colors/SortColors.h"
 #include "84.largest_rectangle_in_histogram/LargestRectangleInHistogram.h"
+#include "85.maximal_rectangle/MaximalRectangle.h"
 
 Base *init() {
     //return new TwoSum();
@@ -143,7 +144,8 @@ Base *init() {
     //return new MergeIntervals();
     //return new UniquePaths();
     //return new SortColors();
-    return new LargestRectangleInHistogram();
+    //return new LargestRectangleInHistogram();
+    return new MaximalRectangle();
 }
 
 int main() {

@@ -74,4 +74,4 @@ add_executable(leetcode main.cpp Base.h
         62.unique_paths/UniquePaths.cpp 62.unique_paths/UniquePaths.h
         75.sort_colors/SortColors.cpp 75.sort_colors/SortColors.h
         84.largest_rectangle_in_histogram/LargestRectangleInHistogram.cpp 84.largest_rectangle_in_histogram/LargestRectangleInHistogram.h
-        )
+        85.maximal_rectangle/MaximalRectangle.cpp 85.maximal_rectangle/MaximalRectangle.h)
