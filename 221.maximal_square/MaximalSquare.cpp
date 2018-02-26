@@ -2,9 +2,9 @@
 // Created by Qi Song on 2/9/18.
 //
 
-#include "MaximalRectangle.h"
+#include "MaximalSquare.h"
 
-int MaximalRectangle::maximal_rectangle(vector<vector<char>> &matrix) {
+int MaximalSquare::maximal_square(vector<vector<char>> &matrix) {
     int m = matrix.size();
     if(m == 0) return 0;
     int n = matrix[0].size();
@@ -33,31 +33,20 @@ int MaximalRectangle::maximal_rectangle(vector<vector<char>> &matrix) {
         }
 
         for(int j = 0; j < n; j++) {
-            ret = max(ret, (right[j] - left[j] + 1) * height[j]);
+            int a = min((right[j] - left[j] + 1), height[j]);
+            ret = max(ret, a * a);
         }
     }
 
     return ret;
 }
 
-void MaximalRectangle::run() {
+void MaximalSquare::run() {
     vector<vector<char>> matrix = {
             {'1','0','1','0','0'},
             {'1','0','1','1','1'},
             {'1','1','1','1','1'},
             {'1','0','0','1','0'}
     };
-    assert(maximal_rectangle(matrix) == 6);
-    vector<vector<char>> matrix2 = {
-                    {'0','0','0','1','0','1','1','1'},
-                    {'0','1','1','0','0','1','0','1'},
-                    {'1','0','1','1','1','1','0','1'},
-                    {'0','0','0','1','0','0','0','0'},
-                    {'0','0','1','0','0','0','1','0'},
-                    {'1','1','1','0','0','1','1','1'},
-                    {'1','0','0','1','1','0','0','1'},
-                    {'0','1','0','0','1','1','0','0'},
-                    {'1','0','0','1','0','0','0','0'}
-    };
-    assert(maximal_rectangle(matrix2) == 4);
+    assert(maximal_square(matrix) == 4);
 }

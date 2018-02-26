@@ -74,6 +74,7 @@
 #include "84.largest_rectangle_in_histogram/LargestRectangleInHistogram.h"
 #include "85.maximal_rectangle/MaximalRectangle.h"
 #include "49.group_anagrams/GroupAnagrams.h"
+#include "221.maximal_square/MaximalSquare.h"
 
 Base *init() {
     //return new TwoSum();
@@ -147,7 +148,8 @@ Base *init() {
     //return new SortColors();
     //return new LargestRectangleInHistogram();
     //return new MaximalRectangle();
-    return new GroupAnagrams();
+    //return new GroupAnagrams();
+    return new MaximalSquare();
 }
 
 int main() {
