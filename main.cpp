@@ -79,6 +79,7 @@
 #include "64.minimum_path_sum/MinimumPathSum.h"
 #include "72.edit_distance/EditDistance.h"
 #include "76.minimum_window_substring/MinimumWindowSubstring.h"
+#include "94.binary_tree_inorder_traversal/BinaryTreeInorderTraversal.h"
 
 Base *init() {
     //return new TwoSum();
@@ -157,7 +158,8 @@ Base *init() {
     //return new InvertBinaryTree();
     //return new MinimumPathSum();
     //return new EditDistance();
-    return new MinimumWindowSubstring();
+    //return new MinimumWindowSubstring();
+    return new BinaryTreeInorderTraversal();
 }
 
 int main() {

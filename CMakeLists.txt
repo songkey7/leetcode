@@ -81,4 +81,5 @@ add_executable(leetcode main.cpp Base.h
         64.minimum_path_sum/MinimumPathSum.cpp 64.minimum_path_sum/MinimumPathSum.h
         72.edit_distance/EditDistance.cpp 72.edit_distance/EditDistance.h
         76.minimum_window_substring/MinimumWindowSubstring.cpp 76.minimum_window_substring/MinimumWindowSubstring.h
+        94.binary_tree_inorder_traversal/BinaryTreeInorderTraversal.cpp 94.binary_tree_inorder_traversal/BinaryTreeInorderTraversal.h
         )
