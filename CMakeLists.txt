@@ -79,4 +79,5 @@ add_executable(leetcode main.cpp Base.h
         221.maximal_square/MaximalSquare.cpp 221.maximal_square/MaximalSquare.h
         226.invert_binary_tree/InvertBinaryTree.cpp 226.invert_binary_tree/InvertBinaryTree.h
         64.minimum_path_sum/MinimumPathSum.cpp 64.minimum_path_sum/MinimumPathSum.h
+        72.edit_distance/EditDistance.cpp 72.edit_distance/EditDistance.h
         )
