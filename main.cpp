@@ -75,6 +75,7 @@
 #include "85.maximal_rectangle/MaximalRectangle.h"
 #include "49.group_anagrams/GroupAnagrams.h"
 #include "221.maximal_square/MaximalSquare.h"
+#include "226.invert_binary_tree/InvertBinaryTree.h"
 
 Base *init() {
     //return new TwoSum();
@@ -149,7 +150,8 @@ Base *init() {
     //return new LargestRectangleInHistogram();
     //return new MaximalRectangle();
     //return new GroupAnagrams();
-    return new MaximalSquare();
+    //return new MaximalSquare();
+    return new InvertBinaryTree();
 }
 
 int main() {
