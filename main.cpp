@@ -76,6 +76,7 @@
 #include "49.group_anagrams/GroupAnagrams.h"
 #include "221.maximal_square/MaximalSquare.h"
 #include "226.invert_binary_tree/InvertBinaryTree.h"
+#include "64.minimum_path_sum/MinimumPathSum.h"
 
 Base *init() {
     //return new TwoSum();
@@ -151,7 +152,8 @@ Base *init() {
     //return new MaximalRectangle();
     //return new GroupAnagrams();
     //return new MaximalSquare();
-    return new InvertBinaryTree();
+    //return new InvertBinaryTree();
+    return new MinimumPathSum();
 }
 
 int main() {

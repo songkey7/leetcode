@@ -78,4 +78,5 @@ add_executable(leetcode main.cpp Base.h
         49.group_anagrams/GroupAnagrams.cpp 49.group_anagrams/GroupAnagrams.h
         221.maximal_square/MaximalSquare.cpp 221.maximal_square/MaximalSquare.h
         226.invert_binary_tree/InvertBinaryTree.cpp 226.invert_binary_tree/InvertBinaryTree.h
+        64.minimum_path_sum/MinimumPathSum.cpp 64.minimum_path_sum/MinimumPathSum.h
         )
