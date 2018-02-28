@@ -85,6 +85,7 @@
 #include "101.symmetric_tree/SymmetricTree.h"
 #include "102.binary_tree_level_order_traversal/BinaryTreeLevelOrderTraversal.h"
 #include "104.maximum_depth_of_binary_tree/MaximumDepthOfBinaryTree.h"
+#include "124.binary_tree_maximum_path_sum/BinaryTreeMaximumPathSum.h"
 
 Base *init() {
     //return new TwoSum();
@@ -169,7 +170,8 @@ Base *init() {
     //return new ValidateBinarySearchTree();
     //return new SymmetricTree();
     //return new BinaryTreeLevelOrderTraversal();
-    return new MaximumDepthOfBinaryTree();
+    //return new MaximumDepthOfBinaryTree();
+    return new BinaryTreeMaximumPathSum();
 }
 
 int main() {
