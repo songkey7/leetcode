@@ -81,6 +81,7 @@
 #include "76.minimum_window_substring/MinimumWindowSubstring.h"
 #include "94.binary_tree_inorder_traversal/BinaryTreeInorderTraversal.h"
 #include "96.unique_binary_search_trees/UniqueBinarySearchTrees.h"
+#include "98.validate_binary_search_tree/ValidateBinarySearchTree.h"
 
 Base *init() {
     //return new TwoSum();
@@ -161,7 +162,8 @@ Base *init() {
     //return new EditDistance();
     //return new MinimumWindowSubstring();
     //return new BinaryTreeInorderTraversal();
-    return new UniqueBinarySearchTrees();
+    //return new UniqueBinarySearchTrees();
+    return new ValidateBinarySearchTree();
 }
 
 int main() {

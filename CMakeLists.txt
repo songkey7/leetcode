@@ -83,4 +83,5 @@ add_executable(leetcode main.cpp Base.h
         76.minimum_window_substring/MinimumWindowSubstring.cpp 76.minimum_window_substring/MinimumWindowSubstring.h
         94.binary_tree_inorder_traversal/BinaryTreeInorderTraversal.cpp 94.binary_tree_inorder_traversal/BinaryTreeInorderTraversal.h
         96.unique_binary_search_trees/UniqueBinarySearchTrees.cpp 96.unique_binary_search_trees/UniqueBinarySearchTrees.h
+        98.validate_binary_search_tree/ValidateBinarySearchTree.cpp 98.validate_binary_search_tree/ValidateBinarySearchTree.h
         )
