@@ -86,6 +86,7 @@
 #include "102.binary_tree_level_order_traversal/BinaryTreeLevelOrderTraversal.h"
 #include "104.maximum_depth_of_binary_tree/MaximumDepthOfBinaryTree.h"
 #include "124.binary_tree_maximum_path_sum/BinaryTreeMaximumPathSum.h"
+#include "315.count_of_smaller_numbers_after_self/CountOfSmallerNumbersAfterSelf.h"
 
 Base *init() {
     //return new TwoSum();
@@ -171,7 +172,8 @@ Base *init() {
     //return new SymmetricTree();
     //return new BinaryTreeLevelOrderTraversal();
     //return new MaximumDepthOfBinaryTree();
-    return new BinaryTreeMaximumPathSum();
+    //return new BinaryTreeMaximumPathSum();
+    return new CountOfSmallerNumbersAfterSelf();
 }
 
 int main() {
