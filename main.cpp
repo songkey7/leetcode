@@ -82,6 +82,7 @@
 #include "94.binary_tree_inorder_traversal/BinaryTreeInorderTraversal.h"
 #include "96.unique_binary_search_trees/UniqueBinarySearchTrees.h"
 #include "98.validate_binary_search_tree/ValidateBinarySearchTree.h"
+#include "101.symmetric_tree/SymmetricTree.h"
 
 Base *init() {
     //return new TwoSum();
@@ -163,7 +164,8 @@ Base *init() {
     //return new MinimumWindowSubstring();
     //return new BinaryTreeInorderTraversal();
     //return new UniqueBinarySearchTrees();
-    return new ValidateBinarySearchTree();
+    //return new ValidateBinarySearchTree();
+    return new SymmetricTree();
 }
 
 int main() {
