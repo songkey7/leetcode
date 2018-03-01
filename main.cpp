@@ -89,6 +89,7 @@
 #include "315.count_of_smaller_numbers_after_self/CountOfSmallerNumbersAfterSelf.h"
 #include "312.burst_balloons/BurstBalloons.h"
 #include "236.lowest_common_ancestor_of_a_binary_tree/LowestCommonAncestorOfABinaryTree.h"
+#include "300.longest_increasing_subsequence/LongestIncreasingSubsequence.h"
 
 Base *init() {
     //return new TwoSum();
@@ -177,7 +178,8 @@ Base *init() {
     //return new BinaryTreeMaximumPathSum();
     //return new CountOfSmallerNumbersAfterSelf();
     //return new BurstBalloons();
-    return new LowestCommonAncestorOfABinaryTree();
+    //return new LowestCommonAncestorOfABinaryTree();
+    return new LongestIncreasingSubsequence();
 }
 
 int main() {

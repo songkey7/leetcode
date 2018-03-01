@@ -91,4 +91,5 @@ add_executable(leetcode main.cpp Base.h
         315.count_of_smaller_numbers_after_self/CountOfSmallerNumbersAfterSelf.cpp 315.count_of_smaller_numbers_after_self/CountOfSmallerNumbersAfterSelf.h
         312.burst_balloons/BurstBalloons.cpp 312.burst_balloons/BurstBalloons.h
         236.lowest_common_ancestor_of_a_binary_tree/LowestCommonAncestorOfABinaryTree.cpp 236.lowest_common_ancestor_of_a_binary_tree/LowestCommonAncestorOfABinaryTree.h
+        300.longest_increasing_subsequence/LongestIncreasingSubsequence.cpp 300.longest_increasing_subsequence/LongestIncreasingSubsequence.h
         )
