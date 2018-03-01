@@ -89,4 +89,5 @@ add_executable(leetcode main.cpp Base.h
         104.maximum_depth_of_binary_tree/MaximumDepthOfBinaryTree.cpp 104.maximum_depth_of_binary_tree/MaximumDepthOfBinaryTree.h
         124.binary_tree_maximum_path_sum/BinaryTreeMaximumPathSum.cpp 124.binary_tree_maximum_path_sum/BinaryTreeMaximumPathSum.h
         315.count_of_smaller_numbers_after_self/CountOfSmallerNumbersAfterSelf.cpp 315.count_of_smaller_numbers_after_self/CountOfSmallerNumbersAfterSelf.h
+        312.burst_balloons/BurstBalloons.cpp 312.burst_balloons/BurstBalloons.h
         )
