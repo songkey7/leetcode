@@ -90,6 +90,7 @@
 #include "312.burst_balloons/BurstBalloons.h"
 #include "236.lowest_common_ancestor_of_a_binary_tree/LowestCommonAncestorOfABinaryTree.h"
 #include "300.longest_increasing_subsequence/LongestIncreasingSubsequence.h"
+#include "247.search_a_2d_matrix_2/SearchA2DMatrix2.h"
 
 Base *init() {
     //return new TwoSum();
@@ -179,7 +180,8 @@ Base *init() {
     //return new CountOfSmallerNumbersAfterSelf();
     //return new BurstBalloons();
     //return new LowestCommonAncestorOfABinaryTree();
-    return new LongestIncreasingSubsequence();
+    //return new LongestIncreasingSubsequence();
+    return new SearchA2DMatrix2();
 }
 
 int main() {
