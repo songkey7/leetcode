@@ -91,6 +91,7 @@
 #include "236.lowest_common_ancestor_of_a_binary_tree/LowestCommonAncestorOfABinaryTree.h"
 #include "300.longest_increasing_subsequence/LongestIncreasingSubsequence.h"
 #include "247.search_a_2d_matrix_2/SearchA2DMatrix2.h"
+#include "256.perfect_squares/PerfectSquares.h"
 
 Base *init() {
     //return new TwoSum();
@@ -181,7 +182,8 @@ Base *init() {
     //return new BurstBalloons();
     //return new LowestCommonAncestorOfABinaryTree();
     //return new LongestIncreasingSubsequence();
-    return new SearchA2DMatrix2();
+    //return new SearchA2DMatrix2();
+    return new PerfectSquares();
 }
 
 int main() {

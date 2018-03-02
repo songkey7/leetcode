@@ -93,4 +93,5 @@ add_executable(leetcode main.cpp Base.h
         236.lowest_common_ancestor_of_a_binary_tree/LowestCommonAncestorOfABinaryTree.cpp 236.lowest_common_ancestor_of_a_binary_tree/LowestCommonAncestorOfABinaryTree.h
         300.longest_increasing_subsequence/LongestIncreasingSubsequence.cpp 300.longest_increasing_subsequence/LongestIncreasingSubsequence.h
         247.search_a_2d_matrix_2/SearchA2DMatrix2.cpp 247.search_a_2d_matrix_2/SearchA2DMatrix2.h
+        256.perfect_squares/PerfectSquares.cpp 256.perfect_squares/PerfectSquares.h
         )
