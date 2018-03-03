@@ -92,6 +92,7 @@
 #include "300.longest_increasing_subsequence/LongestIncreasingSubsequence.h"
 #include "247.search_a_2d_matrix_2/SearchA2DMatrix2.h"
 #include "256.perfect_squares/PerfectSquares.h"
+#include "239.sliding_window_maximum/SlidingWindowMaximum.h"
 
 Base *init() {
     //return new TwoSum();
@@ -183,7 +184,8 @@ Base *init() {
     //return new LowestCommonAncestorOfABinaryTree();
     //return new LongestIncreasingSubsequence();
     //return new SearchA2DMatrix2();
-    return new PerfectSquares();
+    //return new PerfectSquares();
+    return new SlidingWindowMaximum();
 }
 
 int main() {
