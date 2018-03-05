@@ -95,4 +95,6 @@ add_executable(leetcode main.cpp Base.h
         247.search_a_2d_matrix_2/SearchA2DMatrix2.cpp 247.search_a_2d_matrix_2/SearchA2DMatrix2.h
         256.perfect_squares/PerfectSquares.cpp 256.perfect_squares/PerfectSquares.h
         239.sliding_window_maximum/SlidingWindowMaximum.cpp 239.sliding_window_maximum/SlidingWindowMaximum.h
+        297.serialize_and_deserialize_binary_tree/SerializeAndDeserializeBinaryTree.cpp 297.serialize_and_deserialize_binary_tree/SerializeAndDeserializeBinaryTree.h
+        218.the_skyline_problem/TheSkylineProblem.cpp 218.the_skyline_problem/TheSkylineProblem.h
         )

@@ -93,6 +93,8 @@
 #include "247.search_a_2d_matrix_2/SearchA2DMatrix2.h"
 #include "256.perfect_squares/PerfectSquares.h"
 #include "239.sliding_window_maximum/SlidingWindowMaximum.h"
+#include "297.serialize_and_deserialize_binary_tree/SerializeAndDeserializeBinaryTree.h"
+#include "218.the_skyline_problem/TheSkylineProblem.h"
 
 Base *init() {
     //return new TwoSum();
@@ -185,7 +187,9 @@ Base *init() {
     //return new LongestIncreasingSubsequence();
     //return new SearchA2DMatrix2();
     //return new PerfectSquares();
-    return new SlidingWindowMaximum();
+    //return new SlidingWindowMaximum();
+    //return new SerializeAndDeserializeBinaryTree();
+    return new TheSkylineProblem();
 }
 
 int main() {
