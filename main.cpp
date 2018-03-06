@@ -96,6 +96,7 @@
 #include "297.serialize_and_deserialize_binary_tree/SerializeAndDeserializeBinaryTree.h"
 #include "218.the_skyline_problem/TheSkylineProblem.h"
 #include "4.median_of_two_sorted_arrays/MedianOfTwoSortedArrays.h"
+#include "301.remove_invalid_parentheses/RemoveInvalidParentheses.h"
 
 Base *init() {
     //return new TwoSum();
@@ -191,7 +192,8 @@ Base *init() {
     //return new SlidingWindowMaximum();
     //return new SerializeAndDeserializeBinaryTree();
     //return new TheSkylineProblem();
-    return new MedianOfTwoSortedArrays();
+    //return new MedianOfTwoSortedArrays();
+    return new RemoveInvalidParentheses();
 }
 
 int main() {

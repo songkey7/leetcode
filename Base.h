@@ -18,6 +18,10 @@
 #include <unordered_map>
 #include <unordered_set>
 #include <assert.h>
+#include <limits.h>
+#include <cstring>
+#include <bitset>
+#include <cmath>
 
 using namespace std;
 
