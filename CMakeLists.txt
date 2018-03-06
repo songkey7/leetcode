@@ -97,4 +97,5 @@ add_executable(leetcode main.cpp Base.h
         239.sliding_window_maximum/SlidingWindowMaximum.cpp 239.sliding_window_maximum/SlidingWindowMaximum.h
         297.serialize_and_deserialize_binary_tree/SerializeAndDeserializeBinaryTree.cpp 297.serialize_and_deserialize_binary_tree/SerializeAndDeserializeBinaryTree.h
         218.the_skyline_problem/TheSkylineProblem.cpp 218.the_skyline_problem/TheSkylineProblem.h
+        4.median_of_two_sorted_arrays/MedianOfTwoSortedArrays.cpp 4.median_of_two_sorted_arrays/MedianOfTwoSortedArrays.h
         )
