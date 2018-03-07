@@ -9,16 +9,8 @@
 #include "../Base.h"
 
 class PathSum2: public Base {
-    struct TreeNode {
-        int val;
-        TreeNode *left;
-        TreeNode *right;
-        TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-    };
-
     vector<vector<int>> path_sum(TreeNode* root, int sum);
     void path_sum(TreeNode* root, int sum, vector<int> &path, vector<vector<int>> & paths);
-
 public:
     void run();
 };

@@ -9,15 +9,7 @@
 #include "../Base.h"
 
 class InvertBinaryTree: public Base {
-    struct TreeNode {
-        int val;
-        TreeNode *left;
-        TreeNode *right;
-        TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-    };
-
     TreeNode* invert_tree(TreeNode* root);
-    bool equal(TreeNode* r1, TreeNode *r2);
 public:
     void run();
 

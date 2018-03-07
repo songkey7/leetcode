@@ -9,15 +9,7 @@
 #include "../Base.h"
 
 class PathSum: public Base {
-    struct TreeNode {
-        int val;
-        TreeNode *left;
-        TreeNode *right;
-        TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-    };
-
     bool has_path_sum(TreeNode* root, int sum);
-
 public:
     void run();
 };

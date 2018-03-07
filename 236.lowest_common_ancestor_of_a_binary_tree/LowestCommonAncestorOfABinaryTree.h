@@ -9,12 +9,6 @@
 #include "../Base.h"
 
 class LowestCommonAncestorOfABinaryTree: public Base {
-    struct TreeNode {
-        int val;
-        TreeNode *left;
-        TreeNode *right;
-        TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-    };
     TreeNode* lowest_common_ancestor(TreeNode *root, TreeNode *p, TreeNode *q);
     bool search_node(TreeNode* root, TreeNode* p, stack<TreeNode*> &out);
 public:

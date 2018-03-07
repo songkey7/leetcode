@@ -9,14 +9,6 @@
 #include "../Base.h"
 
 class ValidateBinarySearchTree: public Base {
-
-    struct TreeNode {
-        int val;
-        TreeNode *left;
-        TreeNode *right;
-        TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-    };
-
     bool is_valid_BST(TreeNode* root);
     bool is_valid_BST2(TreeNode* root);
     bool is_valid_BST(TreeNode* root, long &pre);

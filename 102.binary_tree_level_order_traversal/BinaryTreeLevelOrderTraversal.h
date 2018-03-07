@@ -9,12 +9,6 @@
 #include "../Base.h"
 
 class BinaryTreeLevelOrderTraversal: public Base {
-    struct TreeNode {
-        int val;
-        TreeNode *left;
-        TreeNode *right;
-        TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-    };
     vector<vector<int>> level_order(TreeNode* root);
     void level_order(TreeNode* root, int depth, vector<vector<int>> &out);
 public:

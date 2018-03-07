@@ -13,13 +13,6 @@ InvertBinaryTree::TreeNode *InvertBinaryTree::invert_tree(InvertBinaryTree::Tree
     return root;
 }
 
-bool InvertBinaryTree::equal(InvertBinaryTree::TreeNode *r1, InvertBinaryTree::TreeNode *r2) {
-    if(!r1 && !r2) return true;
-    if(r1 && r2 && r1->val == r2->val)
-        return equal(r1->left, r2->left) && equal(r1->right, r2->right);
-    return false;
-}
-
 void InvertBinaryTree::run() {
     TreeNode * root = new TreeNode(4);
     root->left = new TreeNode(2);
@@ -39,7 +32,7 @@ void InvertBinaryTree::run() {
 
     //assert(equal(root, root));
     TreeNode * r = invert_tree(root);
-    assert(equal(r, ret));
+    assert(binary_tree_equal(r, ret));
 }
 
 

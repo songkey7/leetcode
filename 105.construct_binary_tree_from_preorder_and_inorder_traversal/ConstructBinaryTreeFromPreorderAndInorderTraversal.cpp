@@ -25,15 +25,6 @@ ConstructBinaryTreeFromPreorderAndInorderTraversal::build_tree(vector<int> &preo
     return build_tree(preorder, inorder, 0, 0, n);
 }
 
-bool ConstructBinaryTreeFromPreorderAndInorderTraversal::equal(TreeNode *root1, TreeNode *root2) {
-    if(root1 == nullptr && root2 == nullptr) return true;
-    if(root1 && root2){
-        if(root1->val != root2->val) return false;
-        return equal(root1->left, root2->left) && equal(root1->right, root2->right);
-    }
-    return false;
-}
-
 void ConstructBinaryTreeFromPreorderAndInorderTraversal::run() {
     vector<int> preorder = {3,9,20,15,7};
     vector<int> inorder = {9,3,15,20,7};
@@ -43,7 +34,7 @@ void ConstructBinaryTreeFromPreorderAndInorderTraversal::run() {
     root->right = new TreeNode(20);
     root->right->left = new TreeNode(15);
     root->right->right = new TreeNode(7);
-    assert(equal(build_tree(preorder, inorder), root));
+    assert(binary_tree_equal(build_tree(preorder, inorder), root));
 
     vector<int> preorder2 = {3,1,2,4};
     vector<int> inorder2 = {1,2,3,4};
@@ -51,7 +42,7 @@ void ConstructBinaryTreeFromPreorderAndInorderTraversal::run() {
     root2->left = new TreeNode(1);
     root2->left->right= new TreeNode(2);
     root2->right = new TreeNode(4);
-    assert(equal(build_tree(preorder2, inorder2), root2));
+    assert(binary_tree_equal(build_tree(preorder2, inorder2), root2));
 }
 
 

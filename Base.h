@@ -26,6 +26,22 @@
 using namespace std;
 
 class Base{
+protected:
+    struct TreeNode {
+        int val;
+        TreeNode *left;
+        TreeNode *right;
+        TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+    };
+
+    bool binary_tree_equal(TreeNode * r1, TreeNode *r2){
+        if(!r1 && !r2)
+            return true;
+        else if(r1 && r2 && r1->val == r2->val)
+            return binary_tree_equal(r1->left, r2->left) && binary_tree_equal(r1->right, r2->right);
+        else
+            return false;
+    }
 public:
     virtual void run() = 0;
 };

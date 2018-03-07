@@ -9,13 +9,6 @@
 #include "../Base.h"
 
 class HouseRobber3: public Base {
-    struct TreeNode {
-        int val;
-        TreeNode *left;
-        TreeNode *right;
-        TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-    };
-
     int rob(TreeNode* root);
     vector<int> dfs(TreeNode* root);
 public:

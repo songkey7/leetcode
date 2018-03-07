@@ -22,21 +22,14 @@ SerializeAndDeserializeBinaryTree::TreeNode *SerializeAndDeserializeBinaryTree::
         data.erase(0, i + 1);
         root->left = deserialize_helper(data);
         root->right = deserialize_helper(data);
+        return root;
     }
 }
 
 SerializeAndDeserializeBinaryTree::TreeNode *SerializeAndDeserializeBinaryTree::Codec::deserialize(string data) {
     cout << data << endl;
-    return deserialize_helper(data);
-}
-
-bool SerializeAndDeserializeBinaryTree::equal(TreeNode * r1, TreeNode * r2) {
-    if(r1 == r2 == NULL) return true;
-    if(r1 && r2) {
-        if(r1->val != r2->val) return false;
-        return equal(r1->left, r2->left) && equal(r1->right, r2->right);
-    }
-    return false;
+    TreeNode * ret = deserialize_helper(data);
+    return ret;
 }
 
 void SerializeAndDeserializeBinaryTree::run() {
@@ -46,7 +39,8 @@ void SerializeAndDeserializeBinaryTree::run() {
     root->right->left = new TreeNode(4);
     root->right->right = new TreeNode(5);
     Codec codec;
-    assert(equal(codec.deserialize(codec.serialize(root)), root));
+    TreeNode * ret = codec.deserialize(codec.serialize(root));
+    assert(binary_tree_equal(ret, root));
 }
 
 

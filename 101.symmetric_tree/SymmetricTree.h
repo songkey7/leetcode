@@ -9,17 +9,8 @@
 #include "../Base.h"
 
 class SymmetricTree: public Base {
-
-    struct TreeNode {
-        int val;
-        TreeNode *left;
-        TreeNode *right;
-        TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-    };
-
     bool is_symmetric(TreeNode * root);
     bool equal(TreeNode * root1, TreeNode * root2);
-
 public:
     void run();
 

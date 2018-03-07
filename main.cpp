@@ -99,6 +99,7 @@
 #include "301.remove_invalid_parentheses/RemoveInvalidParentheses.h"
 #include "114.flatten_binary_tree_to_linked_list/FlattenBinaryTreeToLinkedList.h"
 #include "543.diameter_of_binary_tree/DiameterOfBinaryTree.h"
+#include "538.convert_BST_to_greater_tree/ConvertBSTToGreaterTree.h"
 
 Base *init() {
     //return new TwoSum();
@@ -197,7 +198,8 @@ Base *init() {
     //return new MedianOfTwoSortedArrays();
     //return new RemoveInvalidParentheses();
     //return new FlattenBinaryTreeToLinkedList();
-    return new DiameterOfBinaryTree();
+    //return new DiameterOfBinaryTree();
+    return new ConvertBSTToGreaterTree();
 }
 
 int main() {

@@ -9,15 +9,6 @@
 #include "../Base.h"
 
 class SerializeAndDeserializeBinaryTree: public Base {
-    struct TreeNode {
-        int val;
-        TreeNode *left;
-        TreeNode *right;
-        TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-    };
-
-    bool equal(TreeNode * r1, TreeNode * r2);
-
     class Codec {
         TreeNode * deserialize_helper(string &data);
     public:
