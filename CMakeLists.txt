@@ -100,4 +100,5 @@ add_executable(leetcode main.cpp Base.h
         4.median_of_two_sorted_arrays/MedianOfTwoSortedArrays.cpp 4.median_of_two_sorted_arrays/MedianOfTwoSortedArrays.h
         301.remove_invalid_parentheses/RemoveInvalidParentheses.cpp 301.remove_invalid_parentheses/RemoveInvalidParentheses.h
         114.flatten_binary_tree_to_linked_list/FlattenBinaryTreeToLinkedList.cpp 114.flatten_binary_tree_to_linked_list/FlattenBinaryTreeToLinkedList.h
+        543.diameter_of_binary_tree/DiameterOfBinaryTree.cpp 543.diameter_of_binary_tree/DiameterOfBinaryTree.h
         )

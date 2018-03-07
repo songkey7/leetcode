@@ -98,6 +98,7 @@
 #include "4.median_of_two_sorted_arrays/MedianOfTwoSortedArrays.h"
 #include "301.remove_invalid_parentheses/RemoveInvalidParentheses.h"
 #include "114.flatten_binary_tree_to_linked_list/FlattenBinaryTreeToLinkedList.h"
+#include "543.diameter_of_binary_tree/DiameterOfBinaryTree.h"
 
 Base *init() {
     //return new TwoSum();
@@ -195,7 +196,8 @@ Base *init() {
     //return new TheSkylineProblem();
     //return new MedianOfTwoSortedArrays();
     //return new RemoveInvalidParentheses();
-    return new FlattenBinaryTreeToLinkedList();
+    //return new FlattenBinaryTreeToLinkedList();
+    return new DiameterOfBinaryTree();
 }
 
 int main() {
