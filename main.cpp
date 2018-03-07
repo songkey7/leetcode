@@ -97,6 +97,7 @@
 #include "218.the_skyline_problem/TheSkylineProblem.h"
 #include "4.median_of_two_sorted_arrays/MedianOfTwoSortedArrays.h"
 #include "301.remove_invalid_parentheses/RemoveInvalidParentheses.h"
+#include "114.flatten_binary_tree_to_linked_list/FlattenBinaryTreeToLinkedList.h"
 
 Base *init() {
     //return new TwoSum();
@@ -193,7 +194,8 @@ Base *init() {
     //return new SerializeAndDeserializeBinaryTree();
     //return new TheSkylineProblem();
     //return new MedianOfTwoSortedArrays();
-    return new RemoveInvalidParentheses();
+    //return new RemoveInvalidParentheses();
+    return new FlattenBinaryTreeToLinkedList();
 }
 
 int main() {
