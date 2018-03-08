@@ -11,7 +11,7 @@ string DecodeString::decodeString(string s) {
         size_t beg = s.rfind('[', end);
         size_t n = 0;
         int idx = 0;
-        for (size_t i = beg - 1, base = 1; s[i] >= '0' && s[i] <= '9' && i >= 0; i--, base *= 10, idx++) {
+        for (int i = beg - 1, base = 1; s[i] >= '0' && s[i] <= '9' && i >= 0; i--, base *= 10, idx++) {
             n = n + int(s[i] - '0') * base;
         }
         string tmp;
