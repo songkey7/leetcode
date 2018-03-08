@@ -100,6 +100,7 @@
 #include "114.flatten_binary_tree_to_linked_list/FlattenBinaryTreeToLinkedList.h"
 #include "543.diameter_of_binary_tree/DiameterOfBinaryTree.h"
 #include "538.convert_BST_to_greater_tree/ConvertBSTToGreaterTree.h"
+#include "10.regular_expression_matching/RegularExpressionMatching.h"
 
 Base *init() {
     //return new TwoSum();
@@ -199,7 +200,8 @@ Base *init() {
     //return new RemoveInvalidParentheses();
     //return new FlattenBinaryTreeToLinkedList();
     //return new DiameterOfBinaryTree();
-    return new ConvertBSTToGreaterTree();
+    //return new ConvertBSTToGreaterTree();
+    return new RegularExpressionMatching();
 }
 
 int main() {
