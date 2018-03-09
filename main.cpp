@@ -105,6 +105,7 @@
 #include "15.three_sum/ThreeSum.h"
 #include "17.letter_combinations_of_a_phone_number/LetterCombinationsOfAPhoneNumber.h"
 #include "19.remove_nth_node_from_end_of_list/RemoveNthNodeFromEndOfList.h"
+#include "31.next_permutation/NextPermutation.h"
 
 Base *init() {
     //return new TwoSum();
@@ -209,7 +210,8 @@ Base *init() {
     //return new ContainerWithMostWater();
     //return new ThreeSum();
     //return new LetterCombinationsOfAPhoneNumber();
-    return new RemoveNthNodeFromEndOfList();
+    //return new RemoveNthNodeFromEndOfList();
+    return new NextPermutation();
 }
 
 int main() {
