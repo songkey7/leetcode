@@ -104,6 +104,7 @@
 #include "11.container_with_most_water/ContainerWithMostWater.h"
 #include "15.three_sum/ThreeSum.h"
 #include "17.letter_combinations_of_a_phone_number/LetterCombinationsOfAPhoneNumber.h"
+#include "19.remove_nth_node_from_end_of_list/RemoveNthNodeFromEndOfList.h"
 
 Base *init() {
     //return new TwoSum();
@@ -207,7 +208,8 @@ Base *init() {
     //return new RegularExpressionMatching();
     //return new ContainerWithMostWater();
     //return new ThreeSum();
-    return new LetterCombinationsOfAPhoneNumber();
+    //return new LetterCombinationsOfAPhoneNumber();
+    return new RemoveNthNodeFromEndOfList();
 }
 
 int main() {
