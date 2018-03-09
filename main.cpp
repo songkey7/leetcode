@@ -102,6 +102,7 @@
 #include "538.convert_BST_to_greater_tree/ConvertBSTToGreaterTree.h"
 #include "10.regular_expression_matching/RegularExpressionMatching.h"
 #include "11.container_with_most_water/ContainerWithMostWater.h"
+#include "15.three_sum/ThreeSum.h"
 
 Base *init() {
     //return new TwoSum();
@@ -203,7 +204,8 @@ Base *init() {
     //return new DiameterOfBinaryTree();
     //return new ConvertBSTToGreaterTree();
     //return new RegularExpressionMatching();
-    return new ContainerWithMostWater();
+    //return new ContainerWithMostWater();
+    return new ThreeSum();
 }
 
 int main() {
