@@ -109,4 +109,5 @@ add_executable(leetcode main.cpp Base.h
         19.remove_nth_node_from_end_of_list/RemoveNthNodeFromEndOfList.cpp 19.remove_nth_node_from_end_of_list/RemoveNthNodeFromEndOfList.h
         31.next_permutation/NextPermutation.cpp 31.next_permutation/NextPermutation.h
         34.search_for_a_range/SearchForARange.cpp 34.search_for_a_range/SearchForARange.h
+        39.combination_sum/CombinationSum.cpp 39.combination_sum/CombinationSum.h
         )

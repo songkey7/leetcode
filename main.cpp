@@ -107,6 +107,7 @@
 #include "19.remove_nth_node_from_end_of_list/RemoveNthNodeFromEndOfList.h"
 #include "31.next_permutation/NextPermutation.h"
 #include "34.search_for_a_range/SearchForARange.h"
+#include "39.combination_sum/CombinationSum.h"
 
 Base *init() {
     //return new TwoSum();
@@ -213,7 +214,8 @@ Base *init() {
     //return new LetterCombinationsOfAPhoneNumber();
     //return new RemoveNthNodeFromEndOfList();
     //return new NextPermutation();
-    return new SearchForARange();
+    //return new SearchForARange();
+    return new CombinationSum();
 }
 
 int main() {
