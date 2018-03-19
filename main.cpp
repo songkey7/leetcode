@@ -108,6 +108,7 @@
 #include "31.next_permutation/NextPermutation.h"
 #include "34.search_for_a_range/SearchForARange.h"
 #include "39.combination_sum/CombinationSum.h"
+#include "78.subsets/Subsets.h"
 
 Base *init() {
     //return new TwoSum();
@@ -215,7 +216,8 @@ Base *init() {
     //return new RemoveNthNodeFromEndOfList();
     //return new NextPermutation();
     //return new SearchForARange();
-    return new CombinationSum();
+    //return new CombinationSum();
+    return new Subsets();
 }
 
 int main() {

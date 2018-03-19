@@ -110,4 +110,5 @@ add_executable(leetcode main.cpp Base.h
         31.next_permutation/NextPermutation.cpp 31.next_permutation/NextPermutation.h
         34.search_for_a_range/SearchForARange.cpp 34.search_for_a_range/SearchForARange.h
         39.combination_sum/CombinationSum.cpp 39.combination_sum/CombinationSum.h
+        78.subsets/Subsets.cpp 78.subsets/Subsets.h
         )
