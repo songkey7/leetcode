@@ -109,6 +109,7 @@
 #include "34.search_for_a_range/SearchForARange.h"
 #include "39.combination_sum/CombinationSum.h"
 #include "78.subsets/Subsets.h"
+#include "70.climbing_stairs/ClimbingStairs.h"
 
 Base *init() {
     //return new TwoSum();
@@ -217,7 +218,8 @@ Base *init() {
     //return new NextPermutation();
     //return new SearchForARange();
     //return new CombinationSum();
-    return new Subsets();
+    //return new Subsets();
+    return new ClimbingStairs();
 }
 
 int main() {
