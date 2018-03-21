@@ -204,7 +204,7 @@ Base *init() {
     //return new LowestCommonAncestorOfABinaryTree();
     //return new LongestIncreasingSubsequence();
     //return new SearchA2DMatrix2();
-    //return new PerfectSquares();
+    return new PerfectSquares();
     //return new SlidingWindowMaximum();
     //return new SerializeAndDeserializeBinaryTree();
     //return new TheSkylineProblem();
@@ -225,7 +225,8 @@ Base *init() {
     //return new ClimbingStairs();
     //return new BestTimeToBuyAndSellStockWithCooldown();
     //return new SingleNumber();
-    return new ReverseLinkedList();
+    //return new ReverseLinkedList();
+    return new PerfectSquares();
 }
 
 int main() {

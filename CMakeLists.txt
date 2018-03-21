@@ -92,8 +92,8 @@ add_executable(leetcode main.cpp Base.h
         312.burst_balloons/BurstBalloons.cpp 312.burst_balloons/BurstBalloons.h
         236.lowest_common_ancestor_of_a_binary_tree/LowestCommonAncestorOfABinaryTree.cpp 236.lowest_common_ancestor_of_a_binary_tree/LowestCommonAncestorOfABinaryTree.h
         300.longest_increasing_subsequence/LongestIncreasingSubsequence.cpp 300.longest_increasing_subsequence/LongestIncreasingSubsequence.h
-        247.search_a_2d_matrix_2/SearchA2DMatrix2.cpp 247.search_a_2d_matrix_2/SearchA2DMatrix2.h
-        256.perfect_squares/PerfectSquares.cpp 256.perfect_squares/PerfectSquares.h
+        240.search_a_2d_matrix_2/SearchA2DMatrix2.cpp 240.search_a_2d_matrix_2/SearchA2DMatrix2.h
+        279.perfect_squares/PerfectSquares.cpp 279.perfect_squares/PerfectSquares.h
         239.sliding_window_maximum/SlidingWindowMaximum.cpp 239.sliding_window_maximum/SlidingWindowMaximum.h
         297.serialize_and_deserialize_binary_tree/SerializeAndDeserializeBinaryTree.cpp 297.serialize_and_deserialize_binary_tree/SerializeAndDeserializeBinaryTree.h
         218.the_skyline_problem/TheSkylineProblem.cpp 218.the_skyline_problem/TheSkylineProblem.h
@@ -115,4 +115,4 @@ add_executable(leetcode main.cpp Base.h
         309.best_time_to_buy_and_sell_stock_with_cooldown/BestTimeToBuyAndSellStockWithCooldown.cpp 309.best_time_to_buy_and_sell_stock_with_cooldown/BestTimeToBuyAndSellStockWithCooldown.h
         136.single_number/SingleNumber.cpp 136.single_number/SingleNumber.h
         206.reverse_linked_list/ReverseLinkedList.cpp 206.reverse_linked_list/ReverseLinkedList.h
-        )
+        279.perfect_squares/PerfectSquares.cpp 279.perfect_squares/PerfectSquares.h)
