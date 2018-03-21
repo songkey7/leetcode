@@ -33,6 +33,15 @@ protected:
         ListNode(int x) : val(x), next(NULL) {}
     };
 
+    void print_list(ListNode * h){
+        while(h){
+            cout << h->val;
+            h = h->next;
+            if(h) cout << ",";
+        }
+        cout << endl;
+    }
+
     struct TreeNode {
         int val;
         TreeNode *left;

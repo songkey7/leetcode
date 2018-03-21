@@ -112,6 +112,7 @@
 #include "70.climbing_stairs/ClimbingStairs.h"
 #include "309.best_time_to_buy_and_sell_stock_with_cooldown/BestTimeToBuyAndSellStockWithCooldown.h"
 #include "136.single_number/SingleNumber.h"
+#include "206.reverse_linked_list/ReverseLinkedList.h"
 
 Base *init() {
     //return new TwoSum();
@@ -223,7 +224,8 @@ Base *init() {
     //return new Subsets();
     //return new ClimbingStairs();
     //return new BestTimeToBuyAndSellStockWithCooldown();
-    return new SingleNumber();
+    //return new SingleNumber();
+    return new ReverseLinkedList();
 }
 
 int main() {
