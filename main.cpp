@@ -111,6 +111,7 @@
 #include "78.subsets/Subsets.h"
 #include "70.climbing_stairs/ClimbingStairs.h"
 #include "309.best_time_to_buy_and_sell_stock_with_cooldown/BestTimeToBuyAndSellStockWithCooldown.h"
+#include "136.single_number/SingleNumber.h"
 
 Base *init() {
     //return new TwoSum();
@@ -221,7 +222,8 @@ Base *init() {
     //return new CombinationSum();
     //return new Subsets();
     //return new ClimbingStairs();
-    return new BestTimeToBuyAndSellStockWithCooldown();
+    //return new BestTimeToBuyAndSellStockWithCooldown();
+    return new SingleNumber();
 }
 
 int main() {
