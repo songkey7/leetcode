@@ -117,4 +117,5 @@ add_executable(leetcode main.cpp Base.h
         206.reverse_linked_list/ReverseLinkedList.cpp 206.reverse_linked_list/ReverseLinkedList.h
         279.perfect_squares/PerfectSquares.cpp 279.perfect_squares/PerfectSquares.h
         29.divide_two_integers/DivideTwoIntegers.cpp 29.divide_two_integers/DivideTwoIntegers.h
+        50.pow/Pow.cpp 50.pow/Pow.h
         )

@@ -114,6 +114,7 @@
 #include "279.perfect_squares/PerfectSquares.h"
 #include "29.divide_two_integers/DivideTwoIntegers.h"
 #include "240.search_a_2d_matrix_2/SearchA2DMatrix2.h"
+#include "50.pow/Pow.h"
 
 Base *init() {
     //return new TwoSum();
@@ -227,7 +228,8 @@ Base *init() {
     //return new BestTimeToBuyAndSellStockWithCooldown();
     //return new SingleNumber();
     //return new ReverseLinkedList();
-    return new DivideTwoIntegers();
+    //return new DivideTwoIntegers();
+    return new Pow();
 }
 
 int main() {
