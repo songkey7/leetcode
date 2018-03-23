@@ -115,4 +115,6 @@ add_executable(leetcode main.cpp Base.h
         309.best_time_to_buy_and_sell_stock_with_cooldown/BestTimeToBuyAndSellStockWithCooldown.cpp 309.best_time_to_buy_and_sell_stock_with_cooldown/BestTimeToBuyAndSellStockWithCooldown.h
         136.single_number/SingleNumber.cpp 136.single_number/SingleNumber.h
         206.reverse_linked_list/ReverseLinkedList.cpp 206.reverse_linked_list/ReverseLinkedList.h
-        279.perfect_squares/PerfectSquares.cpp 279.perfect_squares/PerfectSquares.h)
+        279.perfect_squares/PerfectSquares.cpp 279.perfect_squares/PerfectSquares.h
+        29.divide_two_integers/DivideTwoIntegers.cpp 29.divide_two_integers/DivideTwoIntegers.h
+        )
