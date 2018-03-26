@@ -117,6 +117,7 @@
 #include "50.pow/Pow.h"
 #include "454.four_sum_2/FourSum2.h"
 #include "7.reverse_integer/ReverseInteger.h"
+#include "412.fizz_buzz/FizzBuzz.h"
 
 Base *init() {
     //return new TwoSum();
@@ -233,7 +234,8 @@ Base *init() {
     //return new DivideTwoIntegers();
     //return new Pow();
     //return new FourSum2();
-    return new ReverseInteger();
+    //return new ReverseInteger();
+    return new FizzBuzz();
 }
 
 int main() {
