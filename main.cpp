@@ -116,6 +116,7 @@
 #include "240.search_a_2d_matrix_2/SearchA2DMatrix2.h"
 #include "50.pow/Pow.h"
 #include "454.four_sum_2/FourSum2.h"
+#include "7.reverse_integer/ReverseInteger.h"
 
 Base *init() {
     //return new TwoSum();
@@ -231,7 +232,8 @@ Base *init() {
     //return new ReverseLinkedList();
     //return new DivideTwoIntegers();
     //return new Pow();
-    return new FourSum2();
+    //return new FourSum2();
+    return new ReverseInteger();
 }
 
 int main() {

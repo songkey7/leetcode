@@ -119,4 +119,5 @@ add_executable(leetcode main.cpp Base.h
         29.divide_two_integers/DivideTwoIntegers.cpp 29.divide_two_integers/DivideTwoIntegers.h
         50.pow/Pow.cpp 50.pow/Pow.h
         454.four_sum_2/FourSum2.cpp 454.four_sum_2/FourSum2.h
+        7.reverse_integer/ReverseInteger.cpp 7.reverse_integer/ReverseInteger.h
         )
