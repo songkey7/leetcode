@@ -120,6 +120,7 @@
 #include "412.fizz_buzz/FizzBuzz.h"
 #include "8.atoi/StringToInteger.h"
 #include "13.roman_to_integer/RomanToInteger.h"
+#include "14.longest_common_prefix/LongestCommonPrefix.h"
 
 Base *init() {
     //return new TwoSum();
@@ -239,7 +240,8 @@ Base *init() {
     //return new ReverseInteger();
     //return new FizzBuzz();
     //return new StringToInteger();
-    return new RomanToInteger();
+    //return new RomanToInteger();
+    return new LongestCommonPrefix();
 }
 
 int main() {
