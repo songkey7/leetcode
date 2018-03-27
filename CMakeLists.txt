@@ -122,4 +122,5 @@ add_executable(leetcode main.cpp Base.h
         7.reverse_integer/ReverseInteger.cpp 7.reverse_integer/ReverseInteger.h
         412.fizz_buzz/FizzBuzz.cpp 412.fizz_buzz/FizzBuzz.h
         8.atoi/StringToInteger.cpp 8.atoi/StringToInteger.h
+        13.roman_to_integer/RomanToInteger.cpp 13.roman_to_integer/RomanToInteger.h
         )

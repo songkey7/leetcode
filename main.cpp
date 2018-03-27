@@ -119,6 +119,7 @@
 #include "7.reverse_integer/ReverseInteger.h"
 #include "412.fizz_buzz/FizzBuzz.h"
 #include "8.atoi/StringToInteger.h"
+#include "13.roman_to_integer/RomanToInteger.h"
 
 Base *init() {
     //return new TwoSum();
@@ -237,7 +238,8 @@ Base *init() {
     //return new FourSum2();
     //return new ReverseInteger();
     //return new FizzBuzz();
-    return new StringToInteger();
+    //return new StringToInteger();
+    return new RomanToInteger();
 }
 
 int main() {
