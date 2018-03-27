@@ -121,6 +121,7 @@
 #include "8.atoi/StringToInteger.h"
 #include "13.roman_to_integer/RomanToInteger.h"
 #include "14.longest_common_prefix/LongestCommonPrefix.h"
+#include "26.remove_duplicates_from_sorted_array/RemoveDuplicatesFromSortedArray.h"
 
 Base *init() {
     //return new TwoSum();
@@ -241,7 +242,8 @@ Base *init() {
     //return new FizzBuzz();
     //return new StringToInteger();
     //return new RomanToInteger();
-    return new LongestCommonPrefix();
+    //return new LongestCommonPrefix();
+    return new RemoveDuplicatesFromSortedArray();
 }
 
 int main() {

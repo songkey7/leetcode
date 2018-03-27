@@ -124,4 +124,5 @@ add_executable(leetcode main.cpp Base.h
         8.atoi/StringToInteger.cpp 8.atoi/StringToInteger.h
         13.roman_to_integer/RomanToInteger.cpp 13.roman_to_integer/RomanToInteger.h
         14.longest_common_prefix/LongestCommonPrefix.cpp 14.longest_common_prefix/LongestCommonPrefix.h
+        26.remove_duplicates_from_sorted_array/RemoveDuplicatesFromSortedArray.cpp 26.remove_duplicates_from_sorted_array/RemoveDuplicatesFromSortedArray.h
         )
