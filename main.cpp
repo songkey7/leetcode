@@ -125,6 +125,7 @@
 #include "395.longest_substring_with_at_least_k_repeating_characters/LongestSubstringWithAtLeastKRepeatingCharacters.h"
 #include "28.strstr/StrStr.h"
 #include "36.valid_sudoku/ValidSudoku.h"
+#include "38.count_and_say/CountAndSay.h"
 
 Base *init() {
     //return new TwoSum();
@@ -249,7 +250,8 @@ Base *init() {
     //return new RemoveDuplicatesFromSortedArray();
     //return new LongestSubstringWithAtLeastKRepeatingCharacters();
     //return new StrStr();
-    return new ValidSudoku();
+    //return new ValidSudoku();
+    return new CountAndSay();
 }
 
 int main() {

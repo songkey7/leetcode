@@ -128,4 +128,5 @@ add_executable(leetcode main.cpp Base.h
         395.longest_substring_with_at_least_k_repeating_characters/LongestSubstringWithAtLeastKRepeatingCharacters.cpp 395.longest_substring_with_at_least_k_repeating_characters/LongestSubstringWithAtLeastKRepeatingCharacters.h
         28.strstr/StrStr.cpp 28.strstr/StrStr.h
         36.valid_sudoku/ValidSudoku.cpp 36.valid_sudoku/ValidSudoku.h
+        38.count_and_say/CountAndSay.cpp 38.count_and_say/CountAndSay.h
         )
