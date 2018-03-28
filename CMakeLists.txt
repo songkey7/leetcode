@@ -129,4 +129,5 @@ add_executable(leetcode main.cpp Base.h
         28.strstr/StrStr.cpp 28.strstr/StrStr.h
         36.valid_sudoku/ValidSudoku.cpp 36.valid_sudoku/ValidSudoku.h
         38.count_and_say/CountAndSay.cpp 38.count_and_say/CountAndSay.h
+        41.first_missing_positive/FirstMissingPositive.cpp 41.first_missing_positive/FirstMissingPositive.h
         )

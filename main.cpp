@@ -126,6 +126,7 @@
 #include "28.strstr/StrStr.h"
 #include "36.valid_sudoku/ValidSudoku.h"
 #include "38.count_and_say/CountAndSay.h"
+#include "41.first_missing_positive/FirstMissingPositive.h"
 
 Base *init() {
     //return new TwoSum();
@@ -251,7 +252,8 @@ Base *init() {
     //return new LongestSubstringWithAtLeastKRepeatingCharacters();
     //return new StrStr();
     //return new ValidSudoku();
-    return new CountAndSay();
+    //return new CountAndSay();
+    return new FirstMissingPositive();
 }
 
 int main() {
