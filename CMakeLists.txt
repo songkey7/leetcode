@@ -125,4 +125,5 @@ add_executable(leetcode main.cpp Base.h
         13.roman_to_integer/RomanToInteger.cpp 13.roman_to_integer/RomanToInteger.h
         14.longest_common_prefix/LongestCommonPrefix.cpp 14.longest_common_prefix/LongestCommonPrefix.h
         26.remove_duplicates_from_sorted_array/RemoveDuplicatesFromSortedArray.cpp 26.remove_duplicates_from_sorted_array/RemoveDuplicatesFromSortedArray.h
+        395.longest_substring_with_at_least_k_repeating_characters/LongestSubstringWithAtLeastKRepeatingCharacters.cpp 395.longest_substring_with_at_least_k_repeating_characters/LongestSubstringWithAtLeastKRepeatingCharacters.h
         )
