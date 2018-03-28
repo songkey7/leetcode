@@ -127,6 +127,7 @@
 #include "36.valid_sudoku/ValidSudoku.h"
 #include "38.count_and_say/CountAndSay.h"
 #include "41.first_missing_positive/FirstMissingPositive.h"
+#include "44.wildcard_matching/WildcardMatching.h"
 
 Base *init() {
     //return new TwoSum();
@@ -253,7 +254,8 @@ Base *init() {
     //return new StrStr();
     //return new ValidSudoku();
     //return new CountAndSay();
-    return new FirstMissingPositive();
+    //return new FirstMissingPositive();
+    return new WildcardMatching();
 }
 
 int main() {
