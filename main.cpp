@@ -123,6 +123,7 @@
 #include "14.longest_common_prefix/LongestCommonPrefix.h"
 #include "26.remove_duplicates_from_sorted_array/RemoveDuplicatesFromSortedArray.h"
 #include "395.longest_substring_with_at_least_k_repeating_characters/LongestSubstringWithAtLeastKRepeatingCharacters.h"
+#include "28.strstr/StrStr.h"
 
 Base *init() {
     //return new TwoSum();
@@ -245,7 +246,8 @@ Base *init() {
     //return new RomanToInteger();
     //return new LongestCommonPrefix();
     //return new RemoveDuplicatesFromSortedArray();
-    return new LongestSubstringWithAtLeastKRepeatingCharacters();
+    //return new LongestSubstringWithAtLeastKRepeatingCharacters();
+    return new StrStr();
 }
 
 int main() {
