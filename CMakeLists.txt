@@ -127,4 +127,5 @@ add_executable(leetcode main.cpp Base.h
         26.remove_duplicates_from_sorted_array/RemoveDuplicatesFromSortedArray.cpp 26.remove_duplicates_from_sorted_array/RemoveDuplicatesFromSortedArray.h
         395.longest_substring_with_at_least_k_repeating_characters/LongestSubstringWithAtLeastKRepeatingCharacters.cpp 395.longest_substring_with_at_least_k_repeating_characters/LongestSubstringWithAtLeastKRepeatingCharacters.h
         28.strstr/StrStr.cpp 28.strstr/StrStr.h
+        36.valid_sudoku/ValidSudoku.cpp 36.valid_sudoku/ValidSudoku.h
         )
