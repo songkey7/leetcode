@@ -132,4 +132,5 @@ add_executable(leetcode main.cpp Base.h
         41.first_missing_positive/FirstMissingPositive.cpp 41.first_missing_positive/FirstMissingPositive.h
         44.wildcard_matching/WildcardMatching.cpp 44.wildcard_matching/WildcardMatching.h
         54.spiral_matrix/SpiralMatrix.cpp 54.spiral_matrix/SpiralMatrix.h
+        66.plus_one/PlusOne.cpp 66.plus_one/PlusOne.h
         )

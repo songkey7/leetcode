@@ -129,6 +129,7 @@
 #include "41.first_missing_positive/FirstMissingPositive.h"
 #include "44.wildcard_matching/WildcardMatching.h"
 #include "54.spiral_matrix/SpiralMatrix.h"
+#include "66.plus_one/PlusOne.h"
 
 Base *init() {
     //return new TwoSum();
@@ -257,7 +258,8 @@ Base *init() {
     //return new CountAndSay();
     //return new FirstMissingPositive();
     //return new WildcardMatching();
-    return new SpiralMatrix();
+    //return new SpiralMatrix();
+    return new PlusOne();
 }
 
 int main() {
