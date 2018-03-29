@@ -128,6 +128,7 @@
 #include "38.count_and_say/CountAndSay.h"
 #include "41.first_missing_positive/FirstMissingPositive.h"
 #include "44.wildcard_matching/WildcardMatching.h"
+#include "54.spiral_matrix/SpiralMatrix.h"
 
 Base *init() {
     //return new TwoSum();
@@ -255,7 +256,8 @@ Base *init() {
     //return new ValidSudoku();
     //return new CountAndSay();
     //return new FirstMissingPositive();
-    return new WildcardMatching();
+    //return new WildcardMatching();
+    return new SpiralMatrix();
 }
 
 int main() {
