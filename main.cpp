@@ -130,6 +130,7 @@
 #include "44.wildcard_matching/WildcardMatching.h"
 #include "54.spiral_matrix/SpiralMatrix.h"
 #include "66.plus_one/PlusOne.h"
+#include "69.sqrt_x/Sqrt.h"
 
 Base *init() {
     //return new TwoSum();
@@ -259,7 +260,8 @@ Base *init() {
     //return new FirstMissingPositive();
     //return new WildcardMatching();
     //return new SpiralMatrix();
-    return new PlusOne();
+    //return new PlusOne();
+    return new Sqrt();
 }
 
 int main() {
