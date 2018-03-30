@@ -132,6 +132,7 @@
 #include "66.plus_one/PlusOne.h"
 #include "69.sqrt_x/Sqrt.h"
 #include "73.set_matrix_zeroes/SetMatrixZeroes.h"
+#include "88.merge_sorted_array/MergeSortedArray.h"
 
 
 Base *init() {
@@ -264,7 +265,8 @@ Base *init() {
     //return new SpiralMatrix();
     //return new PlusOne();
     //return new Sqrt();
-    return new SetMatrixZeroes();
+    //return new SetMatrixZeroes();
+    return new MergeSortedArray();
 }
 
 int main() {
