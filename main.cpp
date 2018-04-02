@@ -134,6 +134,7 @@
 #include "73.set_matrix_zeroes/SetMatrixZeroes.h"
 #include "88.merge_sorted_array/MergeSortedArray.h"
 #include "91.decode_ways/DecodeWays.h"
+#include "103.binary_tree_zigzag_level_order_traversal/BinaryTreeZigzagLevelOrderTraversal.h"
 
 
 Base *init() {
@@ -268,7 +269,8 @@ Base *init() {
     //return new Sqrt();
     //return new SetMatrixZeroes();
     //return new MergeSortedArray();
-    return new DecodeWays();
+    //return new DecodeWays();
+    return new BinaryTreeZigzagLevelOrderTraversal();
 }
 
 int main() {
