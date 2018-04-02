@@ -139,5 +139,6 @@ add_executable(leetcode main.cpp Base.h
         #91.decode_ways/DecodeWays.cpp 91.decode_ways/DecodeWays.h
         #103.binary_tree_zigzag_level_order_traversal/BinaryTreeZigzagLevelOrderTraversal.cpp 103.binary_tree_zigzag_level_order_traversal/BinaryTreeZigzagLevelOrderTraversal.h
         #108.convert_sorted_array_to_binary_search_tree/ConvertSortedArrayToBinarySearchTree.cpp 108.convert_sorted_array_to_binary_search_tree/ConvertSortedArrayToBinarySearchTree.h
-        116.populating_next_right_pointers_in_each_node/PopulatingNextRightPointersInEachNode.cpp 116.populating_next_right_pointers_in_each_node/PopulatingNextRightPointersInEachNode.h
+        #116.populating_next_right_pointers_in_each_node/PopulatingNextRightPointersInEachNode.cpp 116.populating_next_right_pointers_in_each_node/PopulatingNextRightPointersInEachNode.h
+        118.pascals_triangle/PascalsTriangle.cpp 118.pascals_triangle/PascalsTriangle.h
         )
