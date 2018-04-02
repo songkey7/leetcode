@@ -133,6 +133,7 @@
 #include "69.sqrt_x/Sqrt.h"
 #include "73.set_matrix_zeroes/SetMatrixZeroes.h"
 #include "88.merge_sorted_array/MergeSortedArray.h"
+#include "91.decode_ways/DecodeWays.h"
 
 
 Base *init() {
@@ -266,7 +267,8 @@ Base *init() {
     //return new PlusOne();
     //return new Sqrt();
     //return new SetMatrixZeroes();
-    return new MergeSortedArray();
+    //return new MergeSortedArray();
+    return new DecodeWays();
 }
 
 int main() {

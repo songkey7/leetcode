@@ -9,7 +9,7 @@
 #include "../Base.h"
 
 class MergeSortedArray: public Base {
-    void merge(vector<int> nums1, int m, vector<int> nums2, int n);
+    void merge(vector<int> &nums1, int m, vector<int> &nums2, int n);
 public:
     void run();
 
