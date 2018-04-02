@@ -136,6 +136,7 @@
 #include "91.decode_ways/DecodeWays.h"
 #include "103.binary_tree_zigzag_level_order_traversal/BinaryTreeZigzagLevelOrderTraversal.h"
 #include "108.convert_sorted_array_to_binary_search_tree/ConvertSortedArrayToBinarySearchTree.h"
+#include "116.populating_next_right_pointers_in_each_node/PopulatingNextRightPointersInEachNode.h"
 
 
 Base *init() {
@@ -272,7 +273,8 @@ Base *init() {
     //return new MergeSortedArray();
     //return new DecodeWays();
     //return new BinaryTreeZigzagLevelOrderTraversal();
-    return new ConvertSortedArrayToBinarySearchTree();
+    //return new ConvertSortedArrayToBinarySearchTree();
+    return new PopulatingNextRightPointersInEachNode();
 }
 
 int main() {
