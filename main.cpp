@@ -138,6 +138,7 @@
 #include "108.convert_sorted_array_to_binary_search_tree/ConvertSortedArrayToBinarySearchTree.h"
 #include "116.populating_next_right_pointers_in_each_node/PopulatingNextRightPointersInEachNode.h"
 #include "118.pascals_triangle/PascalsTriangle.h"
+#include "122.best_time_to_buy_and_sell_stock_2/BestTimeToBuyAndSellStock2.h"
 
 
 Base *init() {
@@ -276,7 +277,8 @@ Base *init() {
     //return new BinaryTreeZigzagLevelOrderTraversal();
     //return new ConvertSortedArrayToBinarySearchTree();
     //return new PopulatingNextRightPointersInEachNode();
-    return new PascalsTriangle();
+    //return new PascalsTriangle();
+    return new BestTimeToBuyAndSellStock2();
 }
 
 int main() {
