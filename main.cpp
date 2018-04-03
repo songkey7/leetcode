@@ -140,6 +140,7 @@
 #include "118.pascals_triangle/PascalsTriangle.h"
 #include "122.best_time_to_buy_and_sell_stock_2/BestTimeToBuyAndSellStock2.h"
 #include "125.valid_palindrome/ValidPalindrome.h"
+#include "127.word_ladder/WordLadder.h"
 
 
 Base *init() {
@@ -280,7 +281,8 @@ Base *init() {
     //return new PopulatingNextRightPointersInEachNode();
     //return new PascalsTriangle();
     //return new BestTimeToBuyAndSellStock2();
-    return new ValidPalindrome();
+    //return new ValidPalindrome();
+    return new WordLadder();
 }
 
 int main() {
