@@ -145,6 +145,7 @@
 #include "131.palindrome_partitioning/PalindromePartitioning.h"
 #include "134.gas_station/GasStation.h"
 #include "138.copy_list_with_random_pointer/CopyListWithRandomPointer.h"
+#include "140.word_break_2/WordBreak2.h"
 
 
 Base *init() {
@@ -290,7 +291,8 @@ Base *init() {
     //return new SurroundedRegions();
     //return new PalindromePartitioning();
     //return new GasStation();
-    return new CopyListWithRandomPointer();
+    //return new CopyListWithRandomPointer();
+    return new WordBreak2();
 }
 
 int main() {
