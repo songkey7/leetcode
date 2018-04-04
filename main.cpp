@@ -142,6 +142,7 @@
 #include "125.valid_palindrome/ValidPalindrome.h"
 #include "127.word_ladder/WordLadder.h"
 #include "130.surrounded_regions/SurroundedRegions.h"
+#include "131.palindrome_partitioning/PalindromePartitioning.h"
 
 
 Base *init() {
@@ -284,7 +285,8 @@ Base *init() {
     //return new BestTimeToBuyAndSellStock2();
     //return new ValidPalindrome();
     //return new WordLadder();
-    return new SurroundedRegions();
+    //return new SurroundedRegions();
+    return new PalindromePartitioning();
 }
 
 int main() {
