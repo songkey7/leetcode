@@ -146,5 +146,6 @@ add_executable(leetcode main.cpp Base.h
         #127.word_ladder/WordLadder.cpp 127.word_ladder/WordLadder.h
         #130.surrounded_regions/SurroundedRegions.cpp 130.surrounded_regions/SurroundedRegions.h
         #131.palindrome_partitioning/PalindromePartitioning.cpp 131.palindrome_partitioning/PalindromePartitioning.h
-        134.gas_station/GasStation.cpp 134.gas_station/GasStation.h
+        #134.gas_station/GasStation.cpp 134.gas_station/GasStation.h
+        138.copy_list_with_random_pointer/CopyListWithRandomPointer.cpp 138.copy_list_with_random_pointer/CopyListWithRandomPointer.h
         )
