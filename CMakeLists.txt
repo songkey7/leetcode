@@ -143,5 +143,6 @@ add_executable(leetcode main.cpp Base.h
         #118.pascals_triangle/PascalsTriangle.cpp 118.pascals_triangle/PascalsTriangle.h
         #122.best_time_to_buy_and_sell_stock_2/BestTimeToBuyAndSellStock2.cpp 122.best_time_to_buy_and_sell_stock_2/BestTimeToBuyAndSellStock2.h
         #125.valid_palindrome/ValidPalindrome.cpp 125.valid_palindrome/ValidPalindrome.h
-        127.word_ladder/WordLadder.cpp 127.word_ladder/WordLadder.h
+        #127.word_ladder/WordLadder.cpp 127.word_ladder/WordLadder.h
+        130.surrounded_regions/SurroundedRegions.cpp 130.surrounded_regions/SurroundedRegions.h
         )

@@ -141,6 +141,7 @@
 #include "122.best_time_to_buy_and_sell_stock_2/BestTimeToBuyAndSellStock2.h"
 #include "125.valid_palindrome/ValidPalindrome.h"
 #include "127.word_ladder/WordLadder.h"
+#include "130.surrounded_regions/SurroundedRegions.h"
 
 
 Base *init() {
@@ -282,7 +283,8 @@ Base *init() {
     //return new PascalsTriangle();
     //return new BestTimeToBuyAndSellStock2();
     //return new ValidPalindrome();
-    return new WordLadder();
+    //return new WordLadder();
+    return new SurroundedRegions();
 }
 
 int main() {
