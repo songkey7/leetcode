@@ -143,6 +143,7 @@
 #include "127.word_ladder/WordLadder.h"
 #include "130.surrounded_regions/SurroundedRegions.h"
 #include "131.palindrome_partitioning/PalindromePartitioning.h"
+#include "134.gas_station/GasStation.h"
 
 
 Base *init() {
@@ -286,7 +287,8 @@ Base *init() {
     //return new ValidPalindrome();
     //return new WordLadder();
     //return new SurroundedRegions();
-    return new PalindromePartitioning();
+    //return new PalindromePartitioning();
+    return new GasStation();
 }
 
 int main() {
