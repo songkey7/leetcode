@@ -151,6 +151,7 @@
 #include "162.find_peak_element/FindPeakElement.h"
 #include "166.fraction_to_recurring_decimal/FractionToRecurringDecimal.h"
 #include "171.excel_sheet_column_number/ExcelSheetColumnNumber.h"
+#include "172.factorial_trailing_zeroes/FactorialTrailingZeroes.h"
 
 
 Base *init() {
@@ -302,7 +303,8 @@ Base *init() {
     //return new EvaluateReversePolishNotation();
     //return new FindPeakElement();
     //return new FractionToRecurringDecimal();
-    return new ExcelSheetColumnNumber();
+    //return new ExcelSheetColumnNumber();
+    return new FactorialTrailingZeroes();
 }
 
 int main() {
