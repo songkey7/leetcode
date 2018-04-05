@@ -150,5 +150,6 @@ add_executable(leetcode main.cpp Base.h
         #138.copy_list_with_random_pointer/CopyListWithRandomPointer.cpp 138.copy_list_with_random_pointer/CopyListWithRandomPointer.h
         #140.word_break_2/WordBreak2.cpp 140.word_break_2/WordBreak2.h
         #149.max_points_on_a_line/MaxPointsOnALine.cpp 149.max_points_on_a_line/MaxPointsOnALine.h
-        150.evaluate_reverse_polish_notation/EvaluateReversePolishNotation.cpp 150.evaluate_reverse_polish_notation/EvaluateReversePolishNotation.h
+        #150.evaluate_reverse_polish_notation/EvaluateReversePolishNotation.cpp 150.evaluate_reverse_polish_notation/EvaluateReversePolishNotation.h
+        162.find_peak_element/FindPeakElement.cpp 162.find_peak_element/FindPeakElement.h
         )
