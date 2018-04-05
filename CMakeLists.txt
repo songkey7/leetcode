@@ -152,5 +152,6 @@ add_executable(leetcode main.cpp Base.h
         #149.max_points_on_a_line/MaxPointsOnALine.cpp 149.max_points_on_a_line/MaxPointsOnALine.h
         #150.evaluate_reverse_polish_notation/EvaluateReversePolishNotation.cpp 150.evaluate_reverse_polish_notation/EvaluateReversePolishNotation.h
         #162.find_peak_element/FindPeakElement.cpp 162.find_peak_element/FindPeakElement.h
-        166.fraction_to_recurring_decimal/FractionToRecurringDecimal.cpp 166.fraction_to_recurring_decimal/FractionToRecurringDecimal.h
+        #166.fraction_to_recurring_decimal/FractionToRecurringDecimal.cpp 166.fraction_to_recurring_decimal/FractionToRecurringDecimal.h
+        171.excel_sheet_column_number/ExcelSheetColumnNumber.cpp 171.excel_sheet_column_number/ExcelSheetColumnNumber.h
         )
