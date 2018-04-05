@@ -149,6 +149,7 @@
 #include "149.max_points_on_a_line/MaxPointsOnALine.h"
 #include "150.evaluate_reverse_polish_notation/EvaluateReversePolishNotation.h"
 #include "162.find_peak_element/FindPeakElement.h"
+#include "166.fraction_to_recurring_decimal/FractionToRecurringDecimal.h"
 
 
 Base *init() {
@@ -298,7 +299,8 @@ Base *init() {
     //return new WordBreak2();
     //return new MaxPointsOnALine();
     //return new EvaluateReversePolishNotation();
-    return new FindPeakElement();
+    //return new FindPeakElement();
+    return new FractionToRecurringDecimal();
 }
 
 int main() {
