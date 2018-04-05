@@ -147,6 +147,7 @@
 #include "138.copy_list_with_random_pointer/CopyListWithRandomPointer.h"
 #include "140.word_break_2/WordBreak2.h"
 #include "149.max_points_on_a_line/MaxPointsOnALine.h"
+#include "150.evaluate_reverse_polish_notation/EvaluateReversePolishNotation.h"
 
 
 Base *init() {
@@ -294,7 +295,8 @@ Base *init() {
     //return new GasStation();
     //return new CopyListWithRandomPointer();
     //return new WordBreak2();
-    return new MaxPointsOnALine();
+    //return new MaxPointsOnALine();
+    return new EvaluateReversePolishNotation();
 }
 
 int main() {
