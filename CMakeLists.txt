@@ -148,5 +148,6 @@ add_executable(leetcode main.cpp Base.h
         #131.palindrome_partitioning/PalindromePartitioning.cpp 131.palindrome_partitioning/PalindromePartitioning.h
         #134.gas_station/GasStation.cpp 134.gas_station/GasStation.h
         #138.copy_list_with_random_pointer/CopyListWithRandomPointer.cpp 138.copy_list_with_random_pointer/CopyListWithRandomPointer.h
-        140.word_break_2/WordBreak2.cpp 140.word_break_2/WordBreak2.h
+        #140.word_break_2/WordBreak2.cpp 140.word_break_2/WordBreak2.h
+        149.max_points_on_a_line/MaxPointsOnALine.cpp 149.max_points_on_a_line/MaxPointsOnALine.h
         )

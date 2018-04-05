@@ -146,6 +146,7 @@
 #include "134.gas_station/GasStation.h"
 #include "138.copy_list_with_random_pointer/CopyListWithRandomPointer.h"
 #include "140.word_break_2/WordBreak2.h"
+#include "149.max_points_on_a_line/MaxPointsOnALine.h"
 
 
 Base *init() {
@@ -292,7 +293,8 @@ Base *init() {
     //return new PalindromePartitioning();
     //return new GasStation();
     //return new CopyListWithRandomPointer();
-    return new WordBreak2();
+    //return new WordBreak2();
+    return new MaxPointsOnALine();
 }
 
 int main() {
