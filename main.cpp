@@ -156,6 +156,7 @@
 #include "189.rotate_array/RotateArray.h"
 #include "190.reverse_bits/ReverseBits.h"
 #include "191.number_of_1_bits/NumberOf1Bits.h"
+#include "202.happy_number/HappyNumber.h"
 
 
 Base *init() {
@@ -312,7 +313,8 @@ Base *init() {
     //return new LargestNumber();
     //return new RotateArray();
     //return new ReverseBits();
-    return new NumberOf1Bits();
+    //return new NumberOf1Bits();
+    return new HappyNumber();
 }
 
 int main() {

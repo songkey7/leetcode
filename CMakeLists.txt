@@ -158,5 +158,6 @@ add_executable(leetcode main.cpp Base.h
         #179.largest_number/LargestNumber.cpp 179.largest_number/LargestNumber.h
         #189.rotate_array/RotateArray.cpp 189.rotate_array/RotateArray.h
         #190.reverse_bits/ReverseBits.cpp 190.reverse_bits/ReverseBits.h
-        191.number_of_1_bits/NumberOf1Bits.cpp 191.number_of_1_bits/NumberOf1Bits.h
+        #191.number_of_1_bits/NumberOf1Bits.cpp 191.number_of_1_bits/NumberOf1Bits.h
+        202.happy_number/HappyNumber.cpp 202.happy_number/HappyNumber.h
         )
