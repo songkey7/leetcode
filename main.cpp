@@ -153,6 +153,7 @@
 #include "171.excel_sheet_column_number/ExcelSheetColumnNumber.h"
 #include "172.factorial_trailing_zeroes/FactorialTrailingZeroes.h"
 #include "179.largest_number/LargestNumber.h"
+#include "189.rotate_array/RotateArray.h"
 
 
 Base *init() {
@@ -306,7 +307,8 @@ Base *init() {
     //return new FractionToRecurringDecimal();
     //return new ExcelSheetColumnNumber();
     //return new FactorialTrailingZeroes();
-    return new LargestNumber();
+    //return new LargestNumber();
+    return new RotateArray();
 }
 
 int main() {

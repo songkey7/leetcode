@@ -155,5 +155,6 @@ add_executable(leetcode main.cpp Base.h
         #166.fraction_to_recurring_decimal/FractionToRecurringDecimal.cpp 166.fraction_to_recurring_decimal/FractionToRecurringDecimal.h
         #171.excel_sheet_column_number/ExcelSheetColumnNumber.cpp 171.excel_sheet_column_number/ExcelSheetColumnNumber.h
         #172.factorial_trailing_zeroes/FactorialTrailingZeroes.cpp 172.factorial_trailing_zeroes/FactorialTrailingZeroes.h
-        179.largest_number/LargestNumber.cpp 179.largest_number/LargestNumber.h
+        #179.largest_number/LargestNumber.cpp 179.largest_number/LargestNumber.h
+        189.rotate_array/RotateArray.cpp 189.rotate_array/RotateArray.h
         )
