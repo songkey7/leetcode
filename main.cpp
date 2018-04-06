@@ -154,6 +154,7 @@
 #include "172.factorial_trailing_zeroes/FactorialTrailingZeroes.h"
 #include "179.largest_number/LargestNumber.h"
 #include "189.rotate_array/RotateArray.h"
+#include "190.reverse_bits/ReverseBits.h"
 
 
 Base *init() {
@@ -308,7 +309,8 @@ Base *init() {
     //return new ExcelSheetColumnNumber();
     //return new FactorialTrailingZeroes();
     //return new LargestNumber();
-    return new RotateArray();
+    //return new RotateArray();
+    return new ReverseBits();
 }
 
 int main() {
