@@ -155,6 +155,7 @@
 #include "179.largest_number/LargestNumber.h"
 #include "189.rotate_array/RotateArray.h"
 #include "190.reverse_bits/ReverseBits.h"
+#include "191.number_of_1_bits/NumberOf1Bits.h"
 
 
 Base *init() {
@@ -310,7 +311,8 @@ Base *init() {
     //return new FactorialTrailingZeroes();
     //return new LargestNumber();
     //return new RotateArray();
-    return new ReverseBits();
+    //return new ReverseBits();
+    return new NumberOf1Bits();
 }
 
 int main() {

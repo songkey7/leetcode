@@ -157,5 +157,6 @@ add_executable(leetcode main.cpp Base.h
         #172.factorial_trailing_zeroes/FactorialTrailingZeroes.cpp 172.factorial_trailing_zeroes/FactorialTrailingZeroes.h
         #179.largest_number/LargestNumber.cpp 179.largest_number/LargestNumber.h
         #189.rotate_array/RotateArray.cpp 189.rotate_array/RotateArray.h
-        190.reverse_bits/ReverseBits.cpp 190.reverse_bits/ReverseBits.h
+        #190.reverse_bits/ReverseBits.cpp 190.reverse_bits/ReverseBits.h
+        191.number_of_1_bits/NumberOf1Bits.cpp 191.number_of_1_bits/NumberOf1Bits.h
         )
