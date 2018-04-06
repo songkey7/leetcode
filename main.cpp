@@ -152,6 +152,7 @@
 #include "166.fraction_to_recurring_decimal/FractionToRecurringDecimal.h"
 #include "171.excel_sheet_column_number/ExcelSheetColumnNumber.h"
 #include "172.factorial_trailing_zeroes/FactorialTrailingZeroes.h"
+#include "179.largest_number/LargestNumber.h"
 
 
 Base *init() {
@@ -304,7 +305,8 @@ Base *init() {
     //return new FindPeakElement();
     //return new FractionToRecurringDecimal();
     //return new ExcelSheetColumnNumber();
-    return new FactorialTrailingZeroes();
+    //return new FactorialTrailingZeroes();
+    return new LargestNumber();
 }
 
 int main() {
