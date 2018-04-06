@@ -157,6 +157,7 @@
 #include "190.reverse_bits/ReverseBits.h"
 #include "191.number_of_1_bits/NumberOf1Bits.h"
 #include "202.happy_number/HappyNumber.h"
+#include "204.count_primes/CountPrimes.h"
 
 
 Base *init() {
@@ -314,7 +315,8 @@ Base *init() {
     //return new RotateArray();
     //return new ReverseBits();
     //return new NumberOf1Bits();
-    return new HappyNumber();
+    //return new HappyNumber();
+    return new CountPrimes();
 }
 
 int main() {
