@@ -158,6 +158,7 @@
 #include "191.number_of_1_bits/NumberOf1Bits.h"
 #include "202.happy_number/HappyNumber.h"
 #include "204.count_primes/CountPrimes.h"
+#include "210.course_schedule_2/CourseSchedule2.h"
 
 
 Base *init() {
@@ -316,7 +317,8 @@ Base *init() {
     //return new ReverseBits();
     //return new NumberOf1Bits();
     //return new HappyNumber();
-    return new CountPrimes();
+    //return new CountPrimes();
+    return new CourseSchedule2();
 }
 
 int main() {

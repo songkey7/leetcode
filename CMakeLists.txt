@@ -160,5 +160,6 @@ add_executable(leetcode main.cpp Base.h
         #190.reverse_bits/ReverseBits.cpp 190.reverse_bits/ReverseBits.h
         #191.number_of_1_bits/NumberOf1Bits.cpp 191.number_of_1_bits/NumberOf1Bits.h
         #202.happy_number/HappyNumber.cpp 202.happy_number/HappyNumber.h
-        204.count_primes/CountPrimes.cpp 204.count_primes/CountPrimes.h
+        #204.count_primes/CountPrimes.cpp 204.count_primes/CountPrimes.h
+        210.course_schedule_2/CourseSchedule2.cpp 210.course_schedule_2/CourseSchedule2.h
         )
