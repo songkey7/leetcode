@@ -159,6 +159,7 @@
 #include "202.happy_number/HappyNumber.h"
 #include "204.count_primes/CountPrimes.h"
 #include "210.course_schedule_2/CourseSchedule2.h"
+#include "212.word_search_2/WordSearch2.h"
 
 
 Base *init() {
@@ -318,7 +319,8 @@ Base *init() {
     //return new NumberOf1Bits();
     //return new HappyNumber();
     //return new CountPrimes();
-    return new CourseSchedule2();
+    //return new CourseSchedule2();
+    return new WordSearch2();
 }
 
 int main() {
