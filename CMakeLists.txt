@@ -162,5 +162,6 @@ add_executable(leetcode main.cpp Base.h
         #202.happy_number/HappyNumber.cpp 202.happy_number/HappyNumber.h
         #204.count_primes/CountPrimes.cpp 204.count_primes/CountPrimes.h
         #210.course_schedule_2/CourseSchedule2.cpp 210.course_schedule_2/CourseSchedule2.h
-        212.word_search_2/WordSearch2.cpp 212.word_search_2/WordSearch2.h
+        #212.word_search_2/WordSearch2.cpp 212.word_search_2/WordSearch2.h
+        217.contains_duplicate/ContainsDuplicate.cpp 217.contains_duplicate/ContainsDuplicate.h
         )

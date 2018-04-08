@@ -160,6 +160,7 @@
 #include "204.count_primes/CountPrimes.h"
 #include "210.course_schedule_2/CourseSchedule2.h"
 #include "212.word_search_2/WordSearch2.h"
+#include "217.contains_duplicate/ContainsDuplicate.h"
 
 
 Base *init() {
@@ -320,7 +321,8 @@ Base *init() {
     //return new HappyNumber();
     //return new CountPrimes();
     //return new CourseSchedule2();
-    return new WordSearch2();
+    //return new WordSearch2();
+    return new ContainsDuplicate();
 }
 
 int main() {
