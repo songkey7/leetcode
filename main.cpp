@@ -161,6 +161,7 @@
 #include "210.course_schedule_2/CourseSchedule2.h"
 #include "212.word_search_2/WordSearch2.h"
 #include "217.contains_duplicate/ContainsDuplicate.h"
+#include "227.basic_calculator_2/BasicCalculator2.h"
 
 
 Base *init() {
@@ -322,7 +323,8 @@ Base *init() {
     //return new CountPrimes();
     //return new CourseSchedule2();
     //return new WordSearch2();
-    return new ContainsDuplicate();
+    //return new ContainsDuplicate();
+    return new BasicCalculator2();
 }
 
 int main() {
