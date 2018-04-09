@@ -163,6 +163,7 @@
 #include "217.contains_duplicate/ContainsDuplicate.h"
 #include "227.basic_calculator_2/BasicCalculator2.h"
 #include "230.kth_smallest_element_in_a_BST/KthSmallestElementInABST.h"
+#include "237.delete_node_in_a_linked_list/DeleteNodeInALinkedList.h"
 
 
 Base *init() {
@@ -326,7 +327,8 @@ Base *init() {
     //return new WordSearch2();
     //return new ContainsDuplicate();
     //return new BasicCalculator2();
-    return new KthSmallestElementInABST();
+    //return new KthSmallestElementInABST();
+    return new DeleteNodeInALinkedList();
 }
 
 int main() {

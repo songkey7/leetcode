@@ -165,5 +165,6 @@ add_executable(leetcode main.cpp Base.h
         #212.word_search_2/WordSearch2.cpp 212.word_search_2/WordSearch2.h
         #217.contains_duplicate/ContainsDuplicate.cpp 217.contains_duplicate/ContainsDuplicate.h
         #227.basic_calculator_2/BasicCalculator2.cpp 227.basic_calculator_2/BasicCalculator2.h
-        230.kth_smallest_element_in_a_BST/KthSmallestElementInABST.cpp 230.kth_smallest_element_in_a_BST/KthSmallestElementInABST.h
+        #230.kth_smallest_element_in_a_BST/KthSmallestElementInABST.cpp 230.kth_smallest_element_in_a_BST/KthSmallestElementInABST.h
+        237.delete_node_in_a_linked_list/DeleteNodeInALinkedList.cpp 237.delete_node_in_a_linked_list/DeleteNodeInALinkedList.h
         )
