@@ -165,6 +165,7 @@
 #include "230.kth_smallest_element_in_a_BST/KthSmallestElementInABST.h"
 #include "237.delete_node_in_a_linked_list/DeleteNodeInALinkedList.h"
 #include "242.valid_anagram/ValidAnagram.h"
+#include "268.missing_number/MissingNumber.h"
 
 
 Base *init() {
@@ -330,7 +331,8 @@ Base *init() {
     //return new BasicCalculator2();
     //return new KthSmallestElementInABST();
     //return new DeleteNodeInALinkedList();
-    return new ValidAnagram();
+    //return new ValidAnagram();
+    return new MissingNumber();
 }
 
 int main() {
