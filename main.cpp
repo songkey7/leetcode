@@ -166,6 +166,7 @@
 #include "237.delete_node_in_a_linked_list/DeleteNodeInALinkedList.h"
 #include "242.valid_anagram/ValidAnagram.h"
 #include "268.missing_number/MissingNumber.h"
+#include "289.game_of_life/GameOfLife.h"
 
 
 Base *init() {
@@ -332,7 +333,8 @@ Base *init() {
     //return new KthSmallestElementInABST();
     //return new DeleteNodeInALinkedList();
     //return new ValidAnagram();
-    return new MissingNumber();
+    //return new MissingNumber();
+    return new GameOfLife();
 }
 
 int main() {

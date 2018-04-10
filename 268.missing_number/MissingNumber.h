@@ -9,8 +9,8 @@
 #include "../Base.h"
 
 class MissingNumber: public Base {
-    int missing_number(vector<int> nums);
-    int missing_number2(vector<int> nums);
+    int missing_number(vector<int> &nums);
+    int missing_number2(vector<int> &nums);
 public:
     void run();
 };
