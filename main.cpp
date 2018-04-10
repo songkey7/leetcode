@@ -167,6 +167,7 @@
 #include "242.valid_anagram/ValidAnagram.h"
 #include "268.missing_number/MissingNumber.h"
 #include "289.game_of_life/GameOfLife.h"
+#include "295.find_median_from_data_stream/FindMedianFromDataStream.h"
 
 
 Base *init() {
@@ -334,7 +335,8 @@ Base *init() {
     //return new DeleteNodeInALinkedList();
     //return new ValidAnagram();
     //return new MissingNumber();
-    return new GameOfLife();
+    //return new GameOfLife();
+    return new FindMedianFromDataStream();
 }
 
 int main() {

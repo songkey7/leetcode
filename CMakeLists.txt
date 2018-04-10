@@ -169,5 +169,6 @@ add_executable(leetcode main.cpp Base.h
         #237.delete_node_in_a_linked_list/DeleteNodeInALinkedList.cpp 237.delete_node_in_a_linked_list/DeleteNodeInALinkedList.h
         #242.valid_anagram/ValidAnagram.cpp 242.valid_anagram/ValidAnagram.h
         #268.missing_number/MissingNumber.cpp 268.missing_number/MissingNumber.h
-        289.game_of_life/GameOfLife.cpp 289.game_of_life/GameOfLife.h
+        #289.game_of_life/GameOfLife.cpp 289.game_of_life/GameOfLife.h
+        295.find_median_from_data_stream/FindMedianFromDataStream.cpp 295.find_median_from_data_stream/FindMedianFromDataStream.h
         )
