@@ -170,6 +170,7 @@
 #include "295.find_median_from_data_stream/FindMedianFromDataStream.h"
 #include "324.wiggle_sort_2/WiggleSort2.h"
 #include "326.power_of_three/PowerOfThree.h"
+#include "328.odd_even_linked_list/OddEvenLinkedList.h"
 
 
 Base *init() {
@@ -340,7 +341,8 @@ Base *init() {
     //return new GameOfLife();
     //return new FindMedianFromDataStream();
     //return new WiggleSort2();
-    return new PowerOfThree();
+    //return new PowerOfThree();
+    return new OddEvenLinkedList();
 }
 
 int main() {
