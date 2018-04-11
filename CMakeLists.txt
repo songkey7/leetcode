@@ -170,5 +170,7 @@ add_executable(leetcode main.cpp Base.h
         #242.valid_anagram/ValidAnagram.cpp 242.valid_anagram/ValidAnagram.h
         #268.missing_number/MissingNumber.cpp 268.missing_number/MissingNumber.h
         #289.game_of_life/GameOfLife.cpp 289.game_of_life/GameOfLife.h
-        295.find_median_from_data_stream/FindMedianFromDataStream.cpp 295.find_median_from_data_stream/FindMedianFromDataStream.h
+        #295.find_median_from_data_stream/FindMedianFromDataStream.cpp 295.find_median_from_data_stream/FindMedianFromDataStream.h
+        #324.wiggle_sort_2/WiggleSort2.cpp 324.wiggle_sort_2/WiggleSort2.h
+        326.power_of_three/PowerOfThree.cpp 326.power_of_three/PowerOfThree.h
         )
