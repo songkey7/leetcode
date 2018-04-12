@@ -173,5 +173,6 @@ add_executable(leetcode main.cpp Base.h
         #295.find_median_from_data_stream/FindMedianFromDataStream.cpp 295.find_median_from_data_stream/FindMedianFromDataStream.h
         #324.wiggle_sort_2/WiggleSort2.cpp 324.wiggle_sort_2/WiggleSort2.h
         #326.power_of_three/PowerOfThree.cpp 326.power_of_three/PowerOfThree.h
-        328.odd_even_linked_list/OddEvenLinkedList.cpp 328.odd_even_linked_list/OddEvenLinkedList.h
+        #328.odd_even_linked_list/OddEvenLinkedList.cpp 328.odd_even_linked_list/OddEvenLinkedList.h
+        329.longest_increasing_path_in_a_matrix/LongestIncreasingPathInAMatrix.cpp 329.longest_increasing_path_in_a_matrix/LongestIncreasingPathInAMatrix.h
         )
