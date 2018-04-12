@@ -172,6 +172,7 @@
 #include "326.power_of_three/PowerOfThree.h"
 #include "328.odd_even_linked_list/OddEvenLinkedList.h"
 #include "329.longest_increasing_path_in_a_matrix/LongestIncreasingPathInAMatrix.h"
+#include "334.increasing_triplet_subsequence/IncreasingTripletSubsequence.h"
 
 
 Base *init() {
@@ -344,7 +345,8 @@ Base *init() {
     //return new WiggleSort2();
     //return new PowerOfThree();
     //return new OddEvenLinkedList();
-    return new LongestIncreasingPathInAMatrix();
+    //return new LongestIncreasingPathInAMatrix();
+    return new IncreasingTripletSubsequence();
 }
 
 int main() {
