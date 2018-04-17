@@ -173,6 +173,7 @@
 #include "328.odd_even_linked_list/OddEvenLinkedList.h"
 #include "329.longest_increasing_path_in_a_matrix/LongestIncreasingPathInAMatrix.h"
 #include "334.increasing_triplet_subsequence/IncreasingTripletSubsequence.h"
+#include "341.flatten_nested_list_iterator/FlattenNestedListIterator.h"
 
 
 Base *init() {
@@ -346,7 +347,8 @@ Base *init() {
     //return new PowerOfThree();
     //return new OddEvenLinkedList();
     //return new LongestIncreasingPathInAMatrix();
-    return new IncreasingTripletSubsequence();
+    //return new IncreasingTripletSubsequence();
+    return new FlattenNestedListIterator();
 }
 
 int main() {
