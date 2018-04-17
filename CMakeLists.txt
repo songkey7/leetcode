@@ -177,5 +177,6 @@ add_executable(leetcode main.cpp Base.h
         #329.longest_increasing_path_in_a_matrix/LongestIncreasingPathInAMatrix.cpp 329.longest_increasing_path_in_a_matrix/LongestIncreasingPathInAMatrix.h
         #334.increasing_triplet_subsequence/IncreasingTripletSubsequence.cpp 334.increasing_triplet_subsequence/IncreasingTripletSubsequence.h
         #341.flatten_nested_list_iterator/FlattenNestedListIterator.cpp 341.flatten_nested_list_iterator/FlattenNestedListIterator.h
-        344.reverse_string/ReverseString.cpp 344.reverse_string/ReverseString.h
+        #344.reverse_string/ReverseString.cpp 344.reverse_string/ReverseString.h
+        350.intersection_of_two_arrays_2/IntersectionOfTwoArrays2.cpp 350.intersection_of_two_arrays_2/IntersectionOfTwoArrays2.h
         )
