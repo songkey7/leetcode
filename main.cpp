@@ -176,6 +176,7 @@
 #include "341.flatten_nested_list_iterator/FlattenNestedListIterator.h"
 #include "344.reverse_string/ReverseString.h"
 #include "350.intersection_of_two_arrays_2/IntersectionOfTwoArrays2.h"
+#include "371.sum_of_two_integers/SumOfTwoIntegers.h"
 
 
 Base *init() {
@@ -352,7 +353,8 @@ Base *init() {
     //return new IncreasingTripletSubsequence();
     //return new FlattenNestedListIterator();
     //return new ReverseString();
-    return new IntersectionOfTwoArrays2();
+    //return new IntersectionOfTwoArrays2();
+    return new SumOfTwoIntegers();
 }
 
 int main() {
