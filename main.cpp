@@ -174,6 +174,7 @@
 #include "329.longest_increasing_path_in_a_matrix/LongestIncreasingPathInAMatrix.h"
 #include "334.increasing_triplet_subsequence/IncreasingTripletSubsequence.h"
 #include "341.flatten_nested_list_iterator/FlattenNestedListIterator.h"
+#include "344.reverse_string/ReverseString.h"
 
 
 Base *init() {
@@ -348,7 +349,8 @@ Base *init() {
     //return new OddEvenLinkedList();
     //return new LongestIncreasingPathInAMatrix();
     //return new IncreasingTripletSubsequence();
-    return new FlattenNestedListIterator();
+    //return new FlattenNestedListIterator();
+    return new ReverseString();
 }
 
 int main() {
