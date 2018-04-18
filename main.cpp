@@ -180,6 +180,7 @@
 #include "378.kth_smallest_element_in_a_sorted_matrix/KthSmallestElementInASortedMatrix.h"
 #include "380.insert_delete_get_random/InsertDeleteGetRandom.h"
 #include "384.shuffle_an_array/ShuffleAnArray.h"
+#include "387.first_unique_character_in_a_string/FirstUniqueCharacterInAString.h"
 
 
 Base *init() {
@@ -360,7 +361,8 @@ Base *init() {
     //return new SumOfTwoIntegers();
     //return new KthSmallestElementInASortedMatrix();
     //return new InsertDeleteGetRandom();
-    return new ShuffleAnArray();
+    //return new ShuffleAnArray();
+    return new FirstUniqueCharacterInAString();
 }
 
 int main() {

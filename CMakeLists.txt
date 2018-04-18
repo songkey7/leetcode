@@ -182,5 +182,6 @@ add_executable(leetcode main.cpp Base.h
         #371.sum_of_two_integers/SumOfTwoIntegers.cpp 371.sum_of_two_integers/SumOfTwoIntegers.h
         #378.kth_smallest_element_in_a_sorted_matrix/KthSmallestElementInASortedMatrix.cpp 378.kth_smallest_element_in_a_sorted_matrix/KthSmallestElementInASortedMatrix.h
         #380.insert_delete_get_random/InsertDeleteGetRandom.cpp 380.insert_delete_get_random/InsertDeleteGetRandom.h
-        384.shuffle_an_array/ShuffleAnArray.cpp 384.shuffle_an_array/ShuffleAnArray.h
+        #384.shuffle_an_array/ShuffleAnArray.cpp 384.shuffle_an_array/ShuffleAnArray.h
+        387.first_unique_character_in_a_string/FirstUniqueCharacterInAString.cpp 387.first_unique_character_in_a_string/FirstUniqueCharacterInAString.h
         )
