@@ -178,6 +178,7 @@
 #include "350.intersection_of_two_arrays_2/IntersectionOfTwoArrays2.h"
 #include "371.sum_of_two_integers/SumOfTwoIntegers.h"
 #include "378.kth_smallest_element_in_a_sorted_matrix/KthSmallestElementInASortedMatrix.h"
+#include "380.insert_delete_get_random/InsertDeleteGetRandom.h"
 
 
 Base *init() {
@@ -356,7 +357,8 @@ Base *init() {
     //return new ReverseString();
     //return new IntersectionOfTwoArrays2();
     //return new SumOfTwoIntegers();
-    return new KthSmallestElementInASortedMatrix();
+    //return new KthSmallestElementInASortedMatrix();
+    return new InsertDeleteGetRandom();
 }
 
 int main() {
