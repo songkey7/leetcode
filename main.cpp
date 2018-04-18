@@ -177,6 +177,7 @@
 #include "344.reverse_string/ReverseString.h"
 #include "350.intersection_of_two_arrays_2/IntersectionOfTwoArrays2.h"
 #include "371.sum_of_two_integers/SumOfTwoIntegers.h"
+#include "378.kth_smallest_element_in_a_sorted_matrix/KthSmallestElementInASortedMatrix.h"
 
 
 Base *init() {
@@ -354,7 +355,8 @@ Base *init() {
     //return new FlattenNestedListIterator();
     //return new ReverseString();
     //return new IntersectionOfTwoArrays2();
-    return new SumOfTwoIntegers();
+    //return new SumOfTwoIntegers();
+    return new KthSmallestElementInASortedMatrix();
 }
 
 int main() {
