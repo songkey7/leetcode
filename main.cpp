@@ -179,6 +179,7 @@
 #include "371.sum_of_two_integers/SumOfTwoIntegers.h"
 #include "378.kth_smallest_element_in_a_sorted_matrix/KthSmallestElementInASortedMatrix.h"
 #include "380.insert_delete_get_random/InsertDeleteGetRandom.h"
+#include "384.shuffle_an_array/ShuffleAnArray.h"
 
 
 Base *init() {
@@ -358,7 +359,8 @@ Base *init() {
     //return new IntersectionOfTwoArrays2();
     //return new SumOfTwoIntegers();
     //return new KthSmallestElementInASortedMatrix();
-    return new InsertDeleteGetRandom();
+    //return new InsertDeleteGetRandom();
+    return new ShuffleAnArray();
 }
 
 int main() {
