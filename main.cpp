@@ -184,6 +184,7 @@
 #include "35.search_insert_position/SearchInsertPosition.h"
 #include "119.pascals_triangle2/PascalsTriangle2.h"
 #include "167.two_sum_2/TwoSum2.h"
+#include "27.remove_element/RemoveElement.h"
 
 
 Base *init() {
@@ -306,7 +307,7 @@ Base *init() {
     //return new StringToInteger();
     //return new RomanToInteger();
     //return new LongestCommonPrefix();
-    return new RemoveDuplicatesFromSortedArray();
+    //return new RemoveDuplicatesFromSortedArray();
     //return new LongestSubstringWithAtLeastKRepeatingCharacters();
     //return new StrStr();
     //return new ValidSudoku();
@@ -369,6 +370,7 @@ Base *init() {
     //return new SearchInsertPosition();
     //return new PascalsTriangle2();
     //return new TwoSum2();
+    return new RemoveElement();
 }
 
 int main() {

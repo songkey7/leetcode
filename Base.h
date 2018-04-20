@@ -42,6 +42,11 @@ protected:
         cout << endl;
     }
 
+    void print_vector(const vector<int> &v, int n){
+        for(int i = 0; i < n; i++) cout << v[i] << " ";
+        cout << endl;
+    }
+
     struct TreeNode {
         int val;
         TreeNode *left;
