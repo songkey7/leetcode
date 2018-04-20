@@ -8,3 +8,6 @@
 
 ### Two Pointers
 * 167
+
+### Merge Sort
+* 188
