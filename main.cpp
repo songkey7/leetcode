@@ -187,7 +187,7 @@
 
 
 Base *init() {
-    return new TwoSum();
+    //return new TwoSum();
     //return new WordBreak();
     //return new PalindromicSubstrings();
     //return new TaskScheduler();
@@ -306,7 +306,7 @@ Base *init() {
     //return new StringToInteger();
     //return new RomanToInteger();
     //return new LongestCommonPrefix();
-    //return new RemoveDuplicatesFromSortedArray();
+    return new RemoveDuplicatesFromSortedArray();
     //return new LongestSubstringWithAtLeastKRepeatingCharacters();
     //return new StrStr();
     //return new ValidSudoku();
@@ -368,7 +368,7 @@ Base *init() {
     //return new FirstUniqueCharacterInAString();
     //return new SearchInsertPosition();
     //return new PascalsTriangle2();
-    return new TwoSum2();
+    //return new TwoSum2();
 }
 
 int main() {

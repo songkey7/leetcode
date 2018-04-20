@@ -5,22 +5,17 @@
 #include "RemoveDuplicatesFromSortedArray.h"
 
 int RemoveDuplicatesFromSortedArray::remove_duplicates(vector<int> &nums) {
-    size_t n = nums.size();
+    int n = nums.size();
     if(n == 0) return 0;
-    int len = 1;
-    for(int i = 1; i < n; i++){
-        if(nums[i] != nums[i-1]){
-            nums[len++] = nums[i];
-        }
-    }
-    for(auto x: nums){
-        cout << x << " ";
-    }
-    cout << endl;
-    return len;
+    int i = 0;
+    for(int j = 1; j < nums.size(); j++)
+        if(nums[i] != nums[j]) nums[++i] = nums[j];
+    return i + 1;
 }
 
 void RemoveDuplicatesFromSortedArray::run() {
     vector<int> nums = {1,1,2};
-    assert(remove_duplicates(nums) == 2);
+    int n = remove_duplicates(nums);
+    for(int i = 0; i < n; i++) cout << nums[i] << " ";
+    cout << endl;
 }
