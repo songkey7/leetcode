@@ -181,6 +181,7 @@
 #include "380.insert_delete_get_random/InsertDeleteGetRandom.h"
 #include "384.shuffle_an_array/ShuffleAnArray.h"
 #include "387.first_unique_character_in_a_string/FirstUniqueCharacterInAString.h"
+#include "35.search_insert_position/SearchInsertPosition.h"
 
 
 Base *init() {
@@ -362,7 +363,8 @@ Base *init() {
     //return new KthSmallestElementInASortedMatrix();
     //return new InsertDeleteGetRandom();
     //return new ShuffleAnArray();
-    return new FirstUniqueCharacterInAString();
+    //return new FirstUniqueCharacterInAString();
+    return new SearchInsertPosition();
 }
 
 int main() {
