@@ -200,7 +200,7 @@ Base *init() {
     //return new LinkedListCycle();
     //return new LinkedListCycle2();
     //return new SortList();
-    //return new MaximumSubarray();
+    return new MaximumSubarray();
     //return new MaximumProductSubarray();
     //return new DecodeString();
     //return new TopKFrequentElements();
@@ -370,7 +370,7 @@ Base *init() {
     //return new SearchInsertPosition();
     //return new PascalsTriangle2();
     //return new TwoSum2();
-    return new RemoveElement();
+    //return new RemoveElement();
 }
 
 int main() {

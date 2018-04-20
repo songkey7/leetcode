@@ -5,20 +5,21 @@
 #include "MaximumSubarray.h"
 
 int MaximumSubarray::max_sub_array(vector<int> &nums) {
-    int sum = 0;
     int ret = INT_MIN;
-    for(int i = 0; i < nums.size(); i++){
-        sum += nums[i];
+    int sum = 0;
+    for(auto x: nums){
+        sum += x;
         ret = max(ret, sum);
-        if(sum < 0) sum = 0;
+        sum = max(sum, 0);
     }
     return ret;
 }
 
 int MaximumSubarray::max_sub_array2(vector<int> &nums) {
-    int sum = nums[0];
-    int ret = nums[0];
-    for(int i = 1; i < nums.size(); ++i){
+    int sum = 0;
+    int ret = INT_MIN;
+    for(int i = 0; i < nums.size(); ++i){
+        // max is the current num or the sum include current num
         sum = max(nums[i], sum + nums[i]);
         ret = max(ret, sum);
     }

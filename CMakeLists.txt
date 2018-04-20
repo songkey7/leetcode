@@ -17,7 +17,7 @@ add_executable(leetcode main.cpp Base.h
         #142.linked_list_cycle_2/LinkedListCycle2.cpp 142.linked_list_cycle_2/LinkedListCycle2.h
         #148.sort_list/SortList.cpp 148.sort_list/SortList.h
         #152.maximum_product_subarray/MaximumProductSubarray.cpp 152.maximum_product_subarray/MaximumProductSubarray.h
-        #53.maximum_subarray/MaximumSubarray.cpp 53.maximum_subarray/MaximumSubarray.h
+        53.maximum_subarray/MaximumSubarray.cpp 53.maximum_subarray/MaximumSubarray.h
         #394.decode_string/DecodeString.cpp 394.decode_string/DecodeString.h
         #347.top_k_frequent_elements/TopKFrequentElements.cpp 347.top_k_frequent_elements/TopKFrequentElements.h
         #581.shortest_unsorted_continuous_subarray/ShortestUnsortedContinuousSubarray.cpp
@@ -187,5 +187,5 @@ add_executable(leetcode main.cpp Base.h
         #35.search_insert_position/SearchInsertPosition.cpp 35.search_insert_position/SearchInsertPosition.h
         #119.pascals_triangle2/PascalsTriangle2.cpp 119.pascals_triangle2/PascalsTriangle2.h
         #167.two_sum_2/TwoSum2.cpp 167.two_sum_2/TwoSum2.h
-        27.remove_element/RemoveElement.cpp 27.remove_element/RemoveElement.h
+        #27.remove_element/RemoveElement.cpp 27.remove_element/RemoveElement.h
         )
