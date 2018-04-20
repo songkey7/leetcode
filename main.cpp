@@ -312,7 +312,7 @@ Base *init() {
     //return new FirstMissingPositive();
     //return new WildcardMatching();
     //return new SpiralMatrix();
-    //return new PlusOne();
+    return new PlusOne();
     //return new Sqrt();
     //return new SetMatrixZeroes();
     //return new MergeSortedArray();

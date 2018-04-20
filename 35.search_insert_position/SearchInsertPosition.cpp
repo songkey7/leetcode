@@ -1,5 +1,6 @@
 //
 // Created by Qi Song on 19/04/2018.
+// Binary Search
 //
 
 #include "SearchInsertPosition.h"

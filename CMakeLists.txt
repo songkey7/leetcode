@@ -132,7 +132,7 @@ add_executable(leetcode main.cpp Base.h
         #41.first_missing_positive/FirstMissingPositive.cpp 41.first_missing_positive/FirstMissingPositive.h
         #44.wildcard_matching/WildcardMatching.cpp 44.wildcard_matching/WildcardMatching.h
         #54.spiral_matrix/SpiralMatrix.cpp 54.spiral_matrix/SpiralMatrix.h
-        #66.plus_one/PlusOne.cpp 66.plus_one/PlusOne.h
+        66.plus_one/PlusOne.cpp 66.plus_one/PlusOne.h
         #69.sqrt_x/Sqrt.cpp 69.sqrt_x/Sqrt.h
         #73.set_matrix_zeroes/SetMatrixZeroes.cpp 73.set_matrix_zeroes/SetMatrixZeroes.h
         #88.merge_sorted_array/MergeSortedArray.cpp 88.merge_sorted_array/MergeSortedArray.h
@@ -184,5 +184,5 @@ add_executable(leetcode main.cpp Base.h
         #380.insert_delete_get_random/InsertDeleteGetRandom.cpp 380.insert_delete_get_random/InsertDeleteGetRandom.h
         #384.shuffle_an_array/ShuffleAnArray.cpp 384.shuffle_an_array/ShuffleAnArray.h
         #387.first_unique_character_in_a_string/FirstUniqueCharacterInAString.cpp 387.first_unique_character_in_a_string/FirstUniqueCharacterInAString.h
-        35.search_insert_position/SearchInsertPosition.cpp 35.search_insert_position/SearchInsertPosition.h
+        #35.search_insert_position/SearchInsertPosition.cpp 35.search_insert_position/SearchInsertPosition.h
         )
