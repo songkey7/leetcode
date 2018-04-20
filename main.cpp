@@ -182,6 +182,7 @@
 #include "384.shuffle_an_array/ShuffleAnArray.h"
 #include "387.first_unique_character_in_a_string/FirstUniqueCharacterInAString.h"
 #include "35.search_insert_position/SearchInsertPosition.h"
+#include "119.pascals_triangle2/PascalsTriangle2.h"
 
 
 Base *init() {
@@ -312,7 +313,7 @@ Base *init() {
     //return new FirstMissingPositive();
     //return new WildcardMatching();
     //return new SpiralMatrix();
-    return new PlusOne();
+    //return new PlusOne();
     //return new Sqrt();
     //return new SetMatrixZeroes();
     //return new MergeSortedArray();
@@ -364,7 +365,8 @@ Base *init() {
     //return new InsertDeleteGetRandom();
     //return new ShuffleAnArray();
     //return new FirstUniqueCharacterInAString();
-    return new SearchInsertPosition();
+    //return new SearchInsertPosition();
+    return new PascalsTriangle2();
 }
 
 int main() {
