@@ -12,7 +12,7 @@ public:
     void run();
 
 private:
-    vector<int> twoSum(vector<int>& nums, int target);
+    vector<int> two_sum(vector<int> &nums, int target);
 };
 
 

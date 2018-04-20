@@ -187,7 +187,7 @@
 
 
 Base *init() {
-    //return new TwoSum();
+    return new TwoSum();
     //return new WordBreak();
     //return new PalindromicSubstrings();
     //return new TaskScheduler();
