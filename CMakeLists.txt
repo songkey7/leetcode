@@ -185,5 +185,6 @@ add_executable(leetcode main.cpp Base.h
         #384.shuffle_an_array/ShuffleAnArray.cpp 384.shuffle_an_array/ShuffleAnArray.h
         #387.first_unique_character_in_a_string/FirstUniqueCharacterInAString.cpp 387.first_unique_character_in_a_string/FirstUniqueCharacterInAString.h
         #35.search_insert_position/SearchInsertPosition.cpp 35.search_insert_position/SearchInsertPosition.h
-        119.pascals_triangle2/PascalsTriangle2.cpp 119.pascals_triangle2/PascalsTriangle2.h
+        #119.pascals_triangle2/PascalsTriangle2.cpp 119.pascals_triangle2/PascalsTriangle2.h
+        167.two_sum_2/TwoSum2.cpp 167.two_sum_2/TwoSum2.h
         )

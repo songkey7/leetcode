@@ -183,6 +183,7 @@
 #include "387.first_unique_character_in_a_string/FirstUniqueCharacterInAString.h"
 #include "35.search_insert_position/SearchInsertPosition.h"
 #include "119.pascals_triangle2/PascalsTriangle2.h"
+#include "167.two_sum_2/TwoSum2.h"
 
 
 Base *init() {
@@ -366,7 +367,8 @@ Base *init() {
     //return new ShuffleAnArray();
     //return new FirstUniqueCharacterInAString();
     //return new SearchInsertPosition();
-    return new PascalsTriangle2();
+    //return new PascalsTriangle2();
+    return new TwoSum2();
 }
 
 int main() {
