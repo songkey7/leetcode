@@ -200,7 +200,7 @@ Base *init() {
     //return new LinkedListCycle();
     //return new LinkedListCycle2();
     //return new SortList();
-    return new MaximumSubarray();
+    //return new MaximumSubarray();
     //return new MaximumProductSubarray();
     //return new DecodeString();
     //return new TopKFrequentElements();
@@ -323,7 +323,7 @@ Base *init() {
     //return new BinaryTreeZigzagLevelOrderTraversal();
     //return new ConvertSortedArrayToBinarySearchTree();
     //return new PopulatingNextRightPointersInEachNode();
-    //return new PascalsTriangle();
+    return new PascalsTriangle();
     //return new BestTimeToBuyAndSellStock2();
     //return new ValidPalindrome();
     //return new WordLadder();

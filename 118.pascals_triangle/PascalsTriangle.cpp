@@ -5,13 +5,14 @@
 #include "PascalsTriangle.h"
 
 vector<vector<int>> PascalsTriangle::generate(int num) {
-    if(num < 1) return vector<vector<int>>();
-    vector<vector<int>> ret(num, vector<int>(1,1));
-    for(int i = 1; i < num; i++){
-        for(int j = 1; j < ret[i - 1].size(); j++){
-            ret[i].push_back(ret[i - 1][j - 1] + ret[i - 1][j]);
+    if(num < 1) return {{}};
+    vector<vector<int>> ret = {{1}};
+    for (int i = 2; i <= num; ++i) {
+        vector<int> tmp(i, 1);
+        for(int j = 1; j < i - 1; j++){
+            tmp[j] = ret.back()[j - 1] + ret.back()[j];
         }
-        ret[i].push_back(1);
+        ret.push_back(tmp);
     }
     return ret;
 }

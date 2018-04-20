@@ -17,7 +17,7 @@ add_executable(leetcode main.cpp Base.h
         #142.linked_list_cycle_2/LinkedListCycle2.cpp 142.linked_list_cycle_2/LinkedListCycle2.h
         #148.sort_list/SortList.cpp 148.sort_list/SortList.h
         #152.maximum_product_subarray/MaximumProductSubarray.cpp 152.maximum_product_subarray/MaximumProductSubarray.h
-        53.maximum_subarray/MaximumSubarray.cpp 53.maximum_subarray/MaximumSubarray.h
+        #53.maximum_subarray/MaximumSubarray.cpp 53.maximum_subarray/MaximumSubarray.h
         #394.decode_string/DecodeString.cpp 394.decode_string/DecodeString.h
         #347.top_k_frequent_elements/TopKFrequentElements.cpp 347.top_k_frequent_elements/TopKFrequentElements.h
         #581.shortest_unsorted_continuous_subarray/ShortestUnsortedContinuousSubarray.cpp
@@ -140,7 +140,7 @@ add_executable(leetcode main.cpp Base.h
         #103.binary_tree_zigzag_level_order_traversal/BinaryTreeZigzagLevelOrderTraversal.cpp 103.binary_tree_zigzag_level_order_traversal/BinaryTreeZigzagLevelOrderTraversal.h
         #108.convert_sorted_array_to_binary_search_tree/ConvertSortedArrayToBinarySearchTree.cpp 108.convert_sorted_array_to_binary_search_tree/ConvertSortedArrayToBinarySearchTree.h
         #116.populating_next_right_pointers_in_each_node/PopulatingNextRightPointersInEachNode.cpp 116.populating_next_right_pointers_in_each_node/PopulatingNextRightPointersInEachNode.h
-        #118.pascals_triangle/PascalsTriangle.cpp 118.pascals_triangle/PascalsTriangle.h
+        118.pascals_triangle/PascalsTriangle.cpp 118.pascals_triangle/PascalsTriangle.h
         #122.best_time_to_buy_and_sell_stock_2/BestTimeToBuyAndSellStock2.cpp 122.best_time_to_buy_and_sell_stock_2/BestTimeToBuyAndSellStock2.h
         #125.valid_palindrome/ValidPalindrome.cpp 125.valid_palindrome/ValidPalindrome.h
         #127.word_ladder/WordLadder.cpp 127.word_ladder/WordLadder.h
