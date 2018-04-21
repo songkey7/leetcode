@@ -183,6 +183,7 @@
 #include "387.first_unique_character_in_a_string/FirstUniqueCharacterInAString.h"
 #include "35.search_insert_position/SearchInsertPosition.h"
 #include "119.pascals_triangle2/PascalsTriangle2.h"
+#include "16.three_sum_closest/ThreeSumClosest.h"
 
 
 Base *init() {
@@ -285,7 +286,7 @@ Base *init() {
     //return new DiameterOfBinaryTree();
     //return new ConvertBSTToGreaterTree();
     //return new RegularExpressionMatching();
-    return new ContainerWithMostWater();
+    //return new ContainerWithMostWater();
     //return new ThreeSum();
     //return new LetterCombinationsOfAPhoneNumber();
     //return new RemoveNthNodeFromEndOfList();
@@ -367,6 +368,7 @@ Base *init() {
     //return new FirstUniqueCharacterInAString();
     //return new SearchInsertPosition();
     //return new PascalsTriangle2();
+    return new ThreeSumClosest();
 }
 
 int main() {
