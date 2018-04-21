@@ -186,5 +186,6 @@ add_executable(leetcode main.cpp Base.h
         #387.first_unique_character_in_a_string/FirstUniqueCharacterInAString.cpp 387.first_unique_character_in_a_string/FirstUniqueCharacterInAString.h
         #35.search_insert_position/SearchInsertPosition.cpp 35.search_insert_position/SearchInsertPosition.h
         #119.pascals_triangle2/PascalsTriangle2.cpp 119.pascals_triangle2/PascalsTriangle2.h
-        16.three_sum_closest/ThreeSumClosest.cpp 16.three_sum_closest/ThreeSumClosest.h
+        #16.three_sum_closest/ThreeSumClosest.cpp 16.three_sum_closest/ThreeSumClosest.h
+        18.four_sum/FourSum.cpp 18.four_sum/FourSum.h
         )

@@ -184,6 +184,7 @@
 #include "35.search_insert_position/SearchInsertPosition.h"
 #include "119.pascals_triangle2/PascalsTriangle2.h"
 #include "16.three_sum_closest/ThreeSumClosest.h"
+#include "18.four_sum/FourSum.h"
 
 
 Base *init() {
@@ -368,7 +369,8 @@ Base *init() {
     //return new FirstUniqueCharacterInAString();
     //return new SearchInsertPosition();
     //return new PascalsTriangle2();
-    return new ThreeSumClosest();
+    //return new ThreeSumClosest();
+    return new FourSum();
 }
 
 int main() {
