@@ -5,20 +5,12 @@
 #include "BestTimeToBuyAndSellStock.h"
 
 int BestTimeToBuyAndSellStock::max_profit(vector<int> &prices) {
-    int n = prices.size();
-    if(n < 2) return 0;
-    vector<int> dp(n, 0);
-    dp[0] = prices[0];
     int ret = 0;
-    for(int i = 1; i < n; i++){
-        int tmp = prices[i] - dp[i - 1];
-        if( tmp > 0){
-            ret = max(ret, tmp);
-            dp[i] = dp[i - 1];
-        }
-        else{
-            dp[i] = prices[i];
-        }
+    int m = INT_MAX;
+    // the lowest price subtracted by the highest price after it.
+    for (int i = 0; i < prices.size(); ++i) {
+        m = min(m, prices[i]);
+        ret = max(ret, prices[i] - m);
     }
     return ret;
 }
