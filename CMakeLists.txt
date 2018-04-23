@@ -43,7 +43,7 @@ add_executable(leetcode main.cpp Base.h
         #3.longest_substring_without_repeating_characters/LongestSubstringWithoutRepeatingCharacters.cpp 3.longest_substring_without_repeating_characters/LongestSubstringWithoutRepeatingCharacters.h
         #146.LRU_cache/LRUCache.cpp 146.LRU_cache/LRUCache.h
         #160.intersection_of_two_linked_lists/IntersectionOfTwoLinkedLists.cpp 160.intersection_of_two_linked_lists/IntersectionOfTwoLinkedLists.h
-        #169.majority_element/MajorityElement.cpp 169.majority_element/MajorityElement.h
+        169.majority_element/MajorityElement.cpp 169.majority_element/MajorityElement.h
         #200.number_of_islands/NumberOfIslands.cpp 200.number_of_islands/NumberOfIslands.h
         #207.course_schedule/CourseSchedule.cpp 207.course_schedule/CourseSchedule.h
         #208.implement_trie/ImplementTrie.cpp 208.implement_trie/ImplementTrie.h
@@ -141,7 +141,7 @@ add_executable(leetcode main.cpp Base.h
         #108.convert_sorted_array_to_binary_search_tree/ConvertSortedArrayToBinarySearchTree.cpp 108.convert_sorted_array_to_binary_search_tree/ConvertSortedArrayToBinarySearchTree.h
         #116.populating_next_right_pointers_in_each_node/PopulatingNextRightPointersInEachNode.cpp 116.populating_next_right_pointers_in_each_node/PopulatingNextRightPointersInEachNode.h
         #118.pascals_triangle/PascalsTriangle.cpp 118.pascals_triangle/PascalsTriangle.h
-        122.best_time_to_buy_and_sell_stock_2/BestTimeToBuyAndSellStock2.cpp 122.best_time_to_buy_and_sell_stock_2/BestTimeToBuyAndSellStock2.h
+        #122.best_time_to_buy_and_sell_stock_2/BestTimeToBuyAndSellStock2.cpp 122.best_time_to_buy_and_sell_stock_2/BestTimeToBuyAndSellStock2.h
         #125.valid_palindrome/ValidPalindrome.cpp 125.valid_palindrome/ValidPalindrome.h
         #127.word_ladder/WordLadder.cpp 127.word_ladder/WordLadder.h
         #130.surrounded_regions/SurroundedRegions.cpp 130.surrounded_regions/SurroundedRegions.h

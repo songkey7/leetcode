@@ -5,21 +5,17 @@
 #include "MajorityElement.h"
 
 int MajorityElement::majority_element(vector<int> &nums) {
-    size_t n = nums.size();
-    int tmp = nums[0];
+    int ret = nums[0];
     int cnt = 1;
-    for(int i = 1; i < n; i++){
-        if(tmp != nums[i]){
-            if(cnt == 1)
-                tmp = nums[++i];
-            else{
-                cnt--;
-            }
-        } else{
-            cnt++;
+    for(int i = 1; i < nums.size(); i++){
+        if(nums[i] == ret) cnt++;
+        else cnt--;
+        if(cnt == 0){
+            ret = nums[++i];
+            cnt = 1;
         }
     }
-    return tmp;
+    return ret;
 }
 
 void MajorityElement::run() {

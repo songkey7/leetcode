@@ -228,7 +228,7 @@ Base *init() {
     //return new LongestSubstringWithoutRepeatingCharacters();
     //return new LRUCache();
     //return new IntersectionOfTwoLinkedLists();
-    //return new MajorityElement();
+    return new MajorityElement();
     //return new NumberOfIslands();
     //return new CourseSchedule();
     //return new ImplementTrie();
@@ -326,7 +326,7 @@ Base *init() {
     //return new ConvertSortedArrayToBinarySearchTree();
     //return new PopulatingNextRightPointersInEachNode();
     //return new PascalsTriangle();
-    return new BestTimeToBuyAndSellStock2();
+    //return new BestTimeToBuyAndSellStock2();
     //return new ValidPalindrome();
     //return new WordLadder();
     //return new SurroundedRegions();
