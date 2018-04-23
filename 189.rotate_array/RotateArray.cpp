@@ -24,7 +24,7 @@ void RotateArray::rotate2(vector<int> &nums, int k) {
     reverse(nums.begin(), nums.end());
 }
 
-void RotateArray::rotate3(vector<int> nums, int k) {
+void RotateArray::rotate3(vector<int> &nums, int k) {
     int n = nums.size();
     k = k % n;
     if(k == 0) return;
@@ -45,7 +45,7 @@ void RotateArray::rotate3(vector<int> nums, int k) {
 void RotateArray::run() {
     vector<int> nums = {1,2,3,4,5,6};
     vector<int> ret = {3,4,5,6,1,2};
-    rotate3(nums, 3);
+    rotate3(nums, 4);
     assert(nums == ret);
 }
 

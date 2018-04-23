@@ -43,7 +43,7 @@ add_executable(leetcode main.cpp Base.h
         #3.longest_substring_without_repeating_characters/LongestSubstringWithoutRepeatingCharacters.cpp 3.longest_substring_without_repeating_characters/LongestSubstringWithoutRepeatingCharacters.h
         #146.LRU_cache/LRUCache.cpp 146.LRU_cache/LRUCache.h
         #160.intersection_of_two_linked_lists/IntersectionOfTwoLinkedLists.cpp 160.intersection_of_two_linked_lists/IntersectionOfTwoLinkedLists.h
-        169.majority_element/MajorityElement.cpp 169.majority_element/MajorityElement.h
+        #169.majority_element/MajorityElement.cpp 169.majority_element/MajorityElement.h
         #200.number_of_islands/NumberOfIslands.cpp 200.number_of_islands/NumberOfIslands.h
         #207.course_schedule/CourseSchedule.cpp 207.course_schedule/CourseSchedule.h
         #208.implement_trie/ImplementTrie.cpp 208.implement_trie/ImplementTrie.h
@@ -156,7 +156,7 @@ add_executable(leetcode main.cpp Base.h
         #171.excel_sheet_column_number/ExcelSheetColumnNumber.cpp 171.excel_sheet_column_number/ExcelSheetColumnNumber.h
         #172.factorial_trailing_zeroes/FactorialTrailingZeroes.cpp 172.factorial_trailing_zeroes/FactorialTrailingZeroes.h
         #179.largest_number/LargestNumber.cpp 179.largest_number/LargestNumber.h
-        #189.rotate_array/RotateArray.cpp 189.rotate_array/RotateArray.h
+        189.rotate_array/RotateArray.cpp 189.rotate_array/RotateArray.h
         #190.reverse_bits/ReverseBits.cpp 190.reverse_bits/ReverseBits.h
         #191.number_of_1_bits/NumberOf1Bits.cpp 191.number_of_1_bits/NumberOf1Bits.h
         #202.happy_number/HappyNumber.cpp 202.happy_number/HappyNumber.h
@@ -189,5 +189,5 @@ add_executable(leetcode main.cpp Base.h
         #167.two_sum_2/TwoSum2.cpp 167.two_sum_2/TwoSum2.h
         #27.remove_element/RemoveElement.cpp 27.remove_element/RemoveElement.h
         #16.three_sum_closest/ThreeSumClosest.cpp 16.three_sum_closest/ThreeSumClosest.h
-        18.four_sum/FourSum.cpp 18.four_sum/FourSum.h
+        #18.four_sum/FourSum.cpp 18.four_sum/FourSum.h
         )

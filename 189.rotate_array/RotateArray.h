@@ -11,7 +11,7 @@
 class RotateArray: public Base {
     void rotate(vector<int>& nums, int k);
     void rotate2(vector<int>& nums, int k);
-    void rotate3(vector<int> nums, int k);
+    void rotate3(vector<int>& nums, int k);
 public:
     void run();
 

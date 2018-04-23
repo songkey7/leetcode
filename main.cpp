@@ -228,7 +228,7 @@ Base *init() {
     //return new LongestSubstringWithoutRepeatingCharacters();
     //return new LRUCache();
     //return new IntersectionOfTwoLinkedLists();
-    return new MajorityElement();
+    //return new MajorityElement();
     //return new NumberOfIslands();
     //return new CourseSchedule();
     //return new ImplementTrie();
@@ -341,7 +341,7 @@ Base *init() {
     //return new ExcelSheetColumnNumber();
     //return new FactorialTrailingZeroes();
     //return new LargestNumber();
-    //return new RotateArray();
+    return new RotateArray();
     //return new ReverseBits();
     //return new NumberOf1Bits();
     //return new HappyNumber();
