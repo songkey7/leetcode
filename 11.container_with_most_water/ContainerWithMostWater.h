@@ -10,6 +10,7 @@
 
 class ContainerWithMostWater: public Base{
     int max_area(vector<int>& height);
+    int max_area2(vector<int>& height);
 public:
     void run();
 

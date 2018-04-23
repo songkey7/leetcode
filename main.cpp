@@ -185,6 +185,8 @@
 #include "119.pascals_triangle2/PascalsTriangle2.h"
 #include "167.two_sum_2/TwoSum2.h"
 #include "27.remove_element/RemoveElement.h"
+#include "16.three_sum_closest/ThreeSumClosest.h"
+#include "18.four_sum/FourSum.h"
 
 
 Base *init() {
@@ -371,6 +373,8 @@ Base *init() {
     //return new PascalsTriangle2();
     //return new TwoSum2();
     //return new RemoveElement();
+    //return new ThreeSumClosest();
+    return new FourSum();
 }
 
 int main() {

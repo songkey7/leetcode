@@ -188,4 +188,6 @@ add_executable(leetcode main.cpp Base.h
         #119.pascals_triangle2/PascalsTriangle2.cpp 119.pascals_triangle2/PascalsTriangle2.h
         #167.two_sum_2/TwoSum2.cpp 167.two_sum_2/TwoSum2.h
         #27.remove_element/RemoveElement.cpp 27.remove_element/RemoveElement.h
+        #16.three_sum_closest/ThreeSumClosest.cpp 16.three_sum_closest/ThreeSumClosest.h
+        18.four_sum/FourSum.cpp 18.four_sum/FourSum.h
         )
