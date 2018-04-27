@@ -3,26 +3,15 @@
 //
 
 #include "ValidPalindrome.h"
+#include <ctype.h>
 
 bool ValidPalindrome::is_palindrome(string s) {
-    int i = 0, j = s.length() - 1;
-    while(i <= j){
-        while(i <= j && !is_char(s[i])) i++;
-        while(i <= j && !is_char(s[j])) j--;
-        if(i <= j && s[i++] != s[j--]) return false;
+    for(int i = 0, j = s.length() - 1; i <=j;){
+        while(!isalnum(s[i])) i++;
+        while(!isalnum(s[j])) j--;
+        if(i<=j && tolower(s[i++]) != tolower(s[j--])) return false;
     }
     return true;
-}
-
-bool ValidPalindrome::is_char(char &c) {
-    if(c >= 'A' && c <= 'Z') {
-        c = c - 'A' + 'a';
-        return true;
-    }
-    else if((c >= 'a' && c <= 'z') || (c >= '0' && c <= '9')){
-        return true;
-    }
-    return false;
 }
 
 void ValidPalindrome::run() {

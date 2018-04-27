@@ -5,14 +5,14 @@
 #include "HouseRobber.h"
 
 int HouseRobber::rob(vector<int> &nums) {
-    size_t n = nums.size();
+    int n = nums.size();
     if(n == 0) return 0;
-    vector<int> ret(n + 1, 0);
-    ret[1] = nums[0];
-    for(int i = 2; i < n + 1; i++){
-       ret[i] = max(ret[i - 1], ret[i - 2] + nums[i - 1]);
+    vector<int> dp(n + 1, 0);
+    dp[1] = nums[0];
+    for(int i = 1; i < n; i++){
+        dp[i + 1] = max(nums[i] + dp[i - 1], dp[i]);
     }
-    return ret[n];
+    return dp[n];
 }
 
 void HouseRobber::run() {

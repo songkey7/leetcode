@@ -187,6 +187,8 @@
 #include "27.remove_element/RemoveElement.h"
 #include "16.three_sum_closest/ThreeSumClosest.h"
 #include "18.four_sum/FourSum.h"
+#include "58.length_of_last_word/LengthOfLastWord.h"
+#include "67.add_binary/AddBinary.h"
 
 
 Base *init() {
@@ -219,7 +221,7 @@ Base *init() {
     //return new MinStack();
     //return new ImplementStackUsingQueues();
     //return new ImplementQueueUsingStacks();
-    //return new HouseRobber();
+    return new HouseRobber();
     //return new HouseRobber2();
     //return new HouseRobber3();
     //return new SubtreeOfAnotherTree();
@@ -341,7 +343,7 @@ Base *init() {
     //return new ExcelSheetColumnNumber();
     //return new FactorialTrailingZeroes();
     //return new LargestNumber();
-    return new RotateArray();
+    //return new RotateArray();
     //return new ReverseBits();
     //return new NumberOf1Bits();
     //return new HappyNumber();
@@ -374,7 +376,9 @@ Base *init() {
     //return new TwoSum2();
     //return new RemoveElement();
     //return new ThreeSumClosest();
-    return new FourSum();
+    //return new FourSum();
+    //return new LengthOfLastWord();
+    //return new AddBinary();
 }
 
 int main() {

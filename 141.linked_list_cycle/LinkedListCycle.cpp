@@ -7,16 +7,15 @@
 class ListNode;
 
 bool LinkedListCycle::has_cycle(ListNode *head) {
-    if(!head || !head->next)
-        return false;
+    if(!head || !head->next) return false;
     ListNode *p1 = head;
-    ListNode *p2 = head->next;
-    while(p1!=p2){
+    ListNode *p2 = head->next->next;
+    while(p2 && p2->next){
+        if(p1 == p2) return true;
         p1 = p1->next;
-        if(p2) p2 = p2->next; else return false;
-        if(p2) p2 = p2->next; else return false;
+        p2 = p2->next->next;
     }
-    return true;
+    return false;
 }
 
 bool LinkedListCycle::has_cycle2(ListNode *head) {

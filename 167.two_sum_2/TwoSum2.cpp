@@ -6,29 +6,24 @@
 #include "TwoSum2.h"
 
 vector<int> TwoSum2::two_sum(vector<int> &numbers, int target) {
+    unordered_map<int, int> num_map;
     int n = numbers.size();
-    for(int i = 0; i < n - 1; i++){
-        int l = i + 1, r = n - 1;
-        int t = target - numbers[i];
-        while(l <= r){
-            int m = (l + r) / 2;
-            if(numbers[m] == t) return {i + 1, m + 1};
-            else if(numbers[m] > t) r = m - 1;
-            else l = m + 1;
-        }
+    for(int i = 0; i < n; i++){
+        auto itr = num_map.find(numbers[i]);
+        if(itr != num_map.end()) return {itr->second + 1, i + 1};
+        num_map[target - numbers[i]] = i;
     }
-    return vector<int>();
+    return {};
 }
 
 vector<int> TwoSum2::two_sum2(vector<int> &numbers, int target) {
-    int i = 0, j = numbers.size() - 1;
-    while(i < j){
-        int t = numbers[i] + numbers[j];
-        if(t == target) return {i + 1, j + 1};
-        else if(t > target) j--;
+    for(int i = 0, j = numbers.size() - 1; i < j;){
+        int tmp = numbers[i] + numbers[j];
+        if(tmp == target) return {i + 1, j + 1};
+        else if(tmp > target) j--;
         else i++;
     }
-    return vector<int>();
+    return {};
 }
 
 void TwoSum2::run() {

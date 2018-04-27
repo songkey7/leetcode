@@ -8,9 +8,9 @@ int BestTimeToBuyAndSellStock::max_profit(vector<int> &prices) {
     int ret = 0;
     int m = INT_MAX;
     // the lowest price subtracted by the highest price after it.
-    for (int i = 0; i < prices.size(); ++i) {
-        m = min(m, prices[i]);
-        ret = max(ret, prices[i] - m);
+    for (auto x: prices) {
+        m = min(m, x);
+        ret = max(ret, x - m);
     }
     return ret;
 }

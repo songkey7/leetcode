@@ -10,7 +10,6 @@
 
 class MaximumSubarray: public Base {
     int max_sub_array(vector<int>& nums);
-    int max_sub_array2(vector<int>& nums);
 public:
     void run();
 };

@@ -9,12 +9,6 @@
 #include "../Base.h"
 
 class LinkedListCycle: public Base {
-    struct ListNode {
-        int val;
-        ListNode *next;
-        ListNode(int x) : val(x), next(NULL) {}
-    };
-
     ListNode* create_list();
     bool has_cycle(ListNode *head);
     bool has_cycle2(ListNode *head);

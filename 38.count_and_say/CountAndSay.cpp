@@ -5,27 +5,28 @@
 #include "CountAndSay.h"
 
 string CountAndSay::count_and_say(int n) {
-    if(n == 0) return "";
+    if(n < 1) return "";
     string ret = "1";
-    while (--n) ret = count_and_say(ret) ;
+    while(--n){
+        ret = count_and_say(ret);
+    }
     return ret;
 }
 
 string CountAndSay::count_and_say(string nums) {
-    int count = 0;
-    char pre;
+    int cnt = 0;
     string ret;
-    for(auto c: nums){
-        if(c!=pre && count > 0){
-            ret = ret + char(count + '0') + pre;
-            count = 0;
+    char pre;
+    for(auto c: nums) {
+        if (pre != c && cnt > 0) {
+            ret = ret + to_string(cnt) + pre;
+            cnt = 0;
         }
-        count++;
         pre = c;
+        cnt ++;
     }
-    if(count > 0){
-        ret = ret + char(count + '0') + pre;
-    }
+    char tmp[32];
+    ret = ret + to_string(cnt) + pre;
     return ret;
 }
 

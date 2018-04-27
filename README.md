@@ -5,6 +5,7 @@
 
 ### Binaray Search
 * 35
+* 69
 
 ### Two Pointers
 * 11
@@ -12,3 +13,7 @@
 
 ### Merge Sort
 * 188
+
+### Dynamic Programming
+* 53
+

@@ -10,7 +10,6 @@
 
 class ValidPalindrome: public Base {
     bool is_palindrome(string s);
-    bool is_char(char &c);
 public:
     void run();
 };

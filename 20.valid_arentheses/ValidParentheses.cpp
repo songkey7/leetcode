@@ -7,20 +7,18 @@
 bool ValidParentheses::is_valid(string s) {
     stack<char> st;
     for(auto c: s){
-        bool e = (c == ')' || c == ']' || c == '}');
-        if(st.empty() && e){
-            return false;
-        }
-        else if(!st.empty() && e){
-            if(st.top() != c){
-                return false;
+        switch(c){
+            case '(' : st.push(')');
+                break;
+            case '[' : st.push(']');
+                break;
+            case '{' : st.push('}');
+                break;
+            default: {
+                if(st.empty() || st.top() != c) return false;
+                st.pop();
+                break;
             }
-            st.pop();
-        }
-        else{
-            if(c == '(') st.push(')');
-            else if(c == '[') st.push(']');
-            else if(c == '{') st.push('}');
         }
     }
     return st.empty();

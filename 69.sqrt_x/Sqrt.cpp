@@ -17,6 +17,6 @@ int Sqrt::sqrt(int x) {
 }
 
 void Sqrt::run() {
-    //assert(sqrt(4) == 2);
+    assert(sqrt(4) == 2);
     assert(sqrt(8) == 2);
 }

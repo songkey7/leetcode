@@ -17,7 +17,6 @@ class RomanToInteger: public Base {
                                        { 'D' , 500 },
                                        { 'M' , 1000 } };
     int roman_to_int(string s);
-    int roman_to_int2(string s);
 public:
     void run();
 
