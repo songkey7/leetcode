@@ -10,10 +10,11 @@
 ### Two Pointers
 * 11
 * 167
+* 3
 
 ### Merge Sort
 * 188
 
 ### Dynamic Programming
 * 53
-
+* 198

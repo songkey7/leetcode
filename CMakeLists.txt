@@ -9,15 +9,17 @@ add_executable(leetcode main.cpp Base.h
         #3.longest_substring_without_repeating_characters/LongestSubstringWithoutRepeatingCharacters.cpp 3.longest_substring_without_repeating_characters/LongestSubstringWithoutRepeatingCharacters.h
         #4.median_of_two_sorted_arrays/MedianOfTwoSortedArrays.cpp 4.median_of_two_sorted_arrays/MedianOfTwoSortedArrays.h
         #5.longest_palindromic_substring/LongestPalindromicSubstring.cpp 5.longest_palindromic_substring/LongestPalindromicSubstring.h
+        #6.zigzagz_conversion/ZigZagConversion.cpp 6.zigzagz_conversion/ZigZagConversion.h
         #7.reverse_integer/ReverseInteger.cpp 7.reverse_integer/ReverseInteger.h
         #8.atoi/StringToInteger.cpp 8.atoi/StringToInteger.h
         #9.palindrome_number/PalindromeNumber.cpp 9.palindrome_number/PalindromeNumber.h
         #10.regular_expression_matching/RegularExpressionMatching.cpp 10.regular_expression_matching/RegularExpressionMatching.h
         #11.container_with_most_water/ContainerWithMostWater.cpp 11.container_with_most_water/ContainerWithMostWater.h
+        #12.integer_to_roman/IntegerToRoman.cpp 12.integer_to_roman/IntegerToRoman.h
         #13.roman_to_integer/RomanToInteger.cpp 13.roman_to_integer/RomanToInteger.h
         #14.longest_common_prefix/LongestCommonPrefix.cpp 14.longest_common_prefix/LongestCommonPrefix.h
         #15.three_sum/ThreeSum.cpp 15.three_sum/ThreeSum.h
-        #16.three_sum_closest/ThreeSumClosest.cpp 16.three_sum_closest/ThreeSumClosest.h
+        16.three_sum_closest/ThreeSumClosest.cpp 16.three_sum_closest/ThreeSumClosest.h
         #17.letter_combinations_of_a_phone_number/LetterCombinationsOfAPhoneNumber.cpp 17.letter_combinations_of_a_phone_number/LetterCombinationsOfAPhoneNumber.h
         #18.four_sum/FourSum.cpp 18.four_sum/FourSum.h
         #19.remove_nth_node_from_end_of_list/RemoveNthNodeFromEndOfList.cpp 19.remove_nth_node_from_end_of_list/RemoveNthNodeFromEndOfList.h
@@ -114,7 +116,7 @@ add_executable(leetcode main.cpp Base.h
         #189.rotate_array/RotateArray.cpp 189.rotate_array/RotateArray.h
         #190.reverse_bits/ReverseBits.cpp 190.reverse_bits/ReverseBits.h
         #191.number_of_1_bits/NumberOf1Bits.cpp 191.number_of_1_bits/NumberOf1Bits.h
-        198.house_robber/HouseRobber.cpp 198.house_robber/HouseRobber.h
+        #198.house_robber/HouseRobber.cpp 198.house_robber/HouseRobber.h
         #200.number_of_islands/NumberOfIslands.cpp 200.number_of_islands/NumberOfIslands.h
         #202.happy_number/HappyNumber.cpp 202.happy_number/HappyNumber.h
         #204.count_primes/CountPrimes.cpp 204.count_primes/CountPrimes.h

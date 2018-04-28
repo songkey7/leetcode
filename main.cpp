@@ -189,6 +189,8 @@
 #include "18.four_sum/FourSum.h"
 #include "58.length_of_last_word/LengthOfLastWord.h"
 #include "67.add_binary/AddBinary.h"
+#include "6.zigzagz_conversion/ZigZagConversion.h"
+#include "12.integer_to_roman/IntegerToRoman.h"
 
 
 Base *init() {
@@ -221,7 +223,7 @@ Base *init() {
     //return new MinStack();
     //return new ImplementStackUsingQueues();
     //return new ImplementQueueUsingStacks();
-    return new HouseRobber();
+    //return new HouseRobber();
     //return new HouseRobber2();
     //return new HouseRobber3();
     //return new SubtreeOfAnotherTree();
@@ -375,10 +377,12 @@ Base *init() {
     //return new PascalsTriangle2();
     //return new TwoSum2();
     //return new RemoveElement();
-    //return new ThreeSumClosest();
+    return new ThreeSumClosest();
     //return new FourSum();
     //return new LengthOfLastWord();
     //return new AddBinary();
+    //return new ZigZagConversion();
+    //return new IntegerToRoman();
 }
 
 int main() {

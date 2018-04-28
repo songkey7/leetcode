@@ -6,33 +6,27 @@
 
 vector<vector<int>> ThreeSum::three_sum(vector<int> nums) {
     int n = nums.size();
-    vector<vector<int>> ret;
     sort(nums.begin(), nums.end());
-    for(int i = 0; i < n - 2; i++){
-        if(i == 0 || nums[i] != nums[i - 1]) {
-            find_target(nums, i + 1, -nums[i], ret);
+    vector<vector<int>> ret;
+    for (int k = 0; k < n - 2; ++k) {
+        if(k > 0 && nums[k] == nums[k - 1]) continue;
+        int target = 0 - nums[k];
+        if(nums[k + 1] + nums[k + 2] > target) break;
+        if(nums[n - 1] + nums[n - 2] < target) continue;
+        int i = k + 1, j = n - 1;
+        while(i < j){
+            if(nums[i] + nums[j] == target){
+                ret.push_back({nums[k], nums[i], nums[j]});
+                while(i < j && nums[++i] == nums[i - 1]);
+                while(i < j && nums[--j] == nums[j + 1]);
+            } else if(nums[i] + nums[j] < target){
+                while(i < j && nums[++i] == nums[i - 1]);
+            } else{
+                while(i < j && nums[--j] == nums[j + 1]);
+            }
         }
     }
     return ret;
-}
-
-void ThreeSum::find_target(vector<int> nums, int i, int target, vector<vector<int>> &out) {
-    int n = nums.size();
-    int j = n - 1;
-    while(i < j){
-        int sum = nums[i] + nums[j];
-        if(sum == target){
-            out.push_back({-target, nums[i], nums[j]});
-            while(i < j && nums[i+1] == nums[i++]);
-            while(i < j && nums[j-1] == nums[j--]);
-        }
-        else if(sum > target){
-            while(i < j && nums[j-1] == nums[j--]);
-        }
-        else{
-            while(i < j && nums[i+1] == nums[i++]);
-        }
-    }
 }
 
 void ThreeSum::run() {
@@ -43,5 +37,3 @@ void ThreeSum::run() {
     vector<vector<int>> ret2 = {{-1, -1, 2,}, {-1, 0, 1}};
     assert(three_sum(nums2) == ret2);
 }
-
-

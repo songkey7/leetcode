@@ -36,8 +36,7 @@ int ContainerWithMostWater::max_area2(vector<int> &height) {
 }
 
 int ContainerWithMostWater::max_area(vector<int> &height) {
-    int i = 0;
-    int j = height.size() - 1;
+    int i = 0, j = height.size() - 1;
     int ret = 0;
     while(i < j){
         int h = min(height[i], height[j]);
@@ -54,5 +53,4 @@ void ContainerWithMostWater::run() {
     vector<int> height2 = {2,1};
     assert(max_area2(height2) == 1);
 }
-
 
