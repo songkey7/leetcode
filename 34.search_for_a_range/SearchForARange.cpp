@@ -5,13 +5,12 @@
 #include "SearchForARange.h"
 
 vector<int> SearchForARange::search_range(vector<int> &nums, int target) {
-    int i = 0;
-    int j = nums.size() - 1;
+    int i = 0, j = nums.size() - 1;
     while(i <= j){
         int m = (i + j) / 2;
-        if(target == nums[m]){
-            for(i = m; i >= 0 && nums[i] == target; i--);
-            for(j = m; j < nums.size() && nums[j] == target; j++);
+        if(nums[m] == target){
+            for (i = m; i >= 0 && nums[j] == target; --i);
+            for (j = m; j < nums.size() && nums[j] == target; ++j);
             return {i + 1, j - 1};
         }
         else if(nums[m] > target) j = m - 1;

@@ -19,7 +19,7 @@ add_executable(leetcode main.cpp Base.h
         #13.roman_to_integer/RomanToInteger.cpp 13.roman_to_integer/RomanToInteger.h
         #14.longest_common_prefix/LongestCommonPrefix.cpp 14.longest_common_prefix/LongestCommonPrefix.h
         #15.three_sum/ThreeSum.cpp 15.three_sum/ThreeSum.h
-        16.three_sum_closest/ThreeSumClosest.cpp 16.three_sum_closest/ThreeSumClosest.h
+        #16.three_sum_closest/ThreeSumClosest.cpp 16.three_sum_closest/ThreeSumClosest.h
         #17.letter_combinations_of_a_phone_number/LetterCombinationsOfAPhoneNumber.cpp 17.letter_combinations_of_a_phone_number/LetterCombinationsOfAPhoneNumber.h
         #18.four_sum/FourSum.cpp 18.four_sum/FourSum.h
         #19.remove_nth_node_from_end_of_list/RemoveNthNodeFromEndOfList.cpp 19.remove_nth_node_from_end_of_list/RemoveNthNodeFromEndOfList.h
@@ -39,6 +39,7 @@ add_executable(leetcode main.cpp Base.h
         #36.valid_sudoku/ValidSudoku.cpp 36.valid_sudoku/ValidSudoku.h
         #38.count_and_say/CountAndSay.cpp 38.count_and_say/CountAndSay.h
         #39.combination_sum/CombinationSum.cpp 39.combination_sum/CombinationSum.h
+        40.combination_sum_2/CombinationSum2.cpp 40.combination_sum_2/CombinationSum2.h
         #41.first_missing_positive/FirstMissingPositive.cpp 41.first_missing_positive/FirstMissingPositive.h
         #42.trapping_rain_water/TrappingRainWater.cpp 42.trapping_rain_water/TrappingRainWater.h
         #44.wildcard_matching/WildcardMatching.cpp 44.wildcard_matching/WildcardMatching.h

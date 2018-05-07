@@ -20,7 +20,6 @@ class LetterCombinationsOfAPhoneNumber: public Base {
             {'9', {'w','x','y','z'}}
     };
     vector<string> letter_combinations(string digits);
-    vector<string> letter_combinations2(string digits);
 public:
     void run();
 

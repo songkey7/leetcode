@@ -5,22 +5,15 @@
 #include "RemoveNthNodeFromEndOfList.h"
 
 Base::ListNode *RemoveNthNodeFromEndOfList::remove_nth_from_end(Base::ListNode *head, int n) {
-    queue <ListNode*> q;
+    vector<ListNode*> vec;
     ListNode *p = head;
-    int cnt = 0;
     while(p){
-        if(cnt > n) q.pop();
-        else cnt++;
-        q.push(p);
+        vec.push_back(p);
         p = p->next;
     }
-    if(cnt > n){
-        p = q.front();
-        q.pop();
-        p->next = q.front()->next;
-    } else if(cnt == n){
-        return head->next;
-    }
+    int k = vec.size() - n;
+    if(k == 0) return head->next;
+    else if(k > 0) vec[k - 1]->next = vec[k]->next;
     return head;
 }
 

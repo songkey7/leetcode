@@ -11,7 +11,9 @@
 class GenerateParentheses: public Base {
 
     vector<string> generate_parenthesis(int n);
-    vector<string> generate_parenthesis(vector<string> &vec, unordered_set<string> & st);
+    void dfs(string s, int i, int n, vector<string> &ret);
+    void dfs2(string s, int n, int m, vector<string> &ret);
+
 public:
     void run();
 };

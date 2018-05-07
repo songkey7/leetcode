@@ -191,6 +191,7 @@
 #include "67.add_binary/AddBinary.h"
 #include "6.zigzagz_conversion/ZigZagConversion.h"
 #include "12.integer_to_roman/IntegerToRoman.h"
+#include "40.combination_sum_2/CombinationSum2.h"
 
 
 Base *init() {
@@ -300,6 +301,7 @@ Base *init() {
     //return new NextPermutation();
     //return new SearchForARange();
     //return new CombinationSum();
+    return new CombinationSum2();
     //return new Subsets();
     //return new ClimbingStairs();
     //return new BestTimeToBuyAndSellStockWithCooldown();
@@ -377,7 +379,7 @@ Base *init() {
     //return new PascalsTriangle2();
     //return new TwoSum2();
     //return new RemoveElement();
-    return new ThreeSumClosest();
+    //return new ThreeSumClosest();
     //return new FourSum();
     //return new LengthOfLastWord();
     //return new AddBinary();

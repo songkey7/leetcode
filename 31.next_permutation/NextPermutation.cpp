@@ -6,19 +6,16 @@
 
 void NextPermutation::next_permutation(vector<int> &nums) {
     int n = nums.size();
-    for(int i = n - 2; i >= 0; i--){
+    for (int i = n - 2; i >= 0 ; --i) {
         int j = n - 1;
-        while(j > i && nums[i] >= nums[j]) j--;
-        if(i != j){
+        while(j > i && nums[j] <= nums[i]) j--;
+        if(j != i){
             swap(nums[i], nums[j]);
-            for(j = 1; i + j < n - j; j++) swap(nums[i + j], nums[n - j]);
-            return;
-        }
-        if(i == 0 && j == 0){
-            for(j = 0; j < n - 1 - j; j++) swap(nums[j], nums[n - 1 - j]);
+            reverse(nums.begin() + i + 1, nums.end());
             return;
         }
     }
+    reverse(nums.begin(), nums.end());
 }
 
 void NextPermutation::run() {
