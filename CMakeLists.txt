@@ -39,9 +39,10 @@ add_executable(leetcode main.cpp Base.h
         #36.valid_sudoku/ValidSudoku.cpp 36.valid_sudoku/ValidSudoku.h
         #38.count_and_say/CountAndSay.cpp 38.count_and_say/CountAndSay.h
         #39.combination_sum/CombinationSum.cpp 39.combination_sum/CombinationSum.h
-        40.combination_sum_2/CombinationSum2.cpp 40.combination_sum_2/CombinationSum2.h
+        #40.combination_sum_2/CombinationSum2.cpp 40.combination_sum_2/CombinationSum2.h
         #41.first_missing_positive/FirstMissingPositive.cpp 41.first_missing_positive/FirstMissingPositive.h
         #42.trapping_rain_water/TrappingRainWater.cpp 42.trapping_rain_water/TrappingRainWater.h
+        #43.multiply_strings/MultiplyStrings.cpp 43.multiply_strings/MultiplyStrings.h
         #44.wildcard_matching/WildcardMatching.cpp 44.wildcard_matching/WildcardMatching.h
         #48.rotate_image/RotateImage.cpp 48.rotate_image/RotateImage.h
         #49.group_anagrams/GroupAnagrams.cpp 49.group_anagrams/GroupAnagrams.h
@@ -51,18 +52,24 @@ add_executable(leetcode main.cpp Base.h
         #55.jump_game/JumpGame.cpp 55.jump_game/JumpGame.h
         #56.merge_intervals/MergeIntervals.cpp 56.merge_intervals/MergeIntervals.h
         #58.length_of_last_word/LengthOfLastWord.cpp 58.length_of_last_word/LengthOfLastWord.h
+        #59.spiral_matrix_2/SpiralMatrix2.cpp 59.spiral_matrix_2/SpiralMatrix2.h
+        #61.rotate_list/RotateList.cpp 61.rotate_list/RotateList.h
         #62.unique_paths/UniquePaths.cpp 62.unique_paths/UniquePaths.h
+        #63.unique_paths_2/UniquePaths2.cpp 63.unique_paths_2/UniquePaths2.h
         #64.minimum_path_sum/MinimumPathSum.cpp 64.minimum_path_sum/MinimumPathSum.h
         #66.plus_one/PlusOne.cpp 66.plus_one/PlusOne.h
         #67.add_binary/AddBinary.cpp 67.add_binary/AddBinary.h
         #69.sqrt_x/Sqrt.cpp 69.sqrt_x/Sqrt.h
         #70.climbing_stairs/ClimbingStairs.cpp 70.climbing_stairs/ClimbingStairs.h
+        #71.simplify_path/SimplifyPath.cpp 71.simplify_path/SimplifyPath.h
         #72.edit_distance/EditDistance.cpp 72.edit_distance/EditDistance.h
         #73.set_matrix_zeroes/SetMatrixZeroes.cpp 73.set_matrix_zeroes/SetMatrixZeroes.h
+        #74.search_a_2d_matrix/SearchA2DMatrix.cpp 74.search_a_2d_matrix/SearchA2DMatrix.h
         #75.sort_colors/SortColors.cpp 75.sort_colors/SortColors.h
         #76.minimum_window_substring/MinimumWindowSubstring.cpp 76.minimum_window_substring/MinimumWindowSubstring.h
         #78.subsets/Subsets.cpp 78.subsets/Subsets.h
         #79.word_search/WordSearch.cpp 79.word_search/WordSearch.h
+        80.remove_duplicates_from_sorted_array_2/RemoveDuplicatesFromSortedArray2.cpp 80.remove_duplicates_from_sorted_array_2/RemoveDuplicatesFromSortedArray2.h
         #81.search_in_rotated_sorted_array_2/SearchInRotatedSortedArray2.cpp 81.search_in_rotated_sorted_array_2/SearchInRotatedSortedArray2.h
         #84.largest_rectangle_in_histogram/LargestRectangleInHistogram.cpp 84.largest_rectangle_in_histogram/LargestRectangleInHistogram.h
         #85.maximal_rectangle/MaximalRectangle.cpp 85.maximal_rectangle/MaximalRectangle.h

@@ -10,6 +10,7 @@
 
 class UniquePaths: public Base {
     int unique_paths(int m, int n);
+    int unique_paths2(int m, int n);
 public:
     void run();
 

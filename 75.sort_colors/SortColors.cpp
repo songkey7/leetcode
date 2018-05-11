@@ -5,19 +5,10 @@
 #include "SortColors.h"
 
 void SortColors::sort_colors(vector<int> &nums) {
-    int p0 = 0, p1 = 0, p2 = 0;
-    for(auto x: nums){
-        if(x == 0){
-            nums[p2++] = 2;
-            nums[p1++] = 1;
-            nums[p0++] = 0;
-        } else if(x == 1){
-            nums[p2++] = 2;
-            nums[p1++] = 1;
-        } else{
-            nums[p2++] = 2;
-        }
-    }
+    int p[3] = {0};
+    for(auto x: nums)
+        for (int i = 2; i >= x; --i)
+            nums[p[i]++] = i;
 }
 
 void SortColors::run() {

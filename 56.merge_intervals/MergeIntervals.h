@@ -17,7 +17,10 @@ public:
         Interval() : start(0), end(0) {}
         Interval(int s, int e) : start(s), end(e) {}
         bool operator == (const Interval & other) const{
-            return this->start == other.start && this->end == other.end;
+            return start == other.start && end == other.end;
+        }
+        bool operator < (const Interval & other) const{
+            return start < other.start || (start == other.start && end == other.end);
         }
     };
 

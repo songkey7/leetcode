@@ -4,26 +4,28 @@
 
 #include "SetMatrixZeroes.h"
 
-void SetMatrixZeroes::set_zeroes(vector<vector<int>> &matrix) {
+void SetMatrixZeroes::set_zeroes(vector<vector<int>>& matrix) {
     int m = matrix.size();
     if(m == 0) return;
-
-    set<int> i_set;
-    set<int> j_set;
     int n = matrix[0].size();
-    for(int i = 0; i < m; i++){
-        for(int j = 0; j < n; j++){
-            if(matrix[i][j] == 0){
-                i_set.insert(i);
-                j_set.insert(j);
+    int tmp_i = 1, tmp_j = 1;
+    // notice matrix[0][0]
+    for (int i = 0; i < m; ++i) {
+        for (int j = 0; j < n; ++j) {
+            if(i == 0 && matrix[i][j] == 0) tmp_i = 0;
+            else if(j == 0 && matrix[i][j] == 0) tmp_j = 0;
+            else if(matrix[i][j] == 0){
+                matrix[i][0] = 0;
+                matrix[0][j] = 0;
             }
         }
     }
-    for(auto i: i_set){
-        for(int j = 0; j < n; j++) matrix[i][j] = 0;
-    }
-    for(auto j: j_set){
-        for(int i = 0; i < m; i++) matrix[i][j] = 0;
+    for (int i = m - 1; i >= 0; --i) {
+        for (int j = n - 1; j >= 0; --j) {
+            if(i == 0 && tmp_i == 0) matrix[i][j] = 0;
+            else if(j == 0 && tmp_j == 0) matrix[i][j] = 0;
+            else if(matrix[i][0] == 0 || matrix[0][j] == 0) matrix[i][j] = 0;
+        }
     }
 }
 

@@ -5,33 +5,26 @@
 #include "SpiralMatrix.h"
 
 vector<int> SpiralMatrix::spiral_order(vector<vector<int>> &matrix) {
-    int m = matrix.size();
-    if(m==0) return vector<int>();
-
-    int n = matrix[0].size();
     vector<int> ret;
-    for(int i0 = 0, i1 = m - 1, j0 = 0, j1 = n - 1; i0 <= i1 && j0 <= j1; i0++, i1--, j0++, j1--)
-    {
-        if(i0 == i1) {
-            for(int j = j0; j <= j1; j++) ret.push_back(matrix[i0][j]);
+    int m = matrix.size();
+    if(m == 0) return ret;
+    if(m == 1) return matrix[0];
+    int n = matrix[0].size();
+    for (int left = 0, right = n - 1, top = 0, bottom = m - 1; left <= right && top <= bottom; left++, right--, top++, bottom--) {
+        int i = top, j = left;
+        if(top == bottom){
+            while(j <= right) ret.push_back(matrix[i][j++]);
             break;
         }
-        if(j0 == j1) {
-            for(int i = i0; i <= i1; i++) ret.push_back(matrix[i][j0]);
+        if(left == right){
+            while(i <= bottom) ret.push_back(matrix[i++][j]);
             break;
         }
-
-        int i = i0, j = j0;
-        while(j < j1)
-            ret.push_back(matrix[i0][j++]);
-        while(i < i1)
-            ret.push_back(matrix[i++][j1]);
-        while(j > j0)
-            ret.push_back(matrix[i1][j--]);
-        while(i > i0)
-            ret.push_back(matrix[i--][j0]);
+        while(j < right) ret.push_back(matrix[i][j++]);
+        while(i < bottom) ret.push_back(matrix[i++][j]);
+        while(j > left) ret.push_back(matrix[i][j--]);
+        while(i > top) ret.push_back(matrix[i--][j]);
     }
-
     return ret;
 }
 

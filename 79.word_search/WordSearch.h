@@ -10,11 +10,10 @@
 
 class WordSearch: public Base {
     bool exist(vector<vector<char>>& board, string word);
-    bool search(vector<vector<char>> &board, unordered_map<char, vector<pair<int, int>>> & c_index, string word, int idx, int i, int j, int m, int n);
+    bool dfs(vector<vector<char>> &board, int m, int n, int i, int j, string word, int idx);
 public:
     void run();
 
 };
-
 
 #endif //LEETCODE_WORDSEARCH_H

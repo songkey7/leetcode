@@ -5,18 +5,11 @@
 #include "JumpGame.h"
 
 bool JumpGame::can_jump(vector<int> &nums) {
-    int n = nums.size();
-    vector<bool> flag(n, false);
-    flag[n-1] = true;
-    for(int i = n-2; i >= 0; i--){
-        for(int j = n-1; j>i; j--){
-            if(flag[j] && j - i <= nums[i]){
-                flag[i] = true;
-                break;
-            }
-        }
+    int far = nums.size() - 1;
+    for (int i = nums.size() - 2; i >= 0 ; --i) {
+        if(nums[i] >= (far - i)) far = i;
     }
-    return flag[0];
+    return far == 0;
 }
 
 bool JumpGame::can_jump2(vector<int> &nums) {
@@ -30,9 +23,9 @@ bool JumpGame::can_jump2(vector<int> &nums) {
 
 void JumpGame::run() {
     vector<int> nums1 = {2,3,1,1,4};
-    assert(can_jump2(nums1));
+    assert(can_jump(nums1));
     vector<int> nums2 = {3,2,1,0,4};
-    assert(!can_jump2(nums2));
+    assert(!can_jump(nums2));
 }
 
 

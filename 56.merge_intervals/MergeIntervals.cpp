@@ -8,10 +8,10 @@
 vector<MergeIntervals::Interval> MergeIntervals::merge(vector<Interval> &intervals) {
     sort(intervals.begin(), intervals.end(), comp);
     vector<Interval> ret;
-    for(auto x: intervals){
-        if(ret.empty() || ret.rbegin()->end < x.start){
-            ret.emplace_back(x);
-        } else{
+    for (auto x: intervals) {
+        if(ret.empty() || x.start > ret.rbegin()->end)
+            ret.push_back(x);
+        else{
             ret.rbegin()->end = max(ret.rbegin()->end, x.end);
         }
     }

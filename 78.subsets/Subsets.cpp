@@ -18,9 +18,7 @@ vector<vector<int>> Subsets::subsets(vector<int> &nums) {
 }
 
 void Subsets::dfs(vector<int> &nums, vector<int> ret, int idx, bool flag, vector<vector<int>> & out) {
-    if(flag){
-        ret.push_back(nums[idx]);
-    }
+    if(flag) ret.push_back(nums[idx]);
     if(idx == nums.size() - 1){
         out.push_back(ret);
         return;
@@ -30,10 +28,9 @@ void Subsets::dfs(vector<int> &nums, vector<int> ret, int idx, bool flag, vector
 }
 
 vector<vector<int>> Subsets::subsets2(vector<int> &nums) {
-    if(nums.empty()) return vector<vector<int>>();
     vector<vector<int>> ret;
-    dfs(nums, vector<int>(), 0, true, ret);
-    dfs(nums, vector<int>(), 0, false, ret);
+    dfs(nums, {}, 0, true, ret);
+    dfs(nums, {}, 0, false, ret);
     return ret;
 }
 

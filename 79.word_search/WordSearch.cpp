@@ -5,46 +5,34 @@
 #include "WordSearch.h"
 
 bool WordSearch::exist(vector<vector<char>> &board, string word) {
-    int sz = word.length();
-    if(sz <= 0) return false;
-    unordered_map<char, vector<pair<int, int>>> c_index;
     int m = board.size();
-    int n = 0;
-    for(int i = 0; i < m; i++){
-        n = board[i].size();
-        for(int j = 0; j < n; j++){
-            c_index[board[i][j]].emplace_back(i, j);
+    if(m == 0) return false;
+    int n = board[0].size();
+    unordered_map<char, vector<pair<int, int>>> c_map;
+    for (int i = 0; i < m; ++i) {
+        for (int j = 0; j < n; ++j) {
+            c_map[board[i][j]].push_back({i, j});
         }
     }
-
-    auto itr = c_index.find(word[0]);
-    if(itr != c_index.end()){
-        for(auto v: itr->second){
-            if(search(board, c_index, word, 0, v.first, v.second, m, n)) return true;
-        }
+    for(auto item: c_map[word[0]]){
+        if(dfs(board, m, n, item.first, item.second, word, 0)) return true;
     }
     return false;
 }
-
-bool WordSearch::search(vector<vector<char>> &board, unordered_map<char, vector<pair<int, int>>> &c_index, string word, int idx, int i, int j, int m, int n){
-    if(i < 0 || i >= m || j < 0 || j >= n || board[i][j] == 0) return false;
-    char c = word[idx];
-    auto itr = c_index.find(c);
-    if(itr != c_index.end()){
-        for(auto p: itr->second){
-            if(p.first == i && p.second == j){
-                if(idx == word.size() - 1) return true;
-                board[i][j] = 0;
-                bool b = search(board, c_index, word, idx + 1, i - 1, j, m, n)
-                      || search(board, c_index, word, idx + 1, i + 1, j, m, n)
-                      || search(board, c_index, word, idx + 1, i, j - 1, m, n)
-                      || search(board, c_index, word, idx + 1, i, j + 1, m, n);
-                board[i][j] = c;
-                return b;
-            }
-        }
+bool WordSearch::dfs(vector<vector<char>> &board, int m, int n, int i, int j, string word, int idx){
+    if(i < 0 || i >= m || j < 0 || j >= n || board[i][j] == 0 || idx >= word.size()) return false;
+    bool b = false;
+    if(board[i][j] == word[idx]) {
+        if(idx == word.size() - 1) return true;
+        char tmp = board[i][j];
+        board[i][j] = 0;
+        b = dfs(board, m, n, i - 1, j, word, idx + 1)
+          || dfs(board, m, n, i + 1, j, word, idx + 1)
+          || dfs(board, m, n, i, j - 1, word, idx + 1)
+          || dfs(board, m, n, i, j + 1, word, idx + 1);
+        board[i][j] = tmp;
     }
-    return false;
+    return b;
 }
 
 void WordSearch::run() {

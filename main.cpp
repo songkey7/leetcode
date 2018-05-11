@@ -192,6 +192,13 @@
 #include "6.zigzagz_conversion/ZigZagConversion.h"
 #include "12.integer_to_roman/IntegerToRoman.h"
 #include "40.combination_sum_2/CombinationSum2.h"
+#include "43.multiply_strings/MultiplyStrings.h"
+#include "59.spiral_matrix_2/SpiralMatrix2.h"
+#include "61.rotate_list/RotateList.h"
+#include "63.unique_paths_2/UniquePaths2.h"
+#include "71.simplify_path/SimplifyPath.h"
+#include "74.search_a_2d_matrix/SearchA2DMatrix.h"
+#include "80.remove_duplicates_from_sorted_array_2/RemoveDuplicatesFromSortedArray2.h"
 
 
 Base *init() {
@@ -263,6 +270,7 @@ Base *init() {
     //return new JumpGame();
     //return new MergeIntervals();
     //return new UniquePaths();
+    //return new UniquePaths2();
     //return new SortColors();
     //return new LargestRectangleInHistogram();
     //return new MaximalRectangle();
@@ -301,7 +309,7 @@ Base *init() {
     //return new NextPermutation();
     //return new SearchForARange();
     //return new CombinationSum();
-    return new CombinationSum2();
+    //return new CombinationSum2();
     //return new Subsets();
     //return new ClimbingStairs();
     //return new BestTimeToBuyAndSellStockWithCooldown();
@@ -385,6 +393,12 @@ Base *init() {
     //return new AddBinary();
     //return new ZigZagConversion();
     //return new IntegerToRoman();
+    //return new MultiplyStrings();
+    //return new SpiralMatrix2();
+    //return new RotateList();
+    //return new SimplifyPath();
+    //return new SearchA2DMatrix();
+    return new RemoveDuplicatesFromSortedArray2();
 }
 
 int main() {
