@@ -17,36 +17,25 @@ vector<vector<int>> Subsets::subsets(vector<int> &nums) {
     return ret;
 }
 
-void Subsets::dfs(vector<int> &nums, vector<int> ret, int idx, bool flag, vector<vector<int>> & out) {
-    if(flag) ret.push_back(nums[idx]);
-    if(idx == nums.size() - 1){
-        out.push_back(ret);
-        return;
+void Subsets::dfs(vector<int> &nums, vector<int> v, int i, vector<vector<int>> & out) {
+    for (; i < nums.size(); ++i) {
+        v.push_back(nums[i]);
+        out.push_back(v);
+        dfs(nums, v, i + 1, out);
+        v.pop_back();
     }
-    dfs(nums, ret, idx + 1, true, out);
-    dfs(nums, ret, idx + 1, false, out);
 }
 
 vector<vector<int>> Subsets::subsets2(vector<int> &nums) {
-    vector<vector<int>> ret;
-    dfs(nums, {}, 0, true, ret);
-    dfs(nums, {}, 0, false, ret);
+    vector<vector<int>> ret = {{}};
+    dfs(nums, {}, 0, ret);
     return ret;
-}
-
-void Subsets::print(vector<vector<int>> ret) {
-    for(auto v: ret){
-        for(auto x: v){
-            cout << x << ",";
-        }
-        cout << endl;
-    }
 }
 
 void Subsets::run() {
     vector<int> nums = {1,2,3};
-    vector<vector<int>> ret = subsets2(nums);
-    print(ret);
+    for(auto x: subsets(nums)) print_vector(x, x.size());
+    for(auto x: subsets2(nums)) print_vector(x, x.size());
 }
 
 

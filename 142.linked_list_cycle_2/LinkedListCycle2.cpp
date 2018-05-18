@@ -4,26 +4,25 @@
 
 #include "LinkedListCycle2.h"
 
-LinkedListCycle2::ListNode * LinkedListCycle2::detectCycle(ListNode *head) {
-    if(!head) return NULL;
-    ListNode* p1 = head;
-    ListNode* p2 = head;
-    ListNode* p = head;
-    while(p2->next && p2->next->next){
+Base::ListNode * LinkedListCycle2::detectCycle(ListNode *head) {
+    if(!head || !head->next) return nullptr;
+    ListNode * p1 = head, * p2 = head;
+    while(p2 && p2->next){
         p1 = p1->next;
         p2 = p2->next->next;
         if(p1 == p2){
-            while(p != p1){
-                p = p->next;
+            p2 = head;
+            while(p1 != p2){
                 p1 = p1->next;
+                p2 = p2->next;
             }
-            return p;
+            return p1;
         }
     }
-    return NULL;
+    return nullptr;
 }
 
-LinkedListCycle2::ListNode * LinkedListCycle2::detectCycle2(ListNode *head) {
+Base::ListNode * LinkedListCycle2::detectCycle2(ListNode *head) {
     unordered_set<ListNode*> s;
     while (head){
         if(s.find(head) != s.end()){
@@ -35,7 +34,7 @@ LinkedListCycle2::ListNode * LinkedListCycle2::detectCycle2(ListNode *head) {
     return NULL;
 }
 
-LinkedListCycle2::ListNode* LinkedListCycle2::create_list() {
+Base::ListNode* LinkedListCycle2::create_list() {
     ListNode * h = new ListNode(1);
     ListNode * p2 = new ListNode(2);
     ListNode * p3 = new ListNode(3);

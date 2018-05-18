@@ -5,24 +5,22 @@
 #include <set>
 #include "WordBreak.h"
 
-bool WordBreak::word_break(const string &s, vector<string> &wordDict) {
-    int n = s.size();
-    if (n <= 0 || wordDict.empty()) return false;
+bool WordBreak::word_break(const string &s, vector<string> &word_dict) {
+    size_t n = s.length();
+    if(n == 0 || word_dict.empty()) return false;
 
-    set<string> wordSet(wordDict.begin(), wordDict.end());
-
-    vector<bool> flag(n + 1, false);
-    flag[0] = true;
-    for(int i = 1; i < n + 1; ++i)
-    {
-        for(int j = 0; j < i; ++j){
-            if(flag[j] && wordSet.find(s.substr(j, i - j)) != wordSet.end()){
-                flag[i] = true;
+    unordered_set<string> word_map(word_dict.begin(), word_dict.end());
+    vector<bool> dp(n + 1, false);
+    dp[0] = true;
+    for (int i = 0; i < n; ++i) {
+        for (int j = i; j >= 0; --j) {
+            if(dp[j] && word_map.find(s.substr(j, i - j + 1)) != word_map.end()){
+                dp[i + 1] = true;
                 break;
             }
         }
     }
-    return flag[n];
+    return dp[n];
 }
 
 void WordBreak::run(){

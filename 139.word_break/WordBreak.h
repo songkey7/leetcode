@@ -12,7 +12,7 @@ public:
     void run();
 
 private:
-    bool word_break(const string &s, vector<string> &wordDict);
+    bool word_break(const string &s, vector<string> &word_dict);
 };
 
 

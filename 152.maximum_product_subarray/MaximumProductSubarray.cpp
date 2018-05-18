@@ -5,14 +5,14 @@
 #include "MaximumProductSubarray.h"
 
 int MaximumProductSubarray::max_product(vector<int> &nums) {
-    int ma = nums[0];
-    int mi = nums[0];
-    int ret = nums[0];
-    for(int i = 1; i < nums.size(); i++){
-        int t = ma;
-        ma = max(max(nums[i] * ma, nums[i] * mi), nums[i]);
-        mi = min(min(nums[i] * t, nums[i] * mi), nums[i]);
-        ret = max(ret, max(ma, mi));
+    int ret, mi, ma;
+    ret = mi = ma = nums[0];
+    for (int i = 1; i < nums.size(); ++i) {
+        int a = mi * nums[i];
+        int b = ma * nums[i];
+        mi = min(min(a, b), nums[i]);
+        ma = max(max(a, b), nums[i]);
+        ret = max(ret, ma);
     }
     return ret;
 }

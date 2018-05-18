@@ -5,27 +5,25 @@
 #include "SearchInRotatedSortedArray2.h"
 
 bool SearchInRotatedSortedArray2::search(vector<int> &nums, int target) {
-    int n = nums.size();
-    if(n == 0) return false;
-    int l = 0, r = n - 1;
-    while(l < r){
+    int l = 0, r = nums.size() - 1;
+    while(l <= r){
         int m = (l + r) / 2;
         if(nums[m] == target) return true;
         if(nums[m] > nums[r]){
-            if(target < nums[m] && nums[l] <= target) r = m;
+            if(target > nums[m]) l = m + 1;
+            else if (target >= nums[l]) r = m - 1;
             else l = m + 1;
-        } else if(nums[m] < nums[r]) {
-            if(target > nums[m] && nums[r] >= target){
-                l = m + 1;
-            } else{
-                r = m;
-            }
         }
-        else{
+        else if(nums[m] < nums[r]){
+            if(target < nums[m]) r = m - 1;
+            else if(target > nums[r]) r = m - 1;
+            else l = m + 1;
+        }
+        else {
             r--;
         }
     }
-    return nums[l] == target;
+    return false;
 }
 
 void SearchInRotatedSortedArray2::run() {

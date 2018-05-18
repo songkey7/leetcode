@@ -10,7 +10,6 @@
 
 class FindPeakElement: public Base {
     int find_peak_element(vector<int>& nums);
-    int find_peak_element2(vector<int>& nums);
 public:
     void run();
 };

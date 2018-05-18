@@ -5,14 +5,13 @@
 #include "FindMinimumInRotatedSortedArray.h"
 
 int FindMinimumInRotatedSortedArray::find_min(vector<int> &nums) {
-    int n = nums.size();
-    int l = 0, r = n - 1;
-    while(l < r){
-        int m = (l + r) / 2;
-        if(nums[r] < nums[m]) l = m + 1;
-        else r = m;
+    int i = 0, j = nums.size() - 1;
+    while(i < j){
+        int m = (i + j) / 2;
+        if(nums[m] > nums[j]) i = m + 1;
+        else j = m;
     }
-    return nums[l];
+    return nums[j];
 }
 
 void FindMinimumInRotatedSortedArray::run() {

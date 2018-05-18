@@ -4,31 +4,27 @@
 
 #include "ConstructBinaryTreeFromPreorderAndInorderTraversal.h"
 
-ConstructBinaryTreeFromPreorderAndInorderTraversal::TreeNode *
+Base::TreeNode *
 ConstructBinaryTreeFromPreorderAndInorderTraversal::build_tree(vector<int> &preorder, vector<int> &inorder, int pre_i,
                                                                int in_l, int in_r) {
     if(in_l >= in_r || pre_i >= preorder.size()) return nullptr;
-    int x = preorder[pre_i];
-    TreeNode * root = new TreeNode(x);
-    auto itr = find(inorder.begin() + in_l, inorder.begin() + in_r, x);
-    if(itr == inorder.begin() + in_r) return nullptr;
+    TreeNode * root = new TreeNode(preorder[pre_i]);
+    auto itr = find(inorder.begin() + in_l, inorder.begin() + in_r, preorder[pre_i]);
+    if(itr == inorder.begin() + in_r) return root;
     int idx = itr - inorder.begin();
     root->left = build_tree(preorder, inorder, pre_i + 1, in_l, idx);
     root->right = build_tree(preorder, inorder, pre_i + idx - in_l + 1, idx + 1, in_r);
     return root;
 }
 
-ConstructBinaryTreeFromPreorderAndInorderTraversal::TreeNode *
+Base::TreeNode *
 ConstructBinaryTreeFromPreorderAndInorderTraversal::build_tree(vector<int> &preorder, vector<int> &inorder) {
-    size_t n = preorder.size();
-    if(n == 0) return nullptr;
-    return build_tree(preorder, inorder, 0, 0, n);
+    return build_tree(preorder, inorder, 0, 0, inorder.size());
 }
 
 void ConstructBinaryTreeFromPreorderAndInorderTraversal::run() {
     vector<int> preorder = {3,9,20,15,7};
     vector<int> inorder = {9,3,15,20,7};
-
     TreeNode *root = new TreeNode(3);
     root->left = new TreeNode(9);
     root->right = new TreeNode(20);

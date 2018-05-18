@@ -199,6 +199,14 @@
 #include "71.simplify_path/SimplifyPath.h"
 #include "74.search_a_2d_matrix/SearchA2DMatrix.h"
 #include "80.remove_duplicates_from_sorted_array_2/RemoveDuplicatesFromSortedArray2.h"
+#include "86.partition_list/PartitionList.h"
+#include "90.subsets_2/Subsets2.h"
+#include "93.restore_ip_addresses/RestoreIPAddresses.h"
+#include "95.unique_binary_search_trees_2/UniqueBinarySearchTrees2.h"
+#include "106.construct_binary_tree_from_inorder_and_postorder_traversal/ConstructBinaryTreeFromInorderAndPostorderTraversal.h"
+#include "120.triangle/Triangle.h"
+#include "151.reverse_words_in_a_string/ReverseWordsInAString.h"
+#include "165.compare_version_numbers/CompareVersionNumbers.h"
 
 
 Base *init() {
@@ -264,6 +272,7 @@ Base *init() {
     //return new ProductOfArrayExceptSelf();
     //return new BestTimeToBuyAndSellStock();
     //return new ConstructBinaryTreeFromPreorderAndInorderTraversal();
+    //return new ConstructBinaryTreeFromInorderAndPostorderTraversal();
     //return new WordSearch();
     //return new TrappingRainWater();
     //return new RotateImage();
@@ -398,7 +407,14 @@ Base *init() {
     //return new RotateList();
     //return new SimplifyPath();
     //return new SearchA2DMatrix();
-    return new RemoveDuplicatesFromSortedArray2();
+    //return new RemoveDuplicatesFromSortedArray2();
+    //return new PartitionList();
+    //return new Subsets2();
+    //return new RestoreIPAddresses();
+    //return new UniqueBinarySearchTrees2();
+    //return new Triangle();
+    //return new ReverseWordsInAString();
+    return new CompareVersionNumbers();
 }
 
 int main() {

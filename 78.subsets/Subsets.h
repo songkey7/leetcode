@@ -11,8 +11,7 @@
 class Subsets: public Base {
     vector<vector<int>> subsets(vector<int>& nums);
     vector<vector<int>> subsets2(vector<int>& nums);
-    void dfs(vector<int> &nums, vector<int> ret, int idx, bool flag, vector<vector<int>> & out);
-    void print(vector<vector<int>> ret);
+    void dfs(vector<int> &nums, vector<int> v, int i, vector<vector<int>> & out);
 public:
     void run();
 

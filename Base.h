@@ -54,6 +54,15 @@ protected:
         TreeNode(int x) : val(x), left(NULL), right(NULL) {}
     };
 
+    void print_tree(TreeNode *root){
+        if(!root) cout << " null";
+        else{
+            cout << " " << root->val;
+            print_tree(root->left);
+            print_tree(root->right);
+        }
+    }
+
     bool binary_tree_equal(TreeNode * r1, TreeNode *r2){
         if(!r1 && !r2)
             return true;
@@ -62,6 +71,7 @@ protected:
         else
             return false;
     }
+
 public:
     virtual void run() = 0;
 };

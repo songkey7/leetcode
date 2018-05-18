@@ -69,13 +69,17 @@ add_executable(leetcode main.cpp Base.h
         #76.minimum_window_substring/MinimumWindowSubstring.cpp 76.minimum_window_substring/MinimumWindowSubstring.h
         #78.subsets/Subsets.cpp 78.subsets/Subsets.h
         #79.word_search/WordSearch.cpp 79.word_search/WordSearch.h
-        80.remove_duplicates_from_sorted_array_2/RemoveDuplicatesFromSortedArray2.cpp 80.remove_duplicates_from_sorted_array_2/RemoveDuplicatesFromSortedArray2.h
+        #80.remove_duplicates_from_sorted_array_2/RemoveDuplicatesFromSortedArray2.cpp 80.remove_duplicates_from_sorted_array_2/RemoveDuplicatesFromSortedArray2.h
         #81.search_in_rotated_sorted_array_2/SearchInRotatedSortedArray2.cpp 81.search_in_rotated_sorted_array_2/SearchInRotatedSortedArray2.h
         #84.largest_rectangle_in_histogram/LargestRectangleInHistogram.cpp 84.largest_rectangle_in_histogram/LargestRectangleInHistogram.h
         #85.maximal_rectangle/MaximalRectangle.cpp 85.maximal_rectangle/MaximalRectangle.h
+        #86.partition_list/PartitionList.cpp 86.partition_list/PartitionList.h
         #88.merge_sorted_array/MergeSortedArray.cpp 88.merge_sorted_array/MergeSortedArray.h
+        #90.subsets_2/Subsets2.cpp 90.subsets_2/Subsets2.h
         #91.decode_ways/DecodeWays.cpp 91.decode_ways/DecodeWays.h
+        #93.restore_ip_addresses/RestoreIPAddresses.cpp 93.restore_ip_addresses/RestoreIPAddresses.h
         #94.binary_tree_inorder_traversal/BinaryTreeInorderTraversal.cpp 94.binary_tree_inorder_traversal/BinaryTreeInorderTraversal.h
+        #95.unique_binary_search_trees_2/UniqueBinarySearchTrees2.cpp 95.unique_binary_search_trees_2/UniqueBinarySearchTrees2.h
         #96.unique_binary_search_trees/UniqueBinarySearchTrees.cpp 96.unique_binary_search_trees/UniqueBinarySearchTrees.h
         #98.validate_binary_search_tree/ValidateBinarySearchTree.cpp 98.validate_binary_search_tree/ValidateBinarySearchTree.h
         #101.symmetric_tree/SymmetricTree.cpp 101.symmetric_tree/SymmetricTree.h
@@ -83,6 +87,7 @@ add_executable(leetcode main.cpp Base.h
         #103.binary_tree_zigzag_level_order_traversal/BinaryTreeZigzagLevelOrderTraversal.cpp 103.binary_tree_zigzag_level_order_traversal/BinaryTreeZigzagLevelOrderTraversal.h
         #104.maximum_depth_of_binary_tree/MaximumDepthOfBinaryTree.cpp 104.maximum_depth_of_binary_tree/MaximumDepthOfBinaryTree.h
         #105.construct_binary_tree_from_preorder_and_inorder_traversal/ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp 105.construct_binary_tree_from_preorder_and_inorder_traversal/ConstructBinaryTreeFromPreorderAndInorderTraversal.h
+        #106.construct_binary_tree_from_inorder_and_postorder_traversal/ConstructBinaryTreeFromInorderAndPostorderTraversal.cpp 106.construct_binary_tree_from_inorder_and_postorder_traversal/ConstructBinaryTreeFromInorderAndPostorderTraversal.h
         #108.convert_sorted_array_to_binary_search_tree/ConvertSortedArrayToBinarySearchTree.cpp 108.convert_sorted_array_to_binary_search_tree/ConvertSortedArrayToBinarySearchTree.h
         #112.path_sum/PathSum.cpp 112.path_sum/PathSum.h
         #113.path_sum_2/PathSum2.cpp 113.path_sum_2/PathSum2.h
@@ -90,6 +95,7 @@ add_executable(leetcode main.cpp Base.h
         #116.populating_next_right_pointers_in_each_node/PopulatingNextRightPointersInEachNode.cpp 116.populating_next_right_pointers_in_each_node/PopulatingNextRightPointersInEachNode.h
         #118.pascals_triangle/PascalsTriangle.cpp 118.pascals_triangle/PascalsTriangle.h
         #119.pascals_triangle2/PascalsTriangle2.cpp 119.pascals_triangle2/PascalsTriangle2.h
+        #120.triangle/Triangle.cpp 120.triangle/Triangle.h
         #121.best_time_to_buy_and_sell_stock/BestTimeToBuyAndSellStock.cpp 121.best_time_to_buy_and_sell_stock/BestTimeToBuyAndSellStock.h
         #122.best_time_to_buy_and_sell_stock_2/BestTimeToBuyAndSellStock2.cpp 122.best_time_to_buy_and_sell_stock_2/BestTimeToBuyAndSellStock2.h
         #124.binary_tree_maximum_path_sum/BinaryTreeMaximumPathSum.cpp 124.binary_tree_maximum_path_sum/BinaryTreeMaximumPathSum.h
@@ -109,12 +115,14 @@ add_executable(leetcode main.cpp Base.h
         #148.sort_list/SortList.cpp 148.sort_list/SortList.h
         #149.max_points_on_a_line/MaxPointsOnALine.cpp 149.max_points_on_a_line/MaxPointsOnALine.h
         #150.evaluate_reverse_polish_notation/EvaluateReversePolishNotation.cpp 150.evaluate_reverse_polish_notation/EvaluateReversePolishNotation.h
+        #151.reverse_words_in_a_string/ReverseWordsInAString.cpp 151.reverse_words_in_a_string/ReverseWordsInAString.h
         #152.maximum_product_subarray/MaximumProductSubarray.cpp 152.maximum_product_subarray/MaximumProductSubarray.h
         #153.find_minimum_in_rotated_sorted_array/FindMinimumInRotatedSortedArray.cpp 153.find_minimum_in_rotated_sorted_array/FindMinimumInRotatedSortedArray.h
         #154.find_minimum_in_rotated_sorted_array_2/FindMinimumInRotatedSortedArray2.cpp 154.find_minimum_in_rotated_sorted_array_2/FindMinimumInRotatedSortedArray2.h
         #155.min_stack/MinStack.cpp 155.min_stack/MinStack.h
         #160.intersection_of_two_linked_lists/IntersectionOfTwoLinkedLists.cpp 160.intersection_of_two_linked_lists/IntersectionOfTwoLinkedLists.h
         #162.find_peak_element/FindPeakElement.cpp 162.find_peak_element/FindPeakElement.h
+        #165.compare_version_numbers/CompareVersionNumbers.cpp 165.compare_version_numbers/CompareVersionNumbers.h
         #166.fraction_to_recurring_decimal/FractionToRecurringDecimal.cpp 166.fraction_to_recurring_decimal/FractionToRecurringDecimal.h
         #167.two_sum_2/TwoSum2.cpp 167.two_sum_2/TwoSum2.h
         #169.majority_element/MajorityElement.cpp 169.majority_element/MajorityElement.h
