@@ -207,6 +207,7 @@
 #include "120.triangle/Triangle.h"
 #include "151.reverse_words_in_a_string/ReverseWordsInAString.h"
 #include "165.compare_version_numbers/CompareVersionNumbers.h"
+#include "30.substring_with_concatenation_of_all_words/SubstringWithConcatenationOfAllWords.h"
 
 
 Base *init() {
@@ -414,7 +415,8 @@ Base *init() {
     //return new UniqueBinarySearchTrees2();
     //return new Triangle();
     //return new ReverseWordsInAString();
-    return new CompareVersionNumbers();
+    //return new CompareVersionNumbers();
+    return new SubstringWithConcatenationOfAllWords();
 }
 
 int main() {

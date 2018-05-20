@@ -31,6 +31,7 @@ add_executable(leetcode main.cpp Base.h
         #27.remove_element/RemoveElement.cpp 27.remove_element/RemoveElement.h
         #28.strstr/StrStr.cpp 28.strstr/StrStr.h
         #29.divide_two_integers/DivideTwoIntegers.cpp 29.divide_two_integers/DivideTwoIntegers.h
+        30.substring_with_concatenation_of_all_words/SubstringWithConcatenationOfAllWords.cpp 30.substring_with_concatenation_of_all_words/SubstringWithConcatenationOfAllWords.h
         #31.next_permutation/NextPermutation.cpp 31.next_permutation/NextPermutation.h
         #32.longest_valid_parentheses/LongestValidParentheses.cpp 32.longest_valid_parentheses/LongestValidParentheses.h
         #33.search_in_rotated_sorted_array/SearchInRotatedSortedArray.cpp 33.search_in_rotated_sorted_array/SearchInRotatedSortedArray.h
