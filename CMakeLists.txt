@@ -31,7 +31,7 @@ add_executable(leetcode main.cpp Base.h
         #27.remove_element/RemoveElement.cpp 27.remove_element/RemoveElement.h
         #28.strstr/StrStr.cpp 28.strstr/StrStr.h
         #29.divide_two_integers/DivideTwoIntegers.cpp 29.divide_two_integers/DivideTwoIntegers.h
-        30.substring_with_concatenation_of_all_words/SubstringWithConcatenationOfAllWords.cpp 30.substring_with_concatenation_of_all_words/SubstringWithConcatenationOfAllWords.h
+        #30.substring_with_concatenation_of_all_words/SubstringWithConcatenationOfAllWords.cpp 30.substring_with_concatenation_of_all_words/SubstringWithConcatenationOfAllWords.h
         #31.next_permutation/NextPermutation.cpp 31.next_permutation/NextPermutation.h
         #32.longest_valid_parentheses/LongestValidParentheses.cpp 32.longest_valid_parentheses/LongestValidParentheses.h
         #33.search_in_rotated_sorted_array/SearchInRotatedSortedArray.cpp 33.search_in_rotated_sorted_array/SearchInRotatedSortedArray.h
@@ -99,12 +99,15 @@ add_executable(leetcode main.cpp Base.h
         #120.triangle/Triangle.cpp 120.triangle/Triangle.h
         #121.best_time_to_buy_and_sell_stock/BestTimeToBuyAndSellStock.cpp 121.best_time_to_buy_and_sell_stock/BestTimeToBuyAndSellStock.h
         #122.best_time_to_buy_and_sell_stock_2/BestTimeToBuyAndSellStock2.cpp 122.best_time_to_buy_and_sell_stock_2/BestTimeToBuyAndSellStock2.h
+        #123.best_time_to_buy_and_sell_stock_3/BestTimeToBuyAndSellStock3.cpp 123.best_time_to_buy_and_sell_stock_3/BestTimeToBuyAndSellStock3.h
         #124.binary_tree_maximum_path_sum/BinaryTreeMaximumPathSum.cpp 124.binary_tree_maximum_path_sum/BinaryTreeMaximumPathSum.h
         #125.valid_palindrome/ValidPalindrome.cpp 125.valid_palindrome/ValidPalindrome.h
+        126.word_ladder_2/WordLadder2.cpp 126.word_ladder_2/WordLadder2.h
         #127.word_ladder/WordLadder.cpp 127.word_ladder/WordLadder.h
         #128.longest_consecutive_sequence/LongestConsecutiveSequence.cpp 128.longest_consecutive_sequence/LongestConsecutiveSequence.h
         #130.surrounded_regions/SurroundedRegions.cpp 130.surrounded_regions/SurroundedRegions.h
         #131.palindrome_partitioning/PalindromePartitioning.cpp 131.palindrome_partitioning/PalindromePartitioning.h
+        #132.palindrome_partitioning_2/PalindromePartitioning2.cpp 132.palindrome_partitioning_2/PalindromePartitioning2.h
         #134.gas_station/GasStation.cpp 134.gas_station/GasStation.h
         #136.single_number/SingleNumber.cpp 136.single_number/SingleNumber.h
         #138.copy_list_with_random_pointer/CopyListWithRandomPointer.cpp 138.copy_list_with_random_pointer/CopyListWithRandomPointer.h
@@ -129,7 +132,9 @@ add_executable(leetcode main.cpp Base.h
         #169.majority_element/MajorityElement.cpp 169.majority_element/MajorityElement.h
         #171.excel_sheet_column_number/ExcelSheetColumnNumber.cpp 171.excel_sheet_column_number/ExcelSheetColumnNumber.h
         #172.factorial_trailing_zeroes/FactorialTrailingZeroes.cpp 172.factorial_trailing_zeroes/FactorialTrailingZeroes.h
+        #174.dungeon_game/DungeonGame.cpp 174.dungeon_game/DungeonGame.h
         #179.largest_number/LargestNumber.cpp 179.largest_number/LargestNumber.h
+        #188.best_time_to_buy_and_sells_stock_4/BestTimeToBuyAndSellStock4.cpp 188.best_time_to_buy_and_sells_stock_4/BestTimeToBuyAndSellStock4.h
         #189.rotate_array/RotateArray.cpp 189.rotate_array/RotateArray.h
         #190.reverse_bits/ReverseBits.cpp 190.reverse_bits/ReverseBits.h
         #191.number_of_1_bits/NumberOf1Bits.cpp 191.number_of_1_bits/NumberOf1Bits.h

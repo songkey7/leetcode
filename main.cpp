@@ -208,6 +208,11 @@
 #include "151.reverse_words_in_a_string/ReverseWordsInAString.h"
 #include "165.compare_version_numbers/CompareVersionNumbers.h"
 #include "30.substring_with_concatenation_of_all_words/SubstringWithConcatenationOfAllWords.h"
+#include "188.best_time_to_buy_and_sells_stock_4/BestTimeToBuyAndSellStock4.h"
+#include "123.best_time_to_buy_and_sell_stock_3/BestTimeToBuyAndSellStock3.h"
+#include "174.dungeon_game/DungeonGame.h"
+#include "132.palindrome_partitioning_2/PalindromePartitioning2.h"
+#include "126.word_ladder_2/WordLadder2.h"
 
 
 Base *init() {
@@ -416,7 +421,12 @@ Base *init() {
     //return new Triangle();
     //return new ReverseWordsInAString();
     //return new CompareVersionNumbers();
-    return new SubstringWithConcatenationOfAllWords();
+    //return new SubstringWithConcatenationOfAllWords();
+    //return new BestTimeToBuyAndSellStock4();
+    //return new BestTimeToBuyAndSellStock3();
+    //return new DungeonGame();
+    //return new PalindromePartitioning2();
+    return new WordLadder2();
 }
 
 int main() {
