@@ -45,6 +45,7 @@ add_executable(leetcode main.cpp Base.h
         #42.trapping_rain_water/TrappingRainWater.cpp 42.trapping_rain_water/TrappingRainWater.h
         #43.multiply_strings/MultiplyStrings.cpp 43.multiply_strings/MultiplyStrings.h
         #44.wildcard_matching/WildcardMatching.cpp 44.wildcard_matching/WildcardMatching.h
+        #45.jump_game_2/JumpGame2.cpp 45.jump_game_2/JumpGame2.h
         #48.rotate_image/RotateImage.cpp 48.rotate_image/RotateImage.h
         #49.group_anagrams/GroupAnagrams.cpp 49.group_anagrams/GroupAnagrams.h
         #50.pow/Pow.cpp 50.pow/Pow.h
@@ -52,6 +53,7 @@ add_executable(leetcode main.cpp Base.h
         #54.spiral_matrix/SpiralMatrix.cpp 54.spiral_matrix/SpiralMatrix.h
         #55.jump_game/JumpGame.cpp 55.jump_game/JumpGame.h
         #56.merge_intervals/MergeIntervals.cpp 56.merge_intervals/MergeIntervals.h
+        #57.insert_interval/InsertInterval.cpp 57.insert_interval/InsertInterval.h
         #58.length_of_last_word/LengthOfLastWord.cpp 58.length_of_last_word/LengthOfLastWord.h
         #59.spiral_matrix_2/SpiralMatrix2.cpp 59.spiral_matrix_2/SpiralMatrix2.h
         #61.rotate_list/RotateList.cpp 61.rotate_list/RotateList.h
@@ -60,6 +62,7 @@ add_executable(leetcode main.cpp Base.h
         #64.minimum_path_sum/MinimumPathSum.cpp 64.minimum_path_sum/MinimumPathSum.h
         #66.plus_one/PlusOne.cpp 66.plus_one/PlusOne.h
         #67.add_binary/AddBinary.cpp 67.add_binary/AddBinary.h
+        #68.text_justification/TextJustification.cpp 68.text_justification/TextJustification.h
         #69.sqrt_x/Sqrt.cpp 69.sqrt_x/Sqrt.h
         #70.climbing_stairs/ClimbingStairs.cpp 70.climbing_stairs/ClimbingStairs.h
         #71.simplify_path/SimplifyPath.cpp 71.simplify_path/SimplifyPath.h
@@ -75,6 +78,7 @@ add_executable(leetcode main.cpp Base.h
         #84.largest_rectangle_in_histogram/LargestRectangleInHistogram.cpp 84.largest_rectangle_in_histogram/LargestRectangleInHistogram.h
         #85.maximal_rectangle/MaximalRectangle.cpp 85.maximal_rectangle/MaximalRectangle.h
         #86.partition_list/PartitionList.cpp 86.partition_list/PartitionList.h
+        #87.scramble_string/ScrambleString.cpp 87.scramble_string/ScrambleString.h
         #88.merge_sorted_array/MergeSortedArray.cpp 88.merge_sorted_array/MergeSortedArray.h
         #90.subsets_2/Subsets2.cpp 90.subsets_2/Subsets2.h
         #91.decode_ways/DecodeWays.cpp 91.decode_ways/DecodeWays.h
@@ -82,6 +86,7 @@ add_executable(leetcode main.cpp Base.h
         #94.binary_tree_inorder_traversal/BinaryTreeInorderTraversal.cpp 94.binary_tree_inorder_traversal/BinaryTreeInorderTraversal.h
         #95.unique_binary_search_trees_2/UniqueBinarySearchTrees2.cpp 95.unique_binary_search_trees_2/UniqueBinarySearchTrees2.h
         #96.unique_binary_search_trees/UniqueBinarySearchTrees.cpp 96.unique_binary_search_trees/UniqueBinarySearchTrees.h
+        #97.interleaving_string/InterleavingString.cpp 97.interleaving_string/InterleavingString.h
         #98.validate_binary_search_tree/ValidateBinarySearchTree.cpp 98.validate_binary_search_tree/ValidateBinarySearchTree.h
         #101.symmetric_tree/SymmetricTree.cpp 101.symmetric_tree/SymmetricTree.h
         #102.binary_tree_level_order_traversal/BinaryTreeLevelOrderTraversal.cpp 102.binary_tree_level_order_traversal/BinaryTreeLevelOrderTraversal.h
@@ -93,6 +98,7 @@ add_executable(leetcode main.cpp Base.h
         #112.path_sum/PathSum.cpp 112.path_sum/PathSum.h
         #113.path_sum_2/PathSum2.cpp 113.path_sum_2/PathSum2.h
         #114.flatten_binary_tree_to_linked_list/FlattenBinaryTreeToLinkedList.cpp 114.flatten_binary_tree_to_linked_list/FlattenBinaryTreeToLinkedList.h
+        #115.distinct_subsequences/DistinctSubsequences.cpp 115.distinct_subsequences/DistinctSubsequences.h
         #116.populating_next_right_pointers_in_each_node/PopulatingNextRightPointersInEachNode.cpp 116.populating_next_right_pointers_in_each_node/PopulatingNextRightPointersInEachNode.h
         #118.pascals_triangle/PascalsTriangle.cpp 118.pascals_triangle/PascalsTriangle.h
         #119.pascals_triangle2/PascalsTriangle2.cpp 119.pascals_triangle2/PascalsTriangle2.h
@@ -102,7 +108,7 @@ add_executable(leetcode main.cpp Base.h
         #123.best_time_to_buy_and_sell_stock_3/BestTimeToBuyAndSellStock3.cpp 123.best_time_to_buy_and_sell_stock_3/BestTimeToBuyAndSellStock3.h
         #124.binary_tree_maximum_path_sum/BinaryTreeMaximumPathSum.cpp 124.binary_tree_maximum_path_sum/BinaryTreeMaximumPathSum.h
         #125.valid_palindrome/ValidPalindrome.cpp 125.valid_palindrome/ValidPalindrome.h
-        126.word_ladder_2/WordLadder2.cpp 126.word_ladder_2/WordLadder2.h
+        #126.word_ladder_2/WordLadder2.cpp 126.word_ladder_2/WordLadder2.h
         #127.word_ladder/WordLadder.cpp 127.word_ladder/WordLadder.h
         #128.longest_consecutive_sequence/LongestConsecutiveSequence.cpp 128.longest_consecutive_sequence/LongestConsecutiveSequence.h
         #130.surrounded_regions/SurroundedRegions.cpp 130.surrounded_regions/SurroundedRegions.h

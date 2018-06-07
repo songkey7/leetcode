@@ -5,27 +5,24 @@
 #include "LongestValidParentheses.h"
 
 int LongestValidParentheses::longest_valid_parentheses(string s) {
-    size_t n = s.length();
-    stack<pair<int, int>> st;
-    vector<bool> match(n, false);
     int ret = 0;
-    for(int i = 0; i < n; i++){
-        if(s[i] == ')'){
-            if(!st.empty()){
-                match[i] = true;
-                match[st.top().second] = true;
-                st.pop();
-            }
+    size_t n = s.length();
+    stack<int> st;
+    vector<bool> match(n, false);
+    for (int i = 0; i < n; ++i) {
+        if(s[i] == '('){
+            st.push(i);
         }
-        else{
-            st.emplace(')', i);
+        else if(!st.empty()){
+            match[i] = true;
+            match[st.top()] = true;
+            st.pop();
         }
     }
     int cnt = 0;
-    for(auto b: match){
-        if(b) cnt ++;
+    for (auto b: match) {
+        if(b) ret = max(ret, ++cnt);
         else cnt = 0;
-        ret = max(ret, cnt);
     }
     return ret;
 }

@@ -6,25 +6,21 @@
 
 string MinimumWindowSubstring::min_window2(string s, string t) {
     int c_map[256] = {0};
-    for(auto c: t){
-        c_map[c]++;
-    }
-    int count = t.length();
-    int b = 0, e = 0, len = s.length() + 1;
-    int p_b = b;
-
-    while(e < s.length()){
+    for(auto c: t) c_map[c]++;
+    size_t b = 0, e = 0, p_b = 0, len = INT_MAX;
+    size_t n = s.length(), count = t.length();
+    while(e < n) {
         if(c_map[s[e++]]-- > 0) count--;
-        while(count == 0){
-            int d = e - p_b;
+        while(count == 0) {
+            size_t d = (e - p_b);
             if(d < len){
-                len = d;
                 b = p_b;
+                len = d;
             }
-            if(c_map[s[p_b++]]++ == 0) count++;
+            if(c_map[s[p_b++]]++ >= 0) count++;
         }
     }
-    return len == s.length() + 1 ? "" : s.substr(b, len);
+    return len == INT_MAX ? "" : s.substr(b, len);
 }
 
 string MinimumWindowSubstring::min_window(string s, string t) {
@@ -63,10 +59,7 @@ bool MinimumWindowSubstring::contain(const unordered_map<char, int> & c_map, con
 }
 
 void MinimumWindowSubstring::run() {
-    string s = "ADOBECODEBANC";
-    string t = "ABC";
-    string ret = "BANC";
-    assert(min_window2(s, t) == ret);
+    assert(min_window2("ADOBECODEBANC", "ABC") == "BANC");
 }
 
 

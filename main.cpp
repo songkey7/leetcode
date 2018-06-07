@@ -213,6 +213,12 @@
 #include "174.dungeon_game/DungeonGame.h"
 #include "132.palindrome_partitioning_2/PalindromePartitioning2.h"
 #include "126.word_ladder_2/WordLadder2.h"
+#include "115.distinct_subsequences/DistinctSubsequences.h"
+#include "45.jump_game_2/JumpGame2.h"
+#include "57.insert_interval/InsertInterval.h"
+#include "68.text_justification/TextJustification.h"
+#include "97.interleaving_string/InterleavingString.h"
+#include "87.scramble_string/ScrambleString.h"
 
 
 Base *init() {
@@ -426,7 +432,13 @@ Base *init() {
     //return new BestTimeToBuyAndSellStock3();
     //return new DungeonGame();
     //return new PalindromePartitioning2();
-    return new WordLadder2();
+    //return new WordLadder2();
+    //return new DistinctSubsequences();
+    //return new JumpGame2();
+    //return new InsertInterval();
+    //return new TextJustification();
+    //return new InterleavingString();
+    //return new ScrambleString();
 }
 
 int main() {

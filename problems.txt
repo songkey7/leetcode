@@ -1,0 +1,762 @@
+847	Shortest Path Visiting All Nodes	shortest-path-visiting-all-nodes	3	62	2	1091	2982
+846	Hand of Straights	hand-of-straights	2	51	3	2603	6142
+845	Longest Mountain in Array	longest-mountain-in-array	2	50	1	2885	9514
+844	Backspace String Compare	backspace-string-compare	1	53	4	4154	8177
+843	Guess the Word	guess-the-word	3	31	31	1512	4560
+842	Split Array into Fibonacci Sequence	split-array-into-fibonacci-sequence	2	54	15	2223	6419
+841	Keys and Rooms	keys-and-rooms	2	84	5	4146	6949
+840	Magic Squares In Grid	magic-squares-in-grid	1	13	117	3034	9058
+839	Similar String Groups	similar-string-groups	3	47	21	2086	5903
+838	Push Dominoes	push-dominoes	2	87	3	2988	7409
+837	New 21 Game	new-21-game	2	66	38	1414	5620
+836	Rectangle Overlap	rectangle-overlap	1	60	12	3912	9787
+835	Image Overlap	image-overlap	2	41	89	2461	7202
+834	Sum of Distances in Tree	sum-of-distances-in-tree	3	122	8	1580	5135
+833	Find And Replace in String	find-and-replace-in-string	2	27	41	3090	8276
+832	Flipping an Image	flipping-an-image	1	96	20	12004	16775
+831	Masking Personal Information	masking-personal-information	2	18	78	2959	6932
+830	Positions of Large Groups	positions-of-large-groups	1	73	9	6889	14439
+829	Consecutive Numbers Sum	consecutive-numbers-sum	2	57	38	2686	10364
+828	Unique Letter String	unique-letter-string	3	84	9	1711	5237
+827	Making A Large Island	making-a-large-island	3	84	2	2657	6462
+826	Most Profit Assigning Work	most-profit-assigning-work	2	78	8	3272	10246
+825	Friends Of Appropriate Ages	friends-of-appropriate-ages	2	52	71	3791	13771
+824	Goat Latin	goat-latin	1	44	92	7644	13668
+823	Binary Trees With Factors	binary-trees-with-factors	2	76	9	2543	8883
+822	Card Flipping Game	card-flipping-game	2	20	122	2577	7401
+821	Shortest Distance to a Character	shortest-distance-to-a-character	1	156	17	9597	15491
+820	Short Encoding of Words	short-encoding-of-words	2	51	17	3110	7648
+819	Most Common Word	most-common-word	1	86	55	8986	18160
+818	Race Car	race-car	3	86	8	2441	9125
+817	Linked List Components	linked-list-components	2	68	113	5819	11487
+816	Ambiguous Coordinates	ambiguous-coordinates	2	34	65	2734	6567
+815	Bus Routes	bus-routes	3	111	4	3866	12055
+814	Binary Tree Pruning	binary-tree-pruning	2	167	2	8103	11753
+813	Largest Sum of Averages	largest-sum-of-averages	2	196	2	4000	9885
+812	Largest Triangle Area	largest-triangle-area	1	32	203	5023	9370
+811	Subdomain Visit Count	subdomain-visit-count	1	60	104	10021	15804
+810	Chalkboard XOR Game	chalkboard-xor-game	3	20	82	1208	3175
+809	Expressive Words	expressive-words	2	42	90	3580	9765
+808	Soup Servings	soup-servings	2	40	132	2313	7067
+807	Max Increase to Keep City Skyline	max-increase-to-keep-city-skyline	2	142	22	9240	11409
+806	Number of Lines To Write String	number-of-lines-to-write-string	1	54	147	9482	15018
+805	Split Array With Same Average	split-array-with-same-average	3	83	16	3217	15754
+804	Unique Morse Code Words	unique-morse-code-words	1	133	70	18543	25366
+803	Bricks Falling When Hit	bricks-falling-when-hit	3	66	18	1808	8023
+802	Find Eventual Safe States	find-eventual-safe-states	2	108	15	4664	12375
+801	Minimum Swaps To Make Sequences Increasing	minimum-swaps-to-make-sequences-increasing	2	173	11	4529	16202
+800	Similar RGB Color	similar-rgb-color	1			3629	6796
+799	Champagne Tower	champagne-tower	2	119	6	3528	12027
+798	Smallest Rotation with Highest Score	smallest-rotation-with-highest-score	3	79	6	1889	5721
+797	All Paths From Source to Target	all-paths-from-source-to-target	2	111	11	7633	11290
+796	Rotate String	rotate-string	1	161	18	15381	30179
+795	Number of Subarrays with Bounded Maximum	number-of-subarrays-with-bounded-maximum	2	135	10	4714	11453
+794	Valid Tic-Tac-Toe State	valid-tic-tac-toe-state	2	43	105	4019	14584
+793	Preimage Size of Factorial Zeroes Function	preimage-size-of-factorial-zeroes-function	3	52	15	2997	7077
+792	Number of Matching Subsequences	number-of-matching-subsequences	2	166	10	6422	17713
+791	Custom Sort String	custom-sort-string	2	107	44	9494	15923
+790	Domino and Tromino Tiling	domino-and-tromino-tiling	2	93	38	3372	10262
+789	Escape The Ghosts	escape-the-ghosts	2	53	148	4359	8591
+788	Rotated Digits	rotated-digits	1	73	235	9961	19531
+787	Cheapest Flights Within K Stops	cheapest-flights-within-k-stops	2	199	6	7139	23909
+786	K-th Smallest Prime Fraction	k-th-smallest-prime-fraction	3	89	4	2765	8585
+785	Is Graph Bipartite?	is-graph-bipartite	2	169	23	8321	21665
+784	Letter Case Permutation	letter-case-permutation	1	211	27	14363	27156
+783	Minimum Distance Between BST Nodes	minimum-distance-between-bst-nodes	1	123	27	10866	22889
+782	Transform to Chessboard	transform-to-chessboard	3	34	45	1521	4066
+781	Rabbits in Forest	rabbits-in-forest	2	58	77	5389	10889
+780	Reaching Points	reaching-points	3	111	5	3186	13487
+779	K-th Symbol in Grammar	k-th-symbol-in-grammar	2	98	33	5396	14542
+778	Swim in Rising Water	swim-in-rising-water	3	119	8	4257	9593
+777	Swap Adjacent in LR String	swap-adjacent-in-lr-string	2	71	72	4258	14852
+776	Split BST	split-bst	2			3333	6647
+775	Global and Local Inversions	global-and-local-inversions	2	100	47	5967	17914
+774	Minimize Max Distance to Gas Station	minimize-max-distance-to-gas-station	3			2961	9143
+773	Sliding Puzzle	sliding-puzzle	3	90	3	3557	7539
+772	Basic Calculator III	basic-calculator-iii	3			2896	7270
+771	Jewels and Stones	jewels-and-stones	1	476	113	58000	70768
+770	Basic Calculator IV	basic-calculator-iv	3	18	89	768	1799
+769	Max Chunks To Make Sorted	max-chunks-to-make-sorted	2	183	32	8680	17993
+768	Max Chunks To Make Sorted II	max-chunks-to-make-sorted-ii	3	97	5	4663	10812
+767	Reorganize String	reorganize-string	2	156	14	6471	17867
+766	Toeplitz Matrix	toeplitz-matrix	1	234	38	22853	39531
+765	Couples Holding Hands	couples-holding-hands	3	99	20	4772	9834
+764	Largest Plus Sign	largest-plus-sign	2	112	22	5951	15400
+763	Partition Labels	partition-labels	2	327	26	14642	22699
+762	Prime Number of Set Bits in Binary Representation	prime-number-of-set-bits-in-binary-representation	1	82	95	12038	21668
+761	Special Binary String	special-binary-string	3	58	17	1772	4122
+760	Find Anagram Mappings	find-anagram-mappings	1			21643	28387
+759	Employee Free Time	employee-free-time	3			3618	6864
+758	Bold Words in String	bold-words-in-string	1			4029	10435
+757	Set Intersection Size At Least Two	set-intersection-size-at-least-two	3	79	4	2173	6186
+756	Pyramid Transition Matrix	pyramid-transition-matrix	2	80	134	4961	10716
+755	Pour Water	pour-water	2			3195	9136
+754	Reach a Number	reach-a-number	2	96	87	3778	13678
+753	Cracking the Safe	cracking-the-safe	3	93	85	4559	11280
+752	Open the Lock	open-the-lock	2	121	8	5061	12819
+751	IP to CIDR	ip-to-cidr	1			2159	4078
+750	Number Of Corner Rectangles	number-of-corner-rectangles	2			6160	10957
+749	Contain Virus	contain-virus	3	26	84	1609	4011
+748	Shortest Completing Word	shortest-completing-word	2	47	174	7994	15336
+747	Largest Number At Least Twice of Others	largest-number-at-least-twice-of-others	1	101	196	18832	45617
+746	Min Cost Climbing Stairs	min-cost-climbing-stairs	1	472	71	28047	64467
+745	Prefix and Suffix Search	prefix-and-suffix-search	3	79	62	4732	18226
+744	Find Smallest Letter Greater Than Target	find-smallest-letter-greater-than-target	1	103	160	17545	40263
+743	Network Delay Time	network-delay-time	2	155	48	8017	22628
+742	Closest Leaf in a Binary Tree	closest-leaf-in-a-binary-tree	2			4129	11982
+741	Cherry Pickup	cherry-pickup	3	162	7	2840	11793
+740	Delete and Earn	delete-and-earn	2	254	20	9869	22382
+739	Daily Temperatures	daily-temperatures	2	431	15	15493	29206
+738	Monotone Increasing Digits	monotone-increasing-digits	2	114	19	6794	16541
+737	Sentence Similarity II	sentence-similarity-ii	2			9476	23471
+736	Parse Lisp Expression	parse-lisp-expression	3	53	31	1912	4565
+735	Asteroid Collision	asteroid-collision	2	169	28	8337	22524
+734	Sentence Similarity	sentence-similarity	1			10157	26215
+733	Flood Fill	flood-fill	1	146	44	15196	31756
+732	My Calendar III	my-calendar-iii	3	84	55	4564	9185
+731	My Calendar II	my-calendar-ii	2	116	26	7784	20556
+730	Count Different Palindromic Subsequences	count-different-palindromic-subsequences	3	136	7	3489	9964
+729	My Calendar I	my-calendar-i	2	155	19	12708	29891
+728	Self Dividing Numbers	self-dividing-numbers	1	229	137	36584	54755
+727	Minimum Window Subsequence	minimum-window-subsequence	3			5508	17828
+726	Number of Atoms	number-of-atoms	3	110	50	5444	12548
+725	Split Linked List in Parts	split-linked-list-in-parts	2	164	38	11959	25467
+724	Find Pivot Index	find-pivot-index	1	244	49	21849	55482
+723	Candy Crush	candy-crush	2			2291	4170
+722	Remove Comments	remove-comments	2	62	160	4739	16963
+721	Accounts Merge	accounts-merge	2	223	81	11333	33991
+720	Longest Word in Dictionary	longest-word-in-dictionary	1	139	188	14801	35628
+719	Find K-th Smallest Pair Distance	find-k-th-smallest-pair-distance	3	270	6	8650	31291
+718	Maximum Length of Repeated Subarray	maximum-length-of-repeated-subarray	2	275	13	14522	34820
+717	1-bit and 2-bit Characters	1-bit-and-2-bit-characters	1	138	310	21017	42664
+716	Max Stack	max-stack	3			5219	14026
+715	Range Module	range-module	3	140	11	4011	12892
+714	Best Time to Buy and Sell Stock with Transaction Fee	best-time-to-buy-and-sell-stock-with-transaction-fee	2	447	14	17755	38176
+713	Subarray Product Less Than K	subarray-product-less-than-k	2	238	11	11128	33437
+712	Minimum ASCII Delete Sum for Two Strings	minimum-ascii-delete-sum-for-two-strings	2	234	19	8794	17108
+711	Number of Distinct Islands II	number-of-distinct-islands-ii	3			1793	4283
+699	Falling Squares	falling-squares	3	84	15	4476	11815
+698	Partition to K Equal Sum Subsets	partition-to-k-equal-sum-subsets	2	314	22	15746	41507
+697	Degree of an Array	degree-of-an-array	1	262	176	22545	48032
+696	Count Binary Substrings	count-binary-substrings	1	313	68	16545	32595
+695	Max Area of Island	max-area-of-island	1	529	33	30773	59108
+694	Number of Distinct Islands	number-of-distinct-islands	2			8300	18405
+693	Binary Number with Alternating Bits	binary-number-with-alternating-bits	1	167	54	22785	40809
+692	Top K Frequent Words	top-k-frequent-words	2	300	28	21016	50733
+691	Stickers to Spell Word	stickers-to-spell-word	3	136	11	4340	12433
+690	Employee Importance	employee-importance	1	218	171	23891	46175
+689	Maximum Sum of 3 Non-Overlapping Subarrays	maximum-sum-of-3-non-overlapping-subarrays	3	281	14	12028	29202
+688	Knight Probability in Chessboard	knight-probability-in-chessboard	2	126	43	7767	19301
+687	Longest Univalue Path	longest-univalue-path	1	474	83	27337	83243
+686	Repeated String Match	repeated-string-match	1	244	221	31398	99123
+685	Redundant Connection II	redundant-connection-ii	3	170	80	7356	26694
+684	Redundant Connection	redundant-connection	2	206	139	16518	37379
+683	K Empty Slots	k-empty-slots	3			15471	46014
+682	Baseball Game	baseball-game	1	171	393	27339	46903
+681	Next Closest Time	next-closest-time	2			17338	41811
+680	Valid Palindrome II	valid-palindrome-ii	1	339	17	31228	96548
+679	24 Game	24-game	3	146	51	8428	21703
+678	Valid Parenthesis String	valid-parenthesis-string	2	300	13	11911	40177
+677	Map Sum Pairs	map-sum-pairs	2	162	37	12991	25385
+676	Implement Magic Dictionary	implement-magic-dictionary	2	174	53	12894	26264
+675	Cut Off Trees for Golf Event	cut-off-trees-for-golf-event	3	108	49	6405	23829
+674	Longest Continuous Increasing Subsequence	longest-continuous-increasing-subsequence	1	235	67	34234	80441
+673	Number of Longest Increasing Subsequence	number-of-longest-increasing-subsequence	2	414	30	16452	51675
+672	Bulb Switcher II	bulb-switcher-ii	2	49	439	6037	12139
+671	Second Minimum Node In a Binary Tree	second-minimum-node-in-a-binary-tree	1	201	257	25844	61578
+670	Maximum Swap	maximum-swap	2	331	33	22425	58003
+669	Trim a Binary Search Tree	trim-a-binary-search-tree	1	533	83	34143	58743
+668	Kth Smallest Number in Multiplication Table	kth-smallest-number-in-multiplication-table	3	178	12	6758	16693
+667	Beautiful Arrangement II	beautiful-arrangement-ii	2	126	333	11047	21539
+666	Path Sum IV	path-sum-iv	2			4937	9778
+665	Non-decreasing Array	non-decreasing-array	1	573	109	26387	131598
+664	Strange Printer	strange-printer	3	145	26	5378	15639
+663	Equal Tree Partition	equal-tree-partition	2			8221	22586
+662	Maximum Width of Binary Tree	maximum-width-of-binary-tree	2	299	47	14899	38950
+661	Image Smoother	image-smoother	1	112	481	19377	41661
+660	Remove 9	remove-9	3			4024	8114
+659	Split Array into Consecutive Subsequences	split-array-into-consecutive-subsequences	2	249	102	9147	24712
+658	Find K Closest Elements	find-k-closest-elements	2	274	67	19767	56840
+657	Judge Route Circle	judge-route-circle	1	460	375	82073	119957
+656	Coin Path	coin-path	3			4525	17706
+655	Print Binary Tree	print-binary-tree	2	111	256	9779	19928
+654	Maximum Binary Tree	maximum-binary-tree	2	505	45	35324	50317
+653	Two Sum IV - Input is a BST	two-sum-iv-input-is-a-bst	1	455	61	43224	86261
+652	Find Duplicate Subtrees	find-duplicate-subtrees	2	331	97	15016	40359
+651	4 Keys Keyboard	4-keys-keyboard	2			8160	16482
+650	2 Keys Keyboard	2-keys-keyboard	2	364	27	19735	43729
+649	Dota2 Senate	dota2-senate	2	134	103	5399	14640
+648	Replace Words	replace-words	2	239	73	18052	37333
+647	Palindromic Substrings	palindromic-substrings	2	669	44	43809	80409
+646	Maximum Length of Pair Chain	maximum-length-of-pair-chain	2	306	30	20513	43352
+645	Set Mismatch	set-mismatch	1	244	149	28406	71594
+644	Maximum Average Subarray II	maximum-average-subarray-ii	3			5440	21700
+643	Maximum Average Subarray I	maximum-average-subarray-i	1	275	53	30577	81065
+642	Design Search Autocomplete System	design-search-autocomplete-system	3			6515	21386
+640	Solve the Equation	solve-the-equation	2	92	215	9807	25246
+639	Decode Ways II	decode-ways-ii	3	147	198	12815	52681
+638	Shopping Offers	shopping-offers	2	204	207	12138	26475
+637	Average of Levels in Binary Tree	average-of-levels-in-binary-tree	1	483	83	46510	83042
+636	Exclusive Time of Functions	exclusive-time-of-functions	2	194	298	16674	37401
+635	Design Log Storage System	design-log-storage-system	2			4840	9759
+634	Find the Derangement of An Array	find-the-derangement-of-an-array	2			3531	9816
+633	Sum of Square Numbers	sum-of-square-numbers	1	205	137	25317	78112
+632	Smallest Range	smallest-range	3	362	5	10507	24891
+631	Design Excel Sum Formula	design-excel-sum-formula	3			2081	7503
+630	Course Schedule III	course-schedule-iii	3	215	13	6389	21800
+629	K Inverse Pairs Array	k-inverse-pairs-array	3	127	57	5176	18908
+628	Maximum Product of Three Numbers	maximum-product-of-three-numbers	1	377	175	38256	85391
+625	Minimum Factorization	minimum-factorization	2			4802	15364
+624	Maximum Distance in Arrays	maximum-distance-in-arrays	1			10945	30808
+623	Add One Row to Tree	add-one-row-to-tree	2	145	73	15961	34544
+621	Task Scheduler	task-scheduler	2	757	98	36069	85078
+617	Merge Two Binary Trees	merge-two-binary-trees	1	979	77	91029	134387
+616	Add Bold Tag in String	add-bold-tag-in-string	2			11950	31441
+611	Valid Triangle Number	valid-triangle-number	2	283	51	19027	45365
+609	Find Duplicate File in System	find-duplicate-file-in-system	2	121	226	13531	25831
+606	Construct String from Binary Tree	construct-string-from-binary-tree	1	347	459	36636	73389
+605	Can Place Flowers	can-place-flowers	1	273	175	34278	113961
+604	Design Compressed String Iterator	design-compressed-string-iterator	1			8647	25948
+600	Non-negative Integers without Consecutive Ones	non-negative-integers-without-consecutive-ones	3	147	42	5947	18680
+599	Minimum Index Sum of Two Lists	minimum-index-sum-of-two-lists	1	222	93	32434	69887
+598	Range Addition II	range-addition-ii	1	114	326	21408	44526
+594	Longest Harmonious Subsequence	longest-harmonious-subsequence	1	235	31	22449	54476
+593	Valid Square	valid-square	2	70	161	11958	29896
+592	Fraction Addition and Subtraction	fraction-addition-and-subtraction	2	70	154	8715	18929
+591	Tag Validator	tag-validator	3	41	189	3247	10525
+588	Design In-Memory File System	design-in-memory-file-system	3			2752	7639
+587	Erect the Fence	erect-the-fence	3	82	112	4787	14196
+583	Delete Operation for Two Strings	delete-operation-for-two-strings	2	392	12	18204	40720
+582	Kill Process	kill-process	2			12978	25313
+581	Shortest Unsorted Continuous Subarray	shortest-unsorted-continuous-subarray	1	785	34	37066	126147
+576	Out of Boundary Paths	out-of-boundary-paths	2	153	72	10449	34166
+575	Distribute Candies	distribute-candies	1	179	415	47600	81895
+573	Squirrel Simulation	squirrel-simulation	2			4271	8159
+572	Subtree of Another Tree	subtree-of-another-tree	1	670	15	50724	125948
+568	Maximum Vacation Days	maximum-vacation-days	3			8733	23903
+567	Permutation in String	permutation-in-string	2	292	18	22555	62268
+566	Reshape the Matrix	reshape-the-matrix	1	341	52	51802	89892
+565	Array Nesting	array-nesting	2	316	51	19846	39979
+564	Find the Closest Palindrome	find-the-closest-palindrome	3	59	251	6107	35995
+563	Binary Tree Tilt	binary-tree-tilt	1	182	355	31285	66494
+562	Longest Line of Consecutive One in Matrix	longest-line-of-consecutive-one-in-matrix	2			7567	18374
+561	Array Partition I	array-partition-i	1	359	990	84681	127280
+560	Subarray Sum Equals K	subarray-sum-equals-k	2	716	16	37564	94065
+557	Reverse Words in a String III	reverse-words-in-a-string-iii	1	365	34	74038	122429
+556	Next Greater Element III	next-greater-element-iii	2	163	50	14036	48520
+555	Split Concatenated Strings	split-concatenated-strings	2			2773	7292
+554	Brick Wall	brick-wall	2	324	11	23530	50485
+553	Optimal Division	optimal-division	2	71	627	14709	26697
+552	Student Attendance Record II	student-attendance-record-ii	3	154	33	7992	25224
+551	Student Attendance Record I	student-attendance-record-i	1	87	373	33925	75911
+549	Binary Tree Longest Consecutive Sequence II	binary-tree-longest-consecutive-sequence-ii	2			8769	20374
+548	Split Array with Equal Sum	split-array-with-equal-sum	2			4251	11308
+547	Friend Circles	friend-circles	2	501	38	39011	79245
+546	Remove Boxes	remove-boxes	3	183	22	6190	17197
+545	Boundary of Binary Tree	boundary-of-binary-tree	2			10453	32065
+544	Output Contest Matches	output-contest-matches	2			8639	12135
+543	Diameter of Binary Tree	diameter-of-binary-tree	1	630	37	63679	141504
+542	01 Matrix	01-matrix	2	328	49	21813	65949
+541	Reverse String II	reverse-string-ii	1	142	391	40178	91496
+540	Single Element in a Sorted Array	single-element-in-a-sorted-array	2	407	40	32294	57754
+539	Minimum Time Difference	minimum-time-difference	2	97	43	17275	37451
+538	Convert BST to Greater Tree	convert-bst-to-greater-tree	1	672	50	44518	91725
+537	Complex Number Multiplication	complex-number-multiplication	2	102	371	25434	39813
+536	Construct Binary Tree from String	construct-binary-tree-from-string	2			11451	26899
+535	Encode and Decode TinyURL	encode-and-decode-tinyurl	2	229	494	40749	55113
+533	Lonely Pixel II	lonely-pixel-ii	2			6255	13839
+532	K-diff Pairs in an Array	k-diff-pairs-in-an-array	1	207	424	39431	139604
+531	Lonely Pixel I	lonely-pixel-i	2			11509	20403
+530	Minimum Absolute Difference in BST	minimum-absolute-difference-in-bst	1	314	23	38350	80379
+529	Minesweeper	minesweeper	2	144	166	18138	36672
+527	Word Abbreviation	word-abbreviation	3			5650	12834
+526	Beautiful Arrangement	beautiful-arrangement	2	262	63	24247	45492
+525	Contiguous Array	contiguous-array	2	364	20	25694	61877
+524	Longest Word in Dictionary through Deleting	longest-word-in-dictionary-through-deleting	2	160	99	23457	54130
+523	Continuous Subarray Sum	continuous-subarray-sum	2	334	393	35487	151849
+522	Longest Uncommon Subsequence II	longest-uncommon-subsequence-ii	2	59	292	11764	36703
+521	Longest Uncommon Subsequence I 	longest-uncommon-subsequence-i	1	138	2032	32742	58807
+520	Detect Capital	detect-capital	1	198	109	59366	114470
+517	Super Washing Machines	super-washing-machines	3	98	70	8816	24400
+516	Longest Palindromic Subsequence	longest-palindromic-subsequence	2	430	51	32692	76094
+515	Find Largest Value in Each Tree Row	find-largest-value-in-each-tree-row	2	297	29	41108	73812
+514	Freedom Trail	freedom-trail	3	159	8	9036	23034
+513	Find Bottom Left Tree Value	find-bottom-left-tree-value	2	327	64	46035	81826
+508	Most Frequent Subtree Sum	most-frequent-subtree-sum	2	202	42	31961	61003
+507	Perfect Number	perfect-number	1	87	265	24650	75757
+506	Relative Ranks	relative-ranks	1	123	207	31144	66122
+505	The Maze II	the-maze-ii	2			12906	33404
+504	Base 7	base-7	1	83	70	29026	66221
+503	Next Greater Element II	next-greater-element-ii	2	337	19	28379	59053
+502	IPO	ipo	3	105	14	7536	20742
+501	Find Mode in Binary Search Tree	find-mode-in-binary-search-tree	1	333	123	36001	95541
+500	Keyboard Row	keyboard-row	1	244	246	64477	107312
+499	The Maze III	the-maze-iii	3			5573	16409
+498	Diagonal Traverse	diagonal-traverse	2	141	122	20278	44541
+496	Next Greater Element I	next-greater-element-i	1	411	661	58434	103315
+495	Teemo Attacking	teemo-attacking	2	149	290	24976	48492
+494	Target Sum	target-sum	2	668	36	54547	124399
+493	Reverse Pairs	reverse-pairs	3	215	30	12211	59390
+492	Construct the Rectangle	construct-the-rectangle	1	80	116	34977	72678
+491	Increasing Subsequences	increasing-subsequences	2	184	35	18935	48778
+490	The Maze	the-maze	2			14845	33997
+488	Zuma Game	zuma-game	3	61	65	6156	16568
+487	Max Consecutive Ones II	max-consecutive-ones-ii	2			14302	31393
+486	Predict the Winner	predict-the-winner	2	449	34	27873	61483
+485	Max Consecutive Ones	max-consecutive-ones	1	184	217	86620	161134
+484	Find Permutation	find-permutation	2			9399	16922
+483	Smallest Good Base	smallest-good-base	3	60	156	7416	21825
+482	License Key Formatting	license-key-formatting	1	113	166	35165	89394
+481	Magical String	magical-string	2	54	328	14242	31120
+480	Sliding Window Median	sliding-window-median	3	186	25	14493	46908
+479	Largest Palindrome Product	largest-palindrome-product	1	49	809	10328	40191
+477	Total Hamming Distance	total-hamming-distance	2	299	28	33504	70433
+476	Number Complement	number-complement	1	336	47	80134	130939
+475	Heaters	heaters	1	256	254	30298	101588
+474	Ones and Zeroes	ones-and-zeroes	2	311	61	21414	55282
+473	Matchsticks to Square	matchsticks-to-square	2	159	22	16629	47023
+472	Concatenated Words	concatenated-words	3	112	27	12218	39197
+471	Encode String with Shortest Length	encode-string-with-shortest-length	3			8827	20362
+469	Convex Polygon	convex-polygon	2			5623	16235
+468	Validate IP Address	validate-ip-address	2	52	291	13582	66060
+467	Unique Substrings in Wraparound String	unique-substrings-in-wraparound-string	2	205	38	13077	39242
+466	Count The Repetitions	count-the-repetitions	3	65	43	5972	21863
+465	Optimal Account Balancing	optimal-account-balancing	3			8245	20883
+464	Can I Win	can-i-win	2	287	48	21907	86319
+463	Island Perimeter	island-perimeter	1	534	42	83686	143845
+462	Minimum Moves to Equal Array Elements II	minimum-moves-to-equal-array-elements-ii	2	198	14	25328	49054
+461	Hamming Distance	hamming-distance	1	790	65	159981	230075
+460	LFU Cache	lfu-cache	3	286	36	21897	86327
+459	Repeated Substring Pattern	repeated-substring-pattern	1	384	68	54815	143194
+456	132 Pattern	132-pattern	2	308	23	18688	67475
+455	Assign Cookies	assign-cookies	1	155	35	43342	91593
+454	4Sum II	4sum-ii	2	302	29	34244	71888
+453	Minimum Moves to Equal Array Elements	minimum-moves-to-equal-array-elements	1	192	342	42828	89127
+452	Minimum Number of Arrows to Burst Balloons	minimum-number-of-arrows-to-burst-balloons	2	225	17	22963	51602
+451	Sort Characters By Frequency	sort-characters-by-frequency	2	354	30	55353	106346
+450	Delete Node in a BST	delete-node-in-a-bst	2	391	27	35523	94169
+449	Serialize and Deserialize BST	serialize-and-deserialize-bst	2	258	23	28832	67008
+448	Find All Numbers Disappeared in an Array	find-all-numbers-disappeared-in-an-array	1	827	77	92961	181797
+447	Number of Boomerangs	number-of-boomerangs	1	171	194	37549	80089
+446	Arithmetic Slices II - Subsequence	arithmetic-slices-ii-subsequence	3	125	18	9396	33589
+445	Add Two Numbers II	add-two-numbers-ii	2	333	49	51489	110871
+444	Sequence Reconstruction	sequence-reconstruction	2			10641	54336
+443	String Compression	string-compression	1	145	419	19864	55445
+442	Find All Duplicates in an Array	find-all-duplicates-in-an-array	2	526	59	60302	105264
+441	Arranging Coins	arranging-coins	1	102	266	47676	130412
+440	K-th Smallest in Lexicographical Order	k-th-smallest-in-lexicographical-order	3	88	19	6246	24233
+439	Ternary Expression Parser	ternary-expression-parser	2			10548	20451
+438	Find All Anagrams in a String	find-all-anagrams-in-a-string	1	725	49	65570	193041
+437	Path Sum III	path-sum-iii	1	827	36	59928	149184
+436	Find Right Interval	find-right-interval	2	103	53	18970	45637
+435	Non-overlapping Intervals	non-overlapping-intervals	2	211	8	22674	54908
+434	Number of Segments in a String	number-of-segments-in-a-string	1	77	331	39832	108841
+432	All O`one Data Structure	all-oone-data-structure	3	154	16	10078	36072
+425	Word Squares	word-squares	3			16030	37438
+424	Longest Repeating Character Replacement	longest-repeating-character-replacement	2	266	27	19178	45060
+423	Reconstruct Original Digits from English	reconstruct-original-digits-from-english	2	65	243	14996	33509
+422	Valid Word Square	valid-word-square	1			16768	46050
+421	Maximum XOR of Two Numbers in an Array	maximum-xor-of-two-numbers-in-an-array	2	318	90	23761	49291
+420	Strong Password Checker	strong-password-checker	3	47	214	4737	24259
+419	Battleships in a Board	battleships-in-a-board	2	238	198	44243	69800
+418	Sentence Screen Fitting	sentence-screen-fitting	2			20597	72548
+417	Pacific Atlantic Water Flow	pacific-atlantic-water-flow	2	345	45	27105	77485
+416	Partition Equal Subset Sum	partition-equal-subset-sum	2	553	14	45347	117029
+415	Add Strings	add-strings	1	200	57	58929	141074
+414	Third Maximum Number	third-maximum-number	1	227	312	62578	222224
+413	Arithmetic Slices	arithmetic-slices	2	288	73	40257	73953
+412	Fizz Buzz	fizz-buzz	1	258	368	122981	212275
+411	Minimum Unique Word Abbreviation	minimum-unique-word-abbreviation	3			7831	23166
+410	Split Array Largest Sum	split-array-largest-sum	3	312	25	24176	61126
+409	Longest Palindrome	longest-palindrome	1	263	30	66527	144282
+408	Valid Word Abbreviation	valid-word-abbreviation	1			16370	57701
+407	Trapping Rain Water II	trapping-rain-water-ii	3	328	8	17743	47079
+406	Queue Reconstruction by Height	queue-reconstruction-by-height	2	781	82	47434	83888
+405	Convert a Number to Hexadecimal	convert-a-number-to-hexadecimal	1	126	34	35301	85962
+404	Sum of Left Leaves	sum-of-left-leaves	1	353	34	89751	188409
+403	Frog Jump	frog-jump	3	175	29	26394	80561
+402	Remove K Digits	remove-k-digits	2	373	13	32763	126856
+401	Binary Watch	binary-watch	1	213	321	48698	108785
+400	Nth Digit	nth-digit	1	157	398	35830	119104
+399	Evaluate Division	evaluate-division	2	358	40	31815	74611
+398	Random Pick Index	random-pick-index	2	123	279	36112	80474
+397	Integer Replacement	integer-replacement	2	113	146	30142	98841
+396	Rotate Function	rotate-function	2	143	49	27795	81947
+395	Longest Substring with At Least K Repeating Characters	longest-substring-with-at-least-k-repeating-characters	2	300	26	26525	74244
+394	Decode String	decode-string	2	593	27	55637	132291
+393	UTF-8 Validation	utf-8-validation	2	64	314	23028	66080
+392	Is Subsequence	is-subsequence	2	241	65	54355	121673
+391	Perfect Rectangle	perfect-rectangle	3	135	38	14597	52977
+390	Elimination Game	elimination-game	2	128	114	17258	40380
+389	Find the Difference	find-the-difference	1	260	155	107925	209667
+388	Longest Absolute File Path	longest-absolute-file-path	2	246	409	48471	129189
+387	First Unique Character in a String	first-unique-character-in-a-string	1	435	36	130690	276441
+386	Lexicographical Numbers	lexicographical-numbers	2	217	40	29519	69376
+385	Mini Parser	mini-parser	2	82	321	22665	73429
+384	Shuffle an Array	shuffle-an-array	2	119	273	44478	93793
+383	Ransom Note	ransom-note	1	179	58	81637	170545
+382	Linked List Random Node	linked-list-random-node	2	190	70	39250	82556
+381	Insert Delete GetRandom O(1) - Duplicates allowed	insert-delete-getrandom-o1-duplicates-allowed	3	196	23	25507	85656
+380	Insert Delete GetRandom O(1)	insert-delete-getrandom-o1	2	475	44	62641	156332
+379	Design Phone Directory	design-phone-directory	2			15532	42391
+378	Kth Smallest Element in a Sorted Matrix	kth-smallest-element-in-a-sorted-matrix	2	475	43	63157	138399
+377	Combination Sum IV	combination-sum-iv	2	433	23	61211	142673
+376	Wiggle Subsequence	wiggle-subsequence	2	264	21	34410	95094
+375	Guess Number Higher or Lower II	guess-number-higher-or-lower-ii	2	239	410	31550	87110
+374	Guess Number Higher or Lower	guess-number-higher-or-lower	1	103	642	76258	205972
+373	Find K Pairs with Smallest Sums	find-k-pairs-with-smallest-sums	2	320	23	42700	135825
+372	Super Pow	super-pow	2	72	318	21444	61630
+371	Sum of Two Integers	sum-of-two-integers	1	426	574	99819	196479
+370	Range Addition	range-addition	2			17929	31239
+369	Plus One Linked List	plus-one-linked-list	2			23560	43009
+368	Largest Divisible Subset	largest-divisible-subset	2	294	15	35126	103537
+367	Valid Perfect Square	valid-perfect-square	1	232	62	74622	192521
+366	Find Leaves of Binary Tree	find-leaves-of-binary-tree	2			27494	44788
+365	Water and Jug Problem	water-and-jug-problem	2	65	287	20539	73070
+364	Nested List Weight Sum II	nested-list-weight-sum-ii	2			23009	42528
+363	Max Sum of Rectangle No Larger Than K	max-sum-of-rectangle-no-larger-than-k	3	214	17	20081	59216
+362	Design Hit Counter	design-hit-counter	2			26015	46861
+361	Bomb Enemy	bomb-enemy	2			24557	60534
+360	Sort Transformed Array	sort-transformed-array	2			18112	40184
+359	Logger Rate Limiter	logger-rate-limiter	1			26713	43719
+358	Rearrange String k Distance Apart	rearrange-string-k-distance-apart	3			15057	47596
+357	Count Numbers with Unique Digits	count-numbers-with-unique-digits	2	140	334	48419	104877
+356	Line Reflection	line-reflection	2			14649	48346
+355	Design Twitter	design-twitter	2	251	68	25625	98825
+354	Russian Doll Envelopes	russian-doll-envelopes	3	262	18	30283	92976
+353	Design Snake Game	design-snake-game	2			11995	43851
+352	Data Stream as Disjoint Intervals	data-stream-as-disjoint-intervals	3	76	24	17673	42925
+351	Android Unlock Patterns	android-unlock-patterns	2			21645	48565
+350	Intersection of Two Arrays II	intersection-of-two-arrays-ii	1	312	111	113722	257218
+349	Intersection of Two Arrays	intersection-of-two-arrays	1	189	409	136787	282289
+348	Design Tic-Tac-Toe	design-tic-tac-toe	2			24575	53161
+347	Top K Frequent Elements	top-k-frequent-elements	2	621	41	109364	218938
+346	Moving Average from Data Stream	moving-average-from-data-stream	1			41283	68001
+345	Reverse Vowels of a String	reverse-vowels-of-a-string	1	211	327	111257	282191
+344	Reverse String	reverse-string	1	363	221	255463	421604
+343	Integer Break	integer-break	2	256	91	58912	126257
+342	Power of Four	power-of-four	1	187	81	87360	222298
+341	Flatten Nested List Iterator	flatten-nested-list-iterator	2	407	156	66388	152606
+340	Longest Substring with At Most K Distinct Characters	longest-substring-with-at-most-k-distinct-characters	3			41577	108402
+339	Nested List Weight Sum	nested-list-weight-sum	1			35923	56171
+338	Counting Bits	counting-bits	2	624	50	115171	184401
+337	House Robber III	house-robber-iii	2	685	18	67210	149501
+336	Palindrome Pairs	palindrome-pairs	3	310	42	40012	146447
+335	Self Crossing	self-crossing	3	47	164	16729	63592
+334	Increasing Triplet Subsequence	increasing-triplet-subsequence	2	385	40	62494	157419
+333	Largest BST Subtree	largest-bst-subtree	2			21575	69087
+332	Reconstruct Itinerary	reconstruct-itinerary	2	297	169	49958	166251
+331	Verify Preorder Serialization of a Binary Tree	verify-preorder-serialization-of-a-binary-tree	2	275	9	46408	124581
+330	Patching Array	patching-array	3	161	36	26861	81910
+329	Longest Increasing Path in a Matrix	longest-increasing-path-in-a-matrix	3	413	9	54664	145592
+328	Odd Even Linked List	odd-even-linked-list	2	330	166	97207	215551
+327	Count of Range Sum	count-of-range-sum	3	200	32	24596	79767
+326	Power of Three	power-of-three	1	144	596	130761	320112
+325	Maximum Size Subarray Sum Equals k	maximum-size-subarray-sum-equals-k	2			52253	121290
+324	Wiggle Sort II	wiggle-sort-ii	2	309	115	40272	151907
+323	Number of Connected Components in an Undirected Graph	number-of-connected-components-in-an-undirected-graph	2			38317	78000
+322	Coin Change	coin-change	2	595	33	99609	373562
+321	Create Maximum Number	create-maximum-number	3	179	74	24086	96760
+320	Generalized Abbreviation	generalized-abbreviation	2			30074	64777
+319	Bulb Switcher	bulb-switcher	2	137	361	48983	113900
+318	Maximum Product of Word Lengths	maximum-product-of-word-lengths	2	287	26	64130	139363
+317	Shortest Distance from All Buildings	shortest-distance-from-all-buildings	3			24832	71236
+316	Remove Duplicate Letters	remove-duplicate-letters	3	328	32	41459	135585
+315	Count of Smaller Numbers After Self	count-of-smaller-numbers-after-self	3	521	15	49346	140744
+314	Binary Tree Vertical Order Traversal	binary-tree-vertical-order-traversal	2			45343	119018
+313	Super Ugly Number	super-ugly-number	2	172	61	47398	123203
+312	Burst Balloons	burst-balloons	3	540	16	40196	91608
+311	Sparse Matrix Multiplication	sparse-matrix-multiplication	2			47430	89956
+310	Minimum Height Trees	minimum-height-trees	2	450	21	45351	156447
+309	Best Time to Buy and Sell Stock with Cooldown	best-time-to-buy-and-sell-stock-with-cooldown	2	629	23	63086	149495
+308	Range Sum Query 2D - Mutable	range-sum-query-2d-mutable	3			23438	88316
+307	Range Sum Query - Mutable	range-sum-query-mutable	2	310	27	46122	200545
+306	Additive Number	additive-number	2	107	167	31524	113650
+305	Number of Islands II	number-of-islands-ii	3			34195	86007
+304	Range Sum Query 2D - Immutable	range-sum-query-2d-immutable	2	185	62	45434	164450
+303	Range Sum Query - Immutable	range-sum-query-immutable	1	211	420	97446	297565
+302	Smallest Rectangle Enclosing Black Pixels	smallest-rectangle-enclosing-black-pixels	3			17832	38027
+301	Remove Invalid Parentheses	remove-invalid-parentheses	3	545	20	71265	198295
+300	Longest Increasing Subsequence	longest-increasing-subsequence	2	1065	25	131024	335969
+299	Bulls and Cows	bulls-and-cows	2	110	115	69041	190638
+298	Binary Tree Longest Consecutive Sequence	binary-tree-longest-consecutive-sequence	2			45692	108796
+297	Serialize and Deserialize Binary Tree	serialize-and-deserialize-binary-tree	3	621	29	107699	303618
+296	Best Meeting Point	best-meeting-point	3			17330	33044
+295	Find Median from Data Stream	find-median-from-data-stream	3	416	9	62586	207893
+294	Flip Game II	flip-game-ii	2			34613	73529
+293	Flip Game	flip-game	1			33309	58056
+292	Nim Game	nim-game	1	200	690	162676	293700
+291	Word Pattern II	word-pattern-ii	3			23056	59694
+290	Word Pattern	word-pattern	1	336	28	106515	316795
+289	Game of Life	game-of-life	2	330	78	70076	187872
+288	Unique Word Abbreviation	unique-word-abbreviation	2			33256	182967
+287	Find the Duplicate Number	find-the-duplicate-number	2	1148	108	112625	251829
+286	Walls and Gates	walls-and-gates	2			47839	104710
+285	Inorder Successor in BST	inorder-successor-in-bst	2			62637	179197
+284	Peeking Iterator	peeking-iterator	2	133	92	56793	159953
+283	Move Zeroes	move-zeroes	1	950	37	299687	578628
+282	Expression Add Operators	expression-add-operators	3	316	41	48228	157172
+281	Zigzag Iterator	zigzag-iterator	2			38614	72883
+280	Wiggle Sort	wiggle-sort	2			43942	74708
+279	Perfect Squares	perfect-squares	2	599	49	114102	300821
+278	First Bad Version	first-bad-version	1	289	219	151645	584240
+277	Find the Celebrity	find-the-celebrity	2			50337	141820
+276	Paint Fence	paint-fence	1			33350	95388
+275	H-Index II	h-index-ii	2	108	189	64182	182617
+274	H-Index	h-index	2	211	357	99268	293161
+273	Integer to English Words	integer-to-english-words	3	218	578	61266	267950
+272	Closest Binary Search Tree Value II	closest-binary-search-tree-value-ii	3			23987	59463
+271	Encode and Decode Strings	encode-and-decode-strings	2			29465	113444
+270	Closest Binary Search Tree Value	closest-binary-search-tree-value	1			54455	133119
+269	Alien Dictionary	alien-dictionary	3			42243	158271
+268	Missing Number	missing-number	1	416	736	178847	394050
+267	Palindrome Permutation II	palindrome-permutation-ii	2			18449	57301
+266	Palindrome Permutation	palindrome-permutation	1			46942	80544
+265	Paint House II	paint-house-ii	3			31876	82644
+264	Ugly Number II	ugly-number-ii	2	431	27	76897	229608
+263	Ugly Number	ugly-number	1	115	227	125639	315608
+261	Graph Valid Tree	graph-valid-tree	2			58354	151342
+260	Single Number III	single-number-iii	2	422	49	83600	156036
+259	3Sum Smaller	3sum-smaller	2			37103	87968
+258	Add Digits	add-digits	1	237	507	199898	384401
+257	Binary Tree Paths	binary-tree-paths	1	410	37	163461	390837
+256	Paint House	paint-house	1			36300	78540
+255	Verify Preorder Sequence in Binary Search Tree	verify-preorder-sequence-in-binary-search-tree	2			25762	62601
+254	Factor Combinations	factor-combinations	2			39270	89324
+253	Meeting Rooms II	meeting-rooms-ii	2			71363	180014
+252	Meeting Rooms	meeting-rooms	1			51447	104789
+251	Flatten 2D Vector	flatten-2d-vector	2			37891	91004
+250	Count Univalue Subtrees	count-univalue-subtrees	2			23320	52581
+249	Group Shifted Strings	group-shifted-strings	2			35230	78661
+248	Strobogrammatic Number III	strobogrammatic-number-iii	3			11852	35938
+247	Strobogrammatic Number II	strobogrammatic-number-ii	2			29876	72647
+246	Strobogrammatic Number	strobogrammatic-number	1			36444	90252
+245	Shortest Word Distance III	shortest-word-distance-iii	2			28432	55213
+244	Shortest Word Distance II	shortest-word-distance-ii	2			31994	76596
+243	Shortest Word Distance	shortest-word-distance	1			45403	84265
+242	Valid Anagram	valid-anagram	1	304	59	220375	459977
+241	Different Ways to Add Parentheses	different-ways-to-add-parentheses	2	422	23	56831	122309
+240	Search a 2D Matrix II	search-a-2d-matrix-ii	2	638	19	114795	293727
+239	Sliding Window Maximum	sliding-window-maximum	3	626	35	92932	269888
+238	Product of Array Except Self	product-of-array-except-self	2	929	74	155265	306800
+237	Delete Node in a Linked List	delete-node-in-a-linked-list	1	341	1483	212263	447802
+236	Lowest Common Ancestor of a Binary Tree	lowest-common-ancestor-of-a-binary-tree	2	778	91	169904	569177
+235	Lowest Common Ancestor of a Binary Search Tree	lowest-common-ancestor-of-a-binary-search-tree	1	476	53	199911	500410
+234	Palindrome Linked List	palindrome-linked-list	1	743	128	165264	490461
+233	Number of Digit One	number-of-digit-one	3	84	233	34862	119580
+232	Implement Queue using Stacks	implement-queue-using-stacks	1	243	81	109051	283900
+231	Power of Two	power-of-two	1	205	59	175746	429904
+230	Kth Smallest Element in a BST	kth-smallest-element-in-a-bst	2	505	24	146591	319984
+229	Majority Element II	majority-element-ii	2	372	54	72866	247576
+228	Summary Ranges	summary-ranges	2	167	186	101523	311870
+227	Basic Calculator II	basic-calculator-ii	2	266	36	67709	222860
+226	Invert Binary Tree	invert-binary-tree	1	764	10	238229	442236
+225	Implement Stack using Queues	implement-stack-using-queues	1	154	240	96167	277906
+224	Basic Calculator	basic-calculator	3	269	38	68401	235674
+223	Rectangle Area	rectangle-area	2	104	283	72685	213852
+222	Count Complete Tree Nodes	count-complete-tree-nodes	2	397	53	79925	286322
+221	Maximal Square	maximal-square	2	556	12	90403	295515
+220	Contains Duplicate III	contains-duplicate-iii	2	329	269	69396	370284
+219	Contains Duplicate II	contains-duplicate-ii	1	251	267	147367	446961
+218	The Skyline Problem	the-skyline-problem	3	563	30	64009	218523
+217	Contains Duplicate	contains-duplicate	1	178	294	223856	471086
+216	Combination Sum III	combination-sum-iii	2	270	21	91375	191677
+215	Kth Largest Element in an Array	kth-largest-element-in-an-array	2	826	81	218708	530513
+214	Shortest Palindrome	shortest-palindrome	3	339	46	55077	217585
+213	House Robber II	house-robber-ii	2	373	7	79248	228755
+212	Word Search II	word-search-ii	3	466	26	68175	270672
+211	Add and Search Word - Data structure design	add-and-search-word-data-structure-design	2	372	28	78004	302491
+210	Course Schedule II	course-schedule-ii	2	383	30	93711	305992
+209	Minimum Size Subarray Sum	minimum-size-subarray-sum	2	504	36	121321	373938
+208	Implement Trie (Prefix Tree)	implement-trie-prefix-tree	2	711	14	115939	368174
+207	Course Schedule	course-schedule	2	680	33	128518	377476
+206	Reverse Linked List	reverse-linked-list	1	976	27	360309	760402
+205	Isomorphic Strings	isomorphic-strings	1	358	99	140738	402535
+204	Count Primes	count-primes	1	456	196	160140	601724
+203	Remove Linked List Elements	remove-linked-list-elements	1	374	25	157853	468320
+202	Happy Number	happy-number	1	413	87	166523	396985
+201	Bitwise AND of Numbers Range	bitwise-and-of-numbers-range	2	206	27	66732	192893
+200	Number of Islands	number-of-islands	2	975	38	182963	494117
+199	Binary Tree Right Side View	binary-tree-right-side-view	2	434	10	111809	260135
+198	House Robber	house-robber	1	1119	39	208847	520026
+191	Number of 1 Bits	number-of-1-bits	1	218	189	198864	489758
+190	Reverse Bits	reverse-bits	1	267	63	137160	466908
+189	Rotate Array	rotate-array	1	534	417	189193	735416
+188	Best Time to Buy and Sell Stock IV	best-time-to-buy-and-sell-stock-iv	3	364	28	63246	252465
+187	Repeated DNA Sequences	repeated-dna-sequences	2	227	79	96966	290859
+186	Reverse Words in a String II	reverse-words-in-a-string-ii	2			43454	139484
+179	Largest Number	largest-number	2	448	47	95862	404199
+174	Dungeon Game	dungeon-game	3	323	9	50672	206498
+173	Binary Search Tree Iterator	binary-search-tree-iterator	2	614	137	134343	305972
+172	Factorial Trailing Zeroes	factorial-trailing-zeroes	1	245	312	120085	324327
+171	Excel Sheet Column Number	excel-sheet-column-number	1	248	53	171359	350351
+170	Two Sum III - Data structure design	two-sum-iii-data-structure-design	1			38632	144438
+169	Majority Element	majority-element	1	786	80	268636	554300
+168	Excel Sheet Column Title	excel-sheet-column-title	1	379	62	138612	503909
+167	Two Sum II - Input array is sorted	two-sum-ii-input-array-is-sorted	1	440	193	144367	305365
+166	Fraction to Recurring Decimal	fraction-to-recurring-decimal	2	227	494	66288	363527
+165	Compare Version Numbers	compare-version-numbers	2	109	586	102199	486616
+164	Maximum Gap	maximum-gap	3	227	63	57029	188266
+163	Missing Ranges	missing-ranges	2			40196	174516
+162	Find Peak Element	find-peak-element	2	340	641	158952	405170
+161	One Edit Distance	one-edit-distance	2			52601	166647
+160	Intersection of Two Linked Lists	intersection-of-two-linked-lists	1	1016	56	197306	639867
+159	Longest Substring with At Most Two Distinct Characters	longest-substring-with-at-most-two-distinct-characters	3			39015	90443
+158	Read N Characters Given Read4 II - Call multiple times	read-n-characters-given-read4-ii-call-multiple-times	3			42522	172814
+157	Read N Characters Given Read4	read-n-characters-given-read4	1			50182	175113
+156	Binary Tree Upside Down	binary-tree-upside-down	2			35904	77356
+155	Min Stack	min-stack	1	817	83	193257	608315
+154	Find Minimum in Rotated Sorted Array II	find-minimum-in-rotated-sorted-array-ii	3	196	67	98512	259268
+153	Find Minimum in Rotated Sorted Array	find-minimum-in-rotated-sorted-array	2	407	89	200608	488199
+152	Maximum Product Subarray	maximum-product-subarray	2	923	46	143506	532237
+151	Reverse Words in a String	reverse-words-in-a-string	2	245	1375	202041	1289532
+150	Evaluate Reverse Polish Notation	evaluate-reverse-polish-notation	2	245	225	118345	410520
+149	Max Points on a Line	max-points-on-a-line	3	196	585	94770	623417
+148	Sort List	sort-list	2	593	33	136194	448270
+147	Insertion Sort List	insertion-sort-list	2	164	201	121436	355524
+146	LRU Cache	lru-cache	3	1152	35	179310	885333
+145	Binary Tree Postorder Traversal	binary-tree-postorder-traversal	3	377	23	185238	431219
+144	Binary Tree Preorder Traversal	binary-tree-preorder-traversal	2	327	21	239032	504894
+143	Reorder List	reorder-list	2	348	32	114191	421056
+142	Linked List Cycle II	linked-list-cycle-ii	2	613	35	151266	497333
+141	Linked List Cycle	linked-list-cycle	1	726	41	260992	746314
+140	Word Break II	word-break-ii	3	416	104	116581	470861
+139	Word Break	word-break	2	891	67	218051	685783
+138	Copy List with Random Pointer	copy-list-with-random-pointer	2	623	176	159644	619301
+137	Single Number II	single-number-ii	2	373	148	136880	318517
+136	Single Number	single-number	1	1172	41	309000	552592
+135	Candy	candy	3	179	87	79477	312146
+134	Gas Station	gas-station	2	321	183	105733	348715
+133	Clone Graph	clone-graph	2	361	335	153148	608501
+132	Palindrome Partitioning II	palindrome-partitioning-ii	3	260	17	83094	331314
+131	Palindrome Partitioning	palindrome-partitioning	2	392	18	123237	340648
+130	Surrounded Regions	surrounded-regions	2	322	271	104602	524540
+129	Sum Root to Leaf Numbers	sum-root-to-leaf-numbers	2	277	15	139072	363492
+128	Longest Consecutive Sequence	longest-consecutive-sequence	3	862	36	144594	375348
+127	Word Ladder	word-ladder	2	582	456	168951	831242
+126	Word Ladder II	word-ladder-ii	3	392	85	84827	563489
+125	Valid Palindrome	valid-palindrome	1	263	791	234638	853836
+124	Binary Tree Maximum Path Sum	binary-tree-maximum-path-sum	3	651	47	130524	476861
+123	Best Time to Buy and Sell Stock III	best-time-to-buy-and-sell-stock-iii	3	452	26	110442	360563
+122	Best Time to Buy and Sell Stock II	best-time-to-buy-and-sell-stock-ii	1	366	810	211729	439984
+121	Best Time to Buy and Sell Stock	best-time-to-buy-and-sell-stock	1	1186	63	303479	699985
+120	Triangle	triangle	2	496	47	136074	384623
+119	Pascal's Triangle II	pascals-triangle-ii	1	224	106	149345	385837
+118	Pascal's Triangle	pascals-triangle	1	311	35	176177	433253
+117	Populating Next Right Pointers in Each Node II	populating-next-right-pointers-in-each-node-ii	2	408	45	134016	395982
+116	Populating Next Right Pointers in Each Node	populating-next-right-pointers-in-each-node	2	477	32	178492	485264
+115	Distinct Subsequences	distinct-subsequences	3	315	22	84513	261481
+114	Flatten Binary Tree to Linked List	flatten-binary-tree-to-linked-list	2	603	73	170145	458257
+113	Path Sum II	path-sum-ii	2	370	14	168455	465277
+112	Path Sum	path-sum	1	422	141	223273	633916
+111	Minimum Depth of Binary Tree	minimum-depth-of-binary-tree	1	346	159	219718	651854
+110	Balanced Binary Tree	balanced-binary-tree	1	548	46	231852	599582
+109	Convert Sorted List to Binary Search Tree	convert-sorted-list-to-binary-search-tree	2	453	34	134478	371621
+108	Convert Sorted Array to Binary Search Tree	convert-sorted-array-to-binary-search-tree	1	488	51	179985	398385
+107	Binary Tree Level Order Traversal II	binary-tree-level-order-traversal-ii	1	337	64	168616	395011
+106	Construct Binary Tree from Inorder and Postorder Traversal	construct-binary-tree-from-inorder-and-postorder-traversal	2	368	7	111229	324621
+105	Construct Binary Tree from Preorder and Inorder Traversal	construct-binary-tree-from-preorder-and-inorder-traversal	2	726	22	145546	417330
+104	Maximum Depth of Binary Tree	maximum-depth-of-binary-tree	1	619	22	342815	616600
+103	Binary Tree Zigzag Level Order Traversal	binary-tree-zigzag-level-order-traversal	2	381	21	142115	381452
+102	Binary Tree Level Order Traversal	binary-tree-level-order-traversal	2	628	18	247546	572559
+101	Symmetric Tree	symmetric-tree	1	1050	16	261215	641710
+100	Same Tree	same-tree	1	513	16	274159	571089
+99	Recover Binary Search Tree	recover-binary-search-tree	3	337	24	90464	288084
+98	Validate Binary Search Tree	validate-binary-search-tree	2	791	121	249603	1032729
+97	Interleaving String	interleaving-string	3	315	16	85534	336338
+96	Unique Binary Search Trees	unique-binary-search-trees	2	764	31	152619	360833
+95	Unique Binary Search Trees II	unique-binary-search-trees-ii	2	497	56	104073	319829
+94	Binary Tree Inorder Traversal	binary-tree-inorder-traversal	2	657	29	293693	580818
+93	Restore IP Addresses	restore-ip-addresses	2	301	85	105808	368378
+92	Reverse Linked List II	reverse-linked-list-ii	2	471	38	142070	448204
+91	Decode Ways	decode-ways	2	629	739	176668	861949
+90	Subsets II	subsets-ii	2	387	20	150245	387795
+89	Gray Code	gray-code	2	157	658	108889	254842
+88	Merge Sorted Array	merge-sorted-array	1	472	1763	242805	747650
+87	Scramble String	scramble-string	3	126	216	75005	251157
+86	Partition List	partition-list	2	279	77	126154	372232
+85	Maximal Rectangle	maximal-rectangle	3	588	24	88290	294623
+84	Largest Rectangle in Histogram	largest-rectangle-in-histogram	3	844	24	121100	434584
+83	Remove Duplicates from Sorted List	remove-duplicates-from-sorted-list	1	364	43	241575	597397
+82	Remove Duplicates from Sorted List II	remove-duplicates-from-sorted-list-ii	2	356	36	137712	455411
+81	Search in Rotated Sorted Array II	search-in-rotated-sorted-array-ii	2	256	144	123159	377684
+80	Remove Duplicates from Sorted Array II	remove-duplicates-from-sorted-array-ii	2	283	331	153099	411469
+79	Word Search	word-search	2	736	29	183058	645553
+78	Subsets	subsets	2	828	23	243320	532865
+77	Combinations	combinations	2	367	24	147793	352583
+76	Minimum Window Substring	minimum-window-substring	3	983	67	152252	560095
+75	Sort Colors	sort-colors	2	678	78	227568	580062
+74	Search a 2D Matrix	search-a-2d-matrix	2	339	40	162314	469094
+73	Set Matrix Zeroes	set-matrix-zeroes	2	436	105	143915	390766
+72	Edit Distance	edit-distance	3	901	12	119755	362885
+71	Simplify Path	simplify-path	2	189	668	115401	435334
+70	Climbing Stairs	climbing-stairs	1	920	38	258078	621155
+69	Sqrt(x)	sqrtx	1	343	750	239056	821612
+68	Text Justification	text-justification	3	148	505	72171	355414
+67	Add Binary	add-binary	1	431	95	207255	599598
+66	Plus One	plus-one	1	371	845	252306	633167
+65	Valid Number	valid-number	3	166	1505	87801	677486
+64	Minimum Path Sum	minimum-path-sum	2	555	13	154643	373288
+63	Unique Paths II	unique-paths-ii	2	322	34	139546	432104
+62	Unique Paths	unique-paths	2	643	49	197188	455497
+61	Rotate List	rotate-list	2	265	618	141200	571153
+60	Permutation Sequence	permutation-sequence	2	360	106	104782	351168
+59	Spiral Matrix II	spiral-matrix-ii	2	199	40	103618	249025
+58	Length of Last Word	length-of-last-word	1	180	698	195448	609146
+57	Insert Interval	insert-interval	3	362	52	130063	445131
+56	Merge Intervals	merge-intervals	2	807	68	206242	638582
+55	Jump Game	jump-game	2	748	108	171747	577479
+54	Spiral Matrix	spiral-matrix	2	414	186	148431	538640
+53	Maximum Subarray	maximum-subarray	1	1970	64	321408	792181
+52	N-Queens II	n-queens-ii	3	107	65	76903	162530
+51	N-Queens	n-queens	3	364	14	101973	301782
+50	Pow(x, n)	powx-n	2	386	1105	218063	832280
+49	Group Anagrams	group-anagrams	2	682	55	206593	525744
+48	Rotate Image	rotate-image	2	670	64	167276	393692
+47	Permutations II	permutations-ii	2	432	20	168541	473614
+46	Permutations	permutations	2	848	22	244167	507508
+45	Jump Game II	jump-game-ii	3	467	23	118654	454443
+44	Wildcard Matching	wildcard-matching	3	461	35	127261	601129
+43	Multiply Strings	multiply-strings	2	467	155	141428	502094
+42	Trapping Rain Water	trapping-rain-water	3	1416	22	172868	454723
+41	First Missing Positive	first-missing-positive	3	617	324	137828	527916
+40	Combination Sum II	combination-sum-ii	2	356	21	156151	427396
+39	Combination Sum	combination-sum	2	826	20	225797	536433
+38	Count and Say	count-and-say	1	375	2451	197822	533100
+37	Sudoku Solver	sudoku-solver	3	371	25	94544	290548
+36	Valid Sudoku	valid-sudoku	2	395	117	159992	419240
+35	Search Insert Position	search-insert-position	1	606	91	264349	660171
+34	Search for a Range	search-for-a-range	2	688	39	196446	619559
+33	Search in Rotated Sorted Array	search-in-rotated-sorted-array	2	959	203	264648	828338
+32	Longest Valid Parentheses	longest-valid-parentheses	3	770	46	129431	554347
+31	Next Permutation	next-permutation	2	695	189	155587	534171
+30	Substring with Concatenation of All Words	substring-with-concatenation-of-all-words	3	254	329	99323	445433
+29	Divide Two Integers	divide-two-integers	2	291	1343	136425	868540
+28	Implement strStr()	implement-strstr	1	430	751	279763	956736
+27	Remove Element	remove-element	1	422	956	285544	693556
+26	Remove Duplicates from Sorted Array	remove-duplicates-from-sorted-array	1	740	1831	367721	997864
+25	Reverse Nodes in k-Group	reverse-nodes-in-k-group	3	475	116	129045	401268
+24	Swap Nodes in Pairs	swap-nodes-in-pairs	2	473	40	219336	553539
+23	Merge k Sorted Lists	merge-k-sorted-lists	3	955	71	231978	806984
+22	Generate Parentheses	generate-parentheses	2	1220	72	217114	446163
+21	Merge Two Sorted Lists	merge-two-sorted-lists	1	983	157	357254	855312
+20	Valid Parentheses	valid-parentheses	1	1357	80	345674	1011703
+19	Remove Nth Node From End of List	remove-nth-node-from-end-of-list	2	775	61	256339	756028
+18	4Sum	4sum	2	464	73	161034	579940
+17	Letter Combinations of a Phone Number	letter-combinations-of-a-phone-number	2	1002	130	243870	659355
+16	3Sum Closest	3sum-closest	2	461	36	180272	564892
+15	3Sum	3sum	2	1673	187	334177	1531955
+14	Longest Common Prefix	longest-common-prefix	1	582	779	282527	891409
+13	Roman to Integer	roman-to-integer	1	520	1723	241255	496996
+12	Integer to Roman	integer-to-roman	2	210	1019	146697	314356
+11	Container With Most Water	container-with-most-water	2	1305	285	205586	552198
+10	Regular Expression Matching	regular-expression-matching	3	1150	297	203702	836827
+9	Palindrome Number	palindrome-number	1	651	930	342827	935452
+8	String to Integer (atoi)	string-to-integer-atoi	2	369	3142	237986	1686871
+7	Reverse Integer	reverse-integer	1	1141	1583	421256	1727801
+6	ZigZag Conversion	zigzag-conversion	2	491	1859	215210	776836
+5	Longest Palindromic Substring	longest-palindromic-substring	2	1607	160	326877	1283727
+4	Median of Two Sorted Arrays	median-of-two-sorted-arrays	3	1990	238	266751	1144259
+3	Longest Substring Without Repeating Characters	longest-substring-without-repeating-characters	2	2826	113	502361	2027380
+2	Add Two Numbers	add-two-numbers	2	2585	701	512005	1775221
+1	Two Sum	two-sum	1	5891	173	941392	2455910

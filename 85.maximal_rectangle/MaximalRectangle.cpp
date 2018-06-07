@@ -5,38 +5,25 @@
 #include "MaximalRectangle.h"
 
 int MaximalRectangle::maximal_rectangle(vector<vector<char>> &matrix) {
-    int m = matrix.size();
+    size_t m = matrix.size();
     if(m == 0) return 0;
-    int n = matrix[0].size();
+    size_t n = matrix[0].size();
     if(n == 0) return 0;
     vector<int> height(n, 0);
     vector<int> left(n, 0);
-    vector<int> right(n, n - 1);
-
+    vector<int> right(n, 0);
     int ret = 0;
-
-    for(int i = 0; i < m; i++){
-        for(int j = 0; j < n; j++) {
-            height[j] = matrix[i][j] == '1' ? height[j] + 1 : 0;
+    for (int i = 0; i < m; ++i) {
+        for (int j = 0; j < n; ++j) {
+            height[j] = matrix[i][j] == '0' ? 0 : height[j] + 1;
+            left[j] = right[j] = j;
+            for (int k = j - 1; k >= 0 && height[k] >= height[j]; k = left[j] - 1) left[j] = left[k];
         }
-
-        for(int j = 1; j < n; j++) {
-            int cur_left = j - 1;
-            while(cur_left >= 0 && height[cur_left] >= height[j]) cur_left = left[cur_left] - 1;
-            left[j] = cur_left + 1;
-        }
-
-        for(int j = n - 2; j >= 0; j--) {
-            int cur_right = j + 1;
-            while(cur_right < n && height[cur_right] >= height[j]) cur_right = right[cur_right] + 1;
-            right[j] = cur_right - 1;
-        }
-
-        for(int j = 0; j < n; j++) {
-            ret = max(ret, (right[j] - left[j] + 1) * height[j]);
-        }
+        for (int j = n - 1; j >= 0; --j)
+            for (int k = j + 1; k < n && height[k] >= height[j]; k = right[j] + 1) right[j] = right[k];
+        for (int j = 0; j < n; ++j)
+            for (int k = 0; k < n; ++k) ret = max(ret, height[j] * (right[j] - left[j] + 1));
     }
-
     return ret;
 }
 

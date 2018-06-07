@@ -9,7 +9,7 @@
 #include "../Base.h"
 
 class FirstMissingPositive: public Base {
-    int first_missing_positive(vector<int> &nums);
+    int first_missing_positive(vector<int> nums);
 public:
     void run();
 };

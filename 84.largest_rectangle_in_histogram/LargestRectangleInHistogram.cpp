@@ -21,25 +21,19 @@ int LargestRectangleInHistogram::largest_rectangle_area(vector<int> &heights) {
 }
 
 int LargestRectangleInHistogram::largest_rectangle_area_left_right(vector<int> &heights) {
-    int n = heights.size();
-    vector<int> left(n,0);
-    vector<int> right(n,n-1);
-    for(int i = 1; i < n; i++){
-        int j = i - 1;
-        while(j>=0 && heights[j] >= heights[i]){
-            j = left[j] - 1;
-        }
-        left[i] = j + 1;
+    size_t n = heights.size();
+    vector<int> left(n, 0);
+    vector<int> right(n, n - 1);
+    for (int i = 0; i < n; ++i) {
+        left[i] = i;
+        for (int j = i - 1; j >= 0 && heights[j] >= heights[i]; j = left[i] - 1) left[i] = left[j];
     }
-    for(int i = n - 2; i >= 0; i--){
-        int j = i + 1;
-        while(j < n && heights[j] >= heights[i]){
-            j = right[j] + 1;
-        }
-        right[i] = j - 1;
+    for (int i = n - 1; i >= 0; --i) {
+        right[i] = i;
+        for (int j = i + 1; j < n && heights[j] >= heights[i]; j = right[i] + 1) right[i] = right[j];
     }
     int ret = 0;
-    for(int i = 0; i < n; i++){
+    for (int i = 0; i < n; ++i) {
         ret = max(ret, heights[i] * (right[i] - left[i] + 1));
     }
     return ret;
