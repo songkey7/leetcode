@@ -1,0 +1,201 @@
+505	110	Balanced Binary Tree	balanced-binary-tree	Easy	552	47	232079	600085	Tree,Depth-first Search
+500	100	Same Tree	same-tree	Easy	516	16	274376	571469	Tree,Depth-first Search
+496	695	Max Area of Island	max-area-of-island	Easy	529	33	30865	59253	Array,Depth-first Search
+495	463	Island Perimeter	island-perimeter	Easy	537	42	83814	144040	Hash Table
+481	173	Binary Search Tree Iterator	binary-search-tree-iterator	Medium	618	137	134485	306222	Stack,Tree,Design
+469	209	Minimum Size Subarray Sum	minimum-size-subarray-sum	Medium	505	36	121444	374261	Array,Two Pointers,Binary Search
+467	442	Find All Duplicates in an Array	find-all-duplicates-in-an-array	Medium	526	59	60369	105359	Array
+466	665	Non-decreasing Array	non-decreasing-array	Easy	575	109	26457	131978	Array
+461	654	Maximum Binary Tree	maximum-binary-tree	Medium	507	46	35444	50486	Tree
+450	669	Trim a Binary Search Tree	trim-a-binary-search-tree	Easy	533	83	34219	58852	Tree
+433	714	Best Time to Buy and Sell Stock with Transaction Fee	best-time-to-buy-and-sell-stock-with-transaction-fee	Medium	447	14	17831	38326	Array,Dynamic Programming,Greedy
+429	310	Minimum Height Trees	minimum-height-trees	Medium	450	21	45374	156555	Breadth-first Search,Graph
+426	199	Binary Tree Right Side View	binary-tree-right-side-view	Medium	436	10	111908	260302	Tree,Depth-first Search,Breadth-first Search
+425	235	Lowest Common Ancestor of a Binary Search Tree	lowest-common-ancestor-of-a-binary-search-tree	Easy	478	53	200075	500673	Tree
+419	486	Predict the Winner	predict-the-winner	Medium	454	35	27924	61586	Dynamic Programming,Minimax
+417	739	Daily Temperatures	daily-temperatures	Medium	432	15	15605	29413	Hash Table,Stack
+415	47	Permutations II	permutations-ii	Medium	435	20	168718	473890	Backtracking
+410	377	Combination Sum IV	combination-sum-iv	Medium	433	23	61276	142847	Dynamic Programming
+404	264	Ugly Number II	ugly-number-ii	Medium	431	27	76931	229674	Math,Dynamic Programming,Heap
+402	746	Min Cost Climbing Stairs	min-cost-climbing-stairs	Easy	473	71	28173	64749	Array,Dynamic Programming
+402	637	Average of Levels in Binary Tree	average-of-levels-in-binary-tree	Easy	485	83	46598	83183	Tree
+400	241	Different Ways to Add Parentheses	different-ways-to-add-parentheses	Medium	423	23	56871	122366	Divide and Conquer
+395	653	Two Sum IV - Input is a BST	two-sum-iv-input-is-a-bst	Easy	456	61	43327	86441	Tree
+392	687	Longest Univalue Path	longest-univalue-path	Easy	475	83	27414	83432	Tree,Recursion
+384	673	Number of Longest Increasing Subsequence	number-of-longest-increasing-subsequence	Medium	414	30	16492	51782	Dynamic Programming
+380	583	Delete Operation for Two Strings	delete-operation-for-two-strings	Medium	392	12	18236	40776	String
+379	516	Longest Palindromic Subsequence	longest-palindromic-subsequence	Medium	430	51	32723	76147	Dynamic Programming
+374	260	Single Number III	single-number-iii	Medium	423	49	83671	156141	Bit Manipulation
+373	257	Binary Tree Paths	binary-tree-paths	Easy	411	38	163629	391157	Tree,Depth-first Search
+367	540	Single Element in a Sorted Array	single-element-in-a-sorted-array	Medium	407	40	32340	57819	
+365	117	Populating Next Right Pointers in Each Node II	populating-next-right-pointers-in-each-node-ii	Medium	410	45	134138	396453	Tree,Depth-first Search
+364	450	Delete Node in a BST	delete-node-in-a-bst	Medium	391	27	35570	94295	Tree
+363	771	Jewels and Stones	jewels-and-stones	Easy	476	113	58422	71320	Hash Table
+361	402	Remove K Digits	remove-k-digits	Medium	374	13	32800	126977	Stack,Greedy
+357	632	Smallest Range	smallest-range	Hard	362	5	10522	24933	Hash Table,Two Pointers,String
+355	145	Binary Tree Postorder Traversal	binary-tree-postorder-traversal	Hard	378	23	185348	431388	Stack,Tree
+352	203	Remove Linked List Elements	remove-linked-list-elements	Easy	377	25	158040	468765	Linked List
+350	51	N-Queens	n-queens	Hard	364	14	102064	301928	Backtracking
+346	37	Sudoku Solver	sudoku-solver	Hard	372	26	94597	290673	Hash Table,Backtracking
+345	525	Contiguous Array	contiguous-array	Medium	365	20	25719	61936	Hash Table
+344	222	Count Complete Tree Nodes	count-complete-tree-nodes	Medium	398	54	79997	286506	Binary Search,Tree
+344	211	Add and Search Word - Data structure design	add-and-search-word-data-structure-design	Medium	372	28	78074	302615	Backtracking,Design,Trie
+343	77	Combinations	combinations	Medium	367	24	147924	352749	Backtracking
+339	650	2 Keys Keyboard	2-keys-keyboard	Medium	366	27	19762	43782	Dynamic Programming
+333	557	Reverse Words in a String III	reverse-words-in-a-string-iii	Easy	367	34	74177	122648	String
+326	451	Sort Characters By Frequency	sort-characters-by-frequency	Medium	356	30	55450	106543	Hash Table,Heap
+323	680	Valid Palindrome II	valid-palindrome-ii	Easy	340	17	31311	96893	String
+323	399	Evaluate Division	evaluate-division	Medium	363	40	31884	74744	Graph
+321	503	Next Greater Element II	next-greater-element-ii	Medium	340	19	28432	59175	Stack
+321	407	Trapping Rain Water II	trapping-rain-water-ii	Hard	329	8	17755	47120	Heap,Breadth-first Search
+319	404	Sum of Left Leaves	sum-of-left-leaves	Easy	353	34	89839	188577	Tree
+319	229	Majority Element II	majority-element-ii	Medium	373	54	72926	247726	Array
+317	459	Repeated Substring Pattern	repeated-substring-pattern	Easy	385	68	54891	143349	String
+317	168	Excel Sheet Column Title	excel-sheet-column-title	Easy	379	62	138720	504177	Math
+315	99	Recover Binary Search Tree	recover-binary-search-tree	Hard	339	24	90511	288190	Tree,Depth-first Search
+313	554	Brick Wall	brick-wall	Medium	324	11	23567	50565	Hash Table
+307	290	Word Pattern	word-pattern	Easy	336	29	106604	317067	Hash Table
+307	144	Binary Tree Preorder Traversal	binary-tree-preorder-traversal	Medium	328	21	239175	505123	Stack,Tree
+302	763	Partition Labels	partition-labels	Medium	328	26	14714	22800	Two Pointers,Greedy
+302	417	Pacific Atlantic Water Flow	pacific-atlantic-water-flow	Medium	347	45	27133	77573	Depth-first Search,Breadth-first Search
+299	670	Maximum Swap	maximum-swap	Medium	332	33	22465	58095	Array,Math
+299	373	Find K Pairs with Smallest Sums	find-k-pairs-with-smallest-sums	Medium	322	23	42752	135950	Heap
+297	316	Remove Duplicate Letters	remove-duplicate-letters	Hard	329	32	41495	135699	Stack,Greedy
+294	214	Shortest Palindrome	shortest-palindrome	Hard	340	46	55126	217734	String
+292	698	Partition to K Equal Sum Subsets	partition-to-k-equal-sum-subsets	Medium	315	23	15789	41625	Dynamic Programming,Recursion
+292	530	Minimum Absolute Difference in BST	minimum-absolute-difference-in-bst	Easy	315	23	38400	80467	Binary Search Tree
+290	566	Reshape the Matrix	reshape-the-matrix	Easy	342	52	51878	90054	Array
+289	476	Number Complement	number-complement	Easy	336	47	80236	131082	Bit Manipulation
+287	678	Valid Parenthesis String	valid-parenthesis-string	Medium	300	13	11933	40242	String
+287	456	132 Pattern	132-pattern	Medium	310	23	18709	67564	Stack
+287	410	Split Array Largest Sum	split-array-largest-sum	Hard	312	25	24212	61192	Binary Search,Dynamic Programming
+285	445	Add Two Numbers II	add-two-numbers-ii	Medium	334	49	51562	111003	Linked List
+283	307	Range Sum Query - Mutable	range-sum-query-mutable	Medium	310	27	46174	200678	Binary Indexed Tree,Segment Tree
+280	542	01 Matrix	01-matrix	Medium	330	50	21847	66022	Depth-first Search,Breadth-first Search
+279	368	Largest Divisible Subset	largest-divisible-subset	Medium	294	15	35143	103591	Math,Dynamic Programming
+277	646	Maximum Length of Pair Chain	maximum-length-of-pair-chain	Medium	307	30	20548	43418	Dynamic Programming
+277	282	Expression Add Operators	expression-add-operators	Hard	318	41	48288	157341	Divide and Conquer
+277	107	Binary Tree Level Order Traversal II	binary-tree-level-order-traversal-ii	Easy	341	64	168780	395297	Tree,Breadth-first Search
+274	567	Permutation in String	permutation-in-string	Medium	292	18	22588	62426	Two Pointers
+273	692	Top K Frequent Words	top-k-frequent-words	Medium	301	28	21080	50866	Hash Table,Heap,Trie
+272	515	Find Largest Value in Each Tree Row	find-largest-value-in-each-tree-row	Medium	301	29	41164	73922	Tree,Depth-first Search,Breadth-first Search
+271	477	Total Hamming Distance	total-hamming-distance	Medium	299	28	33539	70518	Bit Manipulation
+267	689	Maximum Sum of 3 Non-Overlapping Subarrays	maximum-sum-of-3-non-overlapping-subarrays	Hard	281	14	12052	29260	Array,Dynamic Programming
+267	336	Palindrome Pairs	palindrome-pairs	Hard	310	43	40048	146591	Hash Table,String,Trie
+266	565	Array Nesting	array-nesting	Medium	317	51	19873	40053	Array
+266	331	Verify Preorder Serialization of a Binary Tree	verify-preorder-serialization-of-a-binary-tree	Medium	276	10	46445	124674	Stack
+265	719	Find K-th Smallest Pair Distance	find-k-th-smallest-pair-distance	Hard	271	6	8685	31407	Array,Binary Search,Heap
+263	513	Find Bottom Left Tree Value	find-bottom-left-tree-value	Medium	327	64	46098	81922	Tree,Depth-first Search,Breadth-first Search
+263	129	Sum Root to Leaf Numbers	sum-root-to-leaf-numbers	Medium	278	15	139140	363613	Tree,Depth-first Search
+262	718	Maximum Length of Repeated Subarray	maximum-length-of-repeated-subarray	Medium	275	13	14562	34912	Array,Hash Table,Binary Search,Dynamic Programming
+261	318	Maximum Product of Word Lengths	maximum-product-of-word-lengths	Medium	287	26	64161	139476	Bit Manipulation
+258	205	Isomorphic Strings	isomorphic-strings	Easy	358	100	140860	402847	Hash Table
+254	60	Permutation Sequence	permutation-sequence	Medium	361	107	104840	351304	Math,Backtracking
+252	662	Maximum Width of Binary Tree	maximum-width-of-binary-tree	Medium	299	47	14939	39047	Tree
+252	216	Combination Sum III	combination-sum-iii	Medium	273	21	91456	191806	Array,Backtracking
+251	460	LFU Cache	lfu-cache	Hard	287	36	21918	86390	Design
+250	474	Ones and Zeroes	ones-and-zeroes	Medium	311	61	21434	55352	Dynamic Programming
+246	696	Count Binary Substrings	count-binary-substrings	Easy	314	68	16575	32643	String
+245	376	Wiggle Subsequence	wiggle-subsequence	Medium	266	21	34442	95157	Dynamic Programming,Greedy
+244	354	Russian Doll Envelopes	russian-doll-envelopes	Hard	262	18	30307	93036	Binary Search,Dynamic Programming
+240	464	Can I Win	can-i-win	Medium	288	48	21939	86439	Dynamic Programming,Minimax
+239	424	Longest Repeating Character Replacement	longest-repeating-character-replacement	Medium	266	27	19191	45088	
+236	740	Delete and Earn	delete-and-earn	Medium	256	20	9897	22457	Dynamic Programming
+236	449	Serialize and Deserialize BST	serialize-and-deserialize-bst	Medium	259	23	28860	67085	Tree
+234	652	Find Duplicate Subtrees	find-duplicate-subtrees	Medium	331	97	15061	40493	Tree
+233	611	Valid Triangle Number	valid-triangle-number	Medium	284	51	19095	45521	Array
+232	224	Basic Calculator	basic-calculator	Hard	270	38	68439	235775	Math,Stack
+229	713	Subarray Product Less Than K	subarray-product-less-than-k	Medium	240	11	11180	33604	Array,Two Pointers
+227	421	Maximum XOR of Two Numbers in an Array	maximum-xor-of-two-numbers-in-an-array	Medium	318	91	23791	49354	Bit Manipulation,Trie
+225	137	Single Number II	single-number-ii	Medium	374	149	136930	318615	Bit Manipulation
+222	643	Maximum Average Subarray I	maximum-average-subarray-i	Easy	275	53	30658	81206	Array
+219	712	Minimum ASCII Delete Sum for Two Strings	minimum-ascii-delete-sum-for-two-strings	Medium	238	19	8820	17151	Dynamic Programming
+215	413	Arithmetic Slices	arithmetic-slices	Medium	289	74	40306	74067	Math,Dynamic Programming
+210	501	Find Mode in Binary Search Tree	find-mode-in-binary-search-tree	Easy	333	123	36049	95652	Tree
+210	452	Minimum Number of Arrows to Burst Balloons	minimum-number-of-arrows-to-burst-balloons	Medium	227	17	23001	51692	Greedy
+208	658	Find K Closest Elements	find-k-closest-elements	Medium	275	67	19821	56983	Binary Search
+204	594	Longest Harmonious Subsequence	longest-harmonious-subsequence	Easy	235	31	22480	54536	Hash Table
+204	435	Non-overlapping Intervals	non-overlapping-intervals	Medium	212	8	22698	54999	Greedy
+202	630	Course Schedule III	course-schedule-iii	Hard	215	13	6403	21848	Greedy
+202	628	Maximum Product of Three Numbers	maximum-product-of-three-numbers	Easy	377	175	38322	85548	Array,Math
+201	526	Beautiful Arrangement	beautiful-arrangement	Medium	264	63	24283	45573	Backtracking
+198	766	Toeplitz Matrix	toeplitz-matrix	Easy	236	38	22965	39714	Array
+198	363	Max Sum of Rectangle No Larger Than K	max-sum-of-rectangle-no-larger-than-k	Hard	215	17	20094	59276	Binary Search,Dynamic Programming,Queue
+196	724	Find Pivot Index	find-pivot-index	Easy	245	49	21989	55825	Array
+195	787	Cheapest Flights Within K Stops	cheapest-flights-within-k-stops	Medium	201	6	7177	24028	Dynamic Programming,Heap,Breadth-first Search
+194	813	Largest Sum of Averages	largest-sum-of-averages	Medium	196	2	4028	9958	Dynamic Programming
+188	111	Minimum Depth of Binary Tree	minimum-depth-of-binary-tree	Easy	347	159	219864	652231	Tree,Depth-first Search,Breadth-first Search
+185	784	Letter Case Permutation	letter-case-permutation	Easy	212	27	14429	27268	Backtracking,Bit Manipulation
+184	462	Minimum Moves to Equal Array Elements II	minimum-moves-to-equal-array-elements-ii	Medium	198	14	25361	49105	Math
+183	493	Reverse Pairs	reverse-pairs	Hard	214	31	12235	59491	Divide and Conquer,Binary Indexed Tree,Segment Tree,Binary Search Tree
+183	355	Design Twitter	design-twitter	Medium	251	68	25635	98875	Hash Table,Heap,Design
+180	201	Bitwise AND of Numbers Range	bitwise-and-of-numbers-range	Medium	207	27	66773	192993	Bit Manipulation
+177	386	Lexicographical Numbers	lexicographical-numbers	Medium	217	40	29555	69430	
+176	392	Is Subsequence	is-subsequence	Medium	242	66	54413	121799	Binary Search,Dynamic Programming,Greedy
+173	381	Insert Delete GetRandom O(1) - Duplicates allowed	insert-delete-getrandom-o1-duplicates-allowed	Hard	196	23	25534	85754	Array,Hash Table,Design
+170	367	Valid Perfect Square	valid-perfect-square	Easy	232	62	74695	192704	Math,Binary Search
+168	674	Longest Continuous Increasing Subsequence	longest-continuous-increasing-subsequence	Easy	235	67	34322	80622	Array
+168	327	Count of Range Sum	count-of-range-sum	Hard	200	32	24614	79823	Divide and Conquer,Binary Search Tree
+167	814	Binary Tree Pruning	binary-tree-pruning	Medium	169	2	8195	11897	Tree
+167	467	Unique Substrings in Wraparound String	unique-substrings-in-wraparound-string	Medium	205	38	13088	39271	Dynamic Programming
+166	668	Kth Smallest Number in Multiplication Table	kth-smallest-number-in-multiplication-table	Hard	178	12	6769	16740	Binary Search
+166	648	Replace Words	replace-words	Medium	239	73	18091	37421	Hash Table,Trie
+165	343	Integer Break	integer-break	Medium	256	91	58955	126355	Math,Dynamic Programming
+165	164	Maximum Gap	maximum-gap	Hard	228	63	57057	188325	Sort
+163	801	Minimum Swaps To Make Sequences Increasing	minimum-swaps-to-make-sequences-increasing	Medium	174	11	4570	16301	Dynamic Programming
+162	546	Remove Boxes	remove-boxes	Hard	184	22	6216	17247	Dynamic Programming,Depth-first Search
+162	508	Most Frequent Subtree Sum	most-frequent-subtree-sum	Medium	204	42	32008	61082	Hash Table,Tree
+162	480	Sliding Window Median	sliding-window-median	Hard	187	25	14514	46965	
+157	792	Number of Matching Subsequences	number-of-matching-subsequences	Medium	167	10	6445	17785	Array
+157	741	Cherry Pickup	cherry-pickup	Hard	164	7	2846	11802	Dynamic Programming
+152	769	Max Chunks To Make Sorted	max-chunks-to-make-sorted	Medium	184	32	8738	18102	Array
+151	514	Freedom Trail	freedom-trail	Hard	159	8	9044	23055	Divide and Conquer,Dynamic Programming,Depth-first Search
+150	491	Increasing Subsequences	increasing-subsequences	Medium	185	35	19006	48908	Depth-first Search
+149	187	Repeated DNA Sequences	repeated-dna-sequences	Medium	228	79	97034	291002	Hash Table,Bit Manipulation
+147	785	Is Graph Bipartite?	is-graph-bipartite	Medium	170	23	8375	21777	Depth-first Search,Breadth-first Search,Graph
+147	659	Split Array into Consecutive Subsequences	split-array-into-consecutive-subsequences	Medium	249	102	9168	24756	Heap,Greedy
+146	403	Frog Jump	frog-jump	Hard	175	29	26404	80599	Dynamic Programming
+146	231	Power of Two	power-of-two	Easy	205	59	175876	430179	Math,Bit Manipulation
+144	415	Add Strings	add-strings	Easy	201	57	59014	141256	Math
+143	767	Reorganize String	reorganize-string	Medium	157	14	6502	17965	String,Heap,Greedy,Sort
+143	735	Asteroid Collision	asteroid-collision	Medium	171	28	8362	22592	Stack
+142	796	Rotate String	rotate-string	Easy	161	19	15443	30310	
+142	721	Accounts Merge	accounts-merge	Medium	223	81	11383	34086	Depth-first Search,Union Find
+141	821	Shortest Distance to a Character	shortest-distance-to-a-character	Easy	158	17	9691	15654	
+138	432	All O`one Data Structure	all-oone-data-structure	Hard	154	16	10084	36095	Design
+137	473	Matchsticks to Square	matchsticks-to-square	Medium	160	23	16662	47102	Depth-first Search
+136	729	My Calendar I	my-calendar-i	Medium	155	19	12771	30067	Array
+131	730	Count Different Palindromic Subsequences	count-different-palindromic-subsequences	Hard	138	7	3501	10004	String,Dynamic Programming
+129	725	Split Linked List in Parts	split-linked-list-in-parts	Medium	167	38	12008	25574	Linked List
+129	715	Range Module	range-module	Hard	140	11	4019	12918	Array,Segment Tree,Binary Search Tree
+129	599	Minimum Index Sum of Two Lists	minimum-index-sum-of-two-lists	Easy	222	93	32508	70043	Hash Table
+127	677	Map Sum Pairs	map-sum-pairs	Medium	163	36	13020	25464	Trie
+125	795	Number of Subarrays with Bounded Maximum	number-of-subarrays-with-bounded-maximum	Medium	135	10	4741	11517	Array
+125	691	Stickers to Spell Word	stickers-to-spell-word	Hard	136	11	4350	12449	Dynamic Programming,Backtracking
+125	332	Reconstruct Itinerary	reconstruct-itinerary	Medium	297	172	50011	166388	Depth-first Search,Graph
+125	330	Patching Array	patching-array	Hard	161	36	26868	81932	Greedy
+123	304	Range Sum Query 2D - Immutable	range-sum-query-2d-immutable	Medium	185	62	45472	164552	Dynamic Programming
+122	807	Max Increase to Keep City Skyline	max-increase-to-keep-city-skyline	Medium	144	22	9306	11521	
+122	676	Implement Magic Dictionary	implement-magic-dictionary	Medium	175	53	12923	26336	Hash Table,Trie
+121	664	Strange Printer	strange-printer	Hard	147	26	5405	15685	Dynamic Programming,Depth-first Search
+121	552	Student Attendance Record II	student-attendance-record-ii	Hard	154	33	8002	25245	Dynamic Programming
+120	455	Assign Cookies	assign-cookies	Easy	155	35	43382	91694	Greedy
+120	383	Ransom Note	ransom-note	Easy	179	59	81736	170716	String
+120	382	Linked List Random Node	linked-list-random-node	Medium	190	70	39287	82635	Reservoir Sampling
+115	834	Sum of Distances in Tree	sum-of-distances-in-tree	Hard	123	8	1594	5178	Tree,Depth-first Search
+115	752	Open the Lock	open-the-lock	Medium	123	8	5078	12851	Breadth-first Search
+114	799	Champagne Tower	champagne-tower	Medium	120	6	3535	12043	
+113	693	Binary Number with Alternating Bits	binary-number-with-alternating-bits	Easy	167	54	22840	40902	Bit Manipulation
+113	556	Next Greater Element III	next-greater-element-iii	Medium	163	50	14052	48569	String
+113	313	Super Ugly Number	super-ugly-number	Medium	174	61	47435	123255	Math,Heap
+111	778	Swim in Rising Water	swim-in-rising-water	Hard	119	8	4274	9619	Binary Search,Heap,Depth-first Search,Union Find
+108	815	Bus Routes	bus-routes	Hard	112	4	3902	12147	Breadth-first Search
+108	743	Network Delay Time	network-delay-time	Medium	156	48	8078	22729	Heap,Depth-first Search,Breadth-first Search,Graph
+107	780	Reaching Points	reaching-points	Hard	112	5	3197	13522	Math
+107	446	Arithmetic Slices II - Subsequence	arithmetic-slices-ii-subsequence	Hard	125	18	9402	33605	Dynamic Programming
+107	342	Power of Four	power-of-four	Easy	188	81	87429	222450	Bit Manipulation
+106	389	Find the Difference	find-the-difference	Easy	261	155	108099	209965	Hash Table,Bit Manipulation
+105	600	Non-negative Integers without Consecutive Ones	non-negative-integers-without-consecutive-ones	Hard	147	42	5956	18706	Dynamic Programming
+105	321	Create Maximum Number	create-maximum-number	Hard	179	74	24102	96816	Dynamic Programming,Greedy
+102	733	Flood Fill	flood-fill	Easy	146	44	15271	31897	Depth-first Search
+101	797	All Paths From Source to Target	all-paths-from-source-to-target	Medium	112	11	7684	11352	
