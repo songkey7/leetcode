@@ -4,28 +4,28 @@
 
 #include "MergeKSortedLists.h"
 
-MergeKSortedLists::ListNode * MergeKSortedLists::merge_k_lists(vector<ListNode*>& lists) {
+Base::ListNode * MergeKSortedLists::merge_k_lists(vector<ListNode*>& lists) {
     int n = lists.size();
     if(n == 0) return nullptr;
+    if(n == 1) return lists[0];
     return merge(lists, 0, n - 1);
 }
 
-MergeKSortedLists::ListNode * MergeKSortedLists::merge(vector<ListNode *> &lists, int l, int r) {
-    while(l < r){
-        int m = (l + r) / 2;
-        return merge_2_lists(merge(lists, l, m), merge(lists, m+1, r));
-    }
-    return lists[l];
+Base::ListNode * MergeKSortedLists::merge(vector<ListNode *> &lists, int l, int r) {
+    if(l == r) return lists[l];
+    int m = (l + r) / 2;
+    return merge_2_lists(merge(lists, l, m), merge(lists, m + 1, r));
 }
 
-MergeKSortedLists::ListNode * MergeKSortedLists::merge_2_lists(ListNode *l1, ListNode *l2) {
+Base::ListNode * MergeKSortedLists::merge_2_lists(ListNode *l1, ListNode *l2) {
     ListNode * h = new ListNode(0);
     ListNode * p = h;
-    while(l1 && l2) {
-        if(l1->val < l2->val){
+    while(l1 && l2){
+        if(l1->val <= l2->val){
             p->next = l1;
             l1 = l1->next;
-        } else{
+        }
+        else{
             p->next = l2;
             l2 = l2->next;
         }
@@ -46,8 +46,5 @@ void MergeKSortedLists::run() {
     l2->next->next = new ListNode(4);
     vector<ListNode *> l = {l1, l2};
     ListNode * ret = merge_k_lists(l);
-    while(ret){
-        cout << ret->val << " ";
-        ret = ret->next;
-    }
+    print_list(ret);
 }

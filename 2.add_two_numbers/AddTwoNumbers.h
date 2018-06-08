@@ -9,11 +9,6 @@
 #include "../Base.h"
 
 class AddTwoNumbers: public Base {
-    struct ListNode {
-        int val;
-        ListNode *next;
-        ListNode(int x) : val(x), next(NULL) {}
-    };
     ListNode* add_two_numbers(ListNode* l1, ListNode* l2);
 public:
     void run();

@@ -9,11 +9,6 @@
 #include "../Base.h"
 
 class IntersectionOfTwoLinkedLists: public Base {
-    struct ListNode {
-        int val;
-        ListNode *next;
-        ListNode(int x) : val(x), next(NULL) {}
-    };
     ListNode *get_intersection_node(ListNode *a, ListNode *b);
 public:
     void run();

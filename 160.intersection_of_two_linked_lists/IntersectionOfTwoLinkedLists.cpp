@@ -4,8 +4,7 @@
 
 #include "IntersectionOfTwoLinkedLists.h"
 
-IntersectionOfTwoLinkedLists::ListNode *
-IntersectionOfTwoLinkedLists::get_intersection_node(ListNode *a, ListNode *b) {
+Base::ListNode * IntersectionOfTwoLinkedLists::get_intersection_node(ListNode *a, ListNode *b) {
     ListNode *p1 = a, *p2 = b;
     while(p1 != p2){
         p1 = p1 ? p1->next : b;

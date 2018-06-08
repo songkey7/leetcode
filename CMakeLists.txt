@@ -27,6 +27,8 @@ add_executable(leetcode main.cpp Base.h
         #21.merge_2_sorted_lists/Merge2SortedLists.cpp 21.merge_2_sorted_lists/Merge2SortedLists.h
         #22.generate_parentheses/GenerateParentheses.cpp 22.generate_parentheses/GenerateParentheses.h
         #23.merge_k_sorted_lists/MergeKSortedLists.cpp 23.merge_k_sorted_lists/MergeKSortedLists.h
+        #24.swap_nodes_in_pairs/SwapNodesInPairs.cpp 24.swap_nodes_in_pairs/SwapNodesInPairs.h
+        #25.reverse_nodes_in_k_group/ReverseNodesInKGroup.cpp 25.reverse_nodes_in_k_group/ReverseNodesInKGroup.h
         #26.remove_duplicates_from_sorted_array/RemoveDuplicatesFromSortedArray.cpp 26.remove_duplicates_from_sorted_array/RemoveDuplicatesFromSortedArray.h
         #27.remove_element/RemoveElement.cpp 27.remove_element/RemoveElement.h
         #28.strstr/StrStr.cpp 28.strstr/StrStr.h
@@ -75,6 +77,8 @@ add_executable(leetcode main.cpp Base.h
         #79.word_search/WordSearch.cpp 79.word_search/WordSearch.h
         #80.remove_duplicates_from_sorted_array_2/RemoveDuplicatesFromSortedArray2.cpp 80.remove_duplicates_from_sorted_array_2/RemoveDuplicatesFromSortedArray2.h
         #81.search_in_rotated_sorted_array_2/SearchInRotatedSortedArray2.cpp 81.search_in_rotated_sorted_array_2/SearchInRotatedSortedArray2.h
+        #82.remove_duplicates_from_sorted_list_2/RemoveDuplicatesFromSortedList2.cpp 82.remove_duplicates_from_sorted_list_2/RemoveDuplicatesFromSortedList2.h
+        #83.remove_duplicates_from_sorted_list/RemoveDuplicatesFromSortedList.cpp 83.remove_duplicates_from_sorted_list/RemoveDuplicatesFromSortedList.h
         #84.largest_rectangle_in_histogram/LargestRectangleInHistogram.cpp 84.largest_rectangle_in_histogram/LargestRectangleInHistogram.h
         #85.maximal_rectangle/MaximalRectangle.cpp 85.maximal_rectangle/MaximalRectangle.h
         #86.partition_list/PartitionList.cpp 86.partition_list/PartitionList.h
@@ -82,6 +86,7 @@ add_executable(leetcode main.cpp Base.h
         #88.merge_sorted_array/MergeSortedArray.cpp 88.merge_sorted_array/MergeSortedArray.h
         #90.subsets_2/Subsets2.cpp 90.subsets_2/Subsets2.h
         #91.decode_ways/DecodeWays.cpp 91.decode_ways/DecodeWays.h
+        #92.reverse_linked_list_2/ReverseLinkedList2.cpp 92.reverse_linked_list_2/ReverseLinkedList2.h
         #93.restore_ip_addresses/RestoreIPAddresses.cpp 93.restore_ip_addresses/RestoreIPAddresses.h
         #94.binary_tree_inorder_traversal/BinaryTreeInorderTraversal.cpp 94.binary_tree_inorder_traversal/BinaryTreeInorderTraversal.h
         #95.unique_binary_search_trees_2/UniqueBinarySearchTrees2.cpp 95.unique_binary_search_trees_2/UniqueBinarySearchTrees2.h
@@ -95,6 +100,7 @@ add_executable(leetcode main.cpp Base.h
         #105.construct_binary_tree_from_preorder_and_inorder_traversal/ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp 105.construct_binary_tree_from_preorder_and_inorder_traversal/ConstructBinaryTreeFromPreorderAndInorderTraversal.h
         #106.construct_binary_tree_from_inorder_and_postorder_traversal/ConstructBinaryTreeFromInorderAndPostorderTraversal.cpp 106.construct_binary_tree_from_inorder_and_postorder_traversal/ConstructBinaryTreeFromInorderAndPostorderTraversal.h
         #108.convert_sorted_array_to_binary_search_tree/ConvertSortedArrayToBinarySearchTree.cpp 108.convert_sorted_array_to_binary_search_tree/ConvertSortedArrayToBinarySearchTree.h
+        #109.convert_sorted_list_to_binary_search_tree/ConvertSortedListToBinarySearchTree.cpp 109.convert_sorted_list_to_binary_search_tree/ConvertSortedListToBinarySearchTree.h
         #112.path_sum/PathSum.cpp 112.path_sum/PathSum.h
         #113.path_sum_2/PathSum2.cpp 113.path_sum_2/PathSum2.h
         #114.flatten_binary_tree_to_linked_list/FlattenBinaryTreeToLinkedList.cpp 114.flatten_binary_tree_to_linked_list/FlattenBinaryTreeToLinkedList.h
@@ -121,8 +127,10 @@ add_executable(leetcode main.cpp Base.h
         #140.word_break_2/WordBreak2.cpp 140.word_break_2/WordBreak2.h
         #141.linked_list_cycle/LinkedListCycle.cpp 141.linked_list_cycle/LinkedListCycle.h
         #142.linked_list_cycle_2/LinkedListCycle2.cpp 142.linked_list_cycle_2/LinkedListCycle2.h
+        #143.reorder_list/ReorderList.cpp 143.reorder_list/ReorderList.h
         #146.LRU_cache/LRUCache.cpp 146.LRU_cache/LRUCache.h
-        #148.sort_list/SortList.cpp 148.sort_list/SortList.h
+        #147.insertion_sort_list/InsertionSortList.cpp 147.insertion_sort_list/InsertionSortList.h
+        148.sort_list/SortList.cpp 148.sort_list/SortList.h
         #149.max_points_on_a_line/MaxPointsOnALine.cpp 149.max_points_on_a_line/MaxPointsOnALine.h
         #150.evaluate_reverse_polish_notation/EvaluateReversePolishNotation.cpp 150.evaluate_reverse_polish_notation/EvaluateReversePolishNotation.h
         #151.reverse_words_in_a_string/ReverseWordsInAString.cpp 151.reverse_words_in_a_string/ReverseWordsInAString.h

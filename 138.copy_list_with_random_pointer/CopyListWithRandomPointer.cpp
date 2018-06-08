@@ -6,36 +6,30 @@
 
 CopyListWithRandomPointer::RandomListNode *
 CopyListWithRandomPointer::copy_random_list(RandomListNode *head) {
-    unordered_map<RandomListNode *, int> idx_map;
-    vector<RandomListNode *> random_map;
-    int i = 0;
-    RandomListNode * ret = nullptr, *p = nullptr, *pp = head;
-    while(pp){
-        auto * tmp = new RandomListNode(pp->label);
-        if(!ret){
-            ret = p = tmp;
-        } else {
-            p->next = tmp;
-            p = tmp;
+    unordered_map<RandomListNode*, RandomListNode*> mapping;
+    RandomListNode * h = new RandomListNode(0);
+    RandomListNode * p1 = head, * p2 = h;
+    while(p1){
+        p2->next = new RandomListNode(p1->label);
+        mapping[p1] = p2->next;
+        p1 = p1->next;
+        p2 = p2->next;
+    }
+    p1 = head;
+    p2 = h->next;
+    while(p1){
+        if(p1->random){
+            p2->random = mapping[p1->random];
         }
-        idx_map[pp] = i++;
-        random_map.push_back(tmp);
-        pp= pp->next;
+        p1 = p1->next;
+        p2 = p2->next;
     }
-    pp = head;
-    p = ret;
-    while(pp){
-        if(pp->random) p->random = random_map[idx_map[pp->random]];
-        else p->random = nullptr;
-        pp = pp->next;
-        p = p->next;
-    }
-    return ret;
+    return h->next;
 }
 
 void CopyListWithRandomPointer::print(CopyListWithRandomPointer::RandomListNode *head) {
     while(head){
-        cout << head->label << " " << (head->random ? head->random->label : 0) << endl;
+        cout << head->label << "," << (head->random ? head->random->label : 0) << " ";
         head = head->next;
     }
     cout << endl << endl;

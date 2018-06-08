@@ -9,12 +9,6 @@
 #include "../Base.h"
 
 class SortList: public Base {
-    struct ListNode {
-        int val;
-        ListNode *next;
-        ListNode(int x) : val(x), next(NULL) {}
-    };
-    ListNode* create_list();
     ListNode* sort_list(ListNode* head);
     ListNode* merge(ListNode* p1, ListNode* p2);
 public:

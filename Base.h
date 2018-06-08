@@ -55,11 +55,16 @@ protected:
     };
 
     void print_tree(TreeNode *root){
-        if(!root) cout << " null";
-        else{
-            cout << " " << root->val;
-            print_tree(root->left);
-            print_tree(root->right);
+        deque<TreeNode *> q;
+        q.push_back(root);
+        while(!q.empty()){
+            TreeNode * tmp = q.front();
+            cout << (tmp ? to_string(tmp->val) : "null") << " ";
+            q.pop_front();
+            if(tmp && (tmp->left || tmp->right)){
+                q.push_back(tmp->left);
+                q.push_back(tmp->right);
+            }
         }
     }
 

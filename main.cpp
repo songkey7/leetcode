@@ -219,6 +219,14 @@
 #include "68.text_justification/TextJustification.h"
 #include "97.interleaving_string/InterleavingString.h"
 #include "87.scramble_string/ScrambleString.h"
+#include "83.remove_duplicates_from_sorted_list/RemoveDuplicatesFromSortedList.h"
+#include "25.reverse_nodes_in_k_group/ReverseNodesInKGroup.h"
+#include "24.swap_nodes_in_pairs/SwapNodesInPairs.h"
+#include "82.remove_duplicates_from_sorted_list_2/RemoveDuplicatesFromSortedList2.h"
+#include "92.reverse_linked_list_2/ReverseLinkedList2.h"
+#include "109.convert_sorted_list_to_binary_search_tree/ConvertSortedListToBinarySearchTree.h"
+#include "143.reorder_list/ReorderList.h"
+#include "147.insertion_sort_list/InsertionSortList.h"
 
 
 Base *init() {
@@ -233,7 +241,7 @@ Base *init() {
     //return new MergeTwoBinaryTrees();
     //return new LinkedListCycle();
     //return new LinkedListCycle2();
-    //return new SortList();
+    return new SortList();
     //return new MaximumSubarray();
     //return new MaximumProductSubarray();
     //return new DecodeString();
@@ -439,6 +447,14 @@ Base *init() {
     //return new TextJustification();
     //return new InterleavingString();
     //return new ScrambleString();
+    //return new RemoveDuplicatesFromSortedList();
+    //return new ReverseNodesInKGroup();
+    //return new SwapNodesInPairs();
+    //return new RemoveDuplicatesFromSortedList2();
+    //return new ReverseLinkedList2();
+    //return new ConvertSortedListToBinarySearchTree();
+    //return new ReorderList();
+    //return new InsertionSortList();
 }
 
 int main() {

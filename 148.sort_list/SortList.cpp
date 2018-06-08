@@ -5,76 +5,45 @@
 #include "SortList.h"
 
 SortList::ListNode * SortList::merge(ListNode *p1, ListNode *p2) {
-    ListNode* h = NULL;
-    ListNode* p = NULL;
+    ListNode * h = new ListNode(0);
+    ListNode * p = h;
     while(p1 && p2){
         if(p1->val <= p2->val){
-            if(!h) {
-                h = p = p1;
-                p1 = p1->next;
-            } else{
-                p->next = p1;
-                p = p->next;
-                p1 = p1->next;
-            }
-        } else{
-            if(!h) {
-                h = p = p2;
-                p2 = p2->next;
-            } else {
-                p->next = p2;
-                p = p->next;
-                p2 = p2->next;
-            }
+            p->next = p1;
+            p1 = p1->next;
         }
+        else{
+            p->next = p2;
+            p2 = p2->next;
+        }
+        p = p->next;
     }
-    p->next = p1 ? p1 : p2;
-    return h;
+    if(p1) p->next = p1;
+    if(p2) p->next = p2;
+    return h->next;
 }
 
 SortList::ListNode * SortList::sort_list(ListNode *head) {
     if(!head || !head->next) return head;
-    ListNode *p1 = head;
-    ListNode *p2 = head;
-    ListNode *p = head;
+    ListNode * h = new ListNode(0);
+    h->next = head;
+    ListNode * p1 = h, * p2 = h;
     while(p2 && p2->next){
-        p = p1;
         p1 = p1->next;
         p2 = p2->next->next;
     }
-    p->next = NULL;
-    p2 = sort_list(head);
-    p1 = sort_list(p1);
-    return merge(p1, p2);
-}
-
-SortList::ListNode* SortList::create_list() {
-    ListNode * h = new ListNode(4);
-    ListNode * p2 = new ListNode(1);
-    ListNode * p3 = new ListNode(3);
-    ListNode * p4 = new ListNode(8);
-    ListNode * p5 = new ListNode(5);
-    ListNode * p6 = new ListNode(6);
-    h->next = p2;
-    p2->next = p3;
-    p3->next = p4;
-    p4->next = p5;
-    p5->next = p6;
-    return h;
+    ListNode * p = p1;
+    p1 = p1->next;
+    p->next = nullptr;
+    return merge(sort_list(head), sort_list(p1));
 }
 
 void SortList::run() {
-    ListNode *h = create_list();
-    ListNode* p = h;
-    while(p){
-        cout << p->val << " ";
-        p=p->next;
-    }
-    cout << endl;
-    h = sort_list(h);
-    p = h;
-    while(p){
-        cout << p->val << " ";
-        p=p->next;
-    }
+    ListNode * h = new ListNode(4);
+    h->next = new ListNode(1);
+    h->next->next = new ListNode(3);
+    h->next->next->next = new ListNode(8);
+    h->next->next->next->next = new ListNode(5);
+    h->next->next->next->next->next = new ListNode(6);
+    print_list(sort_list(h));
 }

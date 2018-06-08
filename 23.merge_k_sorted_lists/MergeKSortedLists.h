@@ -9,11 +9,6 @@
 #include "../Base.h"
 
 class MergeKSortedLists: public Base {
-    struct ListNode {
-        int val;
-        ListNode *next;
-        ListNode(int x) : val(x), next(NULL) {}
-    };
     ListNode* merge_k_lists(vector<ListNode*>& lists);
     ListNode* merge_2_lists(ListNode* l1, ListNode* l2);
     ListNode* merge(vector<ListNode*>& lists, int l, int r);
