@@ -93,6 +93,7 @@ add_executable(leetcode main.cpp Base.h
         #96.unique_binary_search_trees/UniqueBinarySearchTrees.cpp 96.unique_binary_search_trees/UniqueBinarySearchTrees.h
         #97.interleaving_string/InterleavingString.cpp 97.interleaving_string/InterleavingString.h
         #98.validate_binary_search_tree/ValidateBinarySearchTree.cpp 98.validate_binary_search_tree/ValidateBinarySearchTree.h
+        #100.same_tree/SameTree.cpp 100.same_tree/SameTree.h
         #101.symmetric_tree/SymmetricTree.cpp 101.symmetric_tree/SymmetricTree.h
         #102.binary_tree_level_order_traversal/BinaryTreeLevelOrderTraversal.cpp 102.binary_tree_level_order_traversal/BinaryTreeLevelOrderTraversal.h
         #103.binary_tree_zigzag_level_order_traversal/BinaryTreeZigzagLevelOrderTraversal.cpp 103.binary_tree_zigzag_level_order_traversal/BinaryTreeZigzagLevelOrderTraversal.h
@@ -101,6 +102,7 @@ add_executable(leetcode main.cpp Base.h
         #106.construct_binary_tree_from_inorder_and_postorder_traversal/ConstructBinaryTreeFromInorderAndPostorderTraversal.cpp 106.construct_binary_tree_from_inorder_and_postorder_traversal/ConstructBinaryTreeFromInorderAndPostorderTraversal.h
         #108.convert_sorted_array_to_binary_search_tree/ConvertSortedArrayToBinarySearchTree.cpp 108.convert_sorted_array_to_binary_search_tree/ConvertSortedArrayToBinarySearchTree.h
         #109.convert_sorted_list_to_binary_search_tree/ConvertSortedListToBinarySearchTree.cpp 109.convert_sorted_list_to_binary_search_tree/ConvertSortedListToBinarySearchTree.h
+        #110.balanced_binary_tree/BalancedBinaryTree.cpp 110.balanced_binary_tree/BalancedBinaryTree.h
         #112.path_sum/PathSum.cpp 112.path_sum/PathSum.h
         #113.path_sum_2/PathSum2.cpp 113.path_sum_2/PathSum2.h
         #114.flatten_binary_tree_to_linked_list/FlattenBinaryTreeToLinkedList.cpp 114.flatten_binary_tree_to_linked_list/FlattenBinaryTreeToLinkedList.h
@@ -130,7 +132,7 @@ add_executable(leetcode main.cpp Base.h
         #143.reorder_list/ReorderList.cpp 143.reorder_list/ReorderList.h
         #146.LRU_cache/LRUCache.cpp 146.LRU_cache/LRUCache.h
         #147.insertion_sort_list/InsertionSortList.cpp 147.insertion_sort_list/InsertionSortList.h
-        148.sort_list/SortList.cpp 148.sort_list/SortList.h
+        #148.sort_list/SortList.cpp 148.sort_list/SortList.h
         #149.max_points_on_a_line/MaxPointsOnALine.cpp 149.max_points_on_a_line/MaxPointsOnALine.h
         #150.evaluate_reverse_polish_notation/EvaluateReversePolishNotation.cpp 150.evaluate_reverse_polish_notation/EvaluateReversePolishNotation.h
         #151.reverse_words_in_a_string/ReverseWordsInAString.cpp 151.reverse_words_in_a_string/ReverseWordsInAString.h
@@ -219,6 +221,7 @@ add_executable(leetcode main.cpp Base.h
         #448.find_disappeared_numbers/FindDisappearedNumbers.cpp 448.find_disappeared_numbers/FindDisappearedNumbers.h
         #454.four_sum_2/FourSum2.cpp 454.four_sum_2/FourSum2.h
         #461.hamming_distance/HammingDistance.cpp 461.hamming_distance/HammingDistance.h
+        463.island_perimeter/IslandPerimeter.cpp 463.island_perimeter/IslandPerimeter.h
         #494.target_sum/TargetSum.cpp 494.target_sum/TargetSum.h
         #538.convert_BST_to_greater_tree/ConvertBSTToGreaterTree.cpp 538.convert_BST_to_greater_tree/ConvertBSTToGreaterTree.h
         #543.diameter_of_binary_tree/DiameterOfBinaryTree.cpp 543.diameter_of_binary_tree/DiameterOfBinaryTree.h
@@ -230,4 +233,5 @@ add_executable(leetcode main.cpp Base.h
         #617.merge_two_binary_trees/MergeTwoBinaryTrees.cpp 617.merge_two_binary_trees/MergeTwoBinaryTrees.h
         #621.task_scheduler/TaskScheduler.cpp 621.task_scheduler/TaskScheduler.h
         #647.palindromic_substrings/PalindromicSubstrings.cpp 647.palindromic_substrings/PalindromicSubstrings.h
+        695.max_area_of_island/MaxAreaOfIsland.cpp 695.max_area_of_island/MaxAreaOfIsland.h
         )

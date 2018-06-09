@@ -17,8 +17,8 @@
 #include <algorithm>
 #include <unordered_map>
 #include <unordered_set>
-#include <assert.h>
-#include <limits.h>
+#include <cassert>
+#include <climits>
 #include <cstring>
 #include <bitset>
 #include <cmath>
@@ -30,7 +30,7 @@ protected:
     struct ListNode {
         int val;
         ListNode *next;
-        ListNode(int x) : val(x), next(NULL) {}
+        ListNode(int x) : val(x), next(nullptr) {}
     };
 
     void print_list(ListNode * h){
@@ -51,30 +51,34 @@ protected:
         int val;
         TreeNode *left;
         TreeNode *right;
-        TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+        TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
     };
 
     void print_tree(TreeNode *root){
-        deque<TreeNode *> q;
-        q.push_back(root);
-        while(!q.empty()){
-            TreeNode * tmp = q.front();
-            cout << (tmp ? to_string(tmp->val) : "null") << " ";
-            q.pop_front();
-            if(tmp && (tmp->left || tmp->right)){
-                q.push_back(tmp->left);
-                q.push_back(tmp->right);
+        vector<TreeNode *> out;
+        out.push_back(root);
+        size_t i = 0, j = out.size();
+        while(i < j){
+            while(i < j){
+                if(out[i]) {
+                    cout << out[i]->val << " ";
+                    if(out[i]->left || out[i]->right){
+                        out.resize(2 * i + 3, nullptr);
+                        out[2 * i + 1] = out[i]->left;
+                        out[2 * i + 2] = out[i]->right;
+                    }
+                }
+                else cout << "null ";
+                i++;
             }
+            j = out.size();
         }
+        cout << endl;
     }
 
     bool binary_tree_equal(TreeNode * r1, TreeNode *r2){
-        if(!r1 && !r2)
-            return true;
-        else if(r1 && r2 && r1->val == r2->val)
-            return binary_tree_equal(r1->left, r2->left) && binary_tree_equal(r1->right, r2->right);
-        else
-            return false;
+        if(!r1 || !r2) return r1 == r2;
+        return r1->val == r2->val && binary_tree_equal(r1->left, r2->left) && binary_tree_equal(r1->right, r2->right);
     }
 
 public:

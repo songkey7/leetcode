@@ -227,6 +227,10 @@
 #include "109.convert_sorted_list_to_binary_search_tree/ConvertSortedListToBinarySearchTree.h"
 #include "143.reorder_list/ReorderList.h"
 #include "147.insertion_sort_list/InsertionSortList.h"
+#include "110.balanced_binary_tree/BalancedBinaryTree.h"
+#include "100.same_tree/SameTree.h"
+#include "695.max_area_of_island/MaxAreaOfIsland.h"
+#include "463.island_perimeter/IslandPerimeter.h"
 
 
 Base *init() {
@@ -241,7 +245,7 @@ Base *init() {
     //return new MergeTwoBinaryTrees();
     //return new LinkedListCycle();
     //return new LinkedListCycle2();
-    return new SortList();
+    //return new SortList();
     //return new MaximumSubarray();
     //return new MaximumProductSubarray();
     //return new DecodeString();
@@ -455,6 +459,10 @@ Base *init() {
     //return new ConvertSortedListToBinarySearchTree();
     //return new ReorderList();
     //return new InsertionSortList();
+    //return new BalancedBinaryTree();
+    //return new SameTree();
+    //return new MaxAreaOfIsland();
+    return new IslandPerimeter();
 }
 
 int main() {
