@@ -231,6 +231,13 @@
 #include "100.same_tree/SameTree.h"
 #include "695.max_area_of_island/MaxAreaOfIsland.h"
 #include "463.island_perimeter/IslandPerimeter.h"
+#include "173.binary_search_tree_iterator/BinarySearchTreeIterator.h"
+#include "209.minimum_size_subarray_sum/MinimumSizeSubarraySum.h"
+#include "442.find_all_duplicates_in_an_array/FindAllDuplicatesInAnArray.h"
+#include "665.non_decreasing_array/NonDecreasingArray.h"
+#include "654.maximum_binary_tree/MaximumBinaryTree.h"
+#include "669.trim_a_binary_search_tree/TrimABinarySearchTree.h"
+#include "714.best_time_to_buy_and_sell_stock_with_transaction_fee/BestTimeToBuyAndSellStockWithTransactionFee.h"
 
 
 Base *init() {
@@ -462,7 +469,14 @@ Base *init() {
     //return new BalancedBinaryTree();
     //return new SameTree();
     //return new MaxAreaOfIsland();
-    return new IslandPerimeter();
+    //return new IslandPerimeter();
+    //return new BinarySearchTreeIterator();
+    //return new MinimumSizeSubarraySum();
+    //return new FindAllDuplicatesInAnArray();
+    //return new NonDecreasingArray();
+    //return new MaximumBinaryTree();
+    //return new TrimABinarySearchTree();
+    return new BestTimeToBuyAndSellStockWithTransactionFee();
 }
 
 int main() {

@@ -148,6 +148,7 @@ add_executable(leetcode main.cpp Base.h
         #169.majority_element/MajorityElement.cpp 169.majority_element/MajorityElement.h
         #171.excel_sheet_column_number/ExcelSheetColumnNumber.cpp 171.excel_sheet_column_number/ExcelSheetColumnNumber.h
         #172.factorial_trailing_zeroes/FactorialTrailingZeroes.cpp 172.factorial_trailing_zeroes/FactorialTrailingZeroes.h
+        #173.binary_search_tree_iterator/BinarySearchTreeIterator.cpp 173.binary_search_tree_iterator/BinarySearchTreeIterator.h
         #174.dungeon_game/DungeonGame.cpp 174.dungeon_game/DungeonGame.h
         #179.largest_number/LargestNumber.cpp 179.largest_number/LargestNumber.h
         #188.best_time_to_buy_and_sells_stock_4/BestTimeToBuyAndSellStock4.cpp 188.best_time_to_buy_and_sells_stock_4/BestTimeToBuyAndSellStock4.h
@@ -161,6 +162,7 @@ add_executable(leetcode main.cpp Base.h
         #206.reverse_linked_list/ReverseLinkedList.cpp 206.reverse_linked_list/ReverseLinkedList.h
         #207.course_schedule/CourseSchedule.cpp 207.course_schedule/CourseSchedule.h
         #208.implement_trie/ImplementTrie.cpp 208.implement_trie/ImplementTrie.h
+        #209.minimum_size_subarray_sum/MinimumSizeSubarraySum.cpp 209.minimum_size_subarray_sum/MinimumSizeSubarraySum.h
         #210.course_schedule_2/CourseSchedule2.cpp 210.course_schedule_2/CourseSchedule2.h
         #212.word_search_2/WordSearch2.cpp 212.word_search_2/WordSearch2.h
         #213.house_robber_2/HouseRobber2.cpp 213.house_robber_2/HouseRobber2.h
@@ -218,10 +220,11 @@ add_executable(leetcode main.cpp Base.h
         #416.partition_equal_subset_sum/PartitionEqualSubsetSum.cpp 416.partition_equal_subset_sum/PartitionEqualSubsetSum.h
         #437.path_sum_3/PathSum3.cpp 437.path_sum_3/PathSum3.h
         #438.find_anagrams/FindAnagrams.cpp 438.find_anagrams/FindAnagrams.h
+        #442.find_all_duplicates_in_an_array/FindAllDuplicatesInAnArray.cpp 442.find_all_duplicates_in_an_array/FindAllDuplicatesInAnArray.h
         #448.find_disappeared_numbers/FindDisappearedNumbers.cpp 448.find_disappeared_numbers/FindDisappearedNumbers.h
         #454.four_sum_2/FourSum2.cpp 454.four_sum_2/FourSum2.h
         #461.hamming_distance/HammingDistance.cpp 461.hamming_distance/HammingDistance.h
-        463.island_perimeter/IslandPerimeter.cpp 463.island_perimeter/IslandPerimeter.h
+        #463.island_perimeter/IslandPerimeter.cpp 463.island_perimeter/IslandPerimeter.h
         #494.target_sum/TargetSum.cpp 494.target_sum/TargetSum.h
         #538.convert_BST_to_greater_tree/ConvertBSTToGreaterTree.cpp 538.convert_BST_to_greater_tree/ConvertBSTToGreaterTree.h
         #543.diameter_of_binary_tree/DiameterOfBinaryTree.cpp 543.diameter_of_binary_tree/DiameterOfBinaryTree.h
@@ -233,5 +236,9 @@ add_executable(leetcode main.cpp Base.h
         #617.merge_two_binary_trees/MergeTwoBinaryTrees.cpp 617.merge_two_binary_trees/MergeTwoBinaryTrees.h
         #621.task_scheduler/TaskScheduler.cpp 621.task_scheduler/TaskScheduler.h
         #647.palindromic_substrings/PalindromicSubstrings.cpp 647.palindromic_substrings/PalindromicSubstrings.h
-        695.max_area_of_island/MaxAreaOfIsland.cpp 695.max_area_of_island/MaxAreaOfIsland.h
+        #654.maximum_binary_tree/MaximumBinaryTree.cpp 654.maximum_binary_tree/MaximumBinaryTree.h
+        #665.non_decreasing_array/NonDecreasingArray.cpp 665.non_decreasing_array/NonDecreasingArray.h
+        #669.trim_a_binary_search_tree/TrimABinarySearchTree.cpp 669.trim_a_binary_search_tree/TrimABinarySearchTree.h
+        #695.max_area_of_island/MaxAreaOfIsland.cpp 695.max_area_of_island/MaxAreaOfIsland.h
+        714.best_time_to_buy_and_sell_stock_with_transaction_fee/BestTimeToBuyAndSellStockWithTransactionFee.cpp 714.best_time_to_buy_and_sell_stock_with_transaction_fee/BestTimeToBuyAndSellStockWithTransactionFee.h
         )
