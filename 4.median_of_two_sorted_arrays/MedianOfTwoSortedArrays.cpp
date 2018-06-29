@@ -6,22 +6,23 @@
 
 double MedianOfTwoSortedArrays::find_median_sorted_arrays(vector<int> &nums1, vector<int> &nums2) {
     int n = nums1.size() + nums2.size();
-    int mid = n / 2 + 1;
-    double ret = find_Kth(nums1, 0, nums2, 0, mid);
+    int m = n / 2 + 1;
+    double ret = find_Kth(nums1, 0, nums2, 0, m);
     if(n % 2 == 1) return ret;
-    else return (ret + find_Kth(nums1, 0, nums2, 0, mid - 1)) / 2;
+    return (ret + find_Kth(nums1, 0, nums2, 0, m - 1)) / 2;
+
 }
 
 int MedianOfTwoSortedArrays::find_Kth(vector<int> &nums1, int i, vector<int> &nums2, int j, int k) {
-    int n1 = nums1.size();
-    if(n1 - i > nums2.size() - j) return find_Kth(nums2, j, nums1, i, k);
-    if(n1 == i) return nums2[j + k - 1];
+    int n = nums1.size();
+    if(n - i > nums2.size() - j) return find_Kth(nums2, j, nums1, i, k);
+    if(i == n) return nums2[j + k - 1];
     if(k == 1) return min(nums1[i], nums2[j]);
-    int a = min(i + k / 2, n1);
-    int b = k + j - (a - i);
-    if(nums1[a - 1] == nums2[b - 1]) return nums2[b - 1];
-    if(nums1[a - 1] < nums2[b - 1]) return find_Kth(nums1, a, nums2, j, k - a + i);
-    else return find_Kth(nums1, i, nums2, b, k - b + j);
+    int a = min(i + k / 2, n);
+    int b = j + k - (a - i);
+    if(nums1[a - 1] == nums2[b - 1]) return nums1[a - 1];
+    else if(nums1[a - 1] < nums2[b - 1]) return find_Kth(nums1, a, nums2, j, k - (a - i));
+    else return find_Kth(nums1, i, nums2, b, k - (b - j));
 }
 
 void MedianOfTwoSortedArrays::run() {

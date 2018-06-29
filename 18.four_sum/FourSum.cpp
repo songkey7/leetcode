@@ -14,22 +14,27 @@ vector<vector<int>> FourSum::four_sum(vector<int> nums, int target) {
         if(nums[i] + nums[n - 1] + nums[n - 2] + nums[n - 3] < target) continue;
         for (int j = i + 1; j < n - 2; ++j) {
             if(j > i + 1 && nums[j] == nums[j - 1]) continue;
-            int target2 = target - nums[i] - nums[j];
-            if(nums[j + 1] + nums[j + 2] > target2) break;
-            if(nums[n - 1] + nums[n - 2] < target2) continue;
+            int tmp = nums[i] + nums[j];
             int l = j + 1, r = n - 1;
             while(l < r){
-                if(nums[l] + nums[l + 1] > target2) break;
-                if(l > j + 1 && nums[l] == nums[l - 1]){
+                if(tmp + nums[l] + nums[l + 1] > target) break;
+                if(tmp + nums[r] + nums[r - 1] < target) {
                     l++;
                     continue;
                 }
-                int tmp = nums[l] + nums[r];
-                if(tmp == target2){
-                    ret.push_back({nums[i], nums[j], nums[l++], nums[r--]});
+                int tmp2 = tmp + nums[l] + nums[r];
+                int tr = r, tl = l;
+                if(tmp2 == target){
+                    ret.push_back({nums[i], nums[j], nums[l], nums[r]});
+                    while(nums[++l] == nums[tl]);
+                    while(nums[--r] == nums[tr]);
                 }
-                else if(tmp > target2) r--;
-                else l++;
+                else if (tmp2 > target) {
+                    while(nums[--r] == nums[tr]);
+                }
+                else {
+                    while(nums[++l] == nums[tl]);
+                }
             }
         }
     }

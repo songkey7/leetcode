@@ -238,6 +238,20 @@
 #include "654.maximum_binary_tree/MaximumBinaryTree.h"
 #include "669.trim_a_binary_search_tree/TrimABinarySearchTree.h"
 #include "714.best_time_to_buy_and_sell_stock_with_transaction_fee/BestTimeToBuyAndSellStockWithTransactionFee.h"
+#include "310.minimum_height_trees/MinimumHeightTrees.h"
+#include "199.binary_tree_right_side_view/BinaryTreeRightSideView.h"
+#include "235.lowest_common_ancestor_of_a_binary_search_tree/LowestCommonAncestorOfABinarySearchTree.h"
+#include "486.predict_the_winner/PredictTheWinner.h"
+#include "739.daily_temperatures/DailyTemperatures.h"
+#include "47.permutations_2/Permutations2.h"
+#include "377.combination_sum_4/CombinationSum4.h"
+#include "264.ugly_number_2/UglyNumber2.h"
+#include "746.min_cost_climbing_stairs/MinCostClimbingStairs.h"
+#include "637.average_of_levels_in_binary_tree/AverageOfLevelsInBinaryTree.h"
+#include "241.different_ways_to_add_parentheses/DifferentWaysToAddParentheses.h"
+#include "653.two_sum_4/TwoSum4.h"
+#include "687.longest_univalue_path/LongestUnivaluePath.h"
+#include "673.number_of_longest_increasing_subsequence/NumberOfLongestIncreasingSubsequence.h"
 
 
 Base *init() {
@@ -476,7 +490,21 @@ Base *init() {
     //return new NonDecreasingArray();
     //return new MaximumBinaryTree();
     //return new TrimABinarySearchTree();
-    return new BestTimeToBuyAndSellStockWithTransactionFee();
+    //return new BestTimeToBuyAndSellStockWithTransactionFee();
+    //return new MinimumHeightTrees();
+    //return new BinaryTreeRightSideView();
+    //return new LowestCommonAncestorOfABinarySearchTree();
+    //return new PredictTheWinner();
+    //return new DailyTemperatures();
+    //return new Permutations2();
+    //return new CombinationSum4();
+    //return new UglyNumber2();
+    //return new MinCostClimbingStairs();
+    //return new AverageOfLevelsInBinaryTree();
+    //return new DifferentWaysToAddParentheses();
+    //return new TwoSum4();
+    //return new LongestUnivaluePath();
+    //return new NumberOfLongestIncreasingSubsequence();
 }
 
 int main() {

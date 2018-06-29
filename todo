@@ -1,17 +1,3 @@
-429	310	Minimum Height Trees	minimum-height-trees	Medium	450	21	45374	156555	Breadth-first Search,Graph
-426	199	Binary Tree Right Side View	binary-tree-right-side-view	Medium	436	10	111908	260302	Tree,Depth-first Search,Breadth-first Search
-425	235	Lowest Common Ancestor of a Binary Search Tree	lowest-common-ancestor-of-a-binary-search-tree	Easy	478	53	200075	500673	Tree
-419	486	Predict the Winner	predict-the-winner	Medium	454	35	27924	61586	Dynamic Programming,Minimax
-417	739	Daily Temperatures	daily-temperatures	Medium	432	15	15605	29413	Hash Table,Stack
-415	47	Permutations II	permutations-ii	Medium	435	20	168718	473890	Backtracking
-410	377	Combination Sum IV	combination-sum-iv	Medium	433	23	61276	142847	Dynamic Programming
-404	264	Ugly Number II	ugly-number-ii	Medium	431	27	76931	229674	Math,Dynamic Programming,Heap
-402	746	Min Cost Climbing Stairs	min-cost-climbing-stairs	Easy	473	71	28173	64749	Array,Dynamic Programming
-402	637	Average of Levels in Binary Tree	average-of-levels-in-binary-tree	Easy	485	83	46598	83183	Tree
-400	241	Different Ways to Add Parentheses	different-ways-to-add-parentheses	Medium	423	23	56871	122366	Divide and Conquer
-395	653	Two Sum IV - Input is a BST	two-sum-iv-input-is-a-bst	Easy	456	61	43327	86441	Tree
-392	687	Longest Univalue Path	longest-univalue-path	Easy	475	83	27414	83432	Tree,Recursion
-384	673	Number of Longest Increasing Subsequence	number-of-longest-increasing-subsequence	Medium	414	30	16492	51782	Dynamic Programming
 380	583	Delete Operation for Two Strings	delete-operation-for-two-strings	Medium	392	12	18236	40776	String
 379	516	Longest Palindromic Subsequence	longest-palindromic-subsequence	Medium	430	51	32723	76147	Dynamic Programming
 374	260	Single Number III	single-number-iii	Medium	423	49	83671	156141	Bit Manipulation
@@ -187,4 +173,4 @@
 105	600	Non-negative Integers without Consecutive Ones	non-negative-integers-without-consecutive-ones	Hard	147	42	5956	18706	Dynamic Programming
 105	321	Create Maximum Number	create-maximum-number	Hard	179	74	24102	96816	Dynamic Programming,Greedy
 102	733	Flood Fill	flood-fill	Easy	146	44	15271	31897	Depth-first Search
-101	797	All Paths From Source to Target	all-paths-from-source-to-target	Medium	112	11	7684	11352	
+101	797	All Paths From Source to Target	all-paths-from-source-to-target	Medium	112	11	7684	11352

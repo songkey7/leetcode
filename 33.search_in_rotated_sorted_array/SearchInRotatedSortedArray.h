@@ -10,8 +10,6 @@
 
 class SearchInRotatedSortedArray: public Base {
     int search(vector<int>& nums, int target);
-    int search2(vector<int>& nums, int target);
-    int bi_search(vector<int> &nums, int l, int r, int target);
 public:
     void run();
 };
