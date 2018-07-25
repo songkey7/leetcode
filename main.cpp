@@ -252,6 +252,26 @@
 #include "653.two_sum_4/TwoSum4.h"
 #include "687.longest_univalue_path/LongestUnivaluePath.h"
 #include "673.number_of_longest_increasing_subsequence/NumberOfLongestIncreasingSubsequence.h"
+#include "583.delete_operation_for_two_strings/DeleteOperationForTwoStrings.h"
+#include "516.longest_palindromic_subsequence/LongestPalindromicSubsequence.h"
+#include "260.single_number3/SingleNumber3.h"
+#include "257.binary_tree_paths/BinaryTreePaths.h"
+#include "540.single_element_in_a_sorted_array/SingleElementInASortedArray.h"
+#include "117.populating_next_right_pointers_in_each_node_2/PopulatingNextRightPointersInEachNode2.h"
+#include "450.delete_node_in_a_BST/DeleteNodeInABST.h"
+#include "771.jewels_and_stones/JewelsAndStones.h"
+#include "402.remove_k_digits/RemoveKDigits.h"
+#include "632.smallest_range/SmallestRange.h"
+#include "145.binary_tree_postorder_traversal/BinaryTreePostorderTraversal.h"
+#include "203.remove_linked_list_elements/RemoveLinkedListElements.h"
+#include "51.n_queens/NQueens.h"
+#include "37.sudoku_solver/SudokuSolver.h"
+#include "525.contiguous_array/ContiguousArray.h"
+#include "222.count_complete_tree_nodes/CountCompleteTreeNodes.h"
+#include "211.add_and_search_word/AddAndSearchWord.h"
+#include "650.2_keys_keyboard/TwoKeysKeyboard.h"
+#include "557.reverse_words_in_a_string3/ReverseWordsInAString3.h"
+#include "451.sort_characters_by_frequency/SortCharactersByFrequency.h"
 
 
 Base *init() {
@@ -505,6 +525,26 @@ Base *init() {
     //return new TwoSum4();
     //return new LongestUnivaluePath();
     //return new NumberOfLongestIncreasingSubsequence();
+    //return new DeleteOperationForTwoStrings();
+    //return new LongestPalindromicSubsequence();
+    //return new SingleNumber3();
+    //return new BinaryTreePaths();
+    //return new SingleElementInASortedArray();
+    //return new PopulatingNextRightPointersInEachNode2();
+    //return new DeleteNodeInABST();
+    //return new JewelsAndStones();
+    //return new RemoveKDigits();
+    //return new SmallestRange();
+    //return new BinaryTreePostorderTraversal();
+    //return new RemoveLinkedListElements();
+    //return new NQueens();
+    //return new SudokuSolver();
+    //return new ContiguousArray();
+    //return new CountCompleteTreeNodes();
+    //return new AddAndSearchWord();
+    //return new TwoKeysKeyboard();
+    //return new ReverseWordsInAString3();
+    return new SortCharactersByFrequency();
 }
 
 int main() {

@@ -40,6 +40,7 @@ add_executable(leetcode main.cpp Base.h
         #34.search_for_a_range/SearchForARange.cpp 34.search_for_a_range/SearchForARange.h
         #35.search_insert_position/SearchInsertPosition.cpp 35.search_insert_position/SearchInsertPosition.h
         #36.valid_sudoku/ValidSudoku.cpp 36.valid_sudoku/ValidSudoku.h
+        #37.sudoku_solver/SudokuSolver.cpp 37.sudoku_solver/SudokuSolver.h
         #38.count_and_say/CountAndSay.cpp 38.count_and_say/CountAndSay.h
         #39.combination_sum/CombinationSum.cpp 39.combination_sum/CombinationSum.h
         #40.combination_sum_2/CombinationSum2.cpp 40.combination_sum_2/CombinationSum2.h
@@ -52,6 +53,7 @@ add_executable(leetcode main.cpp Base.h
         #48.rotate_image/RotateImage.cpp 48.rotate_image/RotateImage.h
         #49.group_anagrams/GroupAnagrams.cpp 49.group_anagrams/GroupAnagrams.h
         #50.pow/Pow.cpp 50.pow/Pow.h
+        #51.n_queens/NQueens.cpp 51.n_queens/NQueens.h
         #53.maximum_subarray/MaximumSubarray.cpp 53.maximum_subarray/MaximumSubarray.h
         #54.spiral_matrix/SpiralMatrix.cpp 54.spiral_matrix/SpiralMatrix.h
         #55.jump_game/JumpGame.cpp 55.jump_game/JumpGame.h
@@ -109,6 +111,7 @@ add_executable(leetcode main.cpp Base.h
         #114.flatten_binary_tree_to_linked_list/FlattenBinaryTreeToLinkedList.cpp 114.flatten_binary_tree_to_linked_list/FlattenBinaryTreeToLinkedList.h
         #115.distinct_subsequences/DistinctSubsequences.cpp 115.distinct_subsequences/DistinctSubsequences.h
         #116.populating_next_right_pointers_in_each_node/PopulatingNextRightPointersInEachNode.cpp 116.populating_next_right_pointers_in_each_node/PopulatingNextRightPointersInEachNode.h
+        #117.populating_next_right_pointers_in_each_node_2/PopulatingNextRightPointersInEachNode2.cpp 117.populating_next_right_pointers_in_each_node_2/PopulatingNextRightPointersInEachNode2.h
         #118.pascals_triangle/PascalsTriangle.cpp 118.pascals_triangle/PascalsTriangle.h
         #119.pascals_triangle2/PascalsTriangle2.cpp 119.pascals_triangle2/PascalsTriangle2.h
         #120.triangle/Triangle.cpp 120.triangle/Triangle.h
@@ -131,6 +134,7 @@ add_executable(leetcode main.cpp Base.h
         #141.linked_list_cycle/LinkedListCycle.cpp 141.linked_list_cycle/LinkedListCycle.h
         #142.linked_list_cycle_2/LinkedListCycle2.cpp 142.linked_list_cycle_2/LinkedListCycle2.h
         #143.reorder_list/ReorderList.cpp 143.reorder_list/ReorderList.h
+        #145.binary_tree_postorder_traversal/BinaryTreePostorderTraversal.cpp 145.binary_tree_postorder_traversal/BinaryTreePostorderTraversal.h
         #146.LRU_cache/LRUCache.cpp 146.LRU_cache/LRUCache.h
         #147.insertion_sort_list/InsertionSortList.cpp 147.insertion_sort_list/InsertionSortList.h
         #148.sort_list/SortList.cpp 148.sort_list/SortList.h
@@ -160,18 +164,21 @@ add_executable(leetcode main.cpp Base.h
         #199.binary_tree_right_side_view/BinaryTreeRightSideView.cpp 199.binary_tree_right_side_view/BinaryTreeRightSideView.h
         #200.number_of_islands/NumberOfIslands.cpp 200.number_of_islands/NumberOfIslands.h
         #202.happy_number/HappyNumber.cpp 202.happy_number/HappyNumber.h
+        #203.remove_linked_list_elements/RemoveLinkedListElements.cpp 203.remove_linked_list_elements/RemoveLinkedListElements.h
         #204.count_primes/CountPrimes.cpp 204.count_primes/CountPrimes.h
         #206.reverse_linked_list/ReverseLinkedList.cpp 206.reverse_linked_list/ReverseLinkedList.h
         #207.course_schedule/CourseSchedule.cpp 207.course_schedule/CourseSchedule.h
         #208.implement_trie/ImplementTrie.cpp 208.implement_trie/ImplementTrie.h
         #209.minimum_size_subarray_sum/MinimumSizeSubarraySum.cpp 209.minimum_size_subarray_sum/MinimumSizeSubarraySum.h
         #210.course_schedule_2/CourseSchedule2.cpp 210.course_schedule_2/CourseSchedule2.h
+        #211.add_and_search_word/AddAndSearchWord.cpp 211.add_and_search_word/AddAndSearchWord.h
         #212.word_search_2/WordSearch2.cpp 212.word_search_2/WordSearch2.h
         #213.house_robber_2/HouseRobber2.cpp 213.house_robber_2/HouseRobber2.h
         #215.kth_largest_element_in_an_array/KthLargestElementInAnArray.cpp 215.kth_largest_element_in_an_array/KthLargestElementInAnArray.h
         #217.contains_duplicate/ContainsDuplicate.cpp 217.contains_duplicate/ContainsDuplicate.h
         #218.the_skyline_problem/TheSkylineProblem.cpp 218.the_skyline_problem/TheSkylineProblem.h
         #221.maximal_square/MaximalSquare.cpp 221.maximal_square/MaximalSquare.h
+        #222.count_complete_tree_nodes/CountCompleteTreeNodes.cpp 222.count_complete_tree_nodes/CountCompleteTreeNodes.h
         #225.implement_stack_using_queues/ImplementStackUsingQueues.cpp 225.implement_stack_using_queues/ImplementStackUsingQueues.h
         #226.invert_binary_tree/InvertBinaryTree.cpp 226.invert_binary_tree/InvertBinaryTree.h
         #227.basic_calculator_2/BasicCalculator2.cpp 227.basic_calculator_2/BasicCalculator2.h
@@ -186,6 +193,8 @@ add_executable(leetcode main.cpp Base.h
         #240.search_a_2d_matrix_2/SearchA2DMatrix2.cpp 240.search_a_2d_matrix_2/SearchA2DMatrix2.h
         #241.different_ways_to_add_parentheses/DifferentWaysToAddParentheses.cpp 241.different_ways_to_add_parentheses/DifferentWaysToAddParentheses.h
         #242.valid_anagram/ValidAnagram.cpp 242.valid_anagram/ValidAnagram.h
+        #257.binary_tree_paths/BinaryTreePaths.cpp 257.binary_tree_paths/BinaryTreePaths.h
+        #260.single_number3/SingleNumber3.cpp 260.single_number3/SingleNumber3.h
         #264.ugly_number_2/UglyNumber2.cpp 264.ugly_number_2/UglyNumber2.h
         #268.missing_number/MissingNumber.cpp 268.missing_number/MissingNumber.h
         #279.perfect_squares/PerfectSquares.cpp 279.perfect_squares/PerfectSquares.h
@@ -221,6 +230,7 @@ add_executable(leetcode main.cpp Base.h
         #387.first_unique_character_in_a_string/FirstUniqueCharacterInAString.cpp 387.first_unique_character_in_a_string/FirstUniqueCharacterInAString.h
         #394.decode_string/DecodeString.cpp 394.decode_string/DecodeString.h
         #395.longest_substring_with_at_least_k_repeating_characters/LongestSubstringWithAtLeastKRepeatingCharacters.cpp 395.longest_substring_with_at_least_k_repeating_characters/LongestSubstringWithAtLeastKRepeatingCharacters.h
+        #402.remove_k_digits/RemoveKDigits.cpp 402.remove_k_digits/RemoveKDigits.h
         #406.queue_reconstruction_by_height/QueueReconstructionByHeight.cpp 406.queue_reconstruction_by_height/QueueReconstructionByHeight.h
         #409.longest_palindrome/LongestPalindrome.cpp 409.longest_palindrome/LongestPalindrome.h
         #412.fizz_buzz/FizzBuzz.cpp 412.fizz_buzz/FizzBuzz.h
@@ -229,30 +239,39 @@ add_executable(leetcode main.cpp Base.h
         #438.find_anagrams/FindAnagrams.cpp 438.find_anagrams/FindAnagrams.h
         #442.find_all_duplicates_in_an_array/FindAllDuplicatesInAnArray.cpp 442.find_all_duplicates_in_an_array/FindAllDuplicatesInAnArray.h
         #448.find_disappeared_numbers/FindDisappearedNumbers.cpp 448.find_disappeared_numbers/FindDisappearedNumbers.h
+        #450.delete_node_in_a_BST/DeleteNodeInABST.cpp 450.delete_node_in_a_BST/DeleteNodeInABST.h
+        451.sort_characters_by_frequency/SortCharactersByFrequency.cpp 451.sort_characters_by_frequency/SortCharactersByFrequency.h
         #454.four_sum_2/FourSum2.cpp 454.four_sum_2/FourSum2.h
         #461.hamming_distance/HammingDistance.cpp 461.hamming_distance/HammingDistance.h
         #463.island_perimeter/IslandPerimeter.cpp 463.island_perimeter/IslandPerimeter.h
         #486.predict_the_winner/PredictTheWinner.cpp 486.predict_the_winner/PredictTheWinner.h
         #494.target_sum/TargetSum.cpp 494.target_sum/TargetSum.h
+        #516.longest_palindromic_subsequence/LongestPalindromicSubsequence.cpp 516.longest_palindromic_subsequence/LongestPalindromicSubsequence.h
+        #525.contiguous_array/ContiguousArray.cpp 525.contiguous_array/ContiguousArray.h
         #538.convert_BST_to_greater_tree/ConvertBSTToGreaterTree.cpp 538.convert_BST_to_greater_tree/ConvertBSTToGreaterTree.h
+        #540.single_element_in_a_sorted_array/SingleElementInASortedArray.cpp 540.single_element_in_a_sorted_array/SingleElementInASortedArray.h
         #543.diameter_of_binary_tree/DiameterOfBinaryTree.cpp 543.diameter_of_binary_tree/DiameterOfBinaryTree.h
         #547.friend_circles/FriendCircles.cpp 547.friend_circles/FriendCircles.h
+        #557.reverse_words_in_a_string3/ReverseWordsInAString3.cpp 557.reverse_words_in_a_string3/ReverseWordsInAString3.h
         #560.subarray_sum_equals_k/SubarraySumEqualsK.cpp 560.subarray_sum_equals_k/SubarraySumEqualsK.h
         #572.subtree_of_another_tree/SubtreeOfAnotherTree.cpp 572.subtree_of_another_tree/SubtreeOfAnotherTree.h
-        #581.shortest_unsorted_continuous_subarray/ShortestUnsortedContinuousSubarray.cpp
-        #581.shortest_unsorted_continuous_subarray/ShortestUnsortedContinuousSubarray.h
+        #581.shortest_unsorted_continuous_subarray/ShortestUnsortedContinuousSubarray.cpp #581.shortest_unsorted_continuous_subarray/ShortestUnsortedContinuousSubarray.h
+        #583.delete_operation_for_two_strings/DeleteOperationForTwoStrings.cpp 583.delete_operation_for_two_strings/DeleteOperationForTwoStrings.h
         #617.merge_two_binary_trees/MergeTwoBinaryTrees.cpp 617.merge_two_binary_trees/MergeTwoBinaryTrees.h
         #621.task_scheduler/TaskScheduler.cpp 621.task_scheduler/TaskScheduler.h
+        #632.smallest_range/SmallestRange.cpp 632.smallest_range/SmallestRange.h
         #637.average_of_levels_in_binary_tree/AverageOfLevelsInBinaryTree.cpp 637.average_of_levels_in_binary_tree/AverageOfLevelsInBinaryTree.h
         #647.palindromic_substrings/PalindromicSubstrings.cpp 647.palindromic_substrings/PalindromicSubstrings.h
+        #650.2_keys_keyboard/TwoKeysKeyboard.cpp 650.2_keys_keyboard/TwoKeysKeyboard.h
         #653.two_sum_4/TwoSum4.cpp 653.two_sum_4/TwoSum4.h
         #654.maximum_binary_tree/MaximumBinaryTree.cpp 654.maximum_binary_tree/MaximumBinaryTree.h
         #665.non_decreasing_array/NonDecreasingArray.cpp 665.non_decreasing_array/NonDecreasingArray.h
         #669.trim_a_binary_search_tree/TrimABinarySearchTree.cpp 669.trim_a_binary_search_tree/TrimABinarySearchTree.h
+        #673.number_of_longest_increasing_subsequence/NumberOfLongestIncreasingSubsequence.cpp 673.number_of_longest_increasing_subsequence/NumberOfLongestIncreasingSubsequence.h
         #687.longest_univalue_path/LongestUnivaluePath.cpp 687.longest_univalue_path/LongestUnivaluePath.h
         #695.max_area_of_island/MaxAreaOfIsland.cpp 695.max_area_of_island/MaxAreaOfIsland.h
         #714.best_time_to_buy_and_sell_stock_with_transaction_fee/BestTimeToBuyAndSellStockWithTransactionFee.cpp 714.best_time_to_buy_and_sell_stock_with_transaction_fee/BestTimeToBuyAndSellStockWithTransactionFee.h
         #739.daily_temperatures/DailyTemperatures.cpp 739.daily_temperatures/DailyTemperatures.h
         #746.min_cost_climbing_stairs/MinCostClimbingStairs.cpp 746.min_cost_climbing_stairs/MinCostClimbingStairs.h
-        #673.number_of_longest_increasing_subsequence/NumberOfLongestIncreasingSubsequence.cpp 673.number_of_longest_increasing_subsequence/NumberOfLongestIncreasingSubsequence.h
+        #771.jewels_and_stones/JewelsAndStones.cpp 771.jewels_and_stones/JewelsAndStones.h
         )
