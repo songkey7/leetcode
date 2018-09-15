@@ -230,6 +230,7 @@ add_executable(leetcode main.cpp Base.h
         #387.first_unique_character_in_a_string/FirstUniqueCharacterInAString.cpp 387.first_unique_character_in_a_string/FirstUniqueCharacterInAString.h
         #394.decode_string/DecodeString.cpp 394.decode_string/DecodeString.h
         #395.longest_substring_with_at_least_k_repeating_characters/LongestSubstringWithAtLeastKRepeatingCharacters.cpp 395.longest_substring_with_at_least_k_repeating_characters/LongestSubstringWithAtLeastKRepeatingCharacters.h
+        #399.evaluate_division/EvaluateDivision.cpp 399.evaluate_division/EvaluateDivision.h
         #402.remove_k_digits/RemoveKDigits.cpp 402.remove_k_digits/RemoveKDigits.h
         #406.queue_reconstruction_by_height/QueueReconstructionByHeight.cpp 406.queue_reconstruction_by_height/QueueReconstructionByHeight.h
         #409.longest_palindrome/LongestPalindrome.cpp 409.longest_palindrome/LongestPalindrome.h
@@ -240,12 +241,13 @@ add_executable(leetcode main.cpp Base.h
         #442.find_all_duplicates_in_an_array/FindAllDuplicatesInAnArray.cpp 442.find_all_duplicates_in_an_array/FindAllDuplicatesInAnArray.h
         #448.find_disappeared_numbers/FindDisappearedNumbers.cpp 448.find_disappeared_numbers/FindDisappearedNumbers.h
         #450.delete_node_in_a_BST/DeleteNodeInABST.cpp 450.delete_node_in_a_BST/DeleteNodeInABST.h
-        451.sort_characters_by_frequency/SortCharactersByFrequency.cpp 451.sort_characters_by_frequency/SortCharactersByFrequency.h
+        #451.sort_characters_by_frequency/SortCharactersByFrequency.cpp 451.sort_characters_by_frequency/SortCharactersByFrequency.h
         #454.four_sum_2/FourSum2.cpp 454.four_sum_2/FourSum2.h
         #461.hamming_distance/HammingDistance.cpp 461.hamming_distance/HammingDistance.h
         #463.island_perimeter/IslandPerimeter.cpp 463.island_perimeter/IslandPerimeter.h
         #486.predict_the_winner/PredictTheWinner.cpp 486.predict_the_winner/PredictTheWinner.h
         #494.target_sum/TargetSum.cpp 494.target_sum/TargetSum.h
+        503.next_greater_element_2/NextGreaterElement2.cpp 503.next_greater_element_2/NextGreaterElement2.h
         #516.longest_palindromic_subsequence/LongestPalindromicSubsequence.cpp 516.longest_palindromic_subsequence/LongestPalindromicSubsequence.h
         #525.contiguous_array/ContiguousArray.cpp 525.contiguous_array/ContiguousArray.h
         #538.convert_BST_to_greater_tree/ConvertBSTToGreaterTree.cpp 538.convert_BST_to_greater_tree/ConvertBSTToGreaterTree.h
@@ -268,6 +270,7 @@ add_executable(leetcode main.cpp Base.h
         #665.non_decreasing_array/NonDecreasingArray.cpp 665.non_decreasing_array/NonDecreasingArray.h
         #669.trim_a_binary_search_tree/TrimABinarySearchTree.cpp 669.trim_a_binary_search_tree/TrimABinarySearchTree.h
         #673.number_of_longest_increasing_subsequence/NumberOfLongestIncreasingSubsequence.cpp 673.number_of_longest_increasing_subsequence/NumberOfLongestIncreasingSubsequence.h
+        #680.valid_palindrome_2/ValidPalindrome2.cpp 680.valid_palindrome_2/ValidPalindrome2.h
         #687.longest_univalue_path/LongestUnivaluePath.cpp 687.longest_univalue_path/LongestUnivaluePath.h
         #695.max_area_of_island/MaxAreaOfIsland.cpp 695.max_area_of_island/MaxAreaOfIsland.h
         #714.best_time_to_buy_and_sell_stock_with_transaction_fee/BestTimeToBuyAndSellStockWithTransactionFee.cpp 714.best_time_to_buy_and_sell_stock_with_transaction_fee/BestTimeToBuyAndSellStockWithTransactionFee.h

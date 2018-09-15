@@ -272,6 +272,9 @@
 #include "650.2_keys_keyboard/TwoKeysKeyboard.h"
 #include "557.reverse_words_in_a_string3/ReverseWordsInAString3.h"
 #include "451.sort_characters_by_frequency/SortCharactersByFrequency.h"
+#include "680.valid_palindrome_2/ValidPalindrome2.h"
+#include "399.evaluate_division/EvaluateDivision.h"
+#include "503.next_greater_element_2/NextGreaterElement2.h"
 
 
 Base *init() {
@@ -544,7 +547,10 @@ Base *init() {
     //return new AddAndSearchWord();
     //return new TwoKeysKeyboard();
     //return new ReverseWordsInAString3();
-    return new SortCharactersByFrequency();
+    //return new SortCharactersByFrequency();
+    //return new ValidPalindrome2();
+    //return new EvaluateDivision();
+    return new NextGreaterElement2();
 }
 
 int main() {

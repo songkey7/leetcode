@@ -13,8 +13,8 @@ int NumberOfLongestIncreasingSubsequence::find_number_of_LIS(vector<int> nums) {
     vector<int> c(n, 1);
     for (int i = 1; i < n; ++i) {
         for (int j = 0; j < i; ++j) {
-            if(nums[j] < nums[i]){
-                if(l[j] + 1 > l[i]) {
+            if(nums[j] < nums[i]) {
+                if(l[j] + 1 > l[i]){
                     l[i] = l[j] + 1;
                     c[i] = c[j];
                 }
