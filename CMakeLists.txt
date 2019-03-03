@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.9)
 project(leetcode)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 
 add_executable(leetcode main.cpp Base.h
         #1.two_sum/TwoSum.cpp 1.two_sum/TwoSum.h
@@ -247,7 +247,7 @@ add_executable(leetcode main.cpp Base.h
         #463.island_perimeter/IslandPerimeter.cpp 463.island_perimeter/IslandPerimeter.h
         #486.predict_the_winner/PredictTheWinner.cpp 486.predict_the_winner/PredictTheWinner.h
         #494.target_sum/TargetSum.cpp 494.target_sum/TargetSum.h
-        503.next_greater_element_2/NextGreaterElement2.cpp 503.next_greater_element_2/NextGreaterElement2.h
+        #503.next_greater_element_2/NextGreaterElement2.cpp 503.next_greater_element_2/NextGreaterElement2.h
         #516.longest_palindromic_subsequence/LongestPalindromicSubsequence.cpp 516.longest_palindromic_subsequence/LongestPalindromicSubsequence.h
         #525.contiguous_array/ContiguousArray.cpp 525.contiguous_array/ContiguousArray.h
         #538.convert_BST_to_greater_tree/ConvertBSTToGreaterTree.cpp 538.convert_BST_to_greater_tree/ConvertBSTToGreaterTree.h
@@ -277,4 +277,5 @@ add_executable(leetcode main.cpp Base.h
         #739.daily_temperatures/DailyTemperatures.cpp 739.daily_temperatures/DailyTemperatures.h
         #746.min_cost_climbing_stairs/MinCostClimbingStairs.cpp 746.min_cost_climbing_stairs/MinCostClimbingStairs.h
         #771.jewels_and_stones/JewelsAndStones.cpp 771.jewels_and_stones/JewelsAndStones.h
+        435.non_overlapping_Intervals/NonOverlappingIntervals.cpp 435.non_overlapping_Intervals/NonOverlappingIntervals.h
         )

@@ -275,6 +275,7 @@
 #include "680.valid_palindrome_2/ValidPalindrome2.h"
 #include "399.evaluate_division/EvaluateDivision.h"
 #include "503.next_greater_element_2/NextGreaterElement2.h"
+#include "435.non_overlapping_Intervals/NonOverlappingIntervals.h"
 
 
 Base *init() {
@@ -550,7 +551,8 @@ Base *init() {
     //return new SortCharactersByFrequency();
     //return new ValidPalindrome2();
     //return new EvaluateDivision();
-    return new NextGreaterElement2();
+    //return new NextGreaterElement2();
+    return new NonOverlappingIntervals();
 }
 
 int main() {
