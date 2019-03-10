@@ -277,5 +277,6 @@ add_executable(leetcode main.cpp Base.h
         #739.daily_temperatures/DailyTemperatures.cpp 739.daily_temperatures/DailyTemperatures.h
         #746.min_cost_climbing_stairs/MinCostClimbingStairs.cpp 746.min_cost_climbing_stairs/MinCostClimbingStairs.h
         #771.jewels_and_stones/JewelsAndStones.cpp 771.jewels_and_stones/JewelsAndStones.h
-        435.non_overlapping_Intervals/NonOverlappingIntervals.cpp 435.non_overlapping_Intervals/NonOverlappingIntervals.h
+        #435.non_overlapping_Intervals/NonOverlappingIntervals.cpp 435.non_overlapping_Intervals/NonOverlappingIntervals.h
+        994.rotting_oranges/RottingOranges.cpp 994.rotting_oranges/RottingOranges.h
         )

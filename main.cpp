@@ -276,6 +276,7 @@
 #include "399.evaluate_division/EvaluateDivision.h"
 #include "503.next_greater_element_2/NextGreaterElement2.h"
 #include "435.non_overlapping_Intervals/NonOverlappingIntervals.h"
+#include "994.rotting_oranges/RottingOranges.h"
 
 
 Base *init() {
@@ -552,7 +553,8 @@ Base *init() {
     //return new ValidPalindrome2();
     //return new EvaluateDivision();
     //return new NextGreaterElement2();
-    return new NonOverlappingIntervals();
+    //return new NonOverlappingIntervals();
+    return new RottingOranges();
 }
 
 int main() {
