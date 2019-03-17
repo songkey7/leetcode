@@ -279,4 +279,5 @@ add_executable(leetcode main.cpp Base.h
         #771.jewels_and_stones/JewelsAndStones.cpp 771.jewels_and_stones/JewelsAndStones.h
         #435.non_overlapping_Intervals/NonOverlappingIntervals.cpp 435.non_overlapping_Intervals/NonOverlappingIntervals.h
         994.rotting_oranges/RottingOranges.cpp 994.rotting_oranges/RottingOranges.h
+        914.x_of_a_kind_in_a_deck_of_cards/XOfAKindInADeckOfCards.cpp 914.x_of_a_kind_in_a_deck_of_cards/XOfAKindInADeckOfCards.h
         )
