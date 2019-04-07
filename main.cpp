@@ -278,6 +278,7 @@
 #include "435.non_overlapping_Intervals/NonOverlappingIntervals.h"
 #include "994.rotting_oranges/RottingOranges.h"
 #include "914.x_of_a_kind_in_a_deck_of_cards/XOfAKindInADeckOfCards.h"
+#include "233.number_of_digit_one/NumberOfDigitOne.h"
 
 
 Base *init() {
@@ -556,7 +557,8 @@ Base *init() {
     //return new NextGreaterElement2();
     //return new NonOverlappingIntervals();
     //return new RottingOranges();
-    return new XOfAKindInADeckOfCards();
+    //return new XOfAKindInADeckOfCards();
+    return new NumberOfDigitOne();
 }
 
 int main() {
