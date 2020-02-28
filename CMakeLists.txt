@@ -280,5 +280,11 @@ add_executable(leetcode main.cpp Base.h
         #435.non_overlapping_Intervals/NonOverlappingIntervals.cpp 435.non_overlapping_Intervals/NonOverlappingIntervals.h
         #994.rotting_oranges/RottingOranges.cpp 994.rotting_oranges/RottingOranges.h
         #914.x_of_a_kind_in_a_deck_of_cards/XOfAKindInADeckOfCards.cpp 914.x_of_a_kind_in_a_deck_of_cards/XOfAKindInADeckOfCards.h
-        233.number_of_digit_one/NumberOfDigitOne.cpp 233.number_of_digit_one/NumberOfDigitOne.h
+        #233.number_of_digit_one/NumberOfDigitOne.cpp 233.number_of_digit_one/NumberOfDigitOne.h
+        #1009.complement-of-base-10-integer/ComplementOfBase10Integer.cpp 1009.complement-of-base-10-integer/ComplementOfBase10Integer.h
+        #485.max-consecutive-ones/MaxConsecutiveOnes.cpp 485.max-consecutive-ones/MaxConsecutiveOnes.h
+        1004.max-consecutive-ones-iii/MaxConsecutiveOnes3.cpp 1004.max-consecutive-ones-iii/MaxConsecutiveOnes3.h
+        703.kth-largest-element-in-a-stream/KthLargestElementInAStream.cpp 703.kth-largest-element-in-a-stream/KthLargestElementInAStream.h
+        1306.jump-game-iii/JumpGame3.cpp 1306.jump-game-iii/JumpGame3.h
+        1054.distant-barcodes/DistantBarcodes.cpp 1054.distant-barcodes/DistantBarcodes.h
         )

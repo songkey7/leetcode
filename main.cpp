@@ -279,6 +279,12 @@
 #include "994.rotting_oranges/RottingOranges.h"
 #include "914.x_of_a_kind_in_a_deck_of_cards/XOfAKindInADeckOfCards.h"
 #include "233.number_of_digit_one/NumberOfDigitOne.h"
+#include "1009.complement-of-base-10-integer/ComplementOfBase10Integer.h"
+#include "485.max-consecutive-ones/MaxConsecutiveOnes.h"
+#include "1004.max-consecutive-ones-iii/MaxConsecutiveOnes3.h"
+#include "703.kth-largest-element-in-a-stream/KthLargestElementInAStream.h"
+#include "1306.jump-game-iii/JumpGame3.h"
+#include "1054.distant-barcodes/DistantBarcodes.h"
 
 
 Base *init() {
@@ -558,7 +564,13 @@ Base *init() {
     //return new NonOverlappingIntervals();
     //return new RottingOranges();
     //return new XOfAKindInADeckOfCards();
-    return new NumberOfDigitOne();
+    //return new NumberOfDigitOne();
+    //return new ComplementOfBase10Integer();
+    //return new MaxConsecutiveOnes();
+    //return new MaxConsecutiveOnes3();
+    //return new KthLargestElementInAStream();
+    //return new JumpGame3();
+    return new DistantBarcodes();
 }
 
 int main() {

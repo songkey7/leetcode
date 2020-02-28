@@ -2,6 +2,8 @@
 // Created by songkey on 2019/4/6.
 //
 
+#include <numeric>
+#include <random>
 #include "NumberOfDigitOne.h"
 
 int NumberOfDigitOne::countDigitOne(int n) {
