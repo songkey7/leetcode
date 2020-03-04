@@ -36,6 +36,7 @@ int KthLargestElementInAnArray::find_Kth_largest_partition(vector<int> &nums, in
     return nums[l];
 }
 
+
 int KthLargestElementInAnArray::find_Kth_largest_priority_queue(vector<int> &nums, int k) {
     priority_queue<int> q(nums.begin(), nums.end());
     for(int i = 0; i < k - 1; i++){
@@ -58,6 +59,13 @@ void KthLargestElementInAnArray::heapify(vector<int> &nums, int i, int n) {
 void KthLargestElementInAnArray::build_heap(vector<int> &nums) {
     int n = nums.size();
     for (int i = n / 2 - 1 ; i >= 0; --i) {
+        heapify(nums, i, n);
+    }
+}
+
+void KthLargestElementInAnArray::build_heap(vector<int> &nums) {
+    int n = nums.size();
+    for (int i = n / 2 - 1; i >= 0 ; --i) {
         heapify(nums, i, n);
     }
 }

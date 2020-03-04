@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.9)
 project(leetcode)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 add_executable(leetcode main.cpp Base.h
         #1.two_sum/TwoSum.cpp 1.two_sum/TwoSum.h
@@ -283,8 +283,15 @@ add_executable(leetcode main.cpp Base.h
         #233.number_of_digit_one/NumberOfDigitOne.cpp 233.number_of_digit_one/NumberOfDigitOne.h
         #1009.complement-of-base-10-integer/ComplementOfBase10Integer.cpp 1009.complement-of-base-10-integer/ComplementOfBase10Integer.h
         #485.max-consecutive-ones/MaxConsecutiveOnes.cpp 485.max-consecutive-ones/MaxConsecutiveOnes.h
-        1004.max-consecutive-ones-iii/MaxConsecutiveOnes3.cpp 1004.max-consecutive-ones-iii/MaxConsecutiveOnes3.h
-        703.kth-largest-element-in-a-stream/KthLargestElementInAStream.cpp 703.kth-largest-element-in-a-stream/KthLargestElementInAStream.h
-        1306.jump-game-iii/JumpGame3.cpp 1306.jump-game-iii/JumpGame3.h
-        1054.distant-barcodes/DistantBarcodes.cpp 1054.distant-barcodes/DistantBarcodes.h
+        #1004.max-consecutive-ones-iii/MaxConsecutiveOnes3.cpp 1004.max-consecutive-ones-iii/MaxConsecutiveOnes3.h
+        #703.kth-largest-element-in-a-stream/KthLargestElementInAStream.cpp 703.kth-largest-element-in-a-stream/KthLargestElementInAStream.h
+        #1306.jump-game-iii/JumpGame3.cpp 1306.jump-game-iii/JumpGame3.h
+        #1054.distant-barcodes/DistantBarcodes.cpp 1054.distant-barcodes/DistantBarcodes.h
+        #704.binary-search/BinarySearch.cpp 704.binary-search/BinarySearch.h
+        #383.RansomNote/RansomNote.cpp 383.RansomNote/RansomNote.h
+        #949.largest-time-for-given-digits/LargestTimeForGivenDigits.cpp 949.largest-time-for-given-digits/LargestTimeForGivenDigits.h
+        #1325.delete-leaves-with-a-given-value/DeleteLeavesWithAGivenValue.cpp 1325.delete-leaves-with-a-given-value/DeleteLeavesWithAGivenValue.h
+        #343.integer-break/IntegerBreak.cpp 343.integer-break/IntegerBreak.h
+        #1027.longest-arithmetic-sequence/LongestArithmeticSequence.cpp 1027.longest-arithmetic-sequence/LongestArithmeticSequence.h
+        645.set-mismatch/SetMismatch.cpp 645.set-mismatch/SetMismatch.h
         )

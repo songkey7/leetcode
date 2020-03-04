@@ -285,6 +285,13 @@
 #include "703.kth-largest-element-in-a-stream/KthLargestElementInAStream.h"
 #include "1306.jump-game-iii/JumpGame3.h"
 #include "1054.distant-barcodes/DistantBarcodes.h"
+#include "704.binary-search/BinarySearch.h"
+#include "383.RansomNote/RansomNote.h"
+#include "949.largest-time-for-given-digits/LargestTimeForGivenDigits.h"
+#include "1325.delete-leaves-with-a-given-value/DeleteLeavesWithAGivenValue.h"
+#include "343.integer-break/IntegerBreak.h"
+#include "1027.longest-arithmetic-sequence/LongestArithmeticSequence.h"
+#include "645.set-mismatch/SetMismatch.h"
 
 
 Base *init() {
@@ -570,7 +577,14 @@ Base *init() {
     //return new MaxConsecutiveOnes3();
     //return new KthLargestElementInAStream();
     //return new JumpGame3();
-    return new DistantBarcodes();
+    //return new DistantBarcodes();
+    //return new BinarySearch();
+    //return new RansomNote();
+    //return new LargestTimeForGivenDigits();
+    //return new DeleteLeavesWithAGivenValue();
+    //return new IntegerBreak();
+    //return new LongestArithmeticSequence();
+    return new SetMismatch();
 }
 
 int main() {

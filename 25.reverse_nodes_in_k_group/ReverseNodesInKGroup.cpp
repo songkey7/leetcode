@@ -7,20 +7,16 @@
 Base::ListNode *ReverseNodesInKGroup::reverse_k_group(ListNode *head, int k) {
     ListNode *h = new ListNode(0);
     h->next = head;
-    ListNode *pre = h, *p = head;
-    ListNode *p1 = pre;
-    int cnt = 0;
-    while(p){
-        if(cnt++ == 0) p1 = p;
-        if(cnt == k){
-            cnt = 0;
-            ListNode * p2 = p->next;
-            pre->next = reverse(p1, p);
-            pre = p1;
-            p1->next = p = p2;
-        } else{
-            p = p->next;
-        }
+    ListNode *p1 = h, *p2 = head;
+    while(p2) { //
+        ListNode *p = p2;
+        int i = 0;
+        for (; i < k && p; ++i) p = p->next;
+        if(i < k) break;
+        p1->next = reverse(p2, p);
+        p1 = p2;
+        p2->next = p;
+        p2 = p;
     }
     return h->next;
 }
@@ -33,8 +29,7 @@ Base::ListNode *ReverseNodesInKGroup::reverse(ListNode *p1, ListNode *p2) {
         h = p1;
         p1 = p;
     }
-    p1->next = h;
-    return p1;
+    return h;
 }
 
 void ReverseNodesInKGroup::run() {
@@ -43,7 +38,6 @@ void ReverseNodesInKGroup::run() {
     h->next->next = new ListNode(3);
     h->next->next->next = new ListNode(4);
     h->next->next->next->next = new ListNode(5);
-    //print_list(reverse_k_group(h, 2));
     print_list(reverse_k_group(h, 3));
 }
 

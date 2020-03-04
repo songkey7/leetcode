@@ -9,7 +9,7 @@
 #include "../Base.h"
 
 class MinimumPathSum: public Base {
-    int min_path_sum(vector<vector<int>>& grid);
+    int min_path_sum(vector<vector<int>> grid);
 public:
     void run();
 };

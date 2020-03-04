@@ -4,7 +4,7 @@
 
 #include "MinimumPathSum.h"
 
-int MinimumPathSum::min_path_sum(vector<vector<int>> &grid) {
+int MinimumPathSum::min_path_sum(vector<vector<int>> grid) {
     int m = grid.size();
     if(m == 0) return 0;
     int n = grid[0].size();
@@ -20,6 +20,6 @@ int MinimumPathSum::min_path_sum(vector<vector<int>> &grid) {
 }
 
 void MinimumPathSum::run() {
-    vector<vector<int>> grid = {{1, 3, 1}, {1, 5, 1}, {4, 2, 1}};
-    assert(min_path_sum(grid) == 7);
+    assert(min_path_sum({{1, 3, 1}, {1, 5, 1}, {4, 2, 1}}) == 7);
+    assert(min_path_sum({{1, 2, 5}, {3, 2, 1}}) == 6);
 }
