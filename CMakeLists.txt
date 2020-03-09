@@ -293,5 +293,12 @@ add_executable(leetcode main.cpp Base.h
         #1325.delete-leaves-with-a-given-value/DeleteLeavesWithAGivenValue.cpp 1325.delete-leaves-with-a-given-value/DeleteLeavesWithAGivenValue.h
         #343.integer-break/IntegerBreak.cpp 343.integer-break/IntegerBreak.h
         #1027.longest-arithmetic-sequence/LongestArithmeticSequence.cpp 1027.longest-arithmetic-sequence/LongestArithmeticSequence.h
-        645.set-mismatch/SetMismatch.cpp 645.set-mismatch/SetMismatch.h
+        #645.set-mismatch/SetMismatch.cpp 645.set-mismatch/SetMismatch.h
+        #1234.replace-the-substring-for-balanced-string/ReplaceTheSubstringForBalancedString.cpp 1234.replace-the-substring-for-balanced-string/ReplaceTheSubstringForBalancedString.h
+        #738.monotone-increasing-digits/MonotoneIncreasingDigits.cpp 738.monotone-increasing-digits/MonotoneIncreasingDigits.h
+        #1170.compare-strings-by-frequency-of-the-smallest-character/CompareStringsByFrequencyOfTheSmallestCharacter.cpp 1170.compare-strings-by-frequency-of-the-smallest-character/CompareStringsByFrequencyOfTheSmallestCharacter.h
+        #1332.remove-palindromic-subsequences/RemovePalindromicSubsequences.cpp 1332.remove-palindromic-subsequences/RemovePalindromicSubsequences.h
+        #988.smallest-string-starting-from-leaf/SmallestStringStartingFromLeaf.cpp 988.smallest-string-starting-from-leaf/SmallestStringStartingFromLeaf.h
+        #792.number-of-matching-subsequences/NumberOfMatchingSubsequences.cpp 792.number-of-matching-subsequences/NumberOfMatchingSubsequences.h
+        453.minimum-moves-to-equal-array-elements/MinimumMovesToEqualArrayElements.cpp 453.minimum-moves-to-equal-array-elements/MinimumMovesToEqualArrayElements.h
         )

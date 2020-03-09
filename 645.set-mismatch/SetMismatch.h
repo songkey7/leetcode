@@ -11,7 +11,7 @@
 class SetMismatch: public Base {
     vector<int> findErrorNums(vector<int>& nums);
 public:
-    void run();
+    void run() override ;
 };
 
 
