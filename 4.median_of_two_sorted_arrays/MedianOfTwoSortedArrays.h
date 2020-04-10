@@ -10,6 +10,7 @@
 
 class MedianOfTwoSortedArrays: public Base {
     double find_median_sorted_arrays(vector<int>& nums1, vector<int>& nums2);
+    double find_median_sorted_arrays_2(vector<int>& nums1, vector<int>& nums2);
     int find_Kth(vector<int> &nums1, int i, vector<int> &nums2, int r, int k);
 public:
     void run();

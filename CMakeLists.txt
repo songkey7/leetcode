@@ -11,22 +11,22 @@ add_executable(leetcode main.cpp Base.h
         #5.longest_palindromic_substring/LongestPalindromicSubstring.cpp 5.longest_palindromic_substring/LongestPalindromicSubstring.h
         #6.zigzagz_conversion/ZigZagConversion.cpp 6.zigzagz_conversion/ZigZagConversion.h
         #7.reverse_integer/ReverseInteger.cpp 7.reverse_integer/ReverseInteger.h
-        #8.atoi/StringToInteger.cpp 8.atoi/StringToInteger.h
+        8.atoi/StringToInteger.cpp 8.atoi/StringToInteger.h
         #9.palindrome_number/PalindromeNumber.cpp 9.palindrome_number/PalindromeNumber.h
         #10.regular_expression_matching/RegularExpressionMatching.cpp 10.regular_expression_matching/RegularExpressionMatching.h
         #11.container_with_most_water/ContainerWithMostWater.cpp 11.container_with_most_water/ContainerWithMostWater.h
         #12.integer_to_roman/IntegerToRoman.cpp 12.integer_to_roman/IntegerToRoman.h
         #13.roman_to_integer/RomanToInteger.cpp 13.roman_to_integer/RomanToInteger.h
         #14.longest_common_prefix/LongestCommonPrefix.cpp 14.longest_common_prefix/LongestCommonPrefix.h
-        #15.three_sum/ThreeSum.cpp 15.three_sum/ThreeSum.h
+        15.three_sum/ThreeSum.cpp 15.three_sum/ThreeSum.h
         #16.three_sum_closest/ThreeSumClosest.cpp 16.three_sum_closest/ThreeSumClosest.h
         #17.letter_combinations_of_a_phone_number/LetterCombinationsOfAPhoneNumber.cpp 17.letter_combinations_of_a_phone_number/LetterCombinationsOfAPhoneNumber.h
-        #18.four_sum/FourSum.cpp 18.four_sum/FourSum.h
+        18.four_sum/FourSum.cpp 18.four_sum/FourSum.h
         #19.remove_nth_node_from_end_of_list/RemoveNthNodeFromEndOfList.cpp 19.remove_nth_node_from_end_of_list/RemoveNthNodeFromEndOfList.h
         #20.valid_arentheses/ValidParentheses.cpp 20.valid_arentheses/ValidParentheses.h
         #21.merge_2_sorted_lists/Merge2SortedLists.cpp 21.merge_2_sorted_lists/Merge2SortedLists.h
         #22.generate_parentheses/GenerateParentheses.cpp 22.generate_parentheses/GenerateParentheses.h
-        #23.merge_k_sorted_lists/MergeKSortedLists.cpp 23.merge_k_sorted_lists/MergeKSortedLists.h
+        23.merge_k_sorted_lists/MergeKSortedLists.cpp 23.merge_k_sorted_lists/MergeKSortedLists.h
         #24.swap_nodes_in_pairs/SwapNodesInPairs.cpp 24.swap_nodes_in_pairs/SwapNodesInPairs.h
         #25.reverse_nodes_in_k_group/ReverseNodesInKGroup.cpp 25.reverse_nodes_in_k_group/ReverseNodesInKGroup.h
         #26.remove_duplicates_from_sorted_array/RemoveDuplicatesFromSortedArray.cpp 26.remove_duplicates_from_sorted_array/RemoveDuplicatesFromSortedArray.h
@@ -36,7 +36,7 @@ add_executable(leetcode main.cpp Base.h
         #30.substring_with_concatenation_of_all_words/SubstringWithConcatenationOfAllWords.cpp 30.substring_with_concatenation_of_all_words/SubstringWithConcatenationOfAllWords.h
         #31.next_permutation/NextPermutation.cpp 31.next_permutation/NextPermutation.h
         #32.longest_valid_parentheses/LongestValidParentheses.cpp 32.longest_valid_parentheses/LongestValidParentheses.h
-        #33.search_in_rotated_sorted_array/SearchInRotatedSortedArray.cpp 33.search_in_rotated_sorted_array/SearchInRotatedSortedArray.h
+        33.search_in_rotated_sorted_array/SearchInRotatedSortedArray.cpp 33.search_in_rotated_sorted_array/SearchInRotatedSortedArray.h
         #34.search_for_a_range/SearchForARange.cpp 34.search_for_a_range/SearchForARange.h
         #35.search_insert_position/SearchInsertPosition.cpp 35.search_insert_position/SearchInsertPosition.h
         #36.valid_sudoku/ValidSudoku.cpp 36.valid_sudoku/ValidSudoku.h
@@ -62,7 +62,7 @@ add_executable(leetcode main.cpp Base.h
         #58.length_of_last_word/LengthOfLastWord.cpp 58.length_of_last_word/LengthOfLastWord.h
         #59.spiral_matrix_2/SpiralMatrix2.cpp 59.spiral_matrix_2/SpiralMatrix2.h
         #61.rotate_list/RotateList.cpp 61.rotate_list/RotateList.h
-        #62.unique_paths/UniquePaths.cpp 62.unique_paths/UniquePaths.h
+        62.unique_paths/UniquePaths.cpp 62.unique_paths/UniquePaths.h
         #63.unique_paths_2/UniquePaths2.cpp 63.unique_paths_2/UniquePaths2.h
         #64.minimum_path_sum/MinimumPathSum.cpp 64.minimum_path_sum/MinimumPathSum.h
         #66.plus_one/PlusOne.cpp 66.plus_one/PlusOne.h
@@ -220,7 +220,7 @@ add_executable(leetcode main.cpp Base.h
         #338.counting_bits/CountingBits.cpp 338.counting_bits/CountingBits.h
         #341.flatten_nested_list_iterator/FlattenNestedListIterator.cpp 341.flatten_nested_list_iterator/FlattenNestedListIterator.h
         #344.reverse_string/ReverseString.cpp 344.reverse_string/ReverseString.h
-        #347.top_k_frequent_elements/TopKFrequentElements.cpp 347.top_k_frequent_elements/TopKFrequentElements.h
+        347.top_k_frequent_elements/TopKFrequentElements.cpp 347.top_k_frequent_elements/TopKFrequentElements.h
         #350.intersection_of_two_arrays_2/IntersectionOfTwoArrays2.cpp 350.intersection_of_two_arrays_2/IntersectionOfTwoArrays2.h
         #371.sum_of_two_integers/SumOfTwoIntegers.cpp 371.sum_of_two_integers/SumOfTwoIntegers.h
         #377.combination_sum_4/CombinationSum4.cpp 377.combination_sum_4/CombinationSum4.h
@@ -300,5 +300,15 @@ add_executable(leetcode main.cpp Base.h
         #1332.remove-palindromic-subsequences/RemovePalindromicSubsequences.cpp 1332.remove-palindromic-subsequences/RemovePalindromicSubsequences.h
         #988.smallest-string-starting-from-leaf/SmallestStringStartingFromLeaf.cpp 988.smallest-string-starting-from-leaf/SmallestStringStartingFromLeaf.h
         #792.number-of-matching-subsequences/NumberOfMatchingSubsequences.cpp 792.number-of-matching-subsequences/NumberOfMatchingSubsequences.h
-        453.minimum-moves-to-equal-array-elements/MinimumMovesToEqualArrayElements.cpp 453.minimum-moves-to-equal-array-elements/MinimumMovesToEqualArrayElements.h
+        #453.minimum-moves-to-equal-array-elements/MinimumMovesToEqualArrayElements.cpp 453.minimum-moves-to-equal-array-elements/MinimumMovesToEqualArrayElements.h
+        #405.convert-a-number-to-hexadecimal/ConvertANumberToHexadecimal.cpp 405.convert-a-number-to-hexadecimal/ConvertANumberToHexadecimal.h
+        #1047.remove-all-adjacent-duplicates-in-string/RemoveAllAdjacentDuplicatesInString.cpp 1047.remove-all-adjacent-duplicates-in-string/RemoveAllAdjacentDuplicatesInString.h
+        #1209.remove-all-adjacent-duplicates-in-string-ii/RemoveAllAdjacentDuplicatesInString2.cpp 1209.remove-all-adjacent-duplicates-in-string-ii/RemoveAllAdjacentDuplicatesInString2.h
+        #990.satisfiability-of-equality-equations/SatisfiabilityOfEqualityEquations.cpp 990.satisfiability-of-equality-equations/SatisfiabilityOfEqualityEquations.h
+        1283.find-the-smallest-divisor-given-a-threshold/FindTheSmallestDivisorGivenAThreshold.cpp 1283.find-the-smallest-divisor-given-a-threshold/FindTheSmallestDivisorGivenAThreshold.h
+        1116.print-zero-even-odd/PrintZeroEvenOdd.cpp 1116.print-zero-even-odd/PrintZeroEvenOdd.h
+        1048.longest-string-chain/LongestStringChain.cpp 1048.longest-string-chain/LongestStringChain.h
+        976.largest-perimeter-triangle/LargestPerimeterTriangle.cpp 976.largest-perimeter-triangle/LargestPerimeterTriangle.h
+        916.word-subsets/WordSubsets.cpp 916.word-subsets/WordSubsets.h
+        1123.lowest-common-ancestor-of-deepest-leaves/LowestCommonAncestorOfDeepestLeaves.cpp 1123.lowest-common-ancestor-of-deepest-leaves/LowestCommonAncestorOfDeepestLeaves.h
         )

@@ -5,7 +5,7 @@
 #include "ThreeSum.h"
 
 vector<vector<int>> ThreeSum::three_sum(vector<int> nums) {
-    int n = nums.size();
+    int n = static_cast<int>(nums.size());
     sort(nums.begin(), nums.end());
     vector<vector<int>> ret;
     for (int k = 0; k < n - 2; ++k) {
@@ -16,13 +16,15 @@ vector<vector<int>> ThreeSum::three_sum(vector<int> nums) {
         int i = k + 1, j = n - 1;
         while(i < j){
             if(nums[i] + nums[j] == target){
-                ret.push_back({nums[k], nums[i], nums[j]});
-                while(i < j && nums[++i] == nums[i - 1]);
-                while(i < j && nums[--j] == nums[j + 1]);
+                ret.push_back({nums[k], nums[i++], nums[j--]});
+                while(i < j && nums[i] == nums[i - 1]) i++;
+                while(i < j && nums[j] == nums[j + 1]) j--;
             } else if(nums[i] + nums[j] < target){
-                while(i < j && nums[++i] == nums[i - 1]);
+                i++;
+                while(i < j && nums[i] == nums[i - 1]) i++;
             } else{
-                while(i < j && nums[--j] == nums[j + 1]);
+                j--;
+                while(i < j && nums[j] == nums[j + 1]) j--;
             }
         }
     }

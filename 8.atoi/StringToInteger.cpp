@@ -8,22 +8,22 @@ int StringToInteger::atoi(string str) {
     bool flag = true;
     long ret = 0;
     int sign = 1;
-    for(int i = 0; i < str.length(); i++){
-        if(flag && str[i] == ' ') continue;
-        if(flag && str[i] == '+') {
+    for (char i : str) {
+        if(flag && i == ' ') continue;
+        if(flag && i == '+') {
             flag = false;
             continue;
         }
-        if(flag && str[i] == '-') {
+        if(flag && i == '-') {
             sign = -1;
             flag = false;
             continue;
         }
-        if(!isdigit(str[i])){
+        if(!isdigit(i)){
             break;
         }
         if(flag) flag = false;
-        ret = ret * 10 + (str[i] - '0') * sign;
+        ret = ret * 10 + (i - '0') * sign;
         if(ret > INT_MAX) return INT_MAX;
         if(ret < INT_MIN) return INT_MIN;
     }

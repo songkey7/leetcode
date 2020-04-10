@@ -36,6 +36,24 @@ Base::ListNode * MergeKSortedLists::merge_2_lists(ListNode *l1, ListNode *l2) {
     return h->next;
 }
 
+//Base::ListNode * MergeKSortedLists::merge_k_lists(vector<ListNode*>& lists) {
+//    priority_queue<ListNode*, vector<ListNode*>, decltype(&cmp)> q(cmp);
+//    for(auto l: lists) {
+//        if(l) q.push(l);
+//    }
+//    auto * head = new ListNode(0);
+//    ListNode * p = head;
+//    while(!q.empty()) {
+//        auto t = q.top();
+//        q.pop();
+//        p->next = t;
+//        p = p->next;
+//        if(p->next) {
+//            q.push(p->next);
+//        }
+//    }
+//    return head->next;
+//}
 
 void MergeKSortedLists::run() {
     ListNode * l1 = new ListNode(1);

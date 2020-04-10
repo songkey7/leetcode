@@ -17,7 +17,7 @@
 //#include "152.maximum_product_subarray/MaximumProductSubarray.h"
 //#include "53.maximum_subarray/MaximumSubarray.h"
 //#include "394.decode_string/DecodeString.h"
-//#include "347.top_k_frequent_elements/TopKFrequentElements.h"
+#include "347.top_k_frequent_elements/TopKFrequentElements.h"
 //#include "581.shortest_unsorted_continuous_subarray/ShortestUnsortedContinuousSubarray.h"
 //#include "461.hamming_distance/HammingDistance.h"
 //#include "338.counting_bits/CountingBits.h"
@@ -27,7 +27,7 @@
 //#include "113.path_sum_2/PathSum2.h"
 //#include "437.path_sum_3/PathSum3.h"
 //#include "21.merge_2_sorted_lists/Merge2SortedLists.h"
-//#include "23.merge_k_sorted_lists/MergeKSortedLists.h"
+#include "23.merge_k_sorted_lists/MergeKSortedLists.h"
 //#include "155.min_stack/MinStack.h"
 //#include "225.implement_stack_using_queues/ImplementStackUsingQueues.h"
 //#include "232.implement_queue_using_stacks/ImplementQueueUsingStacks.h"
@@ -55,7 +55,7 @@
 //#include "5.longest_palindromic_substring/LongestPalindromicSubstring.h"
 //#include "409.longest_palindrome/LongestPalindrome.h"
 //#include "153.find_minimum_in_rotated_sorted_array/FindMinimumInRotatedSortedArray.h"
-//#include "33.search_in_rotated_sorted_array/SearchInRotatedSortedArray.h"
+#include "33.search_in_rotated_sorted_array/SearchInRotatedSortedArray.h"
 //#include "154.find_minimum_in_rotated_sorted_array_2/FindMinimumInRotatedSortedArray2.h"
 //#include "81.search_in_rotated_sorted_array_2/SearchInRotatedSortedArray2.h"
 //#include "128.longest_consecutive_sequence/LongestConsecutiveSequence.h"
@@ -68,7 +68,7 @@
 //#include "42.trapping_rain_water/TrappingRainWater.h"
 //#include "48.rotate_image/RotateImage.h"
 //#include "55.jump_game/JumpGame.h"
-//#include "62.unique_paths/UniquePaths.h"
+#include "62.unique_paths/UniquePaths.h"
 //#include "56.merge_intervals/MergeIntervals.h"
 //#include "75.sort_colors/SortColors.h"
 //#include "84.largest_rectangle_in_histogram/LargestRectangleInHistogram.h"
@@ -93,14 +93,14 @@
 //#include "239.sliding_window_maximum/SlidingWindowMaximum.h"
 //#include "297.serialize_and_deserialize_binary_tree/SerializeAndDeserializeBinaryTree.h"
 //#include "218.the_skyline_problem/TheSkylineProblem.h"
-//#include "4.median_of_two_sorted_arrays/MedianOfTwoSortedArrays.h"
+#include "4.median_of_two_sorted_arrays/MedianOfTwoSortedArrays.h"
 //#include "301.remove_invalid_parentheses/RemoveInvalidParentheses.h"
 //#include "114.flatten_binary_tree_to_linked_list/FlattenBinaryTreeToLinkedList.h"
 //#include "543.diameter_of_binary_tree/DiameterOfBinaryTree.h"
 //#include "538.convert_BST_to_greater_tree/ConvertBSTToGreaterTree.h"
 //#include "10.regular_expression_matching/RegularExpressionMatching.h"
 //#include "11.container_with_most_water/ContainerWithMostWater.h"
-//#include "15.three_sum/ThreeSum.h"
+#include "15.three_sum/ThreeSum.h"
 //#include "17.letter_combinations_of_a_phone_number/LetterCombinationsOfAPhoneNumber.h"
 //#include "19.remove_nth_node_from_end_of_list/RemoveNthNodeFromEndOfList.h"
 //#include "31.next_permutation/NextPermutation.h"
@@ -118,7 +118,7 @@
 //#include "454.four_sum_2/FourSum2.h"
 //#include "7.reverse_integer/ReverseInteger.h"
 //#include "412.fizz_buzz/FizzBuzz.h"
-//#include "8.atoi/StringToInteger.h"
+#include "8.atoi/StringToInteger.h"
 //#include "13.roman_to_integer/RomanToInteger.h"
 //#include "14.longest_common_prefix/LongestCommonPrefix.h"
 //#include "26.remove_duplicates_from_sorted_array/RemoveDuplicatesFromSortedArray.h"
@@ -186,7 +186,7 @@
 //#include "167.two_sum_2/TwoSum2.h"
 //#include "27.remove_element/RemoveElement.h"
 //#include "16.three_sum_closest/ThreeSumClosest.h"
-//#include "18.four_sum/FourSum.h"
+#include "18.four_sum/FourSum.h"
 //#include "58.length_of_last_word/LengthOfLastWord.h"
 //#include "67.add_binary/AddBinary.h"
 //#include "6.zigzagz_conversion/ZigZagConversion.h"
@@ -298,7 +298,17 @@
 //#include "1332.remove-palindromic-subsequences/RemovePalindromicSubsequences.h"
 //#include "988.smallest-string-starting-from-leaf/SmallestStringStartingFromLeaf.h"
 //#include "792.number-of-matching-subsequences/NumberOfMatchingSubsequences.h"
-#include "453.minimum-moves-to-equal-array-elements/MinimumMovesToEqualArrayElements.h"
+//#include "453.minimum-moves-to-equal-array-elements/MinimumMovesToEqualArrayElements.h"
+//#include "405.convert-a-number-to-hexadecimal/ConvertANumberToHexadecimal.h"
+//#include "1047.remove-all-adjacent-duplicates-in-string/RemoveAllAdjacentDuplicatesInString.h"
+#include "1209.remove-all-adjacent-duplicates-in-string-ii/RemoveAllAdjacentDuplicatesInString2.h"
+#include "990.satisfiability-of-equality-equations/SatisfiabilityOfEqualityEquations.h"
+#include "1283.find-the-smallest-divisor-given-a-threshold/FindTheSmallestDivisorGivenAThreshold.h"
+#include "1116.print-zero-even-odd/PrintZeroEvenOdd.h"
+#include "1048.longest-string-chain/LongestStringChain.h"
+#include "976.largest-perimeter-triangle/LargestPerimeterTriangle.h"
+#include "916.word-subsets/WordSubsets.h"
+#include "1123.lowest-common-ancestor-of-deepest-leaves/LowestCommonAncestorOfDeepestLeaves.h"
 
 
 Base *init() {
@@ -598,7 +608,17 @@ Base *init() {
     //return new RemovePalindromicSubsequences();
     //return new SmallestStringStartingFromLeaf();
     //return new NumberOfMatchingSubsequences();
-    return new MinimumMovesToEqualArrayElements();
+    //return new MinimumMovesToEqualArrayElements();
+    //return new ConvertANumberToHexadecimal();
+    //return new RemoveAllAdjacentDuplicatesInString();
+    //return new RemoveAllAdjacentDuplicatesInString2();
+    //return new SatisfiabilityOfEqualityEquations();
+    //return new FindTheSmallestDivisorGivenAThreshold();
+    //return new PrintZeroEvenOdd();
+    //return new LongestStringChain();
+    //return new LargestPerimeterTriangle();
+    //return new WordSubsets();
+    return new LowestCommonAncestorOfDeepestLeaves();
 }
 
 int main() {

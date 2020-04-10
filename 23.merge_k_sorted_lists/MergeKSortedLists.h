@@ -12,6 +12,7 @@ class MergeKSortedLists: public Base {
     ListNode* merge_k_lists(vector<ListNode*>& lists);
     ListNode* merge_2_lists(ListNode* l1, ListNode* l2);
     ListNode* merge(vector<ListNode*>& lists, int l, int r);
+    static bool cmp(ListNode* a, ListNode* b){return a->val > b->val;}
 public:
     void run();
 };

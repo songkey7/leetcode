@@ -4,6 +4,7 @@
 
 #include "NextPermutation.h"
 
+// 从后向前检索，保证i后边是一个下降序列，当序列中某个值大于当前值，i和j交换，将后续序列转化为上升序列并返回
 void NextPermutation::next_permutation(vector<int> &nums) {
     int n = nums.size();
     for (int i = n - 2; i >= 0 ; --i) {

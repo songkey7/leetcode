@@ -15,11 +15,11 @@ int UniquePaths::unique_paths(int m, int n) {
 }
 
 int UniquePaths::unique_paths2(int m, int n) {
-    // C m + n -> m
-    int d = min(m - 1, n - 1);
-    long ret = 1;
-    for (int i = 1; i <= d; ++i)
-        ret = ret * (m + n - 1 - i) / i;
+    // C (m + n) -> m = PI(n + i)/i!
+    if(m > n) swap(m, n);
+    double ret = 1;
+    for (int i = 1; i < m; ++i)
+        ret = ret * (n - 1 + i) / i;
     return ret;
 }
 

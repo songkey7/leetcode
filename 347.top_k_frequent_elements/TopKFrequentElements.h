@@ -10,6 +10,7 @@
 
 class TopKFrequentElements: public Base{
     vector<int> top_k_frequent(vector<int>& nums, int k);
+    vector<int> top_k_frequent2(vector<int>& nums, int k);
 public:
     void run();
 };

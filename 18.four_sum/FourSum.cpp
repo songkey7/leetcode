@@ -14,26 +14,23 @@ vector<vector<int>> FourSum::four_sum(vector<int> nums, int target) {
         if(nums[i] + nums[n - 1] + nums[n - 2] + nums[n - 3] < target) continue;
         for (int j = i + 1; j < n - 2; ++j) {
             if(j > i + 1 && nums[j] == nums[j - 1]) continue;
-            int tmp = nums[i] + nums[j];
+            if(nums[i] + nums[j] + nums[j + 1] + nums[i + 2] > target) break;
+            if(nums[i] + nums[n - 1] + nums[n - 2] + nums[n - 3] < target) continue;
+            int tmp = target - nums[i] - nums[j];
             int l = j + 1, r = n - 1;
             while(l < r){
-                if(tmp + nums[l] + nums[l + 1] > target) break;
-                if(tmp + nums[r] + nums[r - 1] < target) {
-                    l++;
-                    continue;
+                if(nums[l] + nums[r] == tmp){
+                    ret.push_back({nums[i], nums[j], nums[l++], nums[r--]});
+                    while(l < r && nums[l] == nums[l-1])l++;
+                    while(l < r && nums[r] == nums[r+1])r--;
                 }
-                int tmp2 = tmp + nums[l] + nums[r];
-                int tr = r, tl = l;
-                if(tmp2 == target){
-                    ret.push_back({nums[i], nums[j], nums[l], nums[r]});
-                    while(nums[++l] == nums[tl]);
-                    while(nums[--r] == nums[tr]);
-                }
-                else if (tmp2 > target) {
-                    while(nums[--r] == nums[tr]);
+                else if (nums[l] + nums[r] > tmp) {
+                    r--;
+                    while(l < r && nums[r] == nums[r+1]) r--;
                 }
                 else {
-                    while(nums[++l] == nums[tl]);
+                    l++;
+                    while(l < r && nums[l] == nums[l-1]) l++;
                 }
             }
         }
@@ -42,7 +39,7 @@ vector<vector<int>> FourSum::four_sum(vector<int> nums, int target) {
 }
 
 void FourSum::run() {
-    vector<int> nums = {1, 0, -1, 0, -2, 2, -3, 3};
+    vector<int> nums = {1, 0, -1, 0, -2, 2};
     vector<vector<int>> ret = {
             {-1,  0, 0, 1},
             {-2, -1, 1, 2},
